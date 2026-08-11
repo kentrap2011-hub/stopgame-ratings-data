@@ -1,7 +1,12 @@
 {
   "user": "kentrap2011",
-  "count": 108,
+  "count": 109,
   "games": [
+    {
+      "title": "HighStreet 5",
+      "url": "https://stopgame.ru/game/highstreet_5",
+      "rating": 2.5
+    },
     {
       "title": "Wars & Warriors: Joan of Arc",
       "url": "https://stopgame.ru/game/wars_and_warriors_joan_of_arc",
@@ -543,5 +548,5 @@
       "rating": 4
     }
   ],
-  "updated_at": "2026-08-11T12:56:10.537Z"
+  "updated_at": "2026-08-11T14:17:11.753Z"
 }
