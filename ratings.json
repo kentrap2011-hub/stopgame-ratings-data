@@ -1,0 +1,547 @@
+{
+  "user": "kentrap2011",
+  "count": 108,
+  "games": [
+    {
+      "title": "Wars & Warriors: Joan of Arc",
+      "url": "https://stopgame.ru/game/wars_and_warriors_joan_of_arc",
+      "rating": 3
+    },
+    {
+      "title": "Enter The Matrix",
+      "url": "https://stopgame.ru/game/enter_the_matrix",
+      "rating": 3
+    },
+    {
+      "title": "Perfect World",
+      "url": "https://stopgame.ru/game/perfect_world",
+      "rating": 3.5
+    },
+    {
+      "title": "StarCraft II: Wings of Liberty",
+      "url": "https://stopgame.ru/game/starcraft_2",
+      "rating": 3.5
+    },
+    {
+      "title": "Ultimate Mortal Kombat 3",
+      "url": "https://stopgame.ru/game/ultimate_mortal_kombat_3",
+      "rating": 4
+    },
+    {
+      "title": "Tekken 3",
+      "url": "https://stopgame.ru/game/tekken_3",
+      "rating": 4
+    },
+    {
+      "title": "Medal of Honor",
+      "url": "https://stopgame.ru/game/medal_of_honor_1999",
+      "rating": 3.5
+    },
+    {
+      "title": "The Legend of Dragoon",
+      "url": "https://stopgame.ru/game/the_legend_of_dragoon",
+      "rating": 3.5
+    },
+    {
+      "title": "Earthworm Jim",
+      "url": "https://stopgame.ru/game/earthworm_jim",
+      "rating": 4
+    },
+    {
+      "title": "Dark Sector",
+      "url": "https://stopgame.ru/game/dark_sector",
+      "rating": 3
+    },
+    {
+      "title": "Comix Zone",
+      "url": "https://stopgame.ru/game/comix_zone",
+      "rating": 3.5
+    },
+    {
+      "title": "Gwent: The Witcher Card Game",
+      "url": "https://stopgame.ru/game/gwent_the_witcher_card_game",
+      "rating": 3.5
+    },
+    {
+      "title": "BloodRayne 2",
+      "url": "https://stopgame.ru/game/bloodrayne_2",
+      "rating": 4
+    },
+    {
+      "title": "The Banner Saga 2",
+      "url": "https://stopgame.ru/game/banner_saga_2",
+      "rating": 3
+    },
+    {
+      "title": "Ultimate Spider-Man",
+      "url": "https://stopgame.ru/game/ultimate_spider_man",
+      "rating": 3.5
+    },
+    {
+      "title": "Cuphead: The Delicious Last Course",
+      "url": "https://stopgame.ru/game/cuphead_the_delicious_last_course",
+      "rating": 3.5
+    },
+    {
+      "title": "Manhunt",
+      "url": "https://stopgame.ru/game/manhunt",
+      "rating": 3.5
+    },
+    {
+      "title": "BloodRayne",
+      "url": "https://stopgame.ru/game/bloodrayne",
+      "rating": 4
+    },
+    {
+      "title": "Overlord 2",
+      "url": "https://stopgame.ru/game/overlord_2",
+      "rating": 3.5
+    },
+    {
+      "title": "Warhammer 40,000: Dawn of War",
+      "url": "https://stopgame.ru/game/warhammer_40000_dawn_of_war",
+      "rating": 2.5
+    },
+    {
+      "title": "Dying Light: The Beast",
+      "url": "https://stopgame.ru/game/dying_light_the_beast",
+      "rating": 2.5
+    },
+    {
+      "title": "Castlevania: Lords of Shadow",
+      "url": "https://stopgame.ru/game/castlevania_lords_of_shadow",
+      "rating": 3
+    },
+    {
+      "title": "The Last of Us: Left Behind",
+      "url": "https://stopgame.ru/game/last_of_us_left_behind",
+      "rating": 3
+    },
+    {
+      "title": "Silent Hill f",
+      "url": "https://stopgame.ru/game/silent_hill_f",
+      "rating": 3
+    },
+    {
+      "title": "Half-Life: Blue Shift",
+      "url": "https://stopgame.ru/game/half_life_blue_shift",
+      "rating": 2
+    },
+    {
+      "title": "Heroes of Might and Magic V",
+      "url": "https://stopgame.ru/game/heroes_of_might_and_magic_5",
+      "rating": 3.5
+    },
+    {
+      "title": "Silent Hill",
+      "url": "https://stopgame.ru/game/silent_hill",
+      "rating": 3.5
+    },
+    {
+      "title": "Rayman Legends",
+      "url": "https://stopgame.ru/game/rayman_legends",
+      "rating": 2
+    },
+    {
+      "title": "The Banner Saga",
+      "url": "https://stopgame.ru/game/banner_saga_the",
+      "rating": 3.5
+    },
+    {
+      "title": "Deadpool",
+      "url": "https://stopgame.ru/game/deadpool",
+      "rating": 3.5
+    },
+    {
+      "title": "Prince of Persia (2008)",
+      "url": "https://stopgame.ru/game/prince_of_persia_prodigy",
+      "rating": 4
+    },
+    {
+      "title": "DOOM 3",
+      "url": "https://stopgame.ru/game/doom_3",
+      "rating": 2.5
+    },
+    {
+      "title": "Vampire: The Masquerade - Bloodlines",
+      "url": "https://stopgame.ru/game/vampire_the_masquerade_bloodlines",
+      "rating": 3.5
+    },
+    {
+      "title": "Dark Messiah of Might and Magic",
+      "url": "https://stopgame.ru/game/dark_messiah_of_might_and_magic",
+      "rating": 4
+    },
+    {
+      "title": "Prince of Persia: The Two Thrones",
+      "url": "https://stopgame.ru/game/prince_of_persia_the_two_thrones",
+      "rating": 4
+    },
+    {
+      "title": "Spore",
+      "url": "https://stopgame.ru/game/spore",
+      "rating": 3.5
+    },
+    {
+      "title": "Devil May Cry 3: Dante's Awakening",
+      "url": "https://stopgame.ru/game/devil_may_cry_3_dante_s_awakening",
+      "rating": 4
+    },
+    {
+      "title": "Prince of Persia: The Sands of Time",
+      "url": "https://stopgame.ru/game/prince_of_persia_the_sands_of_time",
+      "rating": 3
+    },
+    {
+      "title": "Prince of Persia: Warrior Within",
+      "url": "https://stopgame.ru/game/prince_of_persia_warrior_within",
+      "rating": 4
+    },
+    {
+      "title": "WarCraft 3: Reign of Chaos",
+      "url": "https://stopgame.ru/game/warcraft_3_reign_of_chaos",
+      "rating": 4.5
+    },
+    {
+      "title": "Diablo III",
+      "url": "https://stopgame.ru/game/diablo_3",
+      "rating": 3
+    },
+    {
+      "title": "A Plague Tale: Requiem",
+      "url": "https://stopgame.ru/game/plague_tale_requiem_a",
+      "rating": 3.5
+    },
+    {
+      "title": "Far Cry",
+      "url": "https://stopgame.ru/game/far_cry",
+      "rating": 2.5
+    },
+    {
+      "title": "Darksiders II",
+      "url": "https://stopgame.ru/game/darksiders_2",
+      "rating": 3
+    },
+    {
+      "title": "Left 4 Dead",
+      "url": "https://stopgame.ru/game/left_4_dead",
+      "rating": 3
+    },
+    {
+      "title": "WarCraft 3: The Frozen Throne",
+      "url": "https://stopgame.ru/game/warcraft_3_the_frozen_throne",
+      "rating": 4.5
+    },
+    {
+      "title": "Devil May Cry 4",
+      "url": "https://stopgame.ru/game/devil_may_cry_4",
+      "rating": 4
+    },
+    {
+      "title": "Hitman: Blood Money",
+      "url": "https://stopgame.ru/game/hitman_blood_money",
+      "rating": 3
+    },
+    {
+      "title": "Prototype",
+      "url": "https://stopgame.ru/game/prototype_2008",
+      "rating": 3.5
+    },
+    {
+      "title": "Dead Space (2023)",
+      "url": "https://stopgame.ru/game/dead_space_2023",
+      "rating": 2.5
+    },
+    {
+      "title": "Marvel's Spider-Man: Miles Morales",
+      "url": "https://stopgame.ru/game/marvel_s_spider_man_miles_morales",
+      "rating": 3.5
+    },
+    {
+      "title": "Need for Speed: Underground 2",
+      "url": "https://stopgame.ru/game/need_for_speed_underground_2",
+      "rating": 3.5
+    },
+    {
+      "title": "The Elder Scrolls IV: Oblivion",
+      "url": "https://stopgame.ru/game/elder_scrolls_4_oblivion_the",
+      "rating": 2.5
+    },
+    {
+      "title": "Max Payne 2: The Fall of Max Payne",
+      "url": "https://stopgame.ru/game/max_payne_2_the_fall_of_max_payne",
+      "rating": 3.5
+    },
+    {
+      "title": "Devil May Cry 5",
+      "url": "https://stopgame.ru/game/devil_may_cry_5",
+      "rating": 3.5
+    },
+    {
+      "title": "Half-Life 2: Episode One",
+      "url": "https://stopgame.ru/game/half_life_2_episode_one",
+      "rating": 3.5
+    },
+    {
+      "title": "Crysis",
+      "url": "https://stopgame.ru/game/crysis",
+      "rating": 2.5
+    },
+    {
+      "title": "Mirror's Edge",
+      "url": "https://stopgame.ru/game/mirrors_edge",
+      "rating": 4
+    },
+    {
+      "title": "Half-Life 2: Episode Two",
+      "url": "https://stopgame.ru/game/half_life_2_episode_two",
+      "rating": 3.5
+    },
+    {
+      "title": "Batman: Arkham Knight",
+      "url": "https://stopgame.ru/game/batman_arkham_knight",
+      "rating": 4
+    },
+    {
+      "title": "Portal",
+      "url": "https://stopgame.ru/game/portal",
+      "rating": 3.5
+    },
+    {
+      "title": "Stray",
+      "url": "https://stopgame.ru/game/stray",
+      "rating": 3
+    },
+    {
+      "title": "Max Payne",
+      "url": "https://stopgame.ru/game/max_payne",
+      "rating": 4
+    },
+    {
+      "title": "Need for Speed: Most Wanted",
+      "url": "https://stopgame.ru/game/need_for_speed_most_wanted",
+      "rating": 3.5
+    },
+    {
+      "title": "Resident Evil 4 (2023)",
+      "url": "https://stopgame.ru/game/resident_evil_4_2023",
+      "rating": 3.5
+    },
+    {
+      "title": "Fallout 3",
+      "url": "https://stopgame.ru/game/fallout_3",
+      "rating": 3.5
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt - Hearts of Stone",
+      "url": "https://stopgame.ru/game/witcher_3_wild_hunt_hearts_of_stone",
+      "rating": 4
+    },
+    {
+      "title": "Borderlands 2",
+      "url": "https://stopgame.ru/game/borderlands_2",
+      "rating": 2
+    },
+    {
+      "title": "Fallout 4",
+      "url": "https://stopgame.ru/game/fallout_4",
+      "rating": 2
+    },
+    {
+      "title": "BioShock",
+      "url": "https://stopgame.ru/game/bioshock",
+      "rating": 3
+    },
+    {
+      "title": "Max Payne 3",
+      "url": "https://stopgame.ru/game/max_payne_3",
+      "rating": 3.5
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt - Blood and Wine",
+      "url": "https://stopgame.ru/game/witcher_3_wild_hunt_blood_and_wine",
+      "rating": 4
+    },
+    {
+      "title": "Mass Effect",
+      "url": "https://stopgame.ru/game/mass_effect",
+      "rating": 2
+    },
+    {
+      "title": "Grand Theft Auto: Vice City",
+      "url": "https://stopgame.ru/game/grand_theft_auto_vice_city",
+      "rating": 4.5
+    },
+    {
+      "title": "The Witcher",
+      "url": "https://stopgame.ru/game/witcher_the",
+      "rating": 3
+    },
+    {
+      "title": "Tomb Raider (2013)",
+      "url": "https://stopgame.ru/game/tomb_raider_2013",
+      "rating": 3.5
+    },
+    {
+      "title": "Grand Theft Auto IV",
+      "url": "https://stopgame.ru/game/grand_theft_auto_4",
+      "rating": 2.5
+    },
+    {
+      "title": "Assassin's Creed",
+      "url": "https://stopgame.ru/game/assassins_creed",
+      "rating": 4
+    },
+    {
+      "title": "Mafia II",
+      "url": "https://stopgame.ru/game/mafia_2",
+      "rating": 2.5
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas",
+      "url": "https://stopgame.ru/game/grand_theft_auto_san_andreas",
+      "rating": 4
+    },
+    {
+      "title": "Deus Ex: Human Revolution",
+      "url": "https://stopgame.ru/game/deus_ex_3",
+      "rating": 2.5
+    },
+    {
+      "title": "Darksiders",
+      "url": "https://stopgame.ru/game/darksiders",
+      "rating": 4
+    },
+    {
+      "title": "Batman: Arkham Origins",
+      "url": "https://stopgame.ru/game/batman_arkham_origins",
+      "rating": 3.5
+    },
+    {
+      "title": "Cuphead",
+      "url": "https://stopgame.ru/game/cuphead",
+      "rating": 3.5
+    },
+    {
+      "title": "Portal 2",
+      "url": "https://stopgame.ru/game/portal_2",
+      "rating": 3.5
+    },
+    {
+      "title": "Cyberpunk 2077",
+      "url": "https://stopgame.ru/game/cyberpunk_2077",
+      "rating": 2.5
+    },
+    {
+      "title": "Grand Theft Auto III",
+      "url": "https://stopgame.ru/game/grand_theft_auto_3",
+      "rating": 2
+    },
+    {
+      "title": "A Plague Tale: Innocence",
+      "url": "https://stopgame.ru/game/plague_tale_innocence_a",
+      "rating": 4
+    },
+    {
+      "title": "Resident Evil 4",
+      "url": "https://stopgame.ru/game/resident_evil_4",
+      "rating": 3.5
+    },
+    {
+      "title": "Borderlands",
+      "url": "https://stopgame.ru/game/borderlands",
+      "rating": 2.5
+    },
+    {
+      "title": "The Walking Dead: Michonne",
+      "url": "https://stopgame.ru/game/walking_dead_michonne",
+      "rating": 2.5
+    },
+    {
+      "title": "The Walking Dead: The Final Season",
+      "url": "https://stopgame.ru/game/walking_dead_the_final_season_the",
+      "rating": 3.5
+    },
+    {
+      "title": "The Walking Dead: A New Frontier",
+      "url": "https://stopgame.ru/game/the_walking_dead_a_new_frontier",
+      "rating": 2.5
+    },
+    {
+      "title": "The Walking Dead: Season Two",
+      "url": "https://stopgame.ru/game/walking_dead_season_two",
+      "rating": 3
+    },
+    {
+      "title": "The Walking Dead",
+      "url": "https://stopgame.ru/game/walking_dead_the",
+      "rating": 2.5
+    },
+    {
+      "title": "Hogwarts Legacy",
+      "url": "https://stopgame.ru/game/hogwarts_legacy",
+      "rating": 3.5
+    },
+    {
+      "title": "Until Dawn",
+      "url": "https://stopgame.ru/game/until_dawn",
+      "rating": 3
+    },
+    {
+      "title": "The Last of Us: Part II",
+      "url": "https://stopgame.ru/game/last_of_us_2",
+      "rating": 4
+    },
+    {
+      "title": "The Last of Us: Part I",
+      "url": "https://stopgame.ru/game/the_last_of_us_part_i",
+      "rating": 4.5
+    },
+    {
+      "title": "Half-Life 2",
+      "url": "https://stopgame.ru/game/half_life_2",
+      "rating": 3.5
+    },
+    {
+      "title": "Red Dead Redemption",
+      "url": "https://stopgame.ru/game/red_dead_redemption",
+      "rating": 3
+    },
+    {
+      "title": "Half-Life",
+      "url": "https://stopgame.ru/game/half_life",
+      "rating": 1.5
+    },
+    {
+      "title": "Marvel's Spider-Man",
+      "url": "https://stopgame.ru/game/insomniac_s_spider_man",
+      "rating": 4
+    },
+    {
+      "title": "Batman: Arkham Asylum",
+      "url": "https://stopgame.ru/game/batman_arkham_asylum",
+      "rating": 4
+    },
+    {
+      "title": "Batman: Arkham City",
+      "url": "https://stopgame.ru/game/batman_arkham_asylum_2",
+      "rating": 4
+    },
+    {
+      "title": "Grand Theft Auto V",
+      "url": "https://stopgame.ru/game/grand_theft_auto_5",
+      "rating": 2.5
+    },
+    {
+      "title": "Red Dead Redemption II",
+      "url": "https://stopgame.ru/game/red_dead_redemption_2",
+      "rating": 4.5
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt",
+      "url": "https://stopgame.ru/game/witcher_3_wild_hunt",
+      "rating": 4
+    }
+  ],
+  "updated_at": "2026-08-11T12:56:10.537Z"
+}
