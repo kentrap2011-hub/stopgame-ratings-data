@@ -1,7 +1,12 @@
 {
   "user": "kentrap2011",
-  "count": 109,
+  "count": 110,
   "games": [
+    {
+      "title": "Battle City",
+      "url": "https://stopgame.ru/game/battle_city",
+      "rating": 4
+    },
     {
       "title": "HighStreet 5",
       "url": "https://stopgame.ru/game/highstreet_5",
@@ -548,5 +553,5 @@
       "rating": 4
     }
   ],
-  "updated_at": "2026-08-11T14:17:11.753Z"
+  "updated_at": "2026-08-11T19:00:16.279Z"
 }
