@@ -1,0 +1,1 @@
+# stopgame-ratings-data
