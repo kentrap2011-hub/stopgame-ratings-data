@@ -188,28 +188,28 @@
     },
     {
       "appid": "1406810",
-      "title": null,
+      "title": "After Us",
       "priority": 0,
       "date_added": 1785780205,
       "store_url": "https://store.steampowered.com/app/1406810/"
     },
     {
       "appid": "1426210",
-      "title": null,
+      "title": "It Takes Two",
       "priority": 0,
       "date_added": 1783604746,
       "store_url": "https://store.steampowered.com/app/1426210/"
     },
     {
       "appid": "1466060",
-      "title": null,
+      "title": "Tainted Grail: The Fall of Avalon",
       "priority": 0,
       "date_added": 1784574071,
       "store_url": "https://store.steampowered.com/app/1466060/"
     },
     {
       "appid": "1547000",
-      "title": null,
+      "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
       "priority": 0,
       "date_added": 1783592664,
       "store_url": "https://store.steampowered.com/app/1547000/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T18:30:53.330Z"
+  "updated_at": "2026-08-12T18:45:54.706Z"
 }
