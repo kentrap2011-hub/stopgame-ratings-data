@@ -216,28 +216,28 @@
     },
     {
       "appid": "1583230",
-      "title": null,
+      "title": "High On Life",
       "priority": 0,
       "date_added": 1784133641,
       "store_url": "https://store.steampowered.com/app/1583230/"
     },
     {
       "appid": "1627720",
-      "title": null,
+      "title": "Lies of P",
       "priority": 0,
       "date_added": 1786211445,
       "store_url": "https://store.steampowered.com/app/1627720/"
     },
     {
       "appid": "1771300",
-      "title": null,
+      "title": "Kingdom Come: Deliverance II",
       "priority": 0,
       "date_added": 1785610461,
       "store_url": "https://store.steampowered.com/app/1771300/"
     },
     {
       "appid": "1790600",
-      "title": null,
+      "title": "DRAGON BALL: Sparking! ZERO",
       "priority": 0,
       "date_added": 1785442590,
       "store_url": "https://store.steampowered.com/app/1790600/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T18:45:54.706Z"
+  "updated_at": "2026-08-12T19:00:53.745Z"
 }
