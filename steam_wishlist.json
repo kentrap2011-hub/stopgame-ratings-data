@@ -328,28 +328,28 @@
     },
     {
       "appid": "2524850",
-      "title": null,
+      "title": "Denshattack!",
       "priority": 0,
       "date_added": 1784382523,
       "store_url": "https://store.steampowered.com/app/2524850/"
     },
     {
       "appid": "2531310",
-      "title": null,
+      "title": "Одни из нас™: Часть II Обновленная версия",
       "priority": 0,
       "date_added": 1783604724,
       "store_url": "https://store.steampowered.com/app/2531310/"
     },
     {
       "appid": "2592160",
-      "title": null,
+      "title": "Dispatch",
       "priority": 0,
       "date_added": 1783767912,
       "store_url": "https://store.steampowered.com/app/2592160/"
     },
     {
       "appid": "2627260",
-      "title": null,
+      "title": "NINJA GAIDEN 4",
       "priority": 0,
       "date_added": 1786217576,
       "store_url": "https://store.steampowered.com/app/2627260/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T19:45:55.223Z"
+  "updated_at": "2026-08-12T20:00:53.462Z"
 }
