@@ -356,28 +356,28 @@
     },
     {
       "appid": "2640950",
-      "title": null,
+      "title": "Scott Pilgrim EX",
       "priority": 0,
       "date_added": 1784144332,
       "store_url": "https://store.steampowered.com/app/2640950/"
     },
     {
       "appid": "2651280",
-      "title": null,
+      "title": "Marvel Человек-Паук 2",
       "priority": 0,
       "date_added": 1783553964,
       "store_url": "https://store.steampowered.com/app/2651280/"
     },
     {
       "appid": "2717880",
-      "title": null,
+      "title": "The Rogue Prince of Persia",
       "priority": 0,
       "date_added": 1784450583,
       "store_url": "https://store.steampowered.com/app/2717880/"
     },
     {
       "appid": "2751000",
-      "title": null,
+      "title": "Prince of Persia The Lost Crown",
       "priority": 0,
       "date_added": 1784450650,
       "store_url": "https://store.steampowered.com/app/2751000/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T20:00:53.462Z"
+  "updated_at": "2026-08-12T20:15:53.167Z"
 }
