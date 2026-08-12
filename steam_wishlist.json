@@ -132,28 +132,28 @@
     },
     {
       "appid": "668580",
-      "title": null,
+      "title": "Atomic Heart",
       "priority": 0,
       "date_added": 1786114481,
       "store_url": "https://store.steampowered.com/app/668580/"
     },
     {
       "appid": "1057090",
-      "title": null,
+      "title": "Ori and the Will of the Wisps",
       "priority": 0,
       "date_added": 1783889547,
       "store_url": "https://store.steampowered.com/app/1057090/"
     },
     {
       "appid": "1088850",
-      "title": null,
+      "title": "Marvel's Guardians of the Galaxy",
       "priority": 0,
       "date_added": 1783860463,
       "store_url": "https://store.steampowered.com/app/1088850/"
     },
     {
       "appid": "1174180",
-      "title": null,
+      "title": "Red Dead Redemption 2",
       "priority": 0,
       "date_added": 1783461683,
       "store_url": "https://store.steampowered.com/app/1174180/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T18:24:05.559Z"
+  "updated_at": "2026-08-12T18:24:08.138Z"
 }
