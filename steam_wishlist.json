@@ -300,28 +300,28 @@
     },
     {
       "appid": "2215260",
-      "title": null,
+      "title": "Scott Pilgrim vs. The World™: The Game – Complete Edition",
       "priority": 0,
       "date_added": 1784239528,
       "store_url": "https://store.steampowered.com/app/2215260/"
     },
     {
       "appid": "2322010",
-      "title": null,
+      "title": "God of War Рагнарёк",
       "priority": 0,
       "date_added": 1783556030,
       "store_url": "https://store.steampowered.com/app/2322010/"
     },
     {
       "appid": "2416450",
-      "title": null,
+      "title": "Частный детектив МАУС",
       "priority": 0,
       "date_added": 1783553823,
       "store_url": "https://store.steampowered.com/app/2416450/"
     },
     {
       "appid": "2424420",
-      "title": null,
+      "title": "Avatar Legends: The Fighting Game",
       "priority": 0,
       "date_added": 1784311236,
       "store_url": "https://store.steampowered.com/app/2424420/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T19:30:54.001Z"
+  "updated_at": "2026-08-12T19:45:55.223Z"
 }
