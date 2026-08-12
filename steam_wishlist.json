@@ -1,0 +1,485 @@
+{
+  "steamid64": "76561198086342255",
+  "profile": "https://steamcommunity.com/id/KentRAP/",
+  "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
+  "count": 68,
+  "games": [
+    {
+      "appid": "10150",
+      "title": null,
+      "priority": 0,
+      "date_added": 1786216821,
+      "store_url": "https://store.steampowered.com/app/10150/"
+    },
+    {
+      "appid": "12150",
+      "title": "Max Payne 2: The Fall of Max Payne",
+      "priority": 0,
+      "date_added": 1786083559,
+      "store_url": "https://store.steampowered.com/app/12150/"
+    },
+    {
+      "appid": "12200",
+      "title": "Bully: Scholarship Edition",
+      "priority": 0,
+      "date_added": 1783616999,
+      "store_url": "https://store.steampowered.com/app/12200/"
+    },
+    {
+      "appid": "13500",
+      "title": "Prince of Persia: Warrior Within™",
+      "priority": 0,
+      "date_added": 1784450669,
+      "store_url": "https://store.steampowered.com/app/13500/"
+    },
+    {
+      "appid": "13530",
+      "title": "Prince of Persia: The Two Thrones™",
+      "priority": 0,
+      "date_added": 1784450662,
+      "store_url": "https://store.steampowered.com/app/13530/"
+    },
+    {
+      "appid": "13600",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784450537,
+      "store_url": "https://store.steampowered.com/app/13600/"
+    },
+    {
+      "appid": "15100",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783925814,
+      "store_url": "https://store.steampowered.com/app/15100/"
+    },
+    {
+      "appid": "17410",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783580975,
+      "store_url": "https://store.steampowered.com/app/17410/"
+    },
+    {
+      "appid": "19980",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784450565,
+      "store_url": "https://store.steampowered.com/app/19980/"
+    },
+    {
+      "appid": "33320",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784450640,
+      "store_url": "https://store.steampowered.com/app/33320/"
+    },
+    {
+      "appid": "217980",
+      "title": null,
+      "priority": 0,
+      "date_added": 1785695810,
+      "store_url": "https://store.steampowered.com/app/217980/"
+    },
+    {
+      "appid": "268910",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784239903,
+      "store_url": "https://store.steampowered.com/app/268910/"
+    },
+    {
+      "appid": "367520",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783604625,
+      "store_url": "https://store.steampowered.com/app/367520/"
+    },
+    {
+      "appid": "403640",
+      "title": null,
+      "priority": 0,
+      "date_added": 1785696201,
+      "store_url": "https://store.steampowered.com/app/403640/"
+    },
+    {
+      "appid": "424840",
+      "title": null,
+      "priority": 0,
+      "date_added": 1785779938,
+      "store_url": "https://store.steampowered.com/app/424840/"
+    },
+    {
+      "appid": "447040",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783556894,
+      "store_url": "https://store.steampowered.com/app/447040/"
+    },
+    {
+      "appid": "462780",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783680906,
+      "store_url": "https://store.steampowered.com/app/462780/"
+    },
+    {
+      "appid": "614570",
+      "title": null,
+      "priority": 0,
+      "date_added": 1785696183,
+      "store_url": "https://store.steampowered.com/app/614570/"
+    },
+    {
+      "appid": "668580",
+      "title": null,
+      "priority": 0,
+      "date_added": 1786114481,
+      "store_url": "https://store.steampowered.com/app/668580/"
+    },
+    {
+      "appid": "1057090",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783889547,
+      "store_url": "https://store.steampowered.com/app/1057090/"
+    },
+    {
+      "appid": "1088850",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783860463,
+      "store_url": "https://store.steampowered.com/app/1088850/"
+    },
+    {
+      "appid": "1174180",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783461683,
+      "store_url": "https://store.steampowered.com/app/1174180/"
+    },
+    {
+      "appid": "1222140",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783860552,
+      "store_url": "https://store.steampowered.com/app/1222140/"
+    },
+    {
+      "appid": "1233570",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783580988,
+      "store_url": "https://store.steampowered.com/app/1233570/"
+    },
+    {
+      "appid": "1245620",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783462820,
+      "store_url": "https://store.steampowered.com/app/1245620/"
+    },
+    {
+      "appid": "1370050",
+      "title": null,
+      "priority": 0,
+      "date_added": 1785780128,
+      "store_url": "https://store.steampowered.com/app/1370050/"
+    },
+    {
+      "appid": "1406810",
+      "title": null,
+      "priority": 0,
+      "date_added": 1785780205,
+      "store_url": "https://store.steampowered.com/app/1406810/"
+    },
+    {
+      "appid": "1426210",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783604746,
+      "store_url": "https://store.steampowered.com/app/1426210/"
+    },
+    {
+      "appid": "1466060",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784574071,
+      "store_url": "https://store.steampowered.com/app/1466060/"
+    },
+    {
+      "appid": "1547000",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783592664,
+      "store_url": "https://store.steampowered.com/app/1547000/"
+    },
+    {
+      "appid": "1583230",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784133641,
+      "store_url": "https://store.steampowered.com/app/1583230/"
+    },
+    {
+      "appid": "1627720",
+      "title": null,
+      "priority": 0,
+      "date_added": 1786211445,
+      "store_url": "https://store.steampowered.com/app/1627720/"
+    },
+    {
+      "appid": "1771300",
+      "title": null,
+      "priority": 0,
+      "date_added": 1785610461,
+      "store_url": "https://store.steampowered.com/app/1771300/"
+    },
+    {
+      "appid": "1790600",
+      "title": null,
+      "priority": 0,
+      "date_added": 1785442590,
+      "store_url": "https://store.steampowered.com/app/1790600/"
+    },
+    {
+      "appid": "1850570",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783581533,
+      "store_url": "https://store.steampowered.com/app/1850570/"
+    },
+    {
+      "appid": "1888930",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783545327,
+      "store_url": "https://store.steampowered.com/app/1888930/"
+    },
+    {
+      "appid": "1903340",
+      "title": null,
+      "priority": 0,
+      "date_added": 1785349966,
+      "store_url": "https://store.steampowered.com/app/1903340/"
+    },
+    {
+      "appid": "1927720",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783678613,
+      "store_url": "https://store.steampowered.com/app/1927720/"
+    },
+    {
+      "appid": "1927740",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783679354,
+      "store_url": "https://store.steampowered.com/app/1927740/"
+    },
+    {
+      "appid": "1954200",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783810417,
+      "store_url": "https://store.steampowered.com/app/1954200/"
+    },
+    {
+      "appid": "2001120",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783604740,
+      "store_url": "https://store.steampowered.com/app/2001120/"
+    },
+    {
+      "appid": "2144740",
+      "title": null,
+      "priority": 0,
+      "date_added": 1786211555,
+      "store_url": "https://store.steampowered.com/app/2144740/"
+    },
+    {
+      "appid": "2215260",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784239528,
+      "store_url": "https://store.steampowered.com/app/2215260/"
+    },
+    {
+      "appid": "2322010",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783556030,
+      "store_url": "https://store.steampowered.com/app/2322010/"
+    },
+    {
+      "appid": "2416450",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783553823,
+      "store_url": "https://store.steampowered.com/app/2416450/"
+    },
+    {
+      "appid": "2424420",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784311236,
+      "store_url": "https://store.steampowered.com/app/2424420/"
+    },
+    {
+      "appid": "2524850",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784382523,
+      "store_url": "https://store.steampowered.com/app/2524850/"
+    },
+    {
+      "appid": "2531310",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783604724,
+      "store_url": "https://store.steampowered.com/app/2531310/"
+    },
+    {
+      "appid": "2592160",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783767912,
+      "store_url": "https://store.steampowered.com/app/2592160/"
+    },
+    {
+      "appid": "2627260",
+      "title": null,
+      "priority": 0,
+      "date_added": 1786217576,
+      "store_url": "https://store.steampowered.com/app/2627260/"
+    },
+    {
+      "appid": "2640950",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784144332,
+      "store_url": "https://store.steampowered.com/app/2640950/"
+    },
+    {
+      "appid": "2651280",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783553964,
+      "store_url": "https://store.steampowered.com/app/2651280/"
+    },
+    {
+      "appid": "2717880",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784450583,
+      "store_url": "https://store.steampowered.com/app/2717880/"
+    },
+    {
+      "appid": "2751000",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784450650,
+      "store_url": "https://store.steampowered.com/app/2751000/"
+    },
+    {
+      "appid": "2909400",
+      "title": null,
+      "priority": 0,
+      "date_added": 1786198859,
+      "store_url": "https://store.steampowered.com/app/2909400/"
+    },
+    {
+      "appid": "3132930",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783679391,
+      "store_url": "https://store.steampowered.com/app/3132930/"
+    },
+    {
+      "appid": "3159330",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784553173,
+      "store_url": "https://store.steampowered.com/app/3159330/"
+    },
+    {
+      "appid": "3280350",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783581559,
+      "store_url": "https://store.steampowered.com/app/3280350/"
+    },
+    {
+      "appid": "3357650",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783872013,
+      "store_url": "https://store.steampowered.com/app/3357650/"
+    },
+    {
+      "appid": "3717330",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783809113,
+      "store_url": "https://store.steampowered.com/app/3717330/"
+    },
+    {
+      "appid": "3768760",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784450761,
+      "store_url": "https://store.steampowered.com/app/3768760/"
+    },
+    {
+      "appid": "3787240",
+      "title": null,
+      "priority": 0,
+      "date_added": 1785442659,
+      "store_url": "https://store.steampowered.com/app/3787240/"
+    },
+    {
+      "appid": "3788800",
+      "title": null,
+      "priority": 0,
+      "date_added": 1783581123,
+      "store_url": "https://store.steampowered.com/app/3788800/"
+    },
+    {
+      "appid": "3914860",
+      "title": null,
+      "priority": 0,
+      "date_added": 1784384717,
+      "store_url": "https://store.steampowered.com/app/3914860/"
+    },
+    {
+      "appid": "19680",
+      "title": null,
+      "priority": 0,
+      "date_added": 1786378271,
+      "store_url": "https://store.steampowered.com/app/19680/"
+    },
+    {
+      "appid": "1817230",
+      "title": null,
+      "priority": 0,
+      "date_added": 1786385979,
+      "store_url": "https://store.steampowered.com/app/1817230/"
+    },
+    {
+      "appid": "523660",
+      "title": null,
+      "priority": 0,
+      "date_added": 1786386887,
+      "store_url": "https://store.steampowered.com/app/523660/"
+    },
+    {
+      "appid": "1934570",
+      "title": null,
+      "priority": 0,
+      "date_added": 1786388808,
+      "store_url": "https://store.steampowered.com/app/1934570/"
+    }
+  ],
+  "updated_at": "2026-08-12T18:21:10.921Z"
+}
