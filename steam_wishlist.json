@@ -244,28 +244,28 @@
     },
     {
       "appid": "1850570",
-      "title": null,
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
       "priority": 0,
       "date_added": 1783581533,
       "store_url": "https://store.steampowered.com/app/1850570/"
     },
     {
       "appid": "1888930",
-      "title": null,
+      "title": "Одни из нас™: Часть I",
       "priority": 0,
       "date_added": 1783545327,
       "store_url": "https://store.steampowered.com/app/1888930/"
     },
     {
       "appid": "1903340",
-      "title": null,
+      "title": "Clair Obscur: Expedition 33",
       "priority": 0,
       "date_added": 1785349966,
       "store_url": "https://store.steampowered.com/app/1903340/"
     },
     {
       "appid": "1927720",
-      "title": null,
+      "title": "Monument Valley",
       "priority": 0,
       "date_added": 1783678613,
       "store_url": "https://store.steampowered.com/app/1927720/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T19:00:53.745Z"
+  "updated_at": "2026-08-12T19:15:53.519Z"
 }
