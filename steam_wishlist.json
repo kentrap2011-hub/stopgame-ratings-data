@@ -272,28 +272,28 @@
     },
     {
       "appid": "1927740",
-      "title": null,
+      "title": "Monument Valley 2",
       "priority": 0,
       "date_added": 1783679354,
       "store_url": "https://store.steampowered.com/app/1927740/"
     },
     {
       "appid": "1954200",
-      "title": null,
+      "title": "Kena: Bridge of Spirits",
       "priority": 0,
       "date_added": 1783810417,
       "store_url": "https://store.steampowered.com/app/1954200/"
     },
     {
       "appid": "2001120",
-      "title": null,
+      "title": "Split Fiction",
       "priority": 0,
       "date_added": 1783604740,
       "store_url": "https://store.steampowered.com/app/2001120/"
     },
     {
       "appid": "2144740",
-      "title": null,
+      "title": "Ghostrunner 2",
       "priority": 0,
       "date_added": 1786211555,
       "store_url": "https://store.steampowered.com/app/2144740/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T19:15:53.519Z"
+  "updated_at": "2026-08-12T19:30:54.001Z"
 }
