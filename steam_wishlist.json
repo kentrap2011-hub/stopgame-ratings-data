@@ -440,28 +440,28 @@
     },
     {
       "appid": "3788800",
-      "title": null,
+      "title": "Atomic Heart 2",
       "priority": 0,
       "date_added": 1783581123,
       "store_url": "https://store.steampowered.com/app/3788800/"
     },
     {
       "appid": "3914860",
-      "title": null,
+      "title": "Moss: The Forgotten Relic ",
       "priority": 0,
       "date_added": 1784384717,
       "store_url": "https://store.steampowered.com/app/3914860/"
     },
     {
       "appid": "19680",
-      "title": null,
+      "title": "Alice: Madness Returns",
       "priority": 0,
       "date_added": 1786378271,
       "store_url": "https://store.steampowered.com/app/19680/"
     },
     {
       "appid": "1817230",
-      "title": null,
+      "title": "Hi-Fi RUSH",
       "priority": 0,
       "date_added": 1786385979,
       "store_url": "https://store.steampowered.com/app/1817230/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T20:45:53.482Z"
+  "updated_at": "2026-08-12T21:00:54.108Z"
 }
