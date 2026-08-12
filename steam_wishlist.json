@@ -6,7 +6,7 @@
   "games": [
     {
       "appid": "10150",
-      "title": null,
+      "title": "Prototype™",
       "priority": 0,
       "date_added": 1786216821,
       "store_url": "https://store.steampowered.com/app/10150/"
@@ -41,28 +41,28 @@
     },
     {
       "appid": "13600",
-      "title": null,
+      "title": "Prince of Persia®: The Sands of Time",
       "priority": 0,
       "date_added": 1784450537,
       "store_url": "https://store.steampowered.com/app/13600/"
     },
     {
       "appid": "15100",
-      "title": null,
+      "title": "Assassin's Creed™: Director's Cut Edition",
       "priority": 0,
       "date_added": 1783925814,
       "store_url": "https://store.steampowered.com/app/15100/"
     },
     {
       "appid": "17410",
-      "title": null,
+      "title": "Mirror's Edge™",
       "priority": 0,
       "date_added": 1783580975,
       "store_url": "https://store.steampowered.com/app/17410/"
     },
     {
       "appid": "19980",
-      "title": null,
+      "title": "Prince of Persia®",
       "priority": 0,
       "date_added": 1784450565,
       "store_url": "https://store.steampowered.com/app/19980/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T18:21:10.921Z"
+  "updated_at": "2026-08-12T18:23:28.834Z"
 }
