@@ -104,28 +104,28 @@
     },
     {
       "appid": "424840",
-      "title": null,
+      "title": "Little Nightmares",
       "priority": 0,
       "date_added": 1785779938,
       "store_url": "https://store.steampowered.com/app/424840/"
     },
     {
       "appid": "447040",
-      "title": null,
+      "title": "Watch_Dogs® 2",
       "priority": 0,
       "date_added": 1783556894,
       "store_url": "https://store.steampowered.com/app/447040/"
     },
     {
       "appid": "462780",
-      "title": null,
+      "title": "Darksiders Warmastered Edition",
       "priority": 0,
       "date_added": 1783680906,
       "store_url": "https://store.steampowered.com/app/462780/"
     },
     {
       "appid": "614570",
-      "title": null,
+      "title": "Dishonored®: Death of the Outsider™",
       "priority": 0,
       "date_added": 1785696183,
       "store_url": "https://store.steampowered.com/app/614570/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T18:23:53.670Z"
+  "updated_at": "2026-08-12T18:24:05.559Z"
 }
