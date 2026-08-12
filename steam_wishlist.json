@@ -412,28 +412,28 @@
     },
     {
       "appid": "3357650",
-      "title": null,
+      "title": "PRAGMATA",
       "priority": 0,
       "date_added": 1783872013,
       "store_url": "https://store.steampowered.com/app/3357650/"
     },
     {
       "appid": "3717330",
-      "title": null,
+      "title": "Yakuza Kiwami",
       "priority": 0,
       "date_added": 1783809113,
       "store_url": "https://store.steampowered.com/app/3717330/"
     },
     {
       "appid": "3768760",
-      "title": null,
+      "title": "007 First Light",
       "priority": 0,
       "date_added": 1784450761,
       "store_url": "https://store.steampowered.com/app/3768760/"
     },
     {
       "appid": "3787240",
-      "title": null,
+      "title": "MARVEL Tōkon: Fighting Souls",
       "priority": 0,
       "date_added": 1785442659,
       "store_url": "https://store.steampowered.com/app/3787240/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T20:30:53.917Z"
+  "updated_at": "2026-08-12T20:45:53.482Z"
 }
