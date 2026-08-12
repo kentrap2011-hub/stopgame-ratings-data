@@ -384,28 +384,28 @@
     },
     {
       "appid": "2909400",
-      "title": null,
+      "title": "FINAL FANTASY VII REBIRTH",
       "priority": 0,
       "date_added": 1786198859,
       "store_url": "https://store.steampowered.com/app/2909400/"
     },
     {
       "appid": "3132930",
-      "title": null,
+      "title": "Monument Valley 3",
       "priority": 0,
       "date_added": 1783679391,
       "store_url": "https://store.steampowered.com/app/3132930/"
     },
     {
       "appid": "3159330",
-      "title": null,
+      "title": "Assassin’s Creed Shadows",
       "priority": 0,
       "date_added": 1784553173,
       "store_url": "https://store.steampowered.com/app/3159330/"
     },
     {
       "appid": "3280350",
-      "title": null,
+      "title": "DEATH STRANDING 2: ON THE BEACH",
       "priority": 0,
       "date_added": 1783581559,
       "store_url": "https://store.steampowered.com/app/3280350/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T20:15:53.167Z"
+  "updated_at": "2026-08-12T20:30:53.917Z"
 }
