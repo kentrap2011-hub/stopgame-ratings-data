@@ -160,28 +160,28 @@
     },
     {
       "appid": "1222140",
-      "title": null,
+      "title": "Detroit: Become Human",
       "priority": 0,
       "date_added": 1783860552,
       "store_url": "https://store.steampowered.com/app/1222140/"
     },
     {
       "appid": "1233570",
-      "title": null,
+      "title": "Mirror's Edge™ Catalyst",
       "priority": 0,
       "date_added": 1783580988,
       "store_url": "https://store.steampowered.com/app/1233570/"
     },
     {
       "appid": "1245620",
-      "title": null,
+      "title": "ELDEN RING",
       "priority": 0,
       "date_added": 1783462820,
       "store_url": "https://store.steampowered.com/app/1245620/"
     },
     {
       "appid": "1370050",
-      "title": null,
+      "title": "Trek to Yomi",
       "priority": 0,
       "date_added": 1785780128,
       "store_url": "https://store.steampowered.com/app/1370050/"
@@ -481,5 +481,5 @@
       "store_url": "https://store.steampowered.com/app/1934570/"
     }
   ],
-  "updated_at": "2026-08-12T18:24:08.138Z"
+  "updated_at": "2026-08-12T18:30:53.330Z"
 }
