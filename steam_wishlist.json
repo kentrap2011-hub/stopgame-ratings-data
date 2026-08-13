@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 68,
+  "count": 69,
   "games": [
     {
       "appid": "10150",
@@ -479,7 +479,14 @@
       "priority": 0,
       "date_added": 1786388808,
       "store_url": "https://store.steampowered.com/app/1934570/"
+    },
+    {
+      "appid": "2395210",
+      "title": "Tony Hawk's™ Pro Skater™ 1 + 2",
+      "priority": 0,
+      "date_added": 1786605983,
+      "store_url": "https://store.steampowered.com/app/2395210/"
     }
   ],
-  "updated_at": "2026-08-12T21:15:53.290Z"
+  "updated_at": "2026-08-13T07:30:54.233Z"
 }
