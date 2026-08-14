@@ -1,7 +1,12 @@
 {
   "user": "kentrap2011",
-  "count": 110,
+  "count": 111,
   "games": [
+    {
+      "title": "Final Fantasy VII Remake",
+      "url": "https://stopgame.ru/game/final_fantasy_vii_remake",
+      "rating": 3.5
+    },
     {
       "title": "Warcraft II: Tides of Darkness",
       "url": "https://stopgame.ru/game/warcraft_ii_tides_of_darkness",
@@ -553,5 +558,5 @@
       "rating": 4
     }
   ],
-  "updated_at": "2026-08-12T04:00:16.487Z"
+  "updated_at": "2026-08-14T21:45:52.348Z"
 }
