@@ -1,7 +1,17 @@
 {
   "user": "kentrap2011",
-  "count": 111,
+  "count": 113,
   "games": [
+    {
+      "title": "Lucius II",
+      "url": "https://stopgame.ru/game/lucius_ii_the_prophecy",
+      "rating": 2
+    },
+    {
+      "title": "Lucius",
+      "url": "https://stopgame.ru/game/lucius",
+      "rating": 2
+    },
     {
       "title": "Final Fantasy VII Remake",
       "url": "https://stopgame.ru/game/final_fantasy_vii_remake",
@@ -558,5 +568,5 @@
       "rating": 4
     }
   ],
-  "updated_at": "2026-08-14T21:45:52.348Z"
+  "updated_at": "2026-08-15T06:30:52.184Z"
 }
