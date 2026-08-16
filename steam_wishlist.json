@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 69,
+  "count": 72,
   "games": [
     {
       "appid": "10150",
@@ -117,11 +117,11 @@
       "store_url": "https://store.steampowered.com/app/447040/"
     },
     {
-      "appid": "1353230",
-      "title": "Bomb Rush Cyberfunk",
+      "appid": "765900",
+      "title": "Leisure Suit Larry - Magna Cum Laude Uncut and Uncensored",
       "priority": 0,
-      "date_added": 1786727796,
-      "store_url": "https://store.steampowered.com/app/1353230/"
+      "date_added": 1786820822,
+      "store_url": "https://store.steampowered.com/app/765900/"
     },
     {
       "appid": "614570",
@@ -486,7 +486,28 @@
       "priority": 0,
       "date_added": 1786605983,
       "store_url": "https://store.steampowered.com/app/2395210/"
+    },
+    {
+      "appid": "284050",
+      "title": "Sanitarium",
+      "priority": 0,
+      "date_added": 1786819575,
+      "store_url": "https://store.steampowered.com/app/284050/"
+    },
+    {
+      "appid": "1593500",
+      "title": "God of War",
+      "priority": 0,
+      "date_added": 1786863511,
+      "store_url": "https://store.steampowered.com/app/1593500/"
+    },
+    {
+      "appid": "1089980",
+      "title": "The Henry Stickmin Collection",
+      "priority": 0,
+      "date_added": 1786872815,
+      "store_url": "https://store.steampowered.com/app/1089980/"
     }
   ],
-  "updated_at": "2026-08-14T17:30:54.832Z"
+  "updated_at": "2026-08-16T10:26:37.553Z"
 }
