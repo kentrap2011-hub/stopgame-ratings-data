@@ -1,15 +1,30 @@
 {
   "user": "kentrap2011",
-  "count": 113,
+  "count": 116,
   "games": [
     {
-      "title": "Lucius II",
-      "url": "https://stopgame.ru/game/lucius_ii_the_prophecy",
-      "rating": 2
+      "title": "Leisure Suit Larry: Magna Cum Laude",
+      "url": "https://stopgame.ru/game/leisure_suit_larry_magna_cum_laude",
+      "rating": 3.5
+    },
+    {
+      "title": "Петька 4: День независимости",
+      "url": "https://stopgame.ru/game/petka_4_den_nezavisimosti",
+      "rating": 3
+    },
+    {
+      "title": "Sanitarium",
+      "url": "https://stopgame.ru/game/sanitarium",
+      "rating": 4
     },
     {
       "title": "Lucius",
       "url": "https://stopgame.ru/game/lucius",
+      "rating": 2.5
+    },
+    {
+      "title": "Lucius II",
+      "url": "https://stopgame.ru/game/lucius_ii_the_prophecy",
       "rating": 2
     },
     {
@@ -568,5 +583,5 @@
       "rating": 4
     }
   ],
-  "updated_at": "2026-08-15T06:30:52.184Z"
+  "updated_at": "2026-08-16T10:26:36.397Z"
 }
