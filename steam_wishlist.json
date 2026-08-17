@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 72,
+  "count": 74,
   "games": [
     {
       "appid": "10150",
@@ -61,6 +61,13 @@
       "store_url": "https://store.steampowered.com/app/17410/"
     },
     {
+      "appid": "19680",
+      "title": "Alice: Madness Returns",
+      "priority": 0,
+      "date_added": 1786378271,
+      "store_url": "https://store.steampowered.com/app/19680/"
+    },
+    {
       "appid": "19980",
       "title": "Prince of Persia®",
       "priority": 0,
@@ -87,6 +94,13 @@
       "priority": 0,
       "date_added": 1784239903,
       "store_url": "https://store.steampowered.com/app/268910/"
+    },
+    {
+      "appid": "284050",
+      "title": "Sanitarium",
+      "priority": 0,
+      "date_added": 1786819575,
+      "store_url": "https://store.steampowered.com/app/284050/"
     },
     {
       "appid": "367520",
@@ -117,11 +131,11 @@
       "store_url": "https://store.steampowered.com/app/447040/"
     },
     {
-      "appid": "765900",
-      "title": "Leisure Suit Larry - Magna Cum Laude Uncut and Uncensored",
+      "appid": "523660",
+      "title": "HYPERCHARGE: Unboxed",
       "priority": 0,
-      "date_added": 1786820822,
-      "store_url": "https://store.steampowered.com/app/765900/"
+      "date_added": 1786386887,
+      "store_url": "https://store.steampowered.com/app/523660/"
     },
     {
       "appid": "614570",
@@ -138,6 +152,20 @@
       "store_url": "https://store.steampowered.com/app/668580/"
     },
     {
+      "appid": "753640",
+      "title": "Outer Wilds",
+      "priority": 0,
+      "date_added": 1786876821,
+      "store_url": "https://store.steampowered.com/app/753640/"
+    },
+    {
+      "appid": "765900",
+      "title": "Leisure Suit Larry - Magna Cum Laude Uncut and Uncensored",
+      "priority": 0,
+      "date_added": 1786820822,
+      "store_url": "https://store.steampowered.com/app/765900/"
+    },
+    {
       "appid": "1057090",
       "title": "Ori and the Will of the Wisps",
       "priority": 0,
@@ -150,6 +178,13 @@
       "priority": 0,
       "date_added": 1783860463,
       "store_url": "https://store.steampowered.com/app/1088850/"
+    },
+    {
+      "appid": "1089980",
+      "title": "The Henry Stickmin Collection",
+      "priority": 0,
+      "date_added": 1786872815,
+      "store_url": "https://store.steampowered.com/app/1089980/"
     },
     {
       "appid": "1174180",
@@ -222,6 +257,13 @@
       "store_url": "https://store.steampowered.com/app/1583230/"
     },
     {
+      "appid": "1593500",
+      "title": "God of War",
+      "priority": 0,
+      "date_added": 1786863511,
+      "store_url": "https://store.steampowered.com/app/1593500/"
+    },
+    {
       "appid": "1627720",
       "title": "Lies of P",
       "priority": 0,
@@ -241,6 +283,13 @@
       "priority": 0,
       "date_added": 1785442590,
       "store_url": "https://store.steampowered.com/app/1790600/"
+    },
+    {
+      "appid": "1817230",
+      "title": "Hi-Fi RUSH",
+      "priority": 0,
+      "date_added": 1786385979,
+      "store_url": "https://store.steampowered.com/app/1817230/"
     },
     {
       "appid": "1850570",
@@ -278,6 +327,13 @@
       "store_url": "https://store.steampowered.com/app/1927740/"
     },
     {
+      "appid": "1934570",
+      "title": "South of Midnight",
+      "priority": 0,
+      "date_added": 1786388808,
+      "store_url": "https://store.steampowered.com/app/1934570/"
+    },
+    {
       "appid": "1954200",
       "title": "Kena: Bridge of Spirits",
       "priority": 0,
@@ -311,6 +367,13 @@
       "priority": 0,
       "date_added": 1783556030,
       "store_url": "https://store.steampowered.com/app/2322010/"
+    },
+    {
+      "appid": "2395210",
+      "title": "Tony Hawk's™ Pro Skater™ 1 + 2",
+      "priority": 0,
+      "date_added": 1786605983,
+      "store_url": "https://store.steampowered.com/app/2395210/"
     },
     {
       "appid": "2416450",
@@ -404,6 +467,13 @@
       "store_url": "https://store.steampowered.com/app/3159330/"
     },
     {
+      "appid": "3180070",
+      "title": "No, I'm not a Human",
+      "priority": 0,
+      "date_added": 1786879824,
+      "store_url": "https://store.steampowered.com/app/3180070/"
+    },
+    {
       "appid": "3280350",
       "title": "DEATH STRANDING 2: ON THE BEACH",
       "priority": 0,
@@ -451,63 +521,7 @@
       "priority": 0,
       "date_added": 1784384717,
       "store_url": "https://store.steampowered.com/app/3914860/"
-    },
-    {
-      "appid": "19680",
-      "title": "Alice: Madness Returns",
-      "priority": 0,
-      "date_added": 1786378271,
-      "store_url": "https://store.steampowered.com/app/19680/"
-    },
-    {
-      "appid": "1817230",
-      "title": "Hi-Fi RUSH",
-      "priority": 0,
-      "date_added": 1786385979,
-      "store_url": "https://store.steampowered.com/app/1817230/"
-    },
-    {
-      "appid": "523660",
-      "title": "HYPERCHARGE: Unboxed",
-      "priority": 0,
-      "date_added": 1786386887,
-      "store_url": "https://store.steampowered.com/app/523660/"
-    },
-    {
-      "appid": "1934570",
-      "title": "South of Midnight",
-      "priority": 0,
-      "date_added": 1786388808,
-      "store_url": "https://store.steampowered.com/app/1934570/"
-    },
-    {
-      "appid": "2395210",
-      "title": "Tony Hawk's™ Pro Skater™ 1 + 2",
-      "priority": 0,
-      "date_added": 1786605983,
-      "store_url": "https://store.steampowered.com/app/2395210/"
-    },
-    {
-      "appid": "284050",
-      "title": "Sanitarium",
-      "priority": 0,
-      "date_added": 1786819575,
-      "store_url": "https://store.steampowered.com/app/284050/"
-    },
-    {
-      "appid": "1593500",
-      "title": "God of War",
-      "priority": 0,
-      "date_added": 1786863511,
-      "store_url": "https://store.steampowered.com/app/1593500/"
-    },
-    {
-      "appid": "1089980",
-      "title": "The Henry Stickmin Collection",
-      "priority": 0,
-      "date_added": 1786872815,
-      "store_url": "https://store.steampowered.com/app/1089980/"
     }
   ],
-  "updated_at": "2026-08-16T10:26:37.553Z"
+  "updated_at": "2026-08-17T06:41:57.371Z"
 }
