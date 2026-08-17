@@ -1,7 +1,12 @@
 {
   "user": "kentrap2011",
-  "count": 116,
+  "count": 117,
   "games": [
+    {
+      "title": "Felix The Cat",
+      "url": "https://stopgame.ru/game/felix_the_cat",
+      "rating": 2.5
+    },
     {
       "title": "Leisure Suit Larry: Magna Cum Laude",
       "url": "https://stopgame.ru/game/leisure_suit_larry_magna_cum_laude",
@@ -583,5 +588,5 @@
       "rating": 4
     }
   ],
-  "updated_at": "2026-08-16T10:26:36.397Z"
+  "updated_at": "2026-08-17T06:41:56.182Z"
 }
