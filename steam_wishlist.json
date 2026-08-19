@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 74,
+  "count": 76,
   "games": [
     {
       "appid": "10150",
@@ -521,7 +521,21 @@
       "priority": 0,
       "date_added": 1784384717,
       "store_url": "https://store.steampowered.com/app/3914860/"
+    },
+    {
+      "appid": "1373550",
+      "title": "BloodRayne 2: Terminal Cut",
+      "priority": 0,
+      "date_added": 1787115256,
+      "store_url": "https://store.steampowered.com/app/1373550/"
+    },
+    {
+      "appid": "1373510",
+      "title": "BloodRayne: Terminal Cut",
+      "priority": 0,
+      "date_added": 1787115270,
+      "store_url": "https://store.steampowered.com/app/1373510/"
     }
   ],
-  "updated_at": "2026-08-17T06:41:57.371Z"
+  "updated_at": "2026-08-19T05:00:06.790Z"
 }
