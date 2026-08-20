@@ -1,7 +1,12 @@
 {
   "user": "kentrap2011",
-  "count": 117,
+  "count": 118,
   "games": [
+    {
+      "title": "The Suffering",
+      "url": "https://stopgame.ru/game/suffering_the",
+      "rating": 3.5
+    },
     {
       "title": "Felix The Cat",
       "url": "https://stopgame.ru/game/felix_the_cat",
@@ -588,5 +593,5 @@
       "rating": 4
     }
   ],
-  "updated_at": "2026-08-17T06:41:56.182Z"
+  "updated_at": "2026-08-20T08:15:05.516Z"
 }
