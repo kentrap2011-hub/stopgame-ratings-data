@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 76,
+  "count": 75,
   "games": [
     {
       "appid": "10150",
@@ -110,11 +110,11 @@
       "store_url": "https://store.steampowered.com/app/367520/"
     },
     {
-      "appid": "403640",
-      "title": "Dishonored 2",
+      "appid": "387290",
+      "title": "Ori and the Blind Forest: Definitive Edition",
       "priority": 0,
-      "date_added": 1785696201,
-      "store_url": "https://store.steampowered.com/app/403640/"
+      "date_added": 1787255725,
+      "store_url": "https://store.steampowered.com/app/387290/"
     },
     {
       "appid": "424840",
@@ -138,13 +138,6 @@
       "store_url": "https://store.steampowered.com/app/523660/"
     },
     {
-      "appid": "614570",
-      "title": "Dishonored®: Death of the Outsider™",
-      "priority": 0,
-      "date_added": 1785696183,
-      "store_url": "https://store.steampowered.com/app/614570/"
-    },
-    {
       "appid": "668580",
       "title": "Atomic Heart",
       "priority": 0,
@@ -166,11 +159,11 @@
       "store_url": "https://store.steampowered.com/app/765900/"
     },
     {
-      "appid": "1057090",
-      "title": "Ori and the Will of the Wisps",
+      "appid": "379430",
+      "title": "Kingdom Come: Deliverance",
       "priority": 0,
-      "date_added": 1783889547,
-      "store_url": "https://store.steampowered.com/app/1057090/"
+      "date_added": 1787255817,
+      "store_url": "https://store.steampowered.com/app/379430/"
     },
     {
       "appid": "1088850",
@@ -271,13 +264,6 @@
       "store_url": "https://store.steampowered.com/app/1627720/"
     },
     {
-      "appid": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "priority": 0,
-      "date_added": 1785610461,
-      "store_url": "https://store.steampowered.com/app/1771300/"
-    },
-    {
       "appid": "1790600",
       "title": "DRAGON BALL: Sparking! ZERO",
       "priority": 0,
@@ -348,13 +334,6 @@
       "store_url": "https://store.steampowered.com/app/2001120/"
     },
     {
-      "appid": "2144740",
-      "title": "Ghostrunner 2",
-      "priority": 0,
-      "date_added": 1786211555,
-      "store_url": "https://store.steampowered.com/app/2144740/"
-    },
-    {
       "appid": "2215260",
       "title": "Scott Pilgrim vs. The World™: The Game – Complete Edition",
       "priority": 0,
@@ -362,11 +341,11 @@
       "store_url": "https://store.steampowered.com/app/2215260/"
     },
     {
-      "appid": "2322010",
-      "title": "God of War Рагнарёк",
+      "appid": "1139900",
+      "title": "Ghostrunner",
       "priority": 0,
-      "date_added": 1783556030,
-      "store_url": "https://store.steampowered.com/app/2322010/"
+      "date_added": 1787255914,
+      "store_url": "https://store.steampowered.com/app/1139900/"
     },
     {
       "appid": "2395210",
@@ -535,7 +514,21 @@
       "priority": 0,
       "date_added": 1787115270,
       "store_url": "https://store.steampowered.com/app/1373510/"
+    },
+    {
+      "appid": "978300",
+      "title": "Saints Row®: The Third™ Remastered",
+      "priority": 0,
+      "date_added": 1787255568,
+      "store_url": "https://store.steampowered.com/app/978300/"
+    },
+    {
+      "appid": "9480",
+      "title": null,
+      "priority": 0,
+      "date_added": 1787255589,
+      "store_url": "https://store.steampowered.com/app/9480/"
     }
   ],
-  "updated_at": "2026-08-19T05:00:06.790Z"
+  "updated_at": "2026-08-20T20:00:06.420Z"
 }
