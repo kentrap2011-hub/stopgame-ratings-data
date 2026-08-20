@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 75,
+  "count": 74,
   "games": [
     {
       "appid": "10150",
@@ -453,11 +453,11 @@
       "store_url": "https://store.steampowered.com/app/3180070/"
     },
     {
-      "appid": "3280350",
-      "title": "DEATH STRANDING 2: ON THE BEACH",
+      "appid": "2988580",
+      "title": "Yakuza 0 Director's Cut",
       "priority": 0,
-      "date_added": 1783581559,
-      "store_url": "https://store.steampowered.com/app/3280350/"
+      "date_added": 1787256176,
+      "store_url": "https://store.steampowered.com/app/2988580/"
     },
     {
       "appid": "3357650",
@@ -465,13 +465,6 @@
       "priority": 0,
       "date_added": 1783872013,
       "store_url": "https://store.steampowered.com/app/3357650/"
-    },
-    {
-      "appid": "3717330",
-      "title": "Yakuza Kiwami",
-      "priority": 0,
-      "date_added": 1783809113,
-      "store_url": "https://store.steampowered.com/app/3717330/"
     },
     {
       "appid": "3768760",
@@ -488,11 +481,11 @@
       "store_url": "https://store.steampowered.com/app/3787240/"
     },
     {
-      "appid": "3788800",
-      "title": "Atomic Heart 2",
+      "appid": "3287520",
+      "title": "NINJA GAIDEN 2 Black",
       "priority": 0,
-      "date_added": 1783581123,
-      "store_url": "https://store.steampowered.com/app/3788800/"
+      "date_added": 1787256085,
+      "store_url": "https://store.steampowered.com/app/3287520/"
     },
     {
       "appid": "3914860",
@@ -524,11 +517,11 @@
     },
     {
       "appid": "9480",
-      "title": null,
+      "title": "Saints Row 2",
       "priority": 0,
       "date_added": 1787255589,
       "store_url": "https://store.steampowered.com/app/9480/"
     }
   ],
-  "updated_at": "2026-08-20T20:00:06.420Z"
+  "updated_at": "2026-08-20T20:15:07.958Z"
 }
