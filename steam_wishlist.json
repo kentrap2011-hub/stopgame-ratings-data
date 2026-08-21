@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 74,
+  "count": 75,
   "games": [
     {
       "appid": "10150",
@@ -467,6 +467,13 @@
       "store_url": "https://store.steampowered.com/app/3357650/"
     },
     {
+      "appid": "204450",
+      "title": "Call of Juarez: Gunslinger",
+      "priority": 0,
+      "date_added": 1787289031,
+      "store_url": "https://store.steampowered.com/app/204450/"
+    },
+    {
       "appid": "3768760",
       "title": "007 First Light",
       "priority": 0,
@@ -523,5 +530,5 @@
       "store_url": "https://store.steampowered.com/app/9480/"
     }
   ],
-  "updated_at": "2026-08-20T20:15:07.958Z"
+  "updated_at": "2026-08-21T05:15:38.178Z"
 }
