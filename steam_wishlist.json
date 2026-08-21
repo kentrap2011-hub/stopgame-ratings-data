@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 76,
+  "count": 77,
   "games": [
     {
       "appid": "10150",
@@ -262,6 +262,13 @@
       "priority": 0,
       "date_added": 1786211445,
       "store_url": "https://store.steampowered.com/app/1627720/"
+    },
+    {
+      "appid": "2486820",
+      "title": "Sonic Racing: CrossWorlds",
+      "priority": 0,
+      "date_added": 1787342186,
+      "store_url": "https://store.steampowered.com/app/2486820/"
     },
     {
       "appid": "1790600",
@@ -537,5 +544,5 @@
       "store_url": "https://store.steampowered.com/app/9480/"
     }
   ],
-  "updated_at": "2026-08-21T19:00:21.384Z"
+  "updated_at": "2026-08-21T20:00:20.712Z"
 }
