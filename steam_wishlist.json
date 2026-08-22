@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 81,
+  "count": 84,
   "games": [
     {
       "appid": "10150",
@@ -570,7 +570,28 @@
       "priority": 0,
       "date_added": 1787430548,
       "store_url": "https://store.steampowered.com/app/1244950/"
+    },
+    {
+      "appid": "2950340",
+      "title": "LEGO® Harry Potter™ Collection",
+      "priority": 0,
+      "date_added": 1787432880,
+      "store_url": "https://store.steampowered.com/app/2950340/"
+    },
+    {
+      "appid": "249130",
+      "title": "LEGO® Marvel™ Super Heroes",
+      "priority": 0,
+      "date_added": 1787433187,
+      "store_url": "https://store.steampowered.com/app/249130/"
+    },
+    {
+      "appid": "578330",
+      "title": "LEGO® City Undercover",
+      "priority": 0,
+      "date_added": 1787433264,
+      "store_url": "https://store.steampowered.com/app/578330/"
     }
   ],
-  "updated_at": "2026-08-22T20:30:31.606Z"
+  "updated_at": "2026-08-22T21:15:19.692Z"
 }
