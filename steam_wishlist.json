@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 79,
+  "count": 81,
   "games": [
     {
       "appid": "10150",
@@ -556,7 +556,21 @@
       "priority": 0,
       "date_added": 1787428814,
       "store_url": "https://store.steampowered.com/app/1225570/"
+    },
+    {
+      "appid": "1361510",
+      "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+      "priority": 0,
+      "date_added": 1787430493,
+      "store_url": "https://store.steampowered.com/app/1361510/"
+    },
+    {
+      "appid": "1244950",
+      "title": "Battletoads",
+      "priority": 0,
+      "date_added": 1787430548,
+      "store_url": "https://store.steampowered.com/app/1244950/"
     }
   ],
-  "updated_at": "2026-08-22T20:00:20.640Z"
+  "updated_at": "2026-08-22T20:30:31.606Z"
 }
