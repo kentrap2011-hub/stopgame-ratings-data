@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 77,
+  "count": 79,
   "games": [
     {
       "appid": "10150",
@@ -136,6 +136,13 @@
       "priority": 0,
       "date_added": 1786386887,
       "store_url": "https://store.steampowered.com/app/523660/"
+    },
+    {
+      "appid": "690640",
+      "title": "Trine 4: The Nightmare Prince",
+      "priority": 0,
+      "date_added": 1787428319,
+      "store_url": "https://store.steampowered.com/app/690640/"
     },
     {
       "appid": "668580",
@@ -542,7 +549,14 @@
       "priority": 0,
       "date_added": 1787255589,
       "store_url": "https://store.steampowered.com/app/9480/"
+    },
+    {
+      "appid": "1225570",
+      "title": "Unravel Two",
+      "priority": 0,
+      "date_added": 1787428814,
+      "store_url": "https://store.steampowered.com/app/1225570/"
     }
   ],
-  "updated_at": "2026-08-21T20:00:20.712Z"
+  "updated_at": "2026-08-22T20:00:20.640Z"
 }
