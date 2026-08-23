@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 86,
+  "count": 87,
   "games": [
     {
       "appid": "10150",
@@ -605,7 +605,14 @@
       "priority": 0,
       "date_added": 1787501293,
       "store_url": "https://store.steampowered.com/app/242700/"
+    },
+    {
+      "appid": "2358720",
+      "title": "Black Myth: Wukong",
+      "priority": 0,
+      "date_added": 1787504671,
+      "store_url": "https://store.steampowered.com/app/2358720/"
     }
   ],
-  "updated_at": "2026-08-23T16:30:19.777Z"
+  "updated_at": "2026-08-23T17:15:19.285Z"
 }
