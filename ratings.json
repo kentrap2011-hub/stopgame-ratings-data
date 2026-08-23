@@ -1,7 +1,12 @@
 {
   "user": "kentrap2011",
-  "count": 118,
+  "count": 119,
   "games": [
+    {
+      "title": "The Exit 8",
+      "url": "https://stopgame.ru/game/the_exit_8",
+      "rating": 2.5
+    },
     {
       "title": "The Suffering",
       "url": "https://stopgame.ru/game/suffering_the",
@@ -593,5 +598,5 @@
       "rating": 4
     }
   ],
-  "updated_at": "2026-08-20T08:15:05.516Z"
+  "updated_at": "2026-08-23T08:15:18.632Z"
 }
