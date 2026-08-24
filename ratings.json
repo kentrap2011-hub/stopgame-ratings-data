@@ -1,7 +1,12 @@
 {
   "user": "kentrap2011",
-  "count": 119,
+  "count": 120,
   "games": [
+    {
+      "title": "Postal 2",
+      "url": "https://stopgame.ru/game/postal_2",
+      "rating": 3.5
+    },
     {
       "title": "The Exit 8",
       "url": "https://stopgame.ru/game/the_exit_8",
@@ -598,5 +603,5 @@
       "rating": 4
     }
   ],
-  "updated_at": "2026-08-23T08:15:18.632Z"
+  "updated_at": "2026-08-24T04:00:18.774Z"
 }
