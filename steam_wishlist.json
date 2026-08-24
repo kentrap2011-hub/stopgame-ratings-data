@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 87,
+  "count": 88,
   "games": [
     {
       "appid": "10150",
@@ -612,7 +612,14 @@
       "priority": 0,
       "date_added": 1787504671,
       "store_url": "https://store.steampowered.com/app/2358720/"
+    },
+    {
+      "appid": "288470",
+      "title": "Fable Anniversary",
+      "priority": 0,
+      "date_added": 1787594787,
+      "store_url": "https://store.steampowered.com/app/288470/"
     }
   ],
-  "updated_at": "2026-08-23T17:15:19.285Z"
+  "updated_at": "2026-08-24T18:15:19.805Z"
 }
