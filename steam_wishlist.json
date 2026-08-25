@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 88,
+  "count": 87,
   "games": [
     {
       "appid": "10150",
@@ -348,13 +348,6 @@
       "store_url": "https://store.steampowered.com/app/2001120/"
     },
     {
-      "appid": "12130",
-      "title": "Manhunt",
-      "priority": 0,
-      "date_added": 1787338395,
-      "store_url": "https://store.steampowered.com/app/12130/"
-    },
-    {
       "appid": "2215260",
       "title": "Scott Pilgrim vs. The World™: The Game – Complete Edition",
       "priority": 0,
@@ -621,5 +614,5 @@
       "store_url": "https://store.steampowered.com/app/288470/"
     }
   ],
-  "updated_at": "2026-08-24T18:15:19.805Z"
+  "updated_at": "2026-08-25T17:30:20.341Z"
 }
