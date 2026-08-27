@@ -17,15 +17,6 @@ def save(path, data):
         f.write("\n")
 
 
-def get_container(root, path):
-    cur = root
-    for key in path:
-        if key not in cur or not isinstance(cur[key], dict):
-            cur[key] = {}
-        cur = cur[key]
-    return cur
-
-
 profile = load(PROFILE)
 request = load(REQUEST)
 if not request.get("pending"):
@@ -54,6 +45,20 @@ for op in request.get("operations", []):
         for key in path[:-1]:
             cur = cur.setdefault(key, {})
         cur[path[-1]] = op["value"]
+    elif kind == "replace_matching":
+        cur = profile
+        for key in path[:-1]:
+            cur = cur.setdefault(key, {})
+        arr = cur.setdefault(path[-1], [])
+        match = op["match"]
+        replaced = False
+        for i, item in enumerate(arr):
+            if isinstance(item, dict) and all(item.get(k) == v for k, v in match.items()):
+                arr[i] = op["value"]
+                replaced = True
+                break
+        if not replaced:
+            raise ValueError(f"No matching list item for {match}")
     else:
         raise ValueError(f"Unsupported op: {kind}")
 
