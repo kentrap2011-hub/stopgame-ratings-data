@@ -2,6 +2,7 @@
   "pending": true,
   "request_id": "2026-08-27-hitman-stealth-restart",
   "updated_at": "2026-08-27",
+  "trigger_nonce": 1,
   "operations": [
     {
       "op": "set",
