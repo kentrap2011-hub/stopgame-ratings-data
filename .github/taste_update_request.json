@@ -1,12 +1,15 @@
 {
-  "pending": true,
+  "pending": false,
   "request_id": "2026-08-27-correct-arkham-asylum-origins-backtracking",
   "updated_at": "2026-08-27",
   "trigger_nonce": 3,
   "operations": [
     {
       "op": "set",
-      "path": ["contextual_preferences", "repetition_and_revisiting"],
+      "path": [
+        "contextual_preferences",
+        "repetition_and_revisiting"
+      ],
       "value": {
         "summary": "Повторение само по себе не является проблемой. Скучным становится повтор, который заставляет делать практически то же самое в тех же условиях и не даёт нового игрового опыта.",
         "positive_when": [
@@ -31,7 +34,9 @@
     },
     {
       "op": "replace_matching",
-      "path": ["evidence_log"],
+      "path": [
+        "evidence_log"
+      ],
       "match": {
         "topic": "repetition / backtracking / meaningful variation"
       },
