@@ -2391,6 +2391,12 @@
       "type": "status_correction",
       "topic": "Final Fantasy VII Remake",
       "evidence": "Старый snapshot отмечал игру как незавершённую; актуальная финальная оценка — 3.5/5."
+    },
+    {
+      "date": "2026-08-27",
+      "type": "direct_user_explanation",
+      "topic": "approach choice / stealth / Hitman",
+      "evidence": "Пользователь считает, что отношение к разным способам прохождения зависит от игры. В Hitman ему некомфортно идти напролом: игра располагает к стелсу, и если стелс не получается, появляется ощущение проваленной миссии, после чего он обычно перезапускает уровень."
     }
   ],
   "migration_audit": {
@@ -2408,5 +2414,20 @@
     "intentionally_not_migrated": [
       "Old steam_wishlist prediction cards. They were assistant forecasts, can become stale, and the old profile itself states that assistant predictions are not user evidence. Current wishlist remains in steam_wishlist.json."
     ]
+  },
+  "applied_update_ids": [
+    "2026-08-27-hitman-stealth-restart"
+  ],
+  "contextual_preferences": {
+    "approach_choice_and_stealth": {
+      "summary": "Предпочтение разных способов прохождения зависит от конкретной игры и от того, к какому стилю она сама располагает; наличие нескольких подходов не означает, что пользователь хочет свободно переключаться между ними.",
+      "hitman_example": {
+        "preferred_style": "stealth",
+        "direct_combat": "некомфортен",
+        "failure_feeling": "если стелс срывается, возникает ощущение, что миссия уже провалена",
+        "typical_response": "перезапустить уровень, а не продолжать миссию напролом"
+      },
+      "inference_guardrail": "Не переносить автоматически на все stealth-игры; использовать как сильный пример того, что соответствие стилю/фантазии конкретной игры может быть важнее абстрактной свободы выбора подхода."
+    }
   }
 }

@@ -1,12 +1,15 @@
 {
-  "pending": true,
+  "pending": false,
   "request_id": "2026-08-27-hitman-stealth-restart",
   "updated_at": "2026-08-27",
   "trigger_nonce": 1,
   "operations": [
     {
       "op": "set",
-      "path": ["contextual_preferences", "approach_choice_and_stealth"],
+      "path": [
+        "contextual_preferences",
+        "approach_choice_and_stealth"
+      ],
       "value": {
         "summary": "Предпочтение разных способов прохождения зависит от конкретной игры и от того, к какому стилю она сама располагает; наличие нескольких подходов не означает, что пользователь хочет свободно переключаться между ними.",
         "hitman_example": {
@@ -20,7 +23,9 @@
     },
     {
       "op": "append",
-      "path": ["evidence_log"],
+      "path": [
+        "evidence_log"
+      ],
       "value": {
         "date": "2026-08-27",
         "type": "direct_user_explanation",
