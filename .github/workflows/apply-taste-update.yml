@@ -1,0 +1,29 @@
+name: Apply gaming taste update
+
+on:
+  push:
+    paths:
+      - '.github/taste_update_request.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply queued taste update
+        run: python scripts/apply_taste_update.py
+      - name: Commit updated live profile
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add gaming_taste_live.json .github/taste_update_request.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Apply live gaming taste update"
+            git push
+          fi
