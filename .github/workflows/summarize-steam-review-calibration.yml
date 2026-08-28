@@ -1,0 +1,119 @@
+name: One-shot exact Steam review calibration summary
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/summarize-steam-review-calibration.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build exact-only threshold summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          src=json.loads(Path('steam_review_threshold_calibration_2026-08-28.json').read_text(encoding='utf-8'))
+          rated=[r for r in src['rated_games'] if r['mapping_method'] in ('wishlist_exact_title','steam_search_exact_title')]
+          wishlist=src['wishlist_games']
+
+          groups={
+            'strong_positive_4plus':lambda r:r['user_rating']>=4,
+            'positive_3_5plus':lambda r:r['user_rating']>=3.5,
+            'neutral_3':lambda r:r['user_rating']==3,
+            'negative_2_5minus':lambda r:r['user_rating']<=2.5,
+          }
+
+          def display(row,lang):
+              return row[lang].get('positive_display')
+
+          def passes(row,min_count,threshold):
+              g=row['global']; ru=row['russian']
+              if int(g.get('count') or 0)<min_count:
+                  return False
+              gp=g.get('positive_display')
+              rp=ru.get('positive_display')
+              global_ok=gp is not None and gp>=threshold
+              ru_min=min(min_count,500)
+              russian_ok=(rp is not None and int(ru.get('count') or 0)>=ru_min and rp>=threshold)
+              return global_ok or russian_ok
+
+          def effective(row,min_count):
+              g=row['global']; ru=row['russian']
+              if int(g.get('count') or 0)<min_count:return None
+              vals=[]
+              if g.get('positive_display') is not None: vals.append(g['positive_display'])
+              if int(ru.get('count') or 0)>=min(min_count,500) and ru.get('positive_display') is not None:
+                  vals.append(ru['positive_display'])
+              return max(vals) if vals else None
+
+          min_counts=[100,300,1000,1500,3000,20000]
+          by_count={}
+          for mc in min_counts:
+              entry={'rated_eligible_n':sum(int(r['global'].get('count') or 0)>=mc for r in rated),
+                     'wishlist_eligible_n':sum(int(r['global'].get('count') or 0)>=mc for r in wishlist),
+                     'thresholds':[]}
+              for t in range(60,96):
+                  rec={'threshold':t}
+                  for name,pred in groups.items():
+                      rows=[r for r in rated if pred(r) and int(r['global'].get('count') or 0)>=mc]
+                      rec[name+'_n']=len(rows)
+                      rec[name+'_pass_n']=sum(passes(r,mc,t) for r in rows)
+                      rec[name+'_pass_rate']=round(rec[name+'_pass_n']/len(rows),4) if rows else None
+                  wr=[r for r in wishlist if int(r['global'].get('count') or 0)>=mc]
+                  rec['wishlist_n']=len(wr)
+                  rec['wishlist_pass_n']=sum(passes(r,mc,t) for r in wr)
+                  rec['wishlist_pass_rate']=round(rec['wishlist_pass_n']/len(wr),4) if wr else None
+                  entry['thresholds'].append(rec)
+              # Boundary examples under current effective global-or-Russian semantics.
+              pos=[(effective(r,mc),r) for r in rated if r['user_rating']>=3.5 and effective(r,mc) is not None]
+              neg=[(effective(r,mc),r) for r in rated if r['user_rating']<=2.5 and effective(r,mc) is not None]
+              wish=[(effective(r,mc),r) for r in wishlist if effective(r,mc) is not None]
+              entry['lowest_positive_examples']=[{'effective_percent':v,'title':r['title'],'user_rating':r['user_rating'],'global':r['global'],'russian':r['russian']} for v,r in sorted(pos,key=lambda x:x[0])[:12]]
+              entry['highest_negative_examples']=[{'effective_percent':v,'title':r['title'],'user_rating':r['user_rating'],'global':r['global'],'russian':r['russian']} for v,r in sorted(neg,key=lambda x:x[0],reverse=True)[:12]]
+              entry['lowest_wishlist_examples']=[{'effective_percent':v,'title':r['title'],'global':r['global'],'russian':r['russian']} for v,r in sorted(wish,key=lambda x:x[0])[:15]]
+              by_count[str(mc)]=entry
+
+          out={
+            'source_generated_at_utc':src['generated_at_utc'],
+            'rated_total':src['inputs']['ratings_count'],
+            'rated_mapped_all':src['inputs']['rated_mapped'],
+            'rated_exact_safe_n':len(rated),
+            'rated_fuzzy_excluded_n':src['inputs']['rated_mapped']-len(rated),
+            'wishlist_n':len(wishlist),
+            'semantics':'global_count >= rule minimum AND (global_display_percent >= threshold OR russian_count >= min(rule minimum,500) AND russian_display_percent >= threshold)',
+            'by_min_global_count':by_count,
+            'exact_rated_titles':[{'title':r['title'],'user_rating':r['user_rating'],'appid':r['appid'],'mapping_method':r['mapping_method'],'global':r['global'],'russian':r['russian']} for r in rated]
+          }
+          Path('steam_review_threshold_calibration_summary_2026-08-28.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('exact safe rated',len(rated),'fuzzy excluded',src['inputs']['rated_mapped']-len(rated),'wishlist',len(wishlist))
+          PY
+
+      - name: Commit summary
+        run: |
+          git config user.name "taste-calibration-bot"
+          git config user.email "taste-calibration-bot@users.noreply.github.com"
+          git add steam_review_threshold_calibration_summary_2026-08-28.json
+          git commit -m "Add exact Steam review calibration summary"
+          for attempt in 1 2 3; do
+            git fetch origin main:refs/remotes/origin/main
+            if ! git rebase origin/main; then git rebase --abort || true; exit 1; fi
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt*2))
+          done
+          exit 1
