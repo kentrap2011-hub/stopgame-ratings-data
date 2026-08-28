@@ -1,0 +1,5292 @@
+{
+  "generated_at_utc": "2026-08-28T18:31:50.067862+00:00",
+  "inputs": {
+    "ratings_count": 120,
+    "wishlist_count": 87,
+    "rated_mapped": 56,
+    "rated_unresolved": 64
+  },
+  "method": {
+    "effective_percent": "max(global display %, russian display % if russian review count >=100)",
+    "important": "Wishlist is treated as interest/recall context, not proof that the game fits. User rating groups are the main calibration evidence.",
+    "production_vote_count_thresholds_changed": false
+  },
+  "distribution": {
+    "strong_positive_4plus": {
+      "n": 9,
+      "min": 51,
+      "p10": 74.2,
+      "p25": 85.0,
+      "median": 90.0,
+      "p75": 90.0,
+      "p90": 93.0,
+      "max": 93
+    },
+    "positive_3_5plus": {
+      "n": 30,
+      "min": 51,
+      "p10": 80.0,
+      "p25": 89.0,
+      "median": 90.5,
+      "p75": 95.0,
+      "p90": 98.0,
+      "max": 99
+    },
+    "neutral_3": {
+      "n": 11,
+      "min": 75,
+      "p10": 78.0,
+      "p25": 83.0,
+      "median": 90.0,
+      "p75": 96.0,
+      "p90": 97.0,
+      "max": 98
+    },
+    "negative_2_5minus": {
+      "n": 14,
+      "min": 67,
+      "p10": 82.2,
+      "p25": 86.0,
+      "median": 88.0,
+      "p75": 92.8,
+      "p90": 95.1,
+      "max": 98
+    }
+  },
+  "threshold_table": [
+    {
+      "threshold": 60,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 14,
+      "negative_2_5minus_pass_rate": 1.0,
+      "wishlist_pass_n": 86,
+      "wishlist_pass_rate": 0.9885
+    },
+    {
+      "threshold": 61,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 14,
+      "negative_2_5minus_pass_rate": 1.0,
+      "wishlist_pass_n": 86,
+      "wishlist_pass_rate": 0.9885
+    },
+    {
+      "threshold": 62,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 14,
+      "negative_2_5minus_pass_rate": 1.0,
+      "wishlist_pass_n": 86,
+      "wishlist_pass_rate": 0.9885
+    },
+    {
+      "threshold": 63,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 14,
+      "negative_2_5minus_pass_rate": 1.0,
+      "wishlist_pass_n": 86,
+      "wishlist_pass_rate": 0.9885
+    },
+    {
+      "threshold": 64,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 14,
+      "negative_2_5minus_pass_rate": 1.0,
+      "wishlist_pass_n": 86,
+      "wishlist_pass_rate": 0.9885
+    },
+    {
+      "threshold": 65,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 14,
+      "negative_2_5minus_pass_rate": 1.0,
+      "wishlist_pass_n": 86,
+      "wishlist_pass_rate": 0.9885
+    },
+    {
+      "threshold": 66,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 14,
+      "negative_2_5minus_pass_rate": 1.0,
+      "wishlist_pass_n": 86,
+      "wishlist_pass_rate": 0.9885
+    },
+    {
+      "threshold": 67,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 14,
+      "negative_2_5minus_pass_rate": 1.0,
+      "wishlist_pass_n": 86,
+      "wishlist_pass_rate": 0.9885
+    },
+    {
+      "threshold": 68,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 86,
+      "wishlist_pass_rate": 0.9885
+    },
+    {
+      "threshold": 69,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 85,
+      "wishlist_pass_rate": 0.977
+    },
+    {
+      "threshold": 70,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 85,
+      "wishlist_pass_rate": 0.977
+    },
+    {
+      "threshold": 71,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 85,
+      "wishlist_pass_rate": 0.977
+    },
+    {
+      "threshold": 72,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 83,
+      "wishlist_pass_rate": 0.954
+    },
+    {
+      "threshold": 73,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 83,
+      "wishlist_pass_rate": 0.954
+    },
+    {
+      "threshold": 74,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 83,
+      "wishlist_pass_rate": 0.954
+    },
+    {
+      "threshold": 75,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 11,
+      "neutral_3_pass_rate": 1.0,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 83,
+      "wishlist_pass_rate": 0.954
+    },
+    {
+      "threshold": 76,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 10,
+      "neutral_3_pass_rate": 0.9091,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 81,
+      "wishlist_pass_rate": 0.931
+    },
+    {
+      "threshold": 77,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 10,
+      "neutral_3_pass_rate": 0.9091,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 81,
+      "wishlist_pass_rate": 0.931
+    },
+    {
+      "threshold": 78,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 29,
+      "positive_3_5plus_pass_rate": 0.9667,
+      "neutral_3_pass_n": 10,
+      "neutral_3_pass_rate": 0.9091,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 81,
+      "wishlist_pass_rate": 0.931
+    },
+    {
+      "threshold": 79,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 28,
+      "positive_3_5plus_pass_rate": 0.9333,
+      "neutral_3_pass_n": 9,
+      "neutral_3_pass_rate": 0.8182,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 77,
+      "wishlist_pass_rate": 0.8851
+    },
+    {
+      "threshold": 80,
+      "strong_positive_4plus_pass_n": 8,
+      "strong_positive_4plus_pass_rate": 0.8889,
+      "positive_3_5plus_pass_n": 28,
+      "positive_3_5plus_pass_rate": 0.9333,
+      "neutral_3_pass_n": 9,
+      "neutral_3_pass_rate": 0.8182,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 77,
+      "wishlist_pass_rate": 0.8851
+    },
+    {
+      "threshold": 81,
+      "strong_positive_4plus_pass_n": 7,
+      "strong_positive_4plus_pass_rate": 0.7778,
+      "positive_3_5plus_pass_n": 26,
+      "positive_3_5plus_pass_rate": 0.8667,
+      "neutral_3_pass_n": 8,
+      "neutral_3_pass_rate": 0.7273,
+      "negative_2_5minus_pass_n": 13,
+      "negative_2_5minus_pass_rate": 0.9286,
+      "wishlist_pass_n": 75,
+      "wishlist_pass_rate": 0.8621
+    },
+    {
+      "threshold": 82,
+      "strong_positive_4plus_pass_n": 7,
+      "strong_positive_4plus_pass_rate": 0.7778,
+      "positive_3_5plus_pass_n": 26,
+      "positive_3_5plus_pass_rate": 0.8667,
+      "neutral_3_pass_n": 8,
+      "neutral_3_pass_rate": 0.7273,
+      "negative_2_5minus_pass_n": 12,
+      "negative_2_5minus_pass_rate": 0.8571,
+      "wishlist_pass_n": 74,
+      "wishlist_pass_rate": 0.8506
+    },
+    {
+      "threshold": 83,
+      "strong_positive_4plus_pass_n": 7,
+      "strong_positive_4plus_pass_rate": 0.7778,
+      "positive_3_5plus_pass_n": 25,
+      "positive_3_5plus_pass_rate": 0.8333,
+      "neutral_3_pass_n": 8,
+      "neutral_3_pass_rate": 0.7273,
+      "negative_2_5minus_pass_n": 12,
+      "negative_2_5minus_pass_rate": 0.8571,
+      "wishlist_pass_n": 71,
+      "wishlist_pass_rate": 0.8161
+    },
+    {
+      "threshold": 84,
+      "strong_positive_4plus_pass_n": 7,
+      "strong_positive_4plus_pass_rate": 0.7778,
+      "positive_3_5plus_pass_n": 25,
+      "positive_3_5plus_pass_rate": 0.8333,
+      "neutral_3_pass_n": 8,
+      "neutral_3_pass_rate": 0.7273,
+      "negative_2_5minus_pass_n": 12,
+      "negative_2_5minus_pass_rate": 0.8571,
+      "wishlist_pass_n": 67,
+      "wishlist_pass_rate": 0.7701
+    },
+    {
+      "threshold": 85,
+      "strong_positive_4plus_pass_n": 7,
+      "strong_positive_4plus_pass_rate": 0.7778,
+      "positive_3_5plus_pass_n": 25,
+      "positive_3_5plus_pass_rate": 0.8333,
+      "neutral_3_pass_n": 8,
+      "neutral_3_pass_rate": 0.7273,
+      "negative_2_5minus_pass_n": 12,
+      "negative_2_5minus_pass_rate": 0.8571,
+      "wishlist_pass_n": 65,
+      "wishlist_pass_rate": 0.7471
+    },
+    {
+      "threshold": 86,
+      "strong_positive_4plus_pass_n": 6,
+      "strong_positive_4plus_pass_rate": 0.6667,
+      "positive_3_5plus_pass_n": 24,
+      "positive_3_5plus_pass_rate": 0.8,
+      "neutral_3_pass_n": 8,
+      "neutral_3_pass_rate": 0.7273,
+      "negative_2_5minus_pass_n": 11,
+      "negative_2_5minus_pass_rate": 0.7857,
+      "wishlist_pass_n": 62,
+      "wishlist_pass_rate": 0.7126
+    },
+    {
+      "threshold": 87,
+      "strong_positive_4plus_pass_n": 6,
+      "strong_positive_4plus_pass_rate": 0.6667,
+      "positive_3_5plus_pass_n": 23,
+      "positive_3_5plus_pass_rate": 0.7667,
+      "neutral_3_pass_n": 6,
+      "neutral_3_pass_rate": 0.5455,
+      "negative_2_5minus_pass_n": 8,
+      "negative_2_5minus_pass_rate": 0.5714,
+      "wishlist_pass_n": 56,
+      "wishlist_pass_rate": 0.6437
+    },
+    {
+      "threshold": 88,
+      "strong_positive_4plus_pass_n": 6,
+      "strong_positive_4plus_pass_rate": 0.6667,
+      "positive_3_5plus_pass_n": 23,
+      "positive_3_5plus_pass_rate": 0.7667,
+      "neutral_3_pass_n": 6,
+      "neutral_3_pass_rate": 0.5455,
+      "negative_2_5minus_pass_n": 7,
+      "negative_2_5minus_pass_rate": 0.5,
+      "wishlist_pass_n": 55,
+      "wishlist_pass_rate": 0.6322
+    },
+    {
+      "threshold": 89,
+      "strong_positive_4plus_pass_n": 6,
+      "strong_positive_4plus_pass_rate": 0.6667,
+      "positive_3_5plus_pass_n": 23,
+      "positive_3_5plus_pass_rate": 0.7667,
+      "neutral_3_pass_n": 6,
+      "neutral_3_pass_rate": 0.5455,
+      "negative_2_5minus_pass_n": 7,
+      "negative_2_5minus_pass_rate": 0.5,
+      "wishlist_pass_n": 54,
+      "wishlist_pass_rate": 0.6207
+    },
+    {
+      "threshold": 90,
+      "strong_positive_4plus_pass_n": 5,
+      "strong_positive_4plus_pass_rate": 0.5556,
+      "positive_3_5plus_pass_n": 20,
+      "positive_3_5plus_pass_rate": 0.6667,
+      "neutral_3_pass_n": 6,
+      "neutral_3_pass_rate": 0.5455,
+      "negative_2_5minus_pass_n": 6,
+      "negative_2_5minus_pass_rate": 0.4286,
+      "wishlist_pass_n": 51,
+      "wishlist_pass_rate": 0.5862
+    },
+    {
+      "threshold": 91,
+      "strong_positive_4plus_pass_n": 2,
+      "strong_positive_4plus_pass_rate": 0.2222,
+      "positive_3_5plus_pass_n": 15,
+      "positive_3_5plus_pass_rate": 0.5,
+      "neutral_3_pass_n": 5,
+      "neutral_3_pass_rate": 0.4545,
+      "negative_2_5minus_pass_n": 6,
+      "negative_2_5minus_pass_rate": 0.4286,
+      "wishlist_pass_n": 47,
+      "wishlist_pass_rate": 0.5402
+    },
+    {
+      "threshold": 92,
+      "strong_positive_4plus_pass_n": 2,
+      "strong_positive_4plus_pass_rate": 0.2222,
+      "positive_3_5plus_pass_n": 14,
+      "positive_3_5plus_pass_rate": 0.4667,
+      "neutral_3_pass_n": 5,
+      "neutral_3_pass_rate": 0.4545,
+      "negative_2_5minus_pass_n": 5,
+      "negative_2_5minus_pass_rate": 0.3571,
+      "wishlist_pass_n": 41,
+      "wishlist_pass_rate": 0.4713
+    },
+    {
+      "threshold": 93,
+      "strong_positive_4plus_pass_n": 2,
+      "strong_positive_4plus_pass_rate": 0.2222,
+      "positive_3_5plus_pass_n": 13,
+      "positive_3_5plus_pass_rate": 0.4333,
+      "neutral_3_pass_n": 4,
+      "neutral_3_pass_rate": 0.3636,
+      "negative_2_5minus_pass_n": 4,
+      "negative_2_5minus_pass_rate": 0.2857,
+      "wishlist_pass_n": 32,
+      "wishlist_pass_rate": 0.3678
+    },
+    {
+      "threshold": 94,
+      "strong_positive_4plus_pass_n": 0,
+      "strong_positive_4plus_pass_rate": 0.0,
+      "positive_3_5plus_pass_n": 10,
+      "positive_3_5plus_pass_rate": 0.3333,
+      "neutral_3_pass_n": 4,
+      "neutral_3_pass_rate": 0.3636,
+      "negative_2_5minus_pass_n": 2,
+      "negative_2_5minus_pass_rate": 0.1429,
+      "wishlist_pass_n": 26,
+      "wishlist_pass_rate": 0.2989
+    },
+    {
+      "threshold": 95,
+      "strong_positive_4plus_pass_n": 0,
+      "strong_positive_4plus_pass_rate": 0.0,
+      "positive_3_5plus_pass_n": 10,
+      "positive_3_5plus_pass_rate": 0.3333,
+      "neutral_3_pass_n": 4,
+      "neutral_3_pass_rate": 0.3636,
+      "negative_2_5minus_pass_n": 2,
+      "negative_2_5minus_pass_rate": 0.1429,
+      "wishlist_pass_n": 23,
+      "wishlist_pass_rate": 0.2644
+    }
+  ],
+  "rated_low_positive_examples": [
+    {
+      "appid": "38480",
+      "title": "Earthworm Jim",
+      "steam_title": "Earthworm Jim",
+      "user_rating": 4,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 176,
+        "positive_raw": 50.57,
+        "positive_display": 51
+      },
+      "russian": {
+        "ok": true,
+        "count": 29,
+        "positive_raw": 75.86,
+        "positive_display": 76
+      },
+      "effective_percent_ru100": 51
+    },
+    {
+      "appid": "1262560",
+      "title": "Need for Speed: Most Wanted",
+      "steam_title": "Need for Speed™ Most Wanted",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_fuzzy_0.963",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 27812,
+        "positive_raw": 77.1,
+        "positive_display": 77
+      },
+      "russian": {
+        "ok": true,
+        "count": 4088,
+        "positive_raw": 78.25,
+        "positive_display": 78
+      },
+      "effective_percent_ru100": 78
+    },
+    {
+      "appid": "12130",
+      "title": "Manhunt",
+      "steam_title": "Manhunt",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 9508,
+        "positive_raw": 71.25,
+        "positive_display": 71
+      },
+      "russian": {
+        "ok": true,
+        "count": 1474,
+        "positive_raw": 79.78,
+        "positive_display": 80
+      },
+      "effective_percent_ru100": 80
+    },
+    {
+      "appid": "13530",
+      "title": "Prince of Persia: The Two Thrones",
+      "steam_title": "Prince of Persia: The Two Thrones™",
+      "user_rating": 4,
+      "mapping_method": "steam_search_fuzzy_0.970",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 2794,
+        "positive_raw": 80.39,
+        "positive_display": 80
+      },
+      "russian": {
+        "ok": true,
+        "count": 331,
+        "positive_raw": 78.25,
+        "positive_display": 78
+      },
+      "effective_percent_ru100": 80
+    },
+    {
+      "appid": "22300",
+      "title": "Fallout 3",
+      "steam_title": "Fallout 3",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 22163,
+        "positive_raw": 81.49,
+        "positive_display": 81
+      },
+      "russian": {
+        "ok": true,
+        "count": 3383,
+        "positive_raw": 81.94,
+        "positive_display": 82
+      },
+      "effective_percent_ru100": 82
+    },
+    {
+      "appid": "2651280",
+      "title": "Marvel's Spider-Man",
+      "steam_title": "Marvel's Spider-Man 2",
+      "user_rating": 4,
+      "mapping_method": "steam_search_fuzzy_0.950",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 45920,
+        "positive_raw": 83.24,
+        "positive_display": 83
+      },
+      "russian": {
+        "ok": true,
+        "count": 3020,
+        "positive_raw": 85.17,
+        "positive_display": 85
+      },
+      "effective_percent_ru100": 85
+    },
+    {
+      "appid": "3008520",
+      "title": "Perfect World",
+      "steam_title": "Perfect World",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 94,
+        "positive_raw": 86.17,
+        "positive_display": 86
+      },
+      "russian": {
+        "ok": true,
+        "count": 9,
+        "positive_raw": 88.89,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "1284410",
+      "title": "Gwent: The Witcher Card Game",
+      "steam_title": "GWENT: The Witcher Card Game",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 27699,
+        "positive_raw": 85.7,
+        "positive_display": 86
+      },
+      "russian": {
+        "ok": true,
+        "count": 5906,
+        "positive_raw": 88.69,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 89
+    },
+    {
+      "appid": "13500",
+      "title": "Prince of Persia: Warrior Within",
+      "steam_title": "Prince of Persia: Warrior Within™",
+      "user_rating": 4,
+      "mapping_method": "steam_search_fuzzy_0.969",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 4123,
+        "positive_raw": 82.93,
+        "positive_display": 83
+      },
+      "russian": {
+        "ok": true,
+        "count": 648,
+        "positive_raw": 89.35,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 89
+    },
+    {
+      "appid": "204100",
+      "title": "Max Payne 3",
+      "steam_title": "Max Payne 3",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 63993,
+        "positive_raw": 86.99,
+        "positive_display": 87
+      },
+      "russian": {
+        "ok": true,
+        "count": 9075,
+        "positive_raw": 88.82,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 89
+    },
+    {
+      "appid": "208650",
+      "title": "Batman: Arkham Knight",
+      "steam_title": "Batman™: Arkham Knight",
+      "user_rating": 4,
+      "mapping_method": "steam_search_fuzzy_0.952",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 159340,
+        "positive_raw": 89.69,
+        "positive_display": 90
+      },
+      "russian": {
+        "ok": true,
+        "count": 11269,
+        "positive_raw": 90.15,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "33230",
+      "title": "Assassin's Creed",
+      "steam_title": "Assassin's Creed 2",
+      "user_rating": 4,
+      "mapping_method": "steam_search_fuzzy_0.941",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 61301,
+        "positive_raw": 89.47,
+        "positive_display": 89
+      },
+      "russian": {
+        "ok": true,
+        "count": 6038,
+        "positive_raw": 90.49,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "209000",
+      "title": "Batman: Arkham Origins",
+      "steam_title": "Batman™: Arkham Origins",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_fuzzy_0.955",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 65291,
+        "positive_raw": 89.85,
+        "positive_display": 90
+      },
+      "russian": {
+        "ok": true,
+        "count": 6062,
+        "positive_raw": 89.28,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "990080",
+      "title": "Hogwarts Legacy",
+      "steam_title": "Hogwarts Legacy",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 371547,
+        "positive_raw": 89.79,
+        "positive_display": 90
+      },
+      "russian": {
+        "ok": true,
+        "count": 20624,
+        "positive_raw": 85.07,
+        "positive_display": 85
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "1888930",
+      "title": "The Last of Us: Part I",
+      "steam_title": "The Last of Us™ Part I",
+      "user_rating": 4.5,
+      "mapping_method": "steam_search_fuzzy_0.955",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 108286,
+        "positive_raw": 84.36,
+        "positive_display": 84
+      },
+      "russian": {
+        "ok": true,
+        "count": 7925,
+        "positive_raw": 90.08,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "237990",
+      "title": "The Banner Saga",
+      "steam_title": "The Banner Saga",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 15947,
+        "positive_raw": 88.97,
+        "positive_display": 89
+      },
+      "russian": {
+        "ok": true,
+        "count": 2281,
+        "positive_raw": 90.57,
+        "positive_display": 91
+      },
+      "effective_percent_ru100": 91
+    },
+    {
+      "appid": "1182900",
+      "title": "A Plague Tale: Requiem",
+      "steam_title": "A Plague Tale: Requiem",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 26690,
+        "positive_raw": 90.78,
+        "positive_display": 91
+      },
+      "russian": {
+        "ok": true,
+        "count": 3831,
+        "positive_raw": 92.35,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "284050",
+      "title": "Sanitarium",
+      "steam_title": "Sanitarium",
+      "user_rating": 4,
+      "mapping_method": "wishlist_exact_title",
+      "in_wishlist": true,
+      "global": {
+        "ok": true,
+        "count": 1365,
+        "positive_raw": 93.26,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 98,
+        "positive_raw": 95.92,
+        "positive_display": 96
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "1817190",
+      "title": "Marvel's Spider-Man: Miles Morales",
+      "steam_title": "Marvel’s Spider-Man: Miles Morales",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 56073,
+        "positive_raw": 93.29,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 3270,
+        "positive_raw": 90.12,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "752590",
+      "title": "A Plague Tale: Innocence",
+      "steam_title": "A Plague Tale: Innocence",
+      "user_rating": 4,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 71426,
+        "positive_raw": 93.21,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 8310,
+        "positive_raw": 93.27,
+        "positive_display": 93
+      },
+      "effective_percent_ru100": 93
+    }
+  ],
+  "rated_high_negative_examples": [
+    {
+      "appid": "207610",
+      "title": "The Walking Dead",
+      "steam_title": "The Walking Dead",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 80363,
+        "positive_raw": 97.32,
+        "positive_display": 97
+      },
+      "russian": {
+        "ok": true,
+        "count": 11046,
+        "positive_raw": 97.71,
+        "positive_display": 98
+      },
+      "effective_percent_ru100": 98
+    },
+    {
+      "appid": "70",
+      "title": "Half-Life",
+      "steam_title": "Half-Life",
+      "user_rating": 1.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 163747,
+        "positive_raw": 96.5,
+        "positive_display": 96
+      },
+      "russian": {
+        "ok": true,
+        "count": 25394,
+        "positive_raw": 95.86,
+        "positive_display": 96
+      },
+      "effective_percent_ru100": 96
+    },
+    {
+      "appid": "2653790",
+      "title": "The Exit 8",
+      "steam_title": "The Exit 8",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 11472,
+        "positive_raw": 93.05,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 929,
+        "positive_raw": 89.99,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "130",
+      "title": "Half-Life: Blue Shift",
+      "steam_title": "Half-Life: Blue Shift",
+      "user_rating": 2,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 21183,
+        "positive_raw": 92.62,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 3173,
+        "positive_raw": 91.65,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "242550",
+      "title": "Rayman Legends",
+      "steam_title": "Rayman® Legends",
+      "user_rating": 2,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 12316,
+        "positive_raw": 89.92,
+        "positive_display": 90
+      },
+      "russian": {
+        "ok": true,
+        "count": 1613,
+        "positive_raw": 92.25,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "1693980",
+      "title": "Dead Space",
+      "steam_title": "Dead Space",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 70415,
+        "positive_raw": 90.51,
+        "positive_display": 91
+      },
+      "russian": {
+        "ok": true,
+        "count": 5197,
+        "positive_raw": 90.73,
+        "positive_display": 91
+      },
+      "effective_percent_ru100": 91
+    },
+    {
+      "appid": "1091500",
+      "title": "Cyberpunk 2077",
+      "steam_title": "Cyberpunk 2077",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 975872,
+        "positive_raw": 86.84,
+        "positive_display": 87
+      },
+      "russian": {
+        "ok": true,
+        "count": 86596,
+        "positive_raw": 88.79,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 89
+    },
+    {
+      "appid": "3008130",
+      "title": "Dying Light: The Beast",
+      "steam_title": "Dying Light: The Beast",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 70894,
+        "positive_raw": 86.54,
+        "positive_display": 87
+      },
+      "russian": {
+        "ok": true,
+        "count": 8677,
+        "positive_raw": 87.14,
+        "positive_display": 87
+      },
+      "effective_percent_ru100": 87
+    },
+    {
+      "appid": "208200",
+      "title": "DOOM 3",
+      "steam_title": "DOOM 3",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 12493,
+        "positive_raw": 86.18,
+        "positive_display": 86
+      },
+      "russian": {
+        "ok": true,
+        "count": 1107,
+        "positive_raw": 82.02,
+        "positive_display": 82
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "13520",
+      "title": "Far Cry",
+      "steam_title": "Far Cry®",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 11761,
+        "positive_raw": 81.79,
+        "positive_display": 82
+      },
+      "russian": {
+        "ok": true,
+        "count": 2105,
+        "positive_raw": 86.08,
+        "positive_display": 86
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "536220",
+      "title": "The Walking Dead: A New Frontier",
+      "steam_title": "The Walking Dead: A New Frontier",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 18543,
+        "positive_raw": 83.51,
+        "positive_display": 84
+      },
+      "russian": {
+        "ok": true,
+        "count": 3555,
+        "positive_raw": 85.74,
+        "positive_display": 86
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "218640",
+      "title": "Lucius",
+      "steam_title": "Lucius",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 10913,
+        "positive_raw": 81.01,
+        "positive_display": 81
+      },
+      "russian": {
+        "ok": true,
+        "count": 1944,
+        "positive_raw": 84.67,
+        "positive_display": 85
+      },
+      "effective_percent_ru100": 85
+    },
+    {
+      "appid": "377160",
+      "title": "Fallout 4",
+      "steam_title": "Fallout 4",
+      "user_rating": 2,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 428525,
+        "positive_raw": 81.17,
+        "positive_display": 81
+      },
+      "russian": {
+        "ok": true,
+        "count": 30147,
+        "positive_raw": 79.02,
+        "positive_display": 79
+      },
+      "effective_percent_ru100": 81
+    },
+    {
+      "appid": "296830",
+      "title": "Lucius II",
+      "steam_title": "Lucius II",
+      "user_rating": 2,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 2335,
+        "positive_raw": 61.63,
+        "positive_display": 62
+      },
+      "russian": {
+        "ok": true,
+        "count": 413,
+        "positive_raw": 67.07,
+        "positive_display": 67
+      },
+      "effective_percent_ru100": 67
+    }
+  ],
+  "wishlist_low_rating_examples": [
+    {
+      "appid": "3787240",
+      "title": "MARVEL Tōkon: Fighting Souls",
+      "global": {
+        "ok": true,
+        "count": 6566,
+        "positive_raw": 47.9,
+        "positive_display": 48
+      },
+      "russian": {
+        "ok": true,
+        "count": 56,
+        "positive_raw": 37.5,
+        "positive_display": 38
+      },
+      "effective_percent_ru100": 48
+    },
+    {
+      "appid": "1244950",
+      "title": "Battletoads",
+      "global": {
+        "ok": true,
+        "count": 2401,
+        "positive_raw": 67.76,
+        "positive_display": 68
+      },
+      "russian": {
+        "ok": true,
+        "count": 907,
+        "positive_raw": 65.93,
+        "positive_display": 66
+      },
+      "effective_percent_ru100": 68
+    },
+    {
+      "appid": "33320",
+      "title": "Prince of Persia: The Forgotten Sands™",
+      "global": {
+        "ok": true,
+        "count": 3023,
+        "positive_raw": 70.86,
+        "positive_display": 71
+      },
+      "russian": {
+        "ok": true,
+        "count": 315,
+        "positive_raw": 64.76,
+        "positive_display": 65
+      },
+      "effective_percent_ru100": 71
+    },
+    {
+      "appid": "1370050",
+      "title": "Trek to Yomi",
+      "global": {
+        "ok": true,
+        "count": 3078,
+        "positive_raw": 71.28,
+        "positive_display": 71
+      },
+      "russian": {
+        "ok": true,
+        "count": 312,
+        "positive_raw": 68.59,
+        "positive_display": 69
+      },
+      "effective_percent_ru100": 71
+    },
+    {
+      "appid": "2215260",
+      "title": "Scott Pilgrim vs. The World™: The Game – Complete Edition",
+      "global": {
+        "ok": true,
+        "count": 3645,
+        "positive_raw": 74.9,
+        "positive_display": 75
+      },
+      "russian": {
+        "ok": true,
+        "count": 118,
+        "positive_raw": 64.41,
+        "positive_display": 64
+      },
+      "effective_percent_ru100": 75
+    },
+    {
+      "appid": "3159330",
+      "title": "Assassin’s Creed Shadows",
+      "global": {
+        "ok": true,
+        "count": 39345,
+        "positive_raw": 75.3,
+        "positive_display": 75
+      },
+      "russian": {
+        "ok": true,
+        "count": 3532,
+        "positive_raw": 71.8,
+        "positive_display": 72
+      },
+      "effective_percent_ru100": 75
+    },
+    {
+      "appid": "765900",
+      "title": "Leisure Suit Larry - Magna Cum Laude Uncut and Uncensored",
+      "global": {
+        "ok": true,
+        "count": 764,
+        "positive_raw": 78.01,
+        "positive_display": 78
+      },
+      "russian": {
+        "ok": true,
+        "count": 66,
+        "positive_raw": 84.85,
+        "positive_display": 85
+      },
+      "effective_percent_ru100": 78
+    },
+    {
+      "appid": "3287520",
+      "title": "NINJA GAIDEN 2 Black",
+      "global": {
+        "ok": true,
+        "count": 4138,
+        "positive_raw": 78.23,
+        "positive_display": 78
+      },
+      "russian": {
+        "ok": true,
+        "count": 198,
+        "positive_raw": 77.78,
+        "positive_display": 78
+      },
+      "effective_percent_ru100": 78
+    },
+    {
+      "appid": "978300",
+      "title": "Saints Row®: The Third™ Remastered",
+      "global": {
+        "ok": true,
+        "count": 4688,
+        "positive_raw": 72.57,
+        "positive_display": 73
+      },
+      "russian": {
+        "ok": true,
+        "count": 666,
+        "positive_raw": 77.93,
+        "positive_display": 78
+      },
+      "effective_percent_ru100": 78
+    },
+    {
+      "appid": "1225570",
+      "title": "Unravel Two",
+      "global": {
+        "ok": true,
+        "count": 9143,
+        "positive_raw": 78.15,
+        "positive_display": 78
+      },
+      "russian": {
+        "ok": true,
+        "count": 678,
+        "positive_raw": 75.66,
+        "positive_display": 76
+      },
+      "effective_percent_ru100": 78
+    },
+    {
+      "appid": "13530",
+      "title": "Prince of Persia: The Two Thrones™",
+      "global": {
+        "ok": true,
+        "count": 2794,
+        "positive_raw": 80.39,
+        "positive_display": 80
+      },
+      "russian": {
+        "ok": true,
+        "count": 331,
+        "positive_raw": 78.25,
+        "positive_display": 78
+      },
+      "effective_percent_ru100": 80
+    },
+    {
+      "appid": "1233570",
+      "title": "Mirror's Edge™ Catalyst",
+      "global": {
+        "ok": true,
+        "count": 16528,
+        "positive_raw": 79.7,
+        "positive_display": 80
+      },
+      "russian": {
+        "ok": true,
+        "count": 2075,
+        "positive_raw": 80.05,
+        "positive_display": 80
+      },
+      "effective_percent_ru100": 80
+    },
+    {
+      "appid": "2988580",
+      "title": "Yakuza 0 Director's Cut",
+      "global": {
+        "ok": true,
+        "count": 1814,
+        "positive_raw": 81.37,
+        "positive_display": 81
+      },
+      "russian": {
+        "ok": true,
+        "count": 191,
+        "positive_raw": 78.01,
+        "positive_display": 78
+      },
+      "effective_percent_ru100": 81
+    },
+    {
+      "appid": "19980",
+      "title": "Prince of Persia®",
+      "global": {
+        "ok": true,
+        "count": 3896,
+        "positive_raw": 78.75,
+        "positive_display": 79
+      },
+      "russian": {
+        "ok": true,
+        "count": 458,
+        "positive_raw": 82.31,
+        "positive_display": 82
+      },
+      "effective_percent_ru100": 82
+    },
+    {
+      "appid": "1373550",
+      "title": "BloodRayne 2: Terminal Cut",
+      "global": {
+        "ok": true,
+        "count": 1224,
+        "positive_raw": 77.21,
+        "positive_display": 77
+      },
+      "russian": {
+        "ok": true,
+        "count": 449,
+        "positive_raw": 81.51,
+        "positive_display": 82
+      },
+      "effective_percent_ru100": 82
+    },
+    {
+      "appid": "9480",
+      "title": "Saints Row 2",
+      "global": {
+        "ok": true,
+        "count": 21721,
+        "positive_raw": 75.84,
+        "positive_display": 76
+      },
+      "russian": {
+        "ok": true,
+        "count": 2449,
+        "positive_raw": 82.16,
+        "positive_display": 82
+      },
+      "effective_percent_ru100": 82
+    },
+    {
+      "appid": "15100",
+      "title": "Assassin's Creed™: Director's Cut Edition",
+      "global": {
+        "ok": true,
+        "count": 25342,
+        "positive_raw": 80.58,
+        "positive_display": 81
+      },
+      "russian": {
+        "ok": true,
+        "count": 3750,
+        "positive_raw": 83.49,
+        "positive_display": 83
+      },
+      "effective_percent_ru100": 83
+    },
+    {
+      "appid": "1547000",
+      "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
+      "global": {
+        "ok": true,
+        "count": 15968,
+        "positive_raw": 79.97,
+        "positive_display": 80
+      },
+      "russian": {
+        "ok": true,
+        "count": 2124,
+        "positive_raw": 82.96,
+        "positive_display": 83
+      },
+      "effective_percent_ru100": 83
+    },
+    {
+      "appid": "2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "global": {
+        "ok": true,
+        "count": 34786,
+        "positive_raw": 75.06,
+        "positive_display": 75
+      },
+      "russian": {
+        "ok": true,
+        "count": 555,
+        "positive_raw": 83.24,
+        "positive_display": 83
+      },
+      "effective_percent_ru100": 83
+    },
+    {
+      "appid": "2950340",
+      "title": "LEGO® Harry Potter™ Collection",
+      "global": {
+        "ok": true,
+        "count": 1629,
+        "positive_raw": 83.06,
+        "positive_display": 83
+      },
+      "russian": {
+        "ok": true,
+        "count": 101,
+        "positive_raw": 74.26,
+        "positive_display": 74
+      },
+      "effective_percent_ru100": 83
+    },
+    {
+      "appid": "379430",
+      "title": "Kingdom Come: Deliverance",
+      "global": {
+        "ok": true,
+        "count": 185095,
+        "positive_raw": 84.41,
+        "positive_display": 84
+      },
+      "russian": {
+        "ok": true,
+        "count": 16870,
+        "positive_raw": 83.93,
+        "positive_display": 84
+      },
+      "effective_percent_ru100": 84
+    },
+    {
+      "appid": "2424420",
+      "title": "Avatar Legends: The Fighting Game",
+      "global": {
+        "ok": true,
+        "count": 3194,
+        "positive_raw": 84.35,
+        "positive_display": 84
+      },
+      "russian": {
+        "ok": true,
+        "count": 152,
+        "positive_raw": 71.71,
+        "positive_display": 72
+      },
+      "effective_percent_ru100": 84
+    },
+    {
+      "appid": "10150",
+      "title": "Prototype™",
+      "global": {
+        "ok": true,
+        "count": 14159,
+        "positive_raw": 80.45,
+        "positive_display": 80
+      },
+      "russian": {
+        "ok": true,
+        "count": 1171,
+        "positive_raw": 85.31,
+        "positive_display": 85
+      },
+      "effective_percent_ru100": 85
+    },
+    {
+      "appid": "1406810",
+      "title": "After Us",
+      "global": {
+        "ok": true,
+        "count": 492,
+        "positive_raw": 84.96,
+        "positive_display": 85
+      },
+      "russian": {
+        "ok": true,
+        "count": 39,
+        "positive_raw": 92.31,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 85
+    },
+    {
+      "appid": "2651280",
+      "title": "Marvel Человек-Паук 2",
+      "global": {
+        "ok": true,
+        "count": 45920,
+        "positive_raw": 83.24,
+        "positive_display": 83
+      },
+      "russian": {
+        "ok": true,
+        "count": 3020,
+        "positive_raw": 85.17,
+        "positive_display": 85
+      },
+      "effective_percent_ru100": 85
+    }
+  ],
+  "rated_games": [
+    {
+      "appid": "223470",
+      "title": "Postal 2",
+      "steam_title": "POSTAL 2",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 137235,
+        "positive_raw": 96.95,
+        "positive_display": 97
+      },
+      "russian": {
+        "ok": true,
+        "count": 40625,
+        "positive_raw": 97.54,
+        "positive_display": 98
+      },
+      "effective_percent_ru100": 98
+    },
+    {
+      "appid": "2653790",
+      "title": "The Exit 8",
+      "steam_title": "The Exit 8",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 11472,
+        "positive_raw": 93.05,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 929,
+        "positive_raw": 89.99,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "284050",
+      "title": "Sanitarium",
+      "steam_title": "Sanitarium",
+      "user_rating": 4,
+      "mapping_method": "wishlist_exact_title",
+      "in_wishlist": true,
+      "global": {
+        "ok": true,
+        "count": 1365,
+        "positive_raw": 93.26,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 98,
+        "positive_raw": 95.92,
+        "positive_display": 96
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "218640",
+      "title": "Lucius",
+      "steam_title": "Lucius",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 10913,
+        "positive_raw": 81.01,
+        "positive_display": 81
+      },
+      "russian": {
+        "ok": true,
+        "count": 1944,
+        "positive_raw": 84.67,
+        "positive_display": 85
+      },
+      "effective_percent_ru100": 85
+    },
+    {
+      "appid": "296830",
+      "title": "Lucius II",
+      "steam_title": "Lucius II",
+      "user_rating": 2,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 2335,
+        "positive_raw": 61.63,
+        "positive_display": 62
+      },
+      "russian": {
+        "ok": true,
+        "count": 413,
+        "positive_raw": 67.07,
+        "positive_display": 67
+      },
+      "effective_percent_ru100": 67
+    },
+    {
+      "appid": "1693980",
+      "title": "Dead Space",
+      "steam_title": "Dead Space",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 70415,
+        "positive_raw": 90.51,
+        "positive_display": 91
+      },
+      "russian": {
+        "ok": true,
+        "count": 5197,
+        "positive_raw": 90.73,
+        "positive_display": 91
+      },
+      "effective_percent_ru100": 91
+    },
+    {
+      "appid": "3008520",
+      "title": "Perfect World",
+      "steam_title": "Perfect World",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 94,
+        "positive_raw": 86.17,
+        "positive_display": 86
+      },
+      "russian": {
+        "ok": true,
+        "count": 9,
+        "positive_raw": 88.89,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "38480",
+      "title": "Earthworm Jim",
+      "steam_title": "Earthworm Jim",
+      "user_rating": 4,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 176,
+        "positive_raw": 50.57,
+        "positive_display": 51
+      },
+      "russian": {
+        "ok": true,
+        "count": 29,
+        "positive_raw": 75.86,
+        "positive_display": 76
+      },
+      "effective_percent_ru100": 51
+    },
+    {
+      "appid": "29900",
+      "title": "Dark Sector",
+      "steam_title": "Dark Sector",
+      "user_rating": 3,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 3547,
+        "positive_raw": 74.85,
+        "positive_display": 75
+      },
+      "russian": {
+        "ok": true,
+        "count": 760,
+        "positive_raw": 74.61,
+        "positive_display": 75
+      },
+      "effective_percent_ru100": 75
+    },
+    {
+      "appid": "1284410",
+      "title": "Gwent: The Witcher Card Game",
+      "steam_title": "GWENT: The Witcher Card Game",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 27699,
+        "positive_raw": 85.7,
+        "positive_display": 86
+      },
+      "russian": {
+        "ok": true,
+        "count": 5906,
+        "positive_raw": 88.69,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 89
+    },
+    {
+      "appid": "281640",
+      "title": "The Banner Saga 2",
+      "steam_title": "The Banner Saga 2",
+      "user_rating": 3,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 3801,
+        "positive_raw": 89.61,
+        "positive_display": 90
+      },
+      "russian": {
+        "ok": true,
+        "count": 608,
+        "positive_raw": 89.31,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "1117850",
+      "title": "Cuphead: The Delicious Last Course",
+      "steam_title": "Cuphead - The Delicious Last Course",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 4998,
+        "positive_raw": 94.78,
+        "positive_display": 95
+      },
+      "russian": {
+        "ok": true,
+        "count": 732,
+        "positive_raw": 94.26,
+        "positive_display": 94
+      },
+      "effective_percent_ru100": 95
+    },
+    {
+      "appid": "12130",
+      "title": "Manhunt",
+      "steam_title": "Manhunt",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 9508,
+        "positive_raw": 71.25,
+        "positive_display": 71
+      },
+      "russian": {
+        "ok": true,
+        "count": 1474,
+        "positive_raw": 79.78,
+        "positive_display": 80
+      },
+      "effective_percent_ru100": 80
+    },
+    {
+      "appid": "2272360",
+      "title": "Warhammer 40,000: Dawn of War",
+      "steam_title": "Warhammer 40,000: Dawn of War IV",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_fuzzy_0.949",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 0,
+        "positive_raw": null,
+        "positive_display": null
+      },
+      "russian": {
+        "ok": true,
+        "count": 0,
+        "positive_raw": null,
+        "positive_display": null
+      },
+      "effective_percent_ru100": null
+    },
+    {
+      "appid": "3008130",
+      "title": "Dying Light: The Beast",
+      "steam_title": "Dying Light: The Beast",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 70894,
+        "positive_raw": 86.54,
+        "positive_display": 87
+      },
+      "russian": {
+        "ok": true,
+        "count": 8677,
+        "positive_raw": 87.14,
+        "positive_display": 87
+      },
+      "effective_percent_ru100": 87
+    },
+    {
+      "appid": "239250",
+      "title": "Castlevania: Lords of Shadow",
+      "steam_title": "Castlevania: Lords of Shadow 2",
+      "user_rating": 3,
+      "mapping_method": "steam_search_fuzzy_0.964",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 6490,
+        "positive_raw": 84.76,
+        "positive_display": 85
+      },
+      "russian": {
+        "ok": true,
+        "count": 937,
+        "positive_raw": 86.13,
+        "positive_display": 86
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "2947440",
+      "title": "Silent Hill f",
+      "steam_title": "SILENT HILL f",
+      "user_rating": 3,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 28732,
+        "positive_raw": 80.48,
+        "positive_display": 80
+      },
+      "russian": {
+        "ok": true,
+        "count": 2901,
+        "positive_raw": 72.18,
+        "positive_display": 72
+      },
+      "effective_percent_ru100": 80
+    },
+    {
+      "appid": "130",
+      "title": "Half-Life: Blue Shift",
+      "steam_title": "Half-Life: Blue Shift",
+      "user_rating": 2,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 21183,
+        "positive_raw": 92.62,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 3173,
+        "positive_raw": 91.65,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "242550",
+      "title": "Rayman Legends",
+      "steam_title": "Rayman® Legends",
+      "user_rating": 2,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 12316,
+        "positive_raw": 89.92,
+        "positive_display": 90
+      },
+      "russian": {
+        "ok": true,
+        "count": 1613,
+        "positive_raw": 92.25,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "237990",
+      "title": "The Banner Saga",
+      "steam_title": "The Banner Saga",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 15947,
+        "positive_raw": 88.97,
+        "positive_display": 89
+      },
+      "russian": {
+        "ok": true,
+        "count": 2281,
+        "positive_raw": 90.57,
+        "positive_display": 91
+      },
+      "effective_percent_ru100": 91
+    },
+    {
+      "appid": "208200",
+      "title": "DOOM 3",
+      "steam_title": "DOOM 3",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 12493,
+        "positive_raw": 86.18,
+        "positive_display": 86
+      },
+      "russian": {
+        "ok": true,
+        "count": 1107,
+        "positive_raw": 82.02,
+        "positive_display": 82
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "13530",
+      "title": "Prince of Persia: The Two Thrones",
+      "steam_title": "Prince of Persia: The Two Thrones™",
+      "user_rating": 4,
+      "mapping_method": "steam_search_fuzzy_0.970",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 2794,
+        "positive_raw": 80.39,
+        "positive_display": 80
+      },
+      "russian": {
+        "ok": true,
+        "count": 331,
+        "positive_raw": 78.25,
+        "positive_display": 78
+      },
+      "effective_percent_ru100": 80
+    },
+    {
+      "appid": "13600",
+      "title": "Prince of Persia: The Sands of Time",
+      "steam_title": "Prince of Persia®: The Sands of Time",
+      "user_rating": 3,
+      "mapping_method": "wishlist_exact_title",
+      "in_wishlist": true,
+      "global": {
+        "ok": true,
+        "count": 5267,
+        "positive_raw": 85.57,
+        "positive_display": 86
+      },
+      "russian": {
+        "ok": true,
+        "count": 609,
+        "positive_raw": 85.71,
+        "positive_display": 86
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "13500",
+      "title": "Prince of Persia: Warrior Within",
+      "steam_title": "Prince of Persia: Warrior Within™",
+      "user_rating": 4,
+      "mapping_method": "steam_search_fuzzy_0.969",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 4123,
+        "positive_raw": 82.93,
+        "positive_display": 83
+      },
+      "russian": {
+        "ok": true,
+        "count": 648,
+        "positive_raw": 89.35,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 89
+    },
+    {
+      "appid": "1182900",
+      "title": "A Plague Tale: Requiem",
+      "steam_title": "A Plague Tale: Requiem",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 26690,
+        "positive_raw": 90.78,
+        "positive_display": 91
+      },
+      "russian": {
+        "ok": true,
+        "count": 3831,
+        "positive_raw": 92.35,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "13520",
+      "title": "Far Cry",
+      "steam_title": "Far Cry®",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 11761,
+        "positive_raw": 81.79,
+        "positive_display": 82
+      },
+      "russian": {
+        "ok": true,
+        "count": 2105,
+        "positive_raw": 86.08,
+        "positive_display": 86
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "606280",
+      "title": "Darksiders II",
+      "steam_title": "Darksiders III",
+      "user_rating": 3,
+      "mapping_method": "steam_search_fuzzy_0.963",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 17428,
+        "positive_raw": 75.91,
+        "positive_display": 76
+      },
+      "russian": {
+        "ok": true,
+        "count": 3178,
+        "positive_raw": 78.01,
+        "positive_display": 78
+      },
+      "effective_percent_ru100": 78
+    },
+    {
+      "appid": "500",
+      "title": "Left 4 Dead",
+      "steam_title": "Left 4 Dead",
+      "user_rating": 3,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 67983,
+        "positive_raw": 96.39,
+        "positive_display": 96
+      },
+      "russian": {
+        "ok": true,
+        "count": 13095,
+        "positive_raw": 96.56,
+        "positive_display": 97
+      },
+      "effective_percent_ru100": 97
+    },
+    {
+      "appid": "6860",
+      "title": "Hitman: Blood Money",
+      "steam_title": "Hitman: Blood Money",
+      "user_rating": 3,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 16064,
+        "positive_raw": 94.07,
+        "positive_display": 94
+      },
+      "russian": {
+        "ok": true,
+        "count": 2418,
+        "positive_raw": 94.87,
+        "positive_display": 95
+      },
+      "effective_percent_ru100": 95
+    },
+    {
+      "appid": "1817190",
+      "title": "Marvel's Spider-Man: Miles Morales",
+      "steam_title": "Marvel’s Spider-Man: Miles Morales",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 56073,
+        "positive_raw": 93.29,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 3270,
+        "positive_raw": 90.12,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "12150",
+      "title": "Max Payne 2: The Fall of Max Payne",
+      "steam_title": "Max Payne 2: The Fall of Max Payne",
+      "user_rating": 3.5,
+      "mapping_method": "wishlist_exact_title",
+      "in_wishlist": true,
+      "global": {
+        "ok": true,
+        "count": 14600,
+        "positive_raw": 94.34,
+        "positive_display": 94
+      },
+      "russian": {
+        "ok": true,
+        "count": 1301,
+        "positive_raw": 94.77,
+        "positive_display": 95
+      },
+      "effective_percent_ru100": 95
+    },
+    {
+      "appid": "601150",
+      "title": "Devil May Cry 5",
+      "steam_title": "Devil May Cry 5",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 169947,
+        "positive_raw": 96.03,
+        "positive_display": 96
+      },
+      "russian": {
+        "ok": true,
+        "count": 10796,
+        "positive_raw": 94.35,
+        "positive_display": 94
+      },
+      "effective_percent_ru100": 96
+    },
+    {
+      "appid": "208650",
+      "title": "Batman: Arkham Knight",
+      "steam_title": "Batman™: Arkham Knight",
+      "user_rating": 4,
+      "mapping_method": "steam_search_fuzzy_0.952",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 159340,
+        "positive_raw": 89.69,
+        "positive_display": 90
+      },
+      "russian": {
+        "ok": true,
+        "count": 11269,
+        "positive_raw": 90.15,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "400",
+      "title": "Portal",
+      "steam_title": "Portal",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 198629,
+        "positive_raw": 98.52,
+        "positive_display": 99
+      },
+      "russian": {
+        "ok": true,
+        "count": 27828,
+        "positive_raw": 97.68,
+        "positive_display": 98
+      },
+      "effective_percent_ru100": 99
+    },
+    {
+      "appid": "1332010",
+      "title": "Stray",
+      "steam_title": "Stray",
+      "user_rating": 3,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 177322,
+        "positive_raw": 97.21,
+        "positive_display": 97
+      },
+      "russian": {
+        "ok": true,
+        "count": 26137,
+        "positive_raw": 97.67,
+        "positive_display": 98
+      },
+      "effective_percent_ru100": 98
+    },
+    {
+      "appid": "1262560",
+      "title": "Need for Speed: Most Wanted",
+      "steam_title": "Need for Speed™ Most Wanted",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_fuzzy_0.963",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 27812,
+        "positive_raw": 77.1,
+        "positive_display": 77
+      },
+      "russian": {
+        "ok": true,
+        "count": 4088,
+        "positive_raw": 78.25,
+        "positive_display": 78
+      },
+      "effective_percent_ru100": 78
+    },
+    {
+      "appid": "22300",
+      "title": "Fallout 3",
+      "steam_title": "Fallout 3",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 22163,
+        "positive_raw": 81.49,
+        "positive_display": 81
+      },
+      "russian": {
+        "ok": true,
+        "count": 3383,
+        "positive_raw": 81.94,
+        "positive_display": 82
+      },
+      "effective_percent_ru100": 82
+    },
+    {
+      "appid": "377160",
+      "title": "Fallout 4",
+      "steam_title": "Fallout 4",
+      "user_rating": 2,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 428525,
+        "positive_raw": 81.17,
+        "positive_display": 81
+      },
+      "russian": {
+        "ok": true,
+        "count": 30147,
+        "positive_raw": 79.02,
+        "positive_display": 79
+      },
+      "effective_percent_ru100": 81
+    },
+    {
+      "appid": "204100",
+      "title": "Max Payne 3",
+      "steam_title": "Max Payne 3",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 63993,
+        "positive_raw": 86.99,
+        "positive_display": 87
+      },
+      "russian": {
+        "ok": true,
+        "count": 9075,
+        "positive_raw": 88.82,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 89
+    },
+    {
+      "appid": "33230",
+      "title": "Assassin's Creed",
+      "steam_title": "Assassin's Creed 2",
+      "user_rating": 4,
+      "mapping_method": "steam_search_fuzzy_0.941",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 61301,
+        "positive_raw": 89.47,
+        "positive_display": 89
+      },
+      "russian": {
+        "ok": true,
+        "count": 6038,
+        "positive_raw": 90.49,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "209000",
+      "title": "Batman: Arkham Origins",
+      "steam_title": "Batman™: Arkham Origins",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_fuzzy_0.955",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 65291,
+        "positive_raw": 89.85,
+        "positive_display": 90
+      },
+      "russian": {
+        "ok": true,
+        "count": 6062,
+        "positive_raw": 89.28,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "268910",
+      "title": "Cuphead",
+      "steam_title": "Cuphead",
+      "user_rating": 3.5,
+      "mapping_method": "wishlist_exact_title",
+      "in_wishlist": true,
+      "global": {
+        "ok": true,
+        "count": 220278,
+        "positive_raw": 96.16,
+        "positive_display": 96
+      },
+      "russian": {
+        "ok": true,
+        "count": 29843,
+        "positive_raw": 93.89,
+        "positive_display": 94
+      },
+      "effective_percent_ru100": 96
+    },
+    {
+      "appid": "620",
+      "title": "Portal 2",
+      "steam_title": "Portal 2",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 465943,
+        "positive_raw": 98.7,
+        "positive_display": 99
+      },
+      "russian": {
+        "ok": true,
+        "count": 95704,
+        "positive_raw": 98.49,
+        "positive_display": 98
+      },
+      "effective_percent_ru100": 99
+    },
+    {
+      "appid": "1091500",
+      "title": "Cyberpunk 2077",
+      "steam_title": "Cyberpunk 2077",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 975872,
+        "positive_raw": 86.84,
+        "positive_display": 87
+      },
+      "russian": {
+        "ok": true,
+        "count": 86596,
+        "positive_raw": 88.79,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 89
+    },
+    {
+      "appid": "752590",
+      "title": "A Plague Tale: Innocence",
+      "steam_title": "A Plague Tale: Innocence",
+      "user_rating": 4,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 71426,
+        "positive_raw": 93.21,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 8310,
+        "positive_raw": 93.27,
+        "positive_display": 93
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "2050650",
+      "title": "Resident Evil 4",
+      "steam_title": "Resident Evil 4",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 274437,
+        "positive_raw": 97.35,
+        "positive_display": 97
+      },
+      "russian": {
+        "ok": true,
+        "count": 13371,
+        "positive_raw": 97.34,
+        "positive_display": 97
+      },
+      "effective_percent_ru100": 97
+    },
+    {
+      "appid": "866800",
+      "title": "The Walking Dead: The Final Season",
+      "steam_title": "The Walking Dead: The Final Season",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 21489,
+        "positive_raw": 95.05,
+        "positive_display": 95
+      },
+      "russian": {
+        "ok": true,
+        "count": 4015,
+        "positive_raw": 95.12,
+        "positive_display": 95
+      },
+      "effective_percent_ru100": 95
+    },
+    {
+      "appid": "536220",
+      "title": "The Walking Dead: A New Frontier",
+      "steam_title": "The Walking Dead: A New Frontier",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 18543,
+        "positive_raw": 83.51,
+        "positive_display": 84
+      },
+      "russian": {
+        "ok": true,
+        "count": 3555,
+        "positive_raw": 85.74,
+        "positive_display": 86
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "261030",
+      "title": "The Walking Dead: Season Two",
+      "steam_title": "The Walking Dead: Season Two",
+      "user_rating": 3,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 33957,
+        "positive_raw": 96.58,
+        "positive_display": 97
+      },
+      "russian": {
+        "ok": true,
+        "count": 5200,
+        "positive_raw": 96.94,
+        "positive_display": 97
+      },
+      "effective_percent_ru100": 97
+    },
+    {
+      "appid": "207610",
+      "title": "The Walking Dead",
+      "steam_title": "The Walking Dead",
+      "user_rating": 2.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 80363,
+        "positive_raw": 97.32,
+        "positive_display": 97
+      },
+      "russian": {
+        "ok": true,
+        "count": 11046,
+        "positive_raw": 97.71,
+        "positive_display": 98
+      },
+      "effective_percent_ru100": 98
+    },
+    {
+      "appid": "990080",
+      "title": "Hogwarts Legacy",
+      "steam_title": "Hogwarts Legacy",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 371547,
+        "positive_raw": 89.79,
+        "positive_display": 90
+      },
+      "russian": {
+        "ok": true,
+        "count": 20624,
+        "positive_raw": 85.07,
+        "positive_display": 85
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "1888930",
+      "title": "The Last of Us: Part I",
+      "steam_title": "The Last of Us™ Part I",
+      "user_rating": 4.5,
+      "mapping_method": "steam_search_fuzzy_0.955",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 108286,
+        "positive_raw": 84.36,
+        "positive_display": 84
+      },
+      "russian": {
+        "ok": true,
+        "count": 7925,
+        "positive_raw": 90.08,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "220",
+      "title": "Half-Life 2",
+      "steam_title": "Half-Life 2",
+      "user_rating": 3.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 278514,
+        "positive_raw": 97.6,
+        "positive_display": 98
+      },
+      "russian": {
+        "ok": true,
+        "count": 67369,
+        "positive_raw": 97.63,
+        "positive_display": 98
+      },
+      "effective_percent_ru100": 98
+    },
+    {
+      "appid": "2668510",
+      "title": "Red Dead Redemption",
+      "steam_title": "Red Dead Redemption",
+      "user_rating": 3,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 21309,
+        "positive_raw": 92.48,
+        "positive_display": 92
+      },
+      "russian": {
+        "ok": true,
+        "count": 1256,
+        "positive_raw": 92.28,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "70",
+      "title": "Half-Life",
+      "steam_title": "Half-Life",
+      "user_rating": 1.5,
+      "mapping_method": "steam_search_exact_title",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 163747,
+        "positive_raw": 96.5,
+        "positive_display": 96
+      },
+      "russian": {
+        "ok": true,
+        "count": 25394,
+        "positive_raw": 95.86,
+        "positive_display": 96
+      },
+      "effective_percent_ru100": 96
+    },
+    {
+      "appid": "2651280",
+      "title": "Marvel's Spider-Man",
+      "steam_title": "Marvel's Spider-Man 2",
+      "user_rating": 4,
+      "mapping_method": "steam_search_fuzzy_0.950",
+      "in_wishlist": false,
+      "global": {
+        "ok": true,
+        "count": 45920,
+        "positive_raw": 83.24,
+        "positive_display": 83
+      },
+      "russian": {
+        "ok": true,
+        "count": 3020,
+        "positive_raw": 85.17,
+        "positive_display": 85
+      },
+      "effective_percent_ru100": 85
+    }
+  ],
+  "wishlist_games": [
+    {
+      "appid": "10150",
+      "title": "Prototype™",
+      "global": {
+        "ok": true,
+        "count": 14159,
+        "positive_raw": 80.45,
+        "positive_display": 80
+      },
+      "russian": {
+        "ok": true,
+        "count": 1171,
+        "positive_raw": 85.31,
+        "positive_display": 85
+      },
+      "effective_percent_ru100": 85
+    },
+    {
+      "appid": "12150",
+      "title": "Max Payne 2: The Fall of Max Payne",
+      "global": {
+        "ok": true,
+        "count": 14600,
+        "positive_raw": 94.34,
+        "positive_display": 94
+      },
+      "russian": {
+        "ok": true,
+        "count": 1301,
+        "positive_raw": 94.77,
+        "positive_display": 95
+      },
+      "effective_percent_ru100": 95
+    },
+    {
+      "appid": "12200",
+      "title": "Bully: Scholarship Edition",
+      "global": {
+        "ok": true,
+        "count": 41910,
+        "positive_raw": 84.45,
+        "positive_display": 84
+      },
+      "russian": {
+        "ok": true,
+        "count": 2866,
+        "positive_raw": 91.87,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "13500",
+      "title": "Prince of Persia: Warrior Within™",
+      "global": {
+        "ok": true,
+        "count": 4123,
+        "positive_raw": 82.93,
+        "positive_display": 83
+      },
+      "russian": {
+        "ok": true,
+        "count": 648,
+        "positive_raw": 89.35,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 89
+    },
+    {
+      "appid": "13530",
+      "title": "Prince of Persia: The Two Thrones™",
+      "global": {
+        "ok": true,
+        "count": 2794,
+        "positive_raw": 80.39,
+        "positive_display": 80
+      },
+      "russian": {
+        "ok": true,
+        "count": 331,
+        "positive_raw": 78.25,
+        "positive_display": 78
+      },
+      "effective_percent_ru100": 80
+    },
+    {
+      "appid": "13600",
+      "title": "Prince of Persia®: The Sands of Time",
+      "global": {
+        "ok": true,
+        "count": 5267,
+        "positive_raw": 85.57,
+        "positive_display": 86
+      },
+      "russian": {
+        "ok": true,
+        "count": 609,
+        "positive_raw": 85.71,
+        "positive_display": 86
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "15100",
+      "title": "Assassin's Creed™: Director's Cut Edition",
+      "global": {
+        "ok": true,
+        "count": 25342,
+        "positive_raw": 80.58,
+        "positive_display": 81
+      },
+      "russian": {
+        "ok": true,
+        "count": 3750,
+        "positive_raw": 83.49,
+        "positive_display": 83
+      },
+      "effective_percent_ru100": 83
+    },
+    {
+      "appid": "17410",
+      "title": "Mirror's Edge™",
+      "global": {
+        "ok": true,
+        "count": 39322,
+        "positive_raw": 87.71,
+        "positive_display": 88
+      },
+      "russian": {
+        "ok": true,
+        "count": 6279,
+        "positive_raw": 89.03,
+        "positive_display": 89
+      },
+      "effective_percent_ru100": 89
+    },
+    {
+      "appid": "19680",
+      "title": "Alice: Madness Returns",
+      "global": {
+        "ok": true,
+        "count": 30736,
+        "positive_raw": 90.75,
+        "positive_display": 91
+      },
+      "russian": {
+        "ok": true,
+        "count": 1896,
+        "positive_raw": 88.29,
+        "positive_display": 88
+      },
+      "effective_percent_ru100": 91
+    },
+    {
+      "appid": "19980",
+      "title": "Prince of Persia®",
+      "global": {
+        "ok": true,
+        "count": 3896,
+        "positive_raw": 78.75,
+        "positive_display": 79
+      },
+      "russian": {
+        "ok": true,
+        "count": 458,
+        "positive_raw": 82.31,
+        "positive_display": 82
+      },
+      "effective_percent_ru100": 82
+    },
+    {
+      "appid": "33320",
+      "title": "Prince of Persia: The Forgotten Sands™",
+      "global": {
+        "ok": true,
+        "count": 3023,
+        "positive_raw": 70.86,
+        "positive_display": 71
+      },
+      "russian": {
+        "ok": true,
+        "count": 315,
+        "positive_raw": 64.76,
+        "positive_display": 65
+      },
+      "effective_percent_ru100": 71
+    },
+    {
+      "appid": "217980",
+      "title": "Dishonored",
+      "global": {
+        "ok": true,
+        "count": 15116,
+        "positive_raw": 97.84,
+        "positive_display": 98
+      },
+      "russian": {
+        "ok": true,
+        "count": 10339,
+        "positive_raw": 97.75,
+        "positive_display": 98
+      },
+      "effective_percent_ru100": 98
+    },
+    {
+      "appid": "268910",
+      "title": "Cuphead",
+      "global": {
+        "ok": true,
+        "count": 220278,
+        "positive_raw": 96.16,
+        "positive_display": 96
+      },
+      "russian": {
+        "ok": true,
+        "count": 29843,
+        "positive_raw": 93.89,
+        "positive_display": 94
+      },
+      "effective_percent_ru100": 96
+    },
+    {
+      "appid": "284050",
+      "title": "Sanitarium",
+      "global": {
+        "ok": true,
+        "count": 1365,
+        "positive_raw": 93.26,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 98,
+        "positive_raw": 95.92,
+        "positive_display": 96
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "367520",
+      "title": "Hollow Knight",
+      "global": {
+        "ok": true,
+        "count": 558913,
+        "positive_raw": 96.92,
+        "positive_display": 97
+      },
+      "russian": {
+        "ok": true,
+        "count": 43565,
+        "positive_raw": 95.6,
+        "positive_display": 96
+      },
+      "effective_percent_ru100": 97
+    },
+    {
+      "appid": "387290",
+      "title": "Ori and the Blind Forest: Definitive Edition",
+      "global": {
+        "ok": true,
+        "count": 71420,
+        "positive_raw": 95.06,
+        "positive_display": 95
+      },
+      "russian": {
+        "ok": true,
+        "count": 5569,
+        "positive_raw": 93.43,
+        "positive_display": 93
+      },
+      "effective_percent_ru100": 95
+    },
+    {
+      "appid": "424840",
+      "title": "Little Nightmares",
+      "global": {
+        "ok": true,
+        "count": 116526,
+        "positive_raw": 94.76,
+        "positive_display": 95
+      },
+      "russian": {
+        "ok": true,
+        "count": 19528,
+        "positive_raw": 94.46,
+        "positive_display": 94
+      },
+      "effective_percent_ru100": 95
+    },
+    {
+      "appid": "447040",
+      "title": "Watch_Dogs® 2",
+      "global": {
+        "ok": true,
+        "count": 101395,
+        "positive_raw": 82.14,
+        "positive_display": 82
+      },
+      "russian": {
+        "ok": true,
+        "count": 11879,
+        "positive_raw": 85.56,
+        "positive_display": 86
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "523660",
+      "title": "HYPERCHARGE: Unboxed",
+      "global": {
+        "ok": true,
+        "count": 4390,
+        "positive_raw": 90.05,
+        "positive_display": 90
+      },
+      "russian": {
+        "ok": true,
+        "count": 88,
+        "positive_raw": 79.55,
+        "positive_display": 80
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "690640",
+      "title": "Trine 4: The Nightmare Prince",
+      "global": {
+        "ok": true,
+        "count": 14306,
+        "positive_raw": 88.61,
+        "positive_display": 89
+      },
+      "russian": {
+        "ok": true,
+        "count": 1596,
+        "positive_raw": 91.42,
+        "positive_display": 91
+      },
+      "effective_percent_ru100": 91
+    },
+    {
+      "appid": "668580",
+      "title": "Atomic Heart",
+      "global": {
+        "ok": true,
+        "count": 51508,
+        "positive_raw": 80.77,
+        "positive_display": 81
+      },
+      "russian": {
+        "ok": true,
+        "count": 9789,
+        "positive_raw": 91.5,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "753640",
+      "title": "Outer Wilds",
+      "global": {
+        "ok": true,
+        "count": 107123,
+        "positive_raw": 95.61,
+        "positive_display": 96
+      },
+      "russian": {
+        "ok": true,
+        "count": 4316,
+        "positive_raw": 91.66,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 96
+    },
+    {
+      "appid": "765900",
+      "title": "Leisure Suit Larry - Magna Cum Laude Uncut and Uncensored",
+      "global": {
+        "ok": true,
+        "count": 764,
+        "positive_raw": 78.01,
+        "positive_display": 78
+      },
+      "russian": {
+        "ok": true,
+        "count": 66,
+        "positive_raw": 84.85,
+        "positive_display": 85
+      },
+      "effective_percent_ru100": 78
+    },
+    {
+      "appid": "379430",
+      "title": "Kingdom Come: Deliverance",
+      "global": {
+        "ok": true,
+        "count": 185095,
+        "positive_raw": 84.41,
+        "positive_display": 84
+      },
+      "russian": {
+        "ok": true,
+        "count": 16870,
+        "positive_raw": 83.93,
+        "positive_display": 84
+      },
+      "effective_percent_ru100": 84
+    },
+    {
+      "appid": "1088850",
+      "title": "Marvel's Guardians of the Galaxy",
+      "global": {
+        "ok": true,
+        "count": 45061,
+        "positive_raw": 93.78,
+        "positive_display": 94
+      },
+      "russian": {
+        "ok": true,
+        "count": 5280,
+        "positive_raw": 95.34,
+        "positive_display": 95
+      },
+      "effective_percent_ru100": 95
+    },
+    {
+      "appid": "1089980",
+      "title": "The Henry Stickmin Collection",
+      "global": {
+        "ok": true,
+        "count": 59278,
+        "positive_raw": 98.7,
+        "positive_display": 99
+      },
+      "russian": {
+        "ok": true,
+        "count": 3525,
+        "positive_raw": 98.55,
+        "positive_display": 99
+      },
+      "effective_percent_ru100": 99
+    },
+    {
+      "appid": "1174180",
+      "title": "Red Dead Redemption 2",
+      "global": {
+        "ok": true,
+        "count": 910946,
+        "positive_raw": 92.46,
+        "positive_display": 92
+      },
+      "russian": {
+        "ok": true,
+        "count": 53652,
+        "positive_raw": 93.17,
+        "positive_display": 93
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "1222140",
+      "title": "Detroit: Become Human",
+      "global": {
+        "ok": true,
+        "count": 260789,
+        "positive_raw": 96.36,
+        "positive_display": 96
+      },
+      "russian": {
+        "ok": true,
+        "count": 48673,
+        "positive_raw": 96.97,
+        "positive_display": 97
+      },
+      "effective_percent_ru100": 97
+    },
+    {
+      "appid": "1233570",
+      "title": "Mirror's Edge™ Catalyst",
+      "global": {
+        "ok": true,
+        "count": 16528,
+        "positive_raw": 79.7,
+        "positive_display": 80
+      },
+      "russian": {
+        "ok": true,
+        "count": 2075,
+        "positive_raw": 80.05,
+        "positive_display": 80
+      },
+      "effective_percent_ru100": 80
+    },
+    {
+      "appid": "1245620",
+      "title": "ELDEN RING",
+      "global": {
+        "ok": true,
+        "count": 1151032,
+        "positive_raw": 93.07,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 48227,
+        "positive_raw": 87.37,
+        "positive_display": 87
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "1370050",
+      "title": "Trek to Yomi",
+      "global": {
+        "ok": true,
+        "count": 3078,
+        "positive_raw": 71.28,
+        "positive_display": 71
+      },
+      "russian": {
+        "ok": true,
+        "count": 312,
+        "positive_raw": 68.59,
+        "positive_display": 69
+      },
+      "effective_percent_ru100": 71
+    },
+    {
+      "appid": "1406810",
+      "title": "After Us",
+      "global": {
+        "ok": true,
+        "count": 492,
+        "positive_raw": 84.96,
+        "positive_display": 85
+      },
+      "russian": {
+        "ok": true,
+        "count": 39,
+        "positive_raw": 92.31,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 85
+    },
+    {
+      "appid": "1426210",
+      "title": "It Takes Two",
+      "global": {
+        "ok": true,
+        "count": 268749,
+        "positive_raw": 95.43,
+        "positive_display": 95
+      },
+      "russian": {
+        "ok": true,
+        "count": 13502,
+        "positive_raw": 92.79,
+        "positive_display": 93
+      },
+      "effective_percent_ru100": 95
+    },
+    {
+      "appid": "1466060",
+      "title": "Tainted Grail: The Fall of Avalon",
+      "global": {
+        "ok": true,
+        "count": 35245,
+        "positive_raw": 87.69,
+        "positive_display": 88
+      },
+      "russian": {
+        "ok": true,
+        "count": 6573,
+        "positive_raw": 87.14,
+        "positive_display": 87
+      },
+      "effective_percent_ru100": 88
+    },
+    {
+      "appid": "1547000",
+      "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
+      "global": {
+        "ok": true,
+        "count": 15968,
+        "positive_raw": 79.97,
+        "positive_display": 80
+      },
+      "russian": {
+        "ok": true,
+        "count": 2124,
+        "positive_raw": 82.96,
+        "positive_display": 83
+      },
+      "effective_percent_ru100": 83
+    },
+    {
+      "appid": "1583230",
+      "title": "High On Life",
+      "global": {
+        "ok": true,
+        "count": 25562,
+        "positive_raw": 89.01,
+        "positive_display": 89
+      },
+      "russian": {
+        "ok": true,
+        "count": 919,
+        "positive_raw": 87.6,
+        "positive_display": 88
+      },
+      "effective_percent_ru100": 89
+    },
+    {
+      "appid": "1593500",
+      "title": "God of War",
+      "global": {
+        "ok": true,
+        "count": 184113,
+        "positive_raw": 95.94,
+        "positive_display": 96
+      },
+      "russian": {
+        "ok": true,
+        "count": 9847,
+        "positive_raw": 94.31,
+        "positive_display": 94
+      },
+      "effective_percent_ru100": 96
+    },
+    {
+      "appid": "1627720",
+      "title": "Lies of P",
+      "global": {
+        "ok": true,
+        "count": 81816,
+        "positive_raw": 91.67,
+        "positive_display": 92
+      },
+      "russian": {
+        "ok": true,
+        "count": 6186,
+        "positive_raw": 88.38,
+        "positive_display": 88
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "2486820",
+      "title": "Sonic Racing: CrossWorlds",
+      "global": {
+        "ok": true,
+        "count": 16840,
+        "positive_raw": 92.73,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 244,
+        "positive_raw": 84.84,
+        "positive_display": 85
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "1790600",
+      "title": "DRAGON BALL: Sparking! ZERO",
+      "global": {
+        "ok": true,
+        "count": 72524,
+        "positive_raw": 86.42,
+        "positive_display": 86
+      },
+      "russian": {
+        "ok": true,
+        "count": 252,
+        "positive_raw": 82.54,
+        "positive_display": 83
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "1817230",
+      "title": "Hi-Fi RUSH",
+      "global": {
+        "ok": true,
+        "count": 35891,
+        "positive_raw": 96.95,
+        "positive_display": 97
+      },
+      "russian": {
+        "ok": true,
+        "count": 1629,
+        "positive_raw": 94.9,
+        "positive_display": 95
+      },
+      "effective_percent_ru100": 97
+    },
+    {
+      "appid": "1850570",
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "global": {
+        "ok": true,
+        "count": 67569,
+        "positive_raw": 92.27,
+        "positive_display": 92
+      },
+      "russian": {
+        "ok": true,
+        "count": 7775,
+        "positive_raw": 92.04,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "1888930",
+      "title": "Одни из нас™: Часть I",
+      "global": {
+        "ok": true,
+        "count": 108286,
+        "positive_raw": 84.36,
+        "positive_display": 84
+      },
+      "russian": {
+        "ok": true,
+        "count": 7925,
+        "positive_raw": 90.08,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "1903340",
+      "title": "Clair Obscur: Expedition 33",
+      "global": {
+        "ok": true,
+        "count": 276806,
+        "positive_raw": 95.27,
+        "positive_display": 95
+      },
+      "russian": {
+        "ok": true,
+        "count": 16848,
+        "positive_raw": 93.26,
+        "positive_display": 93
+      },
+      "effective_percent_ru100": 95
+    },
+    {
+      "appid": "1927720",
+      "title": "Monument Valley",
+      "global": {
+        "ok": true,
+        "count": 8811,
+        "positive_raw": 98.09,
+        "positive_display": 98
+      },
+      "russian": {
+        "ok": true,
+        "count": 313,
+        "positive_raw": 98.4,
+        "positive_display": 98
+      },
+      "effective_percent_ru100": 98
+    },
+    {
+      "appid": "1927740",
+      "title": "Monument Valley 2",
+      "global": {
+        "ok": true,
+        "count": 4199,
+        "positive_raw": 93.45,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 165,
+        "positive_raw": 95.15,
+        "positive_display": 95
+      },
+      "effective_percent_ru100": 95
+    },
+    {
+      "appid": "1934570",
+      "title": "South of Midnight",
+      "global": {
+        "ok": true,
+        "count": 4722,
+        "positive_raw": 94.3,
+        "positive_display": 94
+      },
+      "russian": {
+        "ok": true,
+        "count": 204,
+        "positive_raw": 86.27,
+        "positive_display": 86
+      },
+      "effective_percent_ru100": 94
+    },
+    {
+      "appid": "1954200",
+      "title": "Kena: Bridge of Spirits",
+      "global": {
+        "ok": true,
+        "count": 17553,
+        "positive_raw": 92.0,
+        "positive_display": 92
+      },
+      "russian": {
+        "ok": true,
+        "count": 1542,
+        "positive_raw": 89.75,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "2001120",
+      "title": "Split Fiction",
+      "global": {
+        "ok": true,
+        "count": 126157,
+        "positive_raw": 96.94,
+        "positive_display": 97
+      },
+      "russian": {
+        "ok": true,
+        "count": 3935,
+        "positive_raw": 93.39,
+        "positive_display": 93
+      },
+      "effective_percent_ru100": 97
+    },
+    {
+      "appid": "2215260",
+      "title": "Scott Pilgrim vs. The World™: The Game – Complete Edition",
+      "global": {
+        "ok": true,
+        "count": 3645,
+        "positive_raw": 74.9,
+        "positive_display": 75
+      },
+      "russian": {
+        "ok": true,
+        "count": 118,
+        "positive_raw": 64.41,
+        "positive_display": 64
+      },
+      "effective_percent_ru100": 75
+    },
+    {
+      "appid": "1139900",
+      "title": "Ghostrunner",
+      "global": {
+        "ok": true,
+        "count": 66708,
+        "positive_raw": 91.2,
+        "positive_display": 91
+      },
+      "russian": {
+        "ok": true,
+        "count": 5211,
+        "positive_raw": 90.79,
+        "positive_display": 91
+      },
+      "effective_percent_ru100": 91
+    },
+    {
+      "appid": "2395210",
+      "title": "Tony Hawk's™ Pro Skater™ 1 + 2",
+      "global": {
+        "ok": true,
+        "count": 4644,
+        "positive_raw": 90.53,
+        "positive_display": 91
+      },
+      "russian": {
+        "ok": true,
+        "count": 49,
+        "positive_raw": 91.84,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 91
+    },
+    {
+      "appid": "2416450",
+      "title": "Частный детектив МАУС",
+      "global": {
+        "ok": true,
+        "count": 15405,
+        "positive_raw": 93.92,
+        "positive_display": 94
+      },
+      "russian": {
+        "ok": true,
+        "count": 1786,
+        "positive_raw": 91.77,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 94
+    },
+    {
+      "appid": "2424420",
+      "title": "Avatar Legends: The Fighting Game",
+      "global": {
+        "ok": true,
+        "count": 3194,
+        "positive_raw": 84.35,
+        "positive_display": 84
+      },
+      "russian": {
+        "ok": true,
+        "count": 152,
+        "positive_raw": 71.71,
+        "positive_display": 72
+      },
+      "effective_percent_ru100": 84
+    },
+    {
+      "appid": "2524850",
+      "title": "Denshattack!",
+      "global": {
+        "ok": true,
+        "count": 3228,
+        "positive_raw": 98.27,
+        "positive_display": 98
+      },
+      "russian": {
+        "ok": true,
+        "count": 128,
+        "positive_raw": 99.22,
+        "positive_display": 99
+      },
+      "effective_percent_ru100": 99
+    },
+    {
+      "appid": "2531310",
+      "title": "Одни из нас™: Часть II Обновленная версия",
+      "global": {
+        "ok": true,
+        "count": 54593,
+        "positive_raw": 90.94,
+        "positive_display": 91
+      },
+      "russian": {
+        "ok": true,
+        "count": 4753,
+        "positive_raw": 91.94,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "2592160",
+      "title": "Dispatch",
+      "global": {
+        "ok": true,
+        "count": 182776,
+        "positive_raw": 97.52,
+        "positive_display": 98
+      },
+      "russian": {
+        "ok": true,
+        "count": 25183,
+        "positive_raw": 97.7,
+        "positive_display": 98
+      },
+      "effective_percent_ru100": 98
+    },
+    {
+      "appid": "2627260",
+      "title": "NINJA GAIDEN 4",
+      "global": {
+        "ok": true,
+        "count": 9610,
+        "positive_raw": 88.25,
+        "positive_display": 88
+      },
+      "russian": {
+        "ok": true,
+        "count": 469,
+        "positive_raw": 90.83,
+        "positive_display": 91
+      },
+      "effective_percent_ru100": 91
+    },
+    {
+      "appid": "2640950",
+      "title": "Scott Pilgrim EX",
+      "global": {
+        "ok": true,
+        "count": 494,
+        "positive_raw": 85.63,
+        "positive_display": 86
+      },
+      "russian": {
+        "ok": true,
+        "count": 17,
+        "positive_raw": 82.35,
+        "positive_display": 82
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "2651280",
+      "title": "Marvel Человек-Паук 2",
+      "global": {
+        "ok": true,
+        "count": 45920,
+        "positive_raw": 83.24,
+        "positive_display": 83
+      },
+      "russian": {
+        "ok": true,
+        "count": 3020,
+        "positive_raw": 85.17,
+        "positive_display": 85
+      },
+      "effective_percent_ru100": 85
+    },
+    {
+      "appid": "2717880",
+      "title": "The Rogue Prince of Persia",
+      "global": {
+        "ok": true,
+        "count": 2787,
+        "positive_raw": 89.92,
+        "positive_display": 90
+      },
+      "russian": {
+        "ok": true,
+        "count": 147,
+        "positive_raw": 86.39,
+        "positive_display": 86
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "2751000",
+      "title": "Prince of Persia The Lost Crown",
+      "global": {
+        "ok": true,
+        "count": 7033,
+        "positive_raw": 84.32,
+        "positive_display": 84
+      },
+      "russian": {
+        "ok": true,
+        "count": 409,
+        "positive_raw": 85.57,
+        "positive_display": 86
+      },
+      "effective_percent_ru100": 86
+    },
+    {
+      "appid": "2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "global": {
+        "ok": true,
+        "count": 34786,
+        "positive_raw": 75.06,
+        "positive_display": 75
+      },
+      "russian": {
+        "ok": true,
+        "count": 555,
+        "positive_raw": 83.24,
+        "positive_display": 83
+      },
+      "effective_percent_ru100": 83
+    },
+    {
+      "appid": "3132930",
+      "title": "Monument Valley 3",
+      "global": {
+        "ok": true,
+        "count": 2284,
+        "positive_raw": 93.26,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 76,
+        "positive_raw": 100.0,
+        "positive_display": 100
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "3159330",
+      "title": "Assassin’s Creed Shadows",
+      "global": {
+        "ok": true,
+        "count": 39345,
+        "positive_raw": 75.3,
+        "positive_display": 75
+      },
+      "russian": {
+        "ok": true,
+        "count": 3532,
+        "positive_raw": 71.8,
+        "positive_display": 72
+      },
+      "effective_percent_ru100": 75
+    },
+    {
+      "appid": "3180070",
+      "title": "No, I'm not a Human",
+      "global": {
+        "ok": true,
+        "count": 30499,
+        "positive_raw": 93.28,
+        "positive_display": 93
+      },
+      "russian": {
+        "ok": true,
+        "count": 10685,
+        "positive_raw": 93.48,
+        "positive_display": 93
+      },
+      "effective_percent_ru100": 93
+    },
+    {
+      "appid": "2988580",
+      "title": "Yakuza 0 Director's Cut",
+      "global": {
+        "ok": true,
+        "count": 1814,
+        "positive_raw": 81.37,
+        "positive_display": 81
+      },
+      "russian": {
+        "ok": true,
+        "count": 191,
+        "positive_raw": 78.01,
+        "positive_display": 78
+      },
+      "effective_percent_ru100": 81
+    },
+    {
+      "appid": "3357650",
+      "title": "PRAGMATA",
+      "global": {
+        "ok": true,
+        "count": 51864,
+        "positive_raw": 96.56,
+        "positive_display": 97
+      },
+      "russian": {
+        "ok": true,
+        "count": 3474,
+        "positive_raw": 94.21,
+        "positive_display": 94
+      },
+      "effective_percent_ru100": 97
+    },
+    {
+      "appid": "204450",
+      "title": "Call of Juarez: Gunslinger",
+      "global": {
+        "ok": true,
+        "count": 44194,
+        "positive_raw": 94.95,
+        "positive_display": 95
+      },
+      "russian": {
+        "ok": true,
+        "count": 6170,
+        "positive_raw": 93.89,
+        "positive_display": 94
+      },
+      "effective_percent_ru100": 95
+    },
+    {
+      "appid": "3768760",
+      "title": "007 First Light",
+      "global": {
+        "ok": true,
+        "count": 44578,
+        "positive_raw": 91.46,
+        "positive_display": 91
+      },
+      "russian": {
+        "ok": true,
+        "count": 3405,
+        "positive_raw": 91.6,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "3787240",
+      "title": "MARVEL Tōkon: Fighting Souls",
+      "global": {
+        "ok": true,
+        "count": 6566,
+        "positive_raw": 47.9,
+        "positive_display": 48
+      },
+      "russian": {
+        "ok": true,
+        "count": 56,
+        "positive_raw": 37.5,
+        "positive_display": 38
+      },
+      "effective_percent_ru100": 48
+    },
+    {
+      "appid": "3287520",
+      "title": "NINJA GAIDEN 2 Black",
+      "global": {
+        "ok": true,
+        "count": 4138,
+        "positive_raw": 78.23,
+        "positive_display": 78
+      },
+      "russian": {
+        "ok": true,
+        "count": 198,
+        "positive_raw": 77.78,
+        "positive_display": 78
+      },
+      "effective_percent_ru100": 78
+    },
+    {
+      "appid": "3914860",
+      "title": "Moss: The Forgotten Relic ",
+      "global": {
+        "ok": true,
+        "count": 309,
+        "positive_raw": 92.23,
+        "positive_display": 92
+      },
+      "russian": {
+        "ok": true,
+        "count": 9,
+        "positive_raw": 66.67,
+        "positive_display": 67
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "1373550",
+      "title": "BloodRayne 2: Terminal Cut",
+      "global": {
+        "ok": true,
+        "count": 1224,
+        "positive_raw": 77.21,
+        "positive_display": 77
+      },
+      "russian": {
+        "ok": true,
+        "count": 449,
+        "positive_raw": 81.51,
+        "positive_display": 82
+      },
+      "effective_percent_ru100": 82
+    },
+    {
+      "appid": "1373510",
+      "title": "BloodRayne: Terminal Cut",
+      "global": {
+        "ok": true,
+        "count": 1916,
+        "positive_raw": 89.04,
+        "positive_display": 89
+      },
+      "russian": {
+        "ok": true,
+        "count": 656,
+        "positive_raw": 90.24,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 90
+    },
+    {
+      "appid": "978300",
+      "title": "Saints Row®: The Third™ Remastered",
+      "global": {
+        "ok": true,
+        "count": 4688,
+        "positive_raw": 72.57,
+        "positive_display": 73
+      },
+      "russian": {
+        "ok": true,
+        "count": 666,
+        "positive_raw": 77.93,
+        "positive_display": 78
+      },
+      "effective_percent_ru100": 78
+    },
+    {
+      "appid": "9480",
+      "title": "Saints Row 2",
+      "global": {
+        "ok": true,
+        "count": 21721,
+        "positive_raw": 75.84,
+        "positive_display": 76
+      },
+      "russian": {
+        "ok": true,
+        "count": 2449,
+        "positive_raw": 82.16,
+        "positive_display": 82
+      },
+      "effective_percent_ru100": 82
+    },
+    {
+      "appid": "1225570",
+      "title": "Unravel Two",
+      "global": {
+        "ok": true,
+        "count": 9143,
+        "positive_raw": 78.15,
+        "positive_display": 78
+      },
+      "russian": {
+        "ok": true,
+        "count": 678,
+        "positive_raw": 75.66,
+        "positive_display": 76
+      },
+      "effective_percent_ru100": 78
+    },
+    {
+      "appid": "1361510",
+      "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+      "global": {
+        "ok": true,
+        "count": 14857,
+        "positive_raw": 94.36,
+        "positive_display": 94
+      },
+      "russian": {
+        "ok": true,
+        "count": 3223,
+        "positive_raw": 94.2,
+        "positive_display": 94
+      },
+      "effective_percent_ru100": 94
+    },
+    {
+      "appid": "1244950",
+      "title": "Battletoads",
+      "global": {
+        "ok": true,
+        "count": 2401,
+        "positive_raw": 67.76,
+        "positive_display": 68
+      },
+      "russian": {
+        "ok": true,
+        "count": 907,
+        "positive_raw": 65.93,
+        "positive_display": 66
+      },
+      "effective_percent_ru100": 68
+    },
+    {
+      "appid": "2950340",
+      "title": "LEGO® Harry Potter™ Collection",
+      "global": {
+        "ok": true,
+        "count": 1629,
+        "positive_raw": 83.06,
+        "positive_display": 83
+      },
+      "russian": {
+        "ok": true,
+        "count": 101,
+        "positive_raw": 74.26,
+        "positive_display": 74
+      },
+      "effective_percent_ru100": 83
+    },
+    {
+      "appid": "249130",
+      "title": "LEGO® Marvel™ Super Heroes",
+      "global": {
+        "ok": true,
+        "count": 31115,
+        "positive_raw": 95.65,
+        "positive_display": 96
+      },
+      "russian": {
+        "ok": true,
+        "count": 2800,
+        "positive_raw": 95.54,
+        "positive_display": 96
+      },
+      "effective_percent_ru100": 96
+    },
+    {
+      "appid": "578330",
+      "title": "LEGO® City Undercover",
+      "global": {
+        "ok": true,
+        "count": 11464,
+        "positive_raw": 91.29,
+        "positive_display": 91
+      },
+      "russian": {
+        "ok": true,
+        "count": 814,
+        "positive_raw": 92.26,
+        "positive_display": 92
+      },
+      "effective_percent_ru100": 92
+    },
+    {
+      "appid": "1659420",
+      "title": "UNCHARTED™: Наследие воров. Коллекция",
+      "global": {
+        "ok": true,
+        "count": 43562,
+        "positive_raw": 90.57,
+        "positive_display": 91
+      },
+      "russian": {
+        "ok": true,
+        "count": 2758,
+        "positive_raw": 89.52,
+        "positive_display": 90
+      },
+      "effective_percent_ru100": 91
+    },
+    {
+      "appid": "242700",
+      "title": "Injustice: Gods Among Us Ultimate Edition",
+      "global": {
+        "ok": true,
+        "count": 20127,
+        "positive_raw": 86.32,
+        "positive_display": 86
+      },
+      "russian": {
+        "ok": true,
+        "count": 3394,
+        "positive_raw": 86.77,
+        "positive_display": 87
+      },
+      "effective_percent_ru100": 87
+    },
+    {
+      "appid": "2358720",
+      "title": "Black Myth: Wukong",
+      "global": {
+        "ok": true,
+        "count": 1208745,
+        "positive_raw": 96.5,
+        "positive_display": 97
+      },
+      "russian": {
+        "ok": true,
+        "count": 13332,
+        "positive_raw": 90.71,
+        "positive_display": 91
+      },
+      "effective_percent_ru100": 97
+    },
+    {
+      "appid": "288470",
+      "title": "Fable Anniversary",
+      "global": {
+        "ok": true,
+        "count": 16519,
+        "positive_raw": 85.96,
+        "positive_display": 86
+      },
+      "russian": {
+        "ok": true,
+        "count": 2075,
+        "positive_raw": 83.71,
+        "positive_display": 84
+      },
+      "effective_percent_ru100": 86
+    }
+  ],
+  "unresolved_rated_games": [
+    {
+      "title": "The Suffering",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 2936290,
+          "name": "The Life and Suffering of Prince Jerian"
+        },
+        {
+          "appid": 1726550,
+          "name": "The Circle Of Suffering"
+        },
+        {
+          "appid": 1880820,
+          "name": "The Circle Of Suffering Soundtrack"
+        },
+        {
+          "appid": 1272160,
+          "name": "The Life and Suffering of Sir Brante"
+        },
+        {
+          "appid": 1460090,
+          "name": "The Life and Suffering of Sir Brante — Chapter 1&2"
+        }
+      ]
+    },
+    {
+      "title": "Felix The Cat",
+      "rating": 2.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Leisure Suit Larry: Magna Cum Laude",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Петька 4: День независимости",
+      "rating": 3,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Final Fantasy VII Remake",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 1462040,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE"
+        },
+        {
+          "appid": 4267470,
+          "name": "FINAL FANTASY VII REMAKE ACOUSTIC ARRANGEMENTS"
+        },
+        {
+          "appid": 3365650,
+          "name": "FINAL FANTASY VII REMAKE Original Soundtrack"
+        },
+        {
+          "appid": 3365690,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE Original Soundtrack"
+        },
+        {
+          "appid": 3365670,
+          "name": "FINAL FANTASY VII REMAKE Original Soundtrack Plus"
+        }
+      ]
+    },
+    {
+      "title": "Warcraft II: Tides of Darkness",
+      "rating": 2.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Battle City",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 2620340,
+          "name": "Bounty City: 3-Way Battle"
+        },
+        {
+          "appid": 3207900,
+          "name": "City: Battle Ground"
+        },
+        {
+          "appid": 3892910,
+          "name": "SkyShard: City Battler"
+        },
+        {
+          "appid": 544630,
+          "name": "River City Melee : Battle Royal Special"
+        },
+        {
+          "appid": 3414900,
+          "name": "Just Move:Clean City Messy Battle"
+        }
+      ]
+    },
+    {
+      "title": "HighStreet 5",
+      "rating": 2.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Wars & Warriors: Joan of Arc",
+      "rating": 3,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 294590,
+          "name": "Wars and Warriors: Joan of Arc"
+        }
+      ]
+    },
+    {
+      "title": "Enter The Matrix",
+      "rating": 3,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "StarCraft II: Wings of Liberty",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Ultimate Mortal Kombat 3",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Tekken 3",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 4129110,
+          "name": "TEKKEN 8 - Season 3 Pass"
+        },
+        {
+          "appid": 592374,
+          "name": "TEKKEN 7 - DLC3: Noctis Lucis Caelum Pack"
+        },
+        {
+          "appid": 1114550,
+          "name": "TEKKEN 7 - Season Pass 3"
+        },
+        {
+          "appid": 210095,
+          "name": "Street Fighter X Tekken: Gems Assist 3 "
+        },
+        {
+          "appid": 210083,
+          "name": "Street Fighter X Tekken: SF Booster Pack 3 "
+        }
+      ]
+    },
+    {
+      "title": "Medal of Honor",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 47790,
+          "name": "Medal of Honor™"
+        },
+        {
+          "appid": 1402320,
+          "name": "Medal of Honor™: Above and Beyond"
+        }
+      ]
+    },
+    {
+      "title": "The Legend of Dragoon",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Comix Zone",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "BloodRayne 2",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 1373550,
+          "name": "BloodRayne 2: Terminal Cut"
+        },
+        {
+          "appid": 3820,
+          "name": "BloodRayne 2 (Legacy)"
+        },
+        {
+          "appid": 3850,
+          "name": "BloodRayne 2 Demo"
+        }
+      ]
+    },
+    {
+      "title": "Ultimate Spider-Man",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "BloodRayne",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 1373510,
+          "name": "BloodRayne: Terminal Cut"
+        },
+        {
+          "appid": 1373550,
+          "name": "BloodRayne 2: Terminal Cut"
+        },
+        {
+          "appid": 3810,
+          "name": "BloodRayne (Legacy)"
+        },
+        {
+          "appid": 3820,
+          "name": "BloodRayne 2 (Legacy)"
+        },
+        {
+          "appid": 1550260,
+          "name": "BloodRayne Betrayal: Fresh Bites"
+        }
+      ]
+    },
+    {
+      "title": "Overlord 2",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 12810,
+          "name": "Overlord II"
+        },
+        {
+          "appid": 12820,
+          "name": "Overlord II Demo"
+        },
+        {
+          "appid": 2659100,
+          "name": "IL-2 Sturmovik: Overlord Campaign"
+        },
+        {
+          "appid": 3639330,
+          "name": "WEGO World War II: Overlord"
+        },
+        {
+          "appid": 1517202,
+          "name": "Operation: Overlord (World War II) Campaign"
+        }
+      ]
+    },
+    {
+      "title": "The Last of Us: Left Behind",
+      "rating": 3,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Heroes of Might and Magic V",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 15170,
+          "name": "Heroes of Might & Magic V"
+        },
+        {
+          "appid": 15380,
+          "name": "Heroes of Might & Magic V: Hammers of Fate"
+        },
+        {
+          "appid": 15370,
+          "name": "Heroes of Might & Magic V: Tribes of the East"
+        }
+      ]
+    },
+    {
+      "title": "Silent Hill",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 2124490,
+          "name": "SILENT HILL 2"
+        },
+        {
+          "appid": 1636440,
+          "name": "SILENT HILL: Townfall"
+        },
+        {
+          "appid": 2947440,
+          "name": "SILENT HILL f"
+        },
+        {
+          "appid": 1324970,
+          "name": "Dead By Daylight - Silent Hill Chapter"
+        },
+        {
+          "appid": 3516200,
+          "name": "SILENT HILL f - Digital Deluxe Upgrade"
+        }
+      ]
+    },
+    {
+      "title": "Deadpool",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Prince of Persia (2008)",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Vampire: The Masquerade - Bloodlines",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Dark Messiah of Might and Magic",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 2100,
+          "name": "Dark Messiah of Might & Magic"
+        }
+      ]
+    },
+    {
+      "title": "Spore",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 17390,
+          "name": "SPORE™"
+        },
+        {
+          "appid": 24720,
+          "name": "SPORE™ Galactic Adventures"
+        },
+        {
+          "appid": 17440,
+          "name": "SPORE™ Creepy & Cute Parts Pack"
+        },
+        {
+          "appid": 1808160,
+          "name": "Demon Spore"
+        },
+        {
+          "appid": 2997920,
+          "name": "Croak Crusader: Spawn of the Spore Spectre"
+        }
+      ]
+    },
+    {
+      "title": "Devil May Cry 3: Dante's Awakening",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "WarCraft 3: Reign of Chaos",
+      "rating": 4.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Diablo III",
+      "rating": 3,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "WarCraft 3: The Frozen Throne",
+      "rating": 4.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Devil May Cry 4",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 329050,
+          "name": "Devil May Cry 4 Special Edition"
+        },
+        {
+          "appid": 1426690,
+          "name": "Devil May Cry 4 Original Soundtrack"
+        },
+        {
+          "appid": 941956,
+          "name": "Devil May Cry 5 - DMC4 Battle Track 3-Pack"
+        },
+        {
+          "appid": 1432641,
+          "name": "Devil May Cry 5 - Vergil Battle Track 4-Pack"
+        }
+      ]
+    },
+    {
+      "title": "Prototype",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 10150,
+          "name": "Prototype™"
+        },
+        {
+          "appid": 1694550,
+          "name": "Hype Prototype"
+        },
+        {
+          "appid": 1793120,
+          "name": "Prototype Blocks"
+        },
+        {
+          "appid": 3487180,
+          "name": "Lost Prototype"
+        },
+        {
+          "appid": 3891230,
+          "name": "Ondine: Prototype"
+        }
+      ]
+    },
+    {
+      "title": "Need for Speed: Underground 2",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "The Elder Scrolls IV: Oblivion",
+      "rating": 2.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 2623190,
+          "name": "The Elder Scrolls IV: Oblivion Remastered"
+        },
+        {
+          "appid": 452070,
+          "name": "The Elder Scrolls IV: Oblivion - Soundtrack"
+        },
+        {
+          "appid": 22330,
+          "name": "The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009)"
+        },
+        {
+          "appid": 3533970,
+          "name": "The Elder Scrolls IV: Oblivion Remastered - Deluxe Upgrade"
+        },
+        {
+          "appid": 900883,
+          "name": "The Elder Scrolls IV: Oblivion® Game of the Year Edition Deluxe (2009)"
+        }
+      ]
+    },
+    {
+      "title": "Half-Life 2: Episode One",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 323150,
+          "name": "Half-Life 2: Episode One Soundtrack"
+        },
+        {
+          "appid": 2177750,
+          "name": "Half-Life 2: VR Mod - Episode One"
+        }
+      ]
+    },
+    {
+      "title": "Crysis",
+      "rating": 2.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 2096610,
+          "name": "Crysis 3 Remastered"
+        },
+        {
+          "appid": 1715130,
+          "name": "Crysis Remastered"
+        },
+        {
+          "appid": 2096600,
+          "name": "Crysis 2 Remastered"
+        },
+        {
+          "appid": 17330,
+          "name": "Crysis Warhead®"
+        },
+        {
+          "appid": 108800,
+          "name": "Crysis 2 - Maximum Edition"
+        }
+      ]
+    },
+    {
+      "title": "Mirror's Edge",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 17410,
+          "name": "Mirror's Edge™"
+        },
+        {
+          "appid": 1233570,
+          "name": "Mirror's Edge™ Catalyst"
+        }
+      ]
+    },
+    {
+      "title": "Half-Life 2: Episode Two",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 323160,
+          "name": "Half-Life 2: Episode Two Soundtrack"
+        },
+        {
+          "appid": 2177760,
+          "name": "Half-Life 2: VR Mod - Episode Two"
+        },
+        {
+          "appid": 2177750,
+          "name": "Half-Life 2: VR Mod - Episode One"
+        },
+        {
+          "appid": 323150,
+          "name": "Half-Life 2: Episode One Soundtrack"
+        }
+      ]
+    },
+    {
+      "title": "Max Payne",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 204100,
+          "name": "Max Payne 3"
+        },
+        {
+          "appid": 12150,
+          "name": "Max Payne 2: The Fall of Max Payne"
+        }
+      ]
+    },
+    {
+      "title": "Resident Evil 4 (2023)",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt - Hearts of Stone",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "BioShock",
+      "rating": 3,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 8870,
+          "name": "BioShock Infinite"
+        },
+        {
+          "appid": 7670,
+          "name": "BioShock™"
+        },
+        {
+          "appid": 409710,
+          "name": "BioShock™ Remastered"
+        },
+        {
+          "appid": 8850,
+          "name": "BioShock® 2"
+        },
+        {
+          "appid": 2028850,
+          "name": "Bioshock Infinite: Columbia's Finest"
+        }
+      ]
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt - Blood and Wine",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Mass Effect",
+      "rating": 2,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 17460,
+          "name": "Mass Effect (2007)"
+        },
+        {
+          "appid": 1328670,
+          "name": "Mass Effect™ Legendary Edition"
+        },
+        {
+          "appid": 1238020,
+          "name": "Mass Effect™ 3 N7 Digital Deluxe Edition (2012)"
+        },
+        {
+          "appid": 2362420,
+          "name": "Mass Effect 2 (2010) Edition"
+        },
+        {
+          "appid": 1238000,
+          "name": "Mass Effect™: Andromeda Deluxe Edition"
+        }
+      ]
+    },
+    {
+      "title": "Grand Theft Auto: Vice City",
+      "rating": 4.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 1546990,
+          "name": "Grand Theft Auto: Vice City – The Definitive Edition"
+        }
+      ]
+    },
+    {
+      "title": "The Witcher",
+      "rating": 3,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 5006530,
+          "name": "The Witcher 3: Wild Hunt — Songs of the Past"
+        },
+        {
+          "appid": 292030,
+          "name": "The Witcher 3: Wild Hunt - Complete Edition"
+        },
+        {
+          "appid": 20920,
+          "name": "The Witcher 2: Assassins of Kings Enhanced Edition"
+        },
+        {
+          "appid": 2684660,
+          "name": "The Witcher 3 REDkit"
+        },
+        {
+          "appid": 1229320,
+          "name": "The Witcher 3: Wild Hunt Soundtrack"
+        }
+      ]
+    },
+    {
+      "title": "Tomb Raider (2013)",
+      "rating": 3.5,
+      "reason": "no_safe_mapping",
+      "candidates": []
+    },
+    {
+      "title": "Grand Theft Auto IV",
+      "rating": 2.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 12210,
+          "name": "Grand Theft Auto IV: The Complete Edition"
+        }
+      ]
+    },
+    {
+      "title": "Mafia II",
+      "rating": 2.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 1030830,
+          "name": "Mafia II: Definitive Edition"
+        },
+        {
+          "appid": 50130,
+          "name": "Mafia II (Classic)"
+        },
+        {
+          "appid": 342913,
+          "name": "Mafia II: Definitive Edition"
+        },
+        {
+          "appid": 360430,
+          "name": "Mafia III: Definitive Edition"
+        },
+        {
+          "appid": 67330,
+          "name": "Mafia II DLC: Greaser Pack"
+        }
+      ]
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 1547000,
+          "name": "Grand Theft Auto: San Andreas – The Definitive Edition"
+        }
+      ]
+    },
+    {
+      "title": "Deus Ex: Human Revolution",
+      "rating": 2.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 238010,
+          "name": "Deus Ex: Human Revolution - Director's Cut"
+        }
+      ]
+    },
+    {
+      "title": "Darksiders",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 710920,
+          "name": "Darksiders Genesis"
+        },
+        {
+          "appid": 1203170,
+          "name": "Darksiders 4"
+        },
+        {
+          "appid": 606280,
+          "name": "Darksiders III"
+        },
+        {
+          "appid": 388410,
+          "name": "Darksiders II Deathinitive Edition"
+        },
+        {
+          "appid": 462780,
+          "name": "Darksiders Warmastered Edition"
+        }
+      ]
+    },
+    {
+      "title": "Grand Theft Auto III",
+      "rating": 2,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 1546970,
+          "name": "Grand Theft Auto III – The Definitive Edition"
+        }
+      ]
+    },
+    {
+      "title": "Borderlands",
+      "rating": 2.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 1285190,
+          "name": "Borderlands 4"
+        },
+        {
+          "appid": 49520,
+          "name": "Borderlands 2"
+        },
+        {
+          "appid": 397540,
+          "name": "Borderlands 3"
+        },
+        {
+          "appid": 261640,
+          "name": "Borderlands: The Pre-Sequel"
+        },
+        {
+          "appid": 330830,
+          "name": "Tales from the Borderlands"
+        }
+      ]
+    },
+    {
+      "title": "The Walking Dead: Michonne",
+      "rating": 2.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 429570,
+          "name": "The Walking Dead: Michonne - A Telltale Miniseries"
+        }
+      ]
+    },
+    {
+      "title": "Until Dawn",
+      "rating": 3,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 2172010,
+          "name": "Until Dawn™"
+        },
+        {
+          "appid": 4369970,
+          "name": "Ghost Master: Resurrection | Until Dawn"
+        },
+        {
+          "appid": 4830530,
+          "name": "Kairos: Until the Dawn Breaks"
+        },
+        {
+          "appid": 4972720,
+          "name": "Kairos: Until the Dawn Breaks - Soundtrack & Compendium"
+        },
+        {
+          "appid": 4972710,
+          "name": "Kairos: Until the Dawn Breaks Demo"
+        }
+      ]
+    },
+    {
+      "title": "The Last of Us: Part II",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 2531310,
+          "name": "The Last of Us™ Part II Remastered"
+        }
+      ]
+    },
+    {
+      "title": "Batman: Arkham Asylum",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 35140,
+          "name": "Batman: Arkham Asylum Game of the Year Edition"
+        },
+        {
+          "appid": 35020,
+          "name": "Batman: Arkham Asylum Demo"
+        }
+      ]
+    },
+    {
+      "title": "Batman: Arkham City",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 200260,
+          "name": "Batman: Arkham City - Game of the Year Edition"
+        },
+        {
+          "appid": 200891,
+          "name": "Batman Arkham City: Harley Quinn's Revenge"
+        }
+      ]
+    },
+    {
+      "title": "Grand Theft Auto V",
+      "rating": 2.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 3240220,
+          "name": "Grand Theft Auto V Enhanced"
+        },
+        {
+          "appid": 1546990,
+          "name": "Grand Theft Auto: Vice City – The Definitive Edition"
+        }
+      ]
+    },
+    {
+      "title": "Red Dead Redemption II",
+      "rating": 4.5,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 1174180,
+          "name": "Red Dead Redemption 2"
+        },
+        {
+          "appid": 4147110,
+          "name": "Deadrock Redemption 2"
+        }
+      ]
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt",
+      "rating": 4,
+      "reason": "no_safe_mapping",
+      "candidates": [
+        {
+          "appid": 5006530,
+          "name": "The Witcher 3: Wild Hunt — Songs of the Past"
+        },
+        {
+          "appid": 292030,
+          "name": "The Witcher 3: Wild Hunt - Complete Edition"
+        },
+        {
+          "appid": 1229320,
+          "name": "The Witcher 3: Wild Hunt Soundtrack"
+        },
+        {
+          "appid": 1233340,
+          "name": "The Witcher 3: Wild Hunt - Blood and Wine Soundtrack"
+        },
+        {
+          "appid": 1233280,
+          "name": "The Witcher 3: Wild Hunt - Hearts of Stone Soundtrack"
+        }
+      ]
+    }
+  ]
+}
