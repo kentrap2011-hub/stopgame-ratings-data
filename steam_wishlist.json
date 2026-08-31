@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 87,
+  "count": 89,
   "games": [
     {
       "appid": "10150",
@@ -612,7 +612,21 @@
       "priority": 0,
       "date_added": 1787594787,
       "store_url": "https://store.steampowered.com/app/288470/"
+    },
+    {
+      "appid": "1137300",
+      "title": "Sherlock Holmes Chapter One",
+      "priority": 0,
+      "date_added": 1788165612,
+      "store_url": "https://store.steampowered.com/app/1137300/"
+    },
+    {
+      "appid": "1249040",
+      "title": "American Arcadia",
+      "priority": 0,
+      "date_added": 1788165758,
+      "store_url": "https://store.steampowered.com/app/1249040/"
     }
   ],
-  "updated_at": "2026-08-27T08:45:21.774Z"
+  "updated_at": "2026-08-31T08:45:22.771Z"
 }
