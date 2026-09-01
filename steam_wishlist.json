@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 89,
+  "count": 90,
   "games": [
     {
       "appid": "10150",
@@ -626,7 +626,14 @@
       "priority": 0,
       "date_added": 1788165758,
       "store_url": "https://store.steampowered.com/app/1249040/"
+    },
+    {
+      "appid": "1545560",
+      "title": "Shadow Gambit: The Cursed Crew",
+      "priority": 0,
+      "date_added": 1788275869,
+      "store_url": "https://store.steampowered.com/app/1545560/"
     }
   ],
-  "updated_at": "2026-08-31T08:45:22.771Z"
+  "updated_at": "2026-09-01T15:31:02.867Z"
 }
