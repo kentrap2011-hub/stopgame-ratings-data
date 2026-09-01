@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 90,
+  "count": 89,
   "games": [
     {
       "appid": "10150",
@@ -136,13 +136,6 @@
       "priority": 0,
       "date_added": 1786386887,
       "store_url": "https://store.steampowered.com/app/523660/"
-    },
-    {
-      "appid": "690640",
-      "title": "Trine 4: The Nightmare Prince",
-      "priority": 0,
-      "date_added": 1787428319,
-      "store_url": "https://store.steampowered.com/app/690640/"
     },
     {
       "appid": "668580",
@@ -635,5 +628,5 @@
       "store_url": "https://store.steampowered.com/app/1545560/"
     }
   ],
-  "updated_at": "2026-09-01T15:31:02.867Z"
+  "updated_at": "2026-09-01T18:15:54.292Z"
 }
