@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 89,
+  "count": 90,
   "games": [
     {
       "appid": "10150",
@@ -626,7 +626,14 @@
       "priority": 0,
       "date_added": 1788275869,
       "store_url": "https://store.steampowered.com/app/1545560/"
+    },
+    {
+      "appid": "2713000",
+      "title": "Resonance: A Plague Tale Legacy",
+      "priority": 0,
+      "date_added": 1788372574,
+      "store_url": "https://store.steampowered.com/app/2713000/"
     }
   ],
-  "updated_at": "2026-09-01T18:15:54.292Z"
+  "updated_at": "2026-09-02T18:15:57.440Z"
 }
