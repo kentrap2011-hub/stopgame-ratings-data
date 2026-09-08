@@ -1768,14 +1768,18 @@
     {
       "title": "Sanitarium",
       "rating": 4,
-      "what_liked": [],
-      "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном каноническом профиле пока не объяснена.",
-      "separate_remarks": [
-        "Добавлено при миграции из актуального ratings.json после снимка 2026-08-12."
+      "what_liked": [
+        "Сильная атмосфера.",
+        "Загадки.",
+        "Трагичные истории, особенно связанные с детьми, которые сильно эмоционально затронули."
       ],
-      "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "what_disliked": [],
+      "why_this_rating": "4/5: сочетание сильной атмосферы, загадок и эмоционально тяжёлых человеческих историй; особенно запомнились трагичные истории про детей, которые очень растрогали.",
+      "separate_remarks": [
+        "Эмоциональный отклик на трагические истории здесь является прямым пользовательским объяснением, а не выводом из жанра или оценки."
+      ],
+      "discussion_confidence": "высокая",
+      "evidence_type": "user_explanation"
     },
     {
       "title": "Lucius",
@@ -2451,6 +2455,12 @@
       "type": "direct_user_explanation",
       "topic": "Warhammer 40,000: Dawn of War — детское впечатление",
       "evidence": "Пользователь не помнит конкретные механики Dawn of War. По ощущению из детства игра казалась серой и «игрой второго плана». Сигнал низкой уверенности; не обобщать его на жанр стратегий или отдельные механики."
+    },
+    {
+      "date": "2026-09-08",
+      "type": "direct_user_explanation",
+      "topic": "Sanitarium — атмосфера, загадки и эмоциональные трагические истории",
+      "evidence": "Пользователь объяснил оценку 4/5 сильной атмосферой, загадками и трагичными историями, особенно связанными с детьми, которые его очень растрогали. Это подтверждает, что эмоционально значимая человеческая история может быть сильным усилителем впечатления, но пока не должна обобщаться как обязательное условие для всех игр."
     }
   ],
   "migration_audit": {
@@ -2478,7 +2488,8 @@
     "2026-09-05-ff7-remake-campaign-burnout-before-intermission",
     "2026-09-05-ff7-intermission-drowsy-filler-vs-idol-party-core-loop",
     "2026-09-08-sync-confirmed-cross-repo-taste-controls",
-    "2026-09-08-dawn-of-war-childhood-impression"
+    "2026-09-08-dawn-of-war-childhood-impression",
+    "2026-09-08-sanitarium-atmosphere-puzzles-emotional-stories"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
