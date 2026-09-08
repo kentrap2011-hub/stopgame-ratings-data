@@ -2546,6 +2546,12 @@
       "type": "direct_user_modeling_preference",
       "topic": "Целостная, неаддитивная оценка игр и формат калибровочных тестов",
       "evidence": "Пользователь сообщил, что ему трудно отвечать на абстрактные сравнения без конкретных примеров, потому что всё зависит от степени различий, а общее впечатление от игры не является простой суммой отдельных составляющих. Следующие тесты следует строить на конкретных играх и реальном опыте, а не на синтетических A/B-вариантах."
+    },
+    {
+      "date": "2026-09-08",
+      "type": "direct_user_comparison",
+      "topic": "Half-Life: Blue Shift vs Half-Life 2 episodes — влияние отношения к базовой игре",
+      "evidence": "Пользователь объяснил разницу оценок контекстом базовых игр: Blue Shift является дополнением к нелюбимой первой Half-Life, а Episode One и Episode Two — продолжениями/дополнениями к любимой Half-Life 2. Поэтому разницу 2/5 против 3.5/5 нельзя автоматически приписывать отдельным механикам самих дополнений; отношение к базовой игре и серии здесь существенно влияет на общее впечатление."
     }
   ],
   "migration_audit": {
@@ -2582,7 +2588,8 @@
     "2026-09-08-arkham-city-density-realism-preference",
     "2026-09-08-the-suffering-low-detail-positive-memory",
     "2026-09-08-lucius-cheap-unfinished-technical-state",
-    "2026-09-08-holistic-non-additive-evaluation"
+    "2026-09-08-holistic-non-additive-evaluation",
+    "2026-09-08-half-life-addon-series-context"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
