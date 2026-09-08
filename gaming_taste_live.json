@@ -1833,14 +1833,18 @@
     {
       "title": "Петька 4: День независимости",
       "rating": 3,
-      "what_liked": [],
-      "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном каноническом профиле пока не объяснена.",
-      "separate_remarks": [
-        "Добавлено при миграции из актуального ratings.json после снимка 2026-08-12."
+      "what_liked": [
+        "Нравились шутки.",
+        "Нравилось разгадывать загадки."
       ],
-      "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "what_disliked": [],
+      "why_this_rating": "3/5: юмор и загадки нравились, но в общем впечатлении игра ощущается скорее второплановой; конкретные отрицательные детали не сохранились.",
+      "separate_remarks": [
+        "Не придумывать конкретные недостатки: пользователь их не помнит.",
+        "Ощущение 'второплановой игры' фиксируется как общее впечатление, а не как отдельный механический недостаток."
+      ],
+      "discussion_confidence": "средняя",
+      "evidence_type": "user_explanation"
     },
     {
       "title": "Sanitarium",
@@ -2653,6 +2657,12 @@
       "type": "direct_user_explanation",
       "topic": "Felix The Cat — устаревшее управление как современное трение",
       "evidence": "Пользователь недавно играл в Felix The Cat с дочкой. Он уточнил, что сложность там сейчас ощущается прежде всего из-за не очень удобного управления, а не из-за тяжёлых испытаний. Для игр тех лет управление было нормальным, но по современным меркам в такое уже тяжело играть."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Петька 4 — юмор, загадки и ощущение второплановой игры",
+      "evidence": "Пользователю нравились шутки и разгадывание загадок в Петьке 4. Конкретные недостатки он не помнит; осталось общее ощущение, что игра была скорее второплановой."
     }
   ],
   "migration_audit": {
@@ -2699,7 +2709,8 @@
     "2026-09-09-correct-dark-sector-enter-the-matrix-attribution",
     "2026-09-09-joan-of-arc-direct-skill-combat-horseback",
     "2026-09-09-larry-magna-cum-laude-fun-minigame-variety",
-    "2026-09-09-felix-the-cat-modern-control-friction"
+    "2026-09-09-felix-the-cat-modern-control-friction",
+    "2026-09-09-petka4-humor-puzzles-secondary-feel"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
