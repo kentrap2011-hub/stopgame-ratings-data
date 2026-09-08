@@ -1815,25 +1815,32 @@
       "title": "Lucius",
       "rating": 2.5,
       "what_liked": [],
-      "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном каноническом профиле пока не объяснена.",
-      "separate_remarks": [
-        "Добавлено при миграции из актуального ratings.json после снимка 2026-08-12."
+      "what_disliked": [
+        "Воспринимается скорее как бета-версия игры, чем как полноценный законченный продукт.",
+        "Выглядит дёшево."
       ],
-      "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "why_this_rating": "2.5/5: основное отрицательное впечатление связано с ощущением недоделанности и дешёвой реализации — скорее бета-версия, чем полноценная игра.",
+      "separate_remarks": [
+        "Не делать из этой оценки вывод о неприятии самой концепции Lucius или жанра: пользователь назвал именно качество реализации."
+      ],
+      "discussion_confidence": "высокая",
+      "evidence_type": "user_explanation"
     },
     {
       "title": "Lucius II",
       "rating": 2,
       "what_liked": [],
-      "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном каноническом профиле пока не объяснена.",
-      "separate_remarks": [
-        "Добавлено при миграции из актуального ratings.json после снимка 2026-08-12."
+      "what_disliked": [
+        "Как и первая часть, воспринимается скорее как бета-версия, чем как полноценная законченная игра.",
+        "Выглядит дёшево.",
+        "Дополнительно находится в плохом техническом состоянии."
       ],
-      "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "why_this_rating": "2/5: сохраняются ощущение недоделанности и дешёвой реализации первой части, а плохое техническое состояние делает впечатление ещё хуже.",
+      "separate_remarks": [
+        "Разница между 2.5/5 у первой части и 2/5 у второй напрямую связана в том числе с худшим техническим состоянием второй."
+      ],
+      "discussion_confidence": "высокая",
+      "evidence_type": "user_explanation"
     },
     {
       "title": "Final Fantasy VII Remake",
@@ -2527,6 +2534,12 @@
       "type": "direct_user_explanation",
       "topic": "The Suffering — положительное впечатление без деталей",
       "evidence": "Пользователь помнит, что The Suffering была интересной, но конкретных деталей не помнит. Это слабый положительный сигнал; не использовать его для вывода причин или жанровых предпочтений."
+    },
+    {
+      "date": "2026-09-08",
+      "type": "direct_user_explanation",
+      "topic": "Lucius / Lucius II — ощущение бета-версий, дешёвая реализация и техническое состояние",
+      "evidence": "Пользователь воспринимает обе Lucius скорее как бета-версии, чем как полноценные игры, и считает, что они выглядят дёшево. У Lucius II дополнительно плохое техническое состояние, что объясняет более низкую оценку второй части."
     }
   ],
   "migration_audit": {
@@ -2561,7 +2574,8 @@
     "2026-09-08-left4dead-low-exposure-memory",
     "2026-09-08-left-behind-story-character-impression",
     "2026-09-08-arkham-city-density-realism-preference",
-    "2026-09-08-the-suffering-low-detail-positive-memory"
+    "2026-09-08-the-suffering-low-detail-positive-memory",
+    "2026-09-08-lucius-cheap-unfinished-technical-state"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
