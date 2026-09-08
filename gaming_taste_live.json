@@ -2513,6 +2513,12 @@
       "type": "direct_user_explanation",
       "topic": "The Last of Us: Left Behind — сюжет, отношение к героине и возможная заниженность оценки",
       "evidence": "Пользователь считает сюжет Left Behind хуже основной игры, но главным отрицательным фактором называет то, что дополнение подпортила впечатление о главной героине. Также пользователь допускает, что оценка 3/5 могла быть занижена. Поэтому этот балл нельзя использовать как чистый механический или жанровый анти-сигнал."
+    },
+    {
+      "date": "2026-09-08",
+      "type": "direct_user_comparison",
+      "topic": "Batman: Arkham Asylum vs Arkham City — чистое игровое предпочтение",
+      "evidence": "Если учитывать порядок серии, пользователь выбрал бы Arkham Asylum для перепрохождения первой. Но если убрать фактор порядка и сравнивать игры как отдельные, пользователь скорее предпочёл бы Arkham City, потому что она ощущается реалистичнее и более насыщенной. Это поддерживает уже существующий сигнал в пользу более насыщенных миров, но не означает автоматическое предпочтение более открытых игр."
     }
   ],
   "migration_audit": {
@@ -2545,7 +2551,8 @@
     "2026-09-08-the-exit-8-filler-complete",
     "2026-09-08-highstreet5-gameplay-progression-technical-state",
     "2026-09-08-left4dead-low-exposure-memory",
-    "2026-09-08-left-behind-story-character-impression"
+    "2026-09-08-left-behind-story-character-impression",
+    "2026-09-08-arkham-city-density-realism-preference"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
