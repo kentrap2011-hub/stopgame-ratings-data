@@ -1,8 +1,8 @@
 {
-  "pending": false,
-  "request_id": "2026-09-09-castlevania-los-weaker-dmc-comparison",
+  "pending": true,
+  "request_id": "2026-09-09-dark-sector-low-detail-positive-memory",
   "updated_at": "2026-09-09",
-  "trigger_nonce": 22,
+  "trigger_nonce": 23,
   "operations": [
     {
       "op": "replace_matching",
@@ -10,22 +10,20 @@
         "stopgame_cards"
       ],
       "match": {
-        "title": "Castlevania: Lords of Shadow"
+        "title": "Dark Sector"
       },
       "value": {
-        "title": "Castlevania: Lords of Shadow",
+        "title": "Dark Sector",
         "rating": 3,
-        "what_liked": [],
-        "what_disliked": [
-          "По ощущениям напоминает Devil May Cry, но воспринимается как заметно более слабая версия той же формулы.",
-          "Практически всё кажется сделанным хуже, чем в DMC."
+        "what_liked": [
+          "Сохранилось общее ощущение, что игра скорее нравилась."
         ],
-        "why_this_rating": "3/5: знакомая по Devil May Cry формула сама по себе не отталкивает, но конкретная реализация ощущается существенно слабее DMC, из-за чего интерес не удержался и игра не была пройдена до конца.",
+        "what_disliked": [],
+        "why_this_rating": "3/5: осталось слабое положительное впечатление, но конкретные причины и детали почти не сохранились в памяти.",
         "separate_remarks": [
-          "Сходство с любимой серией здесь не повышает оценку, а создаёт прямое сравнение не в пользу Castlevania: Lords of Shadow.",
-          "Игра не была пройдена до конца."
+          "Не выводить из этой оценки конкретные предпочтения по боёвке, сюжету, атмосфере или жанру — пользователь очень плохо помнит игру."
         ],
-        "discussion_confidence": "высокая",
+        "discussion_confidence": "низкая",
         "evidence_type": "user_explanation"
       }
     },
@@ -37,8 +35,8 @@
       "value": {
         "date": "2026-09-09",
         "type": "direct_user_explanation",
-        "topic": "Castlevania: Lords of Shadow — слабая версия знакомой DMC-формулы",
-        "evidence": "Пользователь воспринимает Castlevania: Lords of Shadow как Devil May Cry 'на минималках': знакомая формула есть, но всё сделано хуже, чем в DMC. Из-за этого игра не удержала интерес и не была пройдена до конца."
+        "topic": "Dark Sector — слабое положительное воспоминание без деталей",
+        "evidence": "Пользователь помнит Dark Sector очень плохо, но общее ощущение скорее положительное: вроде нравилась. Это низкоуверенный положительный сигнал без права выводить конкретные причины."
       }
     }
   ]
