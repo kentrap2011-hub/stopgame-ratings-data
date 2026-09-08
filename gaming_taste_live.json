@@ -324,12 +324,16 @@
     {
       "title": "Dark Sector",
       "rating": 3,
-      "what_liked": [],
+      "what_liked": [
+        "Сохранилось общее ощущение, что игра скорее нравилась."
+      ],
       "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном разговоре не объяснена.",
-      "separate_remarks": [],
+      "why_this_rating": "3/5: осталось слабое положительное впечатление, но конкретные причины и детали почти не сохранились в памяти.",
+      "separate_remarks": [
+        "Не выводить из этой оценки конкретные предпочтения по боёвке, сюжету, атмосфере или жанру — пользователь очень плохо помнит игру."
+      ],
       "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "evidence_type": "user_explanation"
     },
     {
       "title": "Darksiders",
@@ -2588,6 +2592,12 @@
       "type": "direct_user_explanation",
       "topic": "Castlevania: Lords of Shadow — слабая версия знакомой DMC-формулы",
       "evidence": "Пользователь воспринимает Castlevania: Lords of Shadow как Devil May Cry 'на минималках': знакомая формула есть, но всё сделано хуже, чем в DMC. Из-за этого игра не удержала интерес и не была пройдена до конца."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Dark Sector — слабое положительное воспоминание без деталей",
+      "evidence": "Пользователь помнит Dark Sector очень плохо, но общее ощущение скорее положительное: вроде нравилась. Это низкоуверенный положительный сигнал без права выводить конкретные причины."
     }
   ],
   "migration_audit": {
@@ -2628,7 +2638,8 @@
     "2026-09-08-half-life-addon-series-context",
     "2026-09-08-postal2-childhood-novelty-wow",
     "2026-09-09-ultimate-spiderman-gameplay-visual-crash",
-    "2026-09-09-castlevania-los-weaker-dmc-comparison"
+    "2026-09-09-castlevania-los-weaker-dmc-comparison",
+    "2026-09-09-dark-sector-low-detail-positive-memory"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
