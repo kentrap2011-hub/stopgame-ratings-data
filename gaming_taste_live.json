@@ -1671,11 +1671,17 @@
       "title": "Warhammer 40,000: Dawn of War",
       "rating": 2.5,
       "what_liked": [],
-      "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном разговоре не объяснена.",
-      "separate_remarks": [],
+      "what_disliked": [
+        "По ощущению из детства игра казалась серой.",
+        "Воспринималась как «игра второго плана» и не оставила яркого самостоятельного впечатления."
+      ],
+      "why_this_rating": "2.5/5: конкретные механики сейчас не помнятся; сохранилось только слабое детское впечатление — серая, второстепенная игра, которая не цепляла как что-то значимое.",
+      "separate_remarks": [
+        "Это слабое воспоминание из детства, а не надёжный разбор механик.",
+        "Не использовать эту оценку как доказательство нелюбви к стратегиям или к конкретным системам Dawn of War."
+      ],
       "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "evidence_type": "user_explanation"
     },
     {
       "title": "Wars & Warriors: Joan of Arc",
@@ -2439,6 +2445,12 @@
       "type": "confirmed_cross_repo_evidence_sync",
       "topic": "Trine 4 / HighFleet / Tails of Iron 2 / High On Life — fit, start priority and play role",
       "evidence": "Синхронизированы ранее подтверждённые пользователем калибровочные сигналы из действующего Taste Review проекта: Trine 4 — подтверждённый семейный положительный пример; HighFleet — сильный отрицательный контроль именно для желания начать из-за сухой технической нагрузки, не общий анти-сигнал сложности; Tails of Iron 2 — скорее второстепенная игра для переключения, чем основная; High On Life — полноценный main-game кандидат умеренного приоритета, не palate-cleanser."
+    },
+    {
+      "date": "2026-09-08",
+      "type": "direct_user_explanation",
+      "topic": "Warhammer 40,000: Dawn of War — детское впечатление",
+      "evidence": "Пользователь не помнит конкретные механики Dawn of War. По ощущению из детства игра казалась серой и «игрой второго плана». Сигнал низкой уверенности; не обобщать его на жанр стратегий или отдельные механики."
     }
   ],
   "migration_audit": {
@@ -2465,7 +2477,8 @@
     "2026-08-29-ff7-intermission-static-npcs",
     "2026-09-05-ff7-remake-campaign-burnout-before-intermission",
     "2026-09-05-ff7-intermission-drowsy-filler-vs-idol-party-core-loop",
-    "2026-09-08-sync-confirmed-cross-repo-taste-controls"
+    "2026-09-08-sync-confirmed-cross-repo-taste-controls",
+    "2026-09-08-dawn-of-war-childhood-impression"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
