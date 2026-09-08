@@ -218,11 +218,17 @@
       "title": "Castlevania: Lords of Shadow",
       "rating": 3,
       "what_liked": [],
-      "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном разговоре не объяснена.",
-      "separate_remarks": [],
-      "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "what_disliked": [
+        "По ощущениям напоминает Devil May Cry, но воспринимается как заметно более слабая версия той же формулы.",
+        "Практически всё кажется сделанным хуже, чем в DMC."
+      ],
+      "why_this_rating": "3/5: знакомая по Devil May Cry формула сама по себе не отталкивает, но конкретная реализация ощущается существенно слабее DMC, из-за чего интерес не удержался и игра не была пройдена до конца.",
+      "separate_remarks": [
+        "Сходство с любимой серией здесь не повышает оценку, а создаёт прямое сравнение не в пользу Castlevania: Lords of Shadow.",
+        "Игра не была пройдена до конца."
+      ],
+      "discussion_confidence": "высокая",
+      "evidence_type": "user_explanation"
     },
     {
       "title": "Comix Zone",
@@ -2576,6 +2582,12 @@
       "type": "direct_user_explanation",
       "topic": "Ultimate Spider-Man — приятный геймплей, визуал и блокирующий вылет",
       "evidence": "Пользователь помнит, что в Ultimate Spider-Man было приятно играть и нравился визуальный стиль. На одном из уровней игра вылетала, из-за чего пройти дальше было невозможно. Поэтому оценку 3.5/5 нельзя трактовать как полную оценку всей игры до финала."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Castlevania: Lords of Shadow — слабая версия знакомой DMC-формулы",
+      "evidence": "Пользователь воспринимает Castlevania: Lords of Shadow как Devil May Cry 'на минималках': знакомая формула есть, но всё сделано хуже, чем в DMC. Из-за этого игра не удержала интерес и не была пройдена до конца."
     }
   ],
   "migration_audit": {
@@ -2615,7 +2627,8 @@
     "2026-09-08-holistic-non-additive-evaluation",
     "2026-09-08-half-life-addon-series-context",
     "2026-09-08-postal2-childhood-novelty-wow",
-    "2026-09-09-ultimate-spiderman-gameplay-visual-crash"
+    "2026-09-09-ultimate-spiderman-gameplay-visual-crash",
+    "2026-09-09-castlevania-los-weaker-dmc-comparison"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
