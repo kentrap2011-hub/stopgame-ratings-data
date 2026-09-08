@@ -1374,11 +1374,17 @@
       "title": "The Last of Us: Left Behind",
       "rating": 3,
       "what_liked": [],
-      "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном разговоре не объяснена.",
-      "separate_remarks": [],
-      "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "what_disliked": [
+        "Сюжет воспринимается слабее, чем в основной игре.",
+        "Главное отрицательное впечатление — дополнение ухудшило отношение к главной героине."
+      ],
+      "why_this_rating": "3/5: сюжет показался хуже основной игры, а сильнее всего оценку снизило то, что дополнение подпортила впечатление о главной героине.",
+      "separate_remarks": [
+        "Пользователь допускает, что итоговая оценка 3/5 могла быть занижена.",
+        "Не трактовать 3/5 как чистую оценку качества геймплея или формата дополнения: сильный вклад внёс отрицательный сдвиг в отношении к персонажу."
+      ],
+      "discussion_confidence": "средняя",
+      "evidence_type": "user_explanation"
     },
     {
       "title": "The Last of Us: Part I",
@@ -2501,6 +2507,12 @@
       "type": "direct_user_explanation",
       "topic": "Left 4 Dead — низкая экспозиция и слабое воспоминание",
       "evidence": "Пользователь играл мало. По текущим воспоминаниям Left 4 Dead — просто стрелялка с зомби, ничего особенно притягательного не запомнилось. Сигнал низкой уверенности; не обобщать на кооператив, шутеры или зомби-тематику."
+    },
+    {
+      "date": "2026-09-08",
+      "type": "direct_user_explanation",
+      "topic": "The Last of Us: Left Behind — сюжет, отношение к героине и возможная заниженность оценки",
+      "evidence": "Пользователь считает сюжет Left Behind хуже основной игры, но главным отрицательным фактором называет то, что дополнение подпортила впечатление о главной героине. Также пользователь допускает, что оценка 3/5 могла быть занижена. Поэтому этот балл нельзя использовать как чистый механический или жанровый анти-сигнал."
     }
   ],
   "migration_audit": {
@@ -2532,7 +2544,8 @@
     "2026-09-08-sanitarium-atmosphere-puzzles-emotional-stories",
     "2026-09-08-the-exit-8-filler-complete",
     "2026-09-08-highstreet5-gameplay-progression-technical-state",
-    "2026-09-08-left4dead-low-exposure-memory"
+    "2026-09-08-left4dead-low-exposure-memory",
+    "2026-09-08-left-behind-story-character-impression"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
