@@ -1602,12 +1602,20 @@
     {
       "title": "Ultimate Spider-Man",
       "rating": 3.5,
-      "what_liked": [],
-      "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном разговоре не объяснена.",
-      "separate_remarks": [],
-      "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "what_liked": [
+        "Играть было приятно.",
+        "Нравился визуальный стиль."
+      ],
+      "what_disliked": [
+        "На одном из уровней игра стабильно вылетала, из-за чего пройти дальше было невозможно."
+      ],
+      "why_this_rating": "3.5/5: сохранилось положительное впечатление от самого игрового процесса и визуала, но прохождение было фактически оборвано технической проблемой — на одном уровне игра вылетала и не позволяла продолжить.",
+      "separate_remarks": [
+        "Пользователь считает, что, возможно, уже объяснял эту оценку раньше, но в текущем каноническом профиле объяснение отсутствовало.",
+        "Оценка основана не на полном прохождении: дальнейший опыт был заблокирован техническим сбоем."
+      ],
+      "discussion_confidence": "средняя",
+      "evidence_type": "user_explanation"
     },
     {
       "title": "Until Dawn",
@@ -2287,7 +2295,7 @@
     ]
   },
   "profile_type": "canonical_live_gaming_taste",
-  "updated_at": "2026-09-08",
+  "updated_at": "2026-09-09",
   "migrated_from": {
     "file": "gaming_taste_database_2026-08-12.json",
     "snapshot_date": "2026-08-12",
@@ -2562,6 +2570,12 @@
       "type": "direct_user_explanation",
       "topic": "Postal 2 — детский вау-эффект от необычной свободы и абсурдного юмора",
       "evidence": "Пользователь вспомнил, что возможность мочиться и абсурдные взаимодействия вроде использования кошки в детстве вызывали сильный вау-эффект и казались весёлыми. Пока это фиксируется как конкретный положительный фактор Postal 2, без общего вывода о любви к шок-контенту или грубому юмору."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Ultimate Spider-Man — приятный геймплей, визуал и блокирующий вылет",
+      "evidence": "Пользователь помнит, что в Ultimate Spider-Man было приятно играть и нравился визуальный стиль. На одном из уровней игра вылетала, из-за чего пройти дальше было невозможно. Поэтому оценку 3.5/5 нельзя трактовать как полную оценку всей игры до финала."
     }
   ],
   "migration_audit": {
@@ -2600,7 +2614,8 @@
     "2026-09-08-lucius-cheap-unfinished-technical-state",
     "2026-09-08-holistic-non-additive-evaluation",
     "2026-09-08-half-life-addon-series-context",
-    "2026-09-08-postal2-childhood-novelty-wow"
+    "2026-09-08-postal2-childhood-novelty-wow",
+    "2026-09-09-ultimate-spiderman-gameplay-visual-crash"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
