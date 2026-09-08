@@ -1748,14 +1748,16 @@
     {
       "title": "The Suffering",
       "rating": 3.5,
-      "what_liked": [],
+      "what_liked": [
+        "Сохранилось общее воспоминание, что играть было интересно."
+      ],
       "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном каноническом профиле пока не объяснена.",
+      "why_this_rating": "3.5/5: осталось устойчивое положительное ощущение, что игра была интересной, но конкретные причины и детали сейчас не помнятся.",
       "separate_remarks": [
-        "Добавлено при миграции из актуального ratings.json после снимка 2026-08-12."
+        "Не выводить из этой оценки конкретные предпочтения по хоррору, боёвке, сюжету или структуре — деталей пользователь не помнит."
       ],
       "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "evidence_type": "user_explanation"
     },
     {
       "title": "Felix The Cat",
@@ -2519,6 +2521,12 @@
       "type": "direct_user_comparison",
       "topic": "Batman: Arkham Asylum vs Arkham City — чистое игровое предпочтение",
       "evidence": "Если учитывать порядок серии, пользователь выбрал бы Arkham Asylum для перепрохождения первой. Но если убрать фактор порядка и сравнивать игры как отдельные, пользователь скорее предпочёл бы Arkham City, потому что она ощущается реалистичнее и более насыщенной. Это поддерживает уже существующий сигнал в пользу более насыщенных миров, но не означает автоматическое предпочтение более открытых игр."
+    },
+    {
+      "date": "2026-09-08",
+      "type": "direct_user_explanation",
+      "topic": "The Suffering — положительное впечатление без деталей",
+      "evidence": "Пользователь помнит, что The Suffering была интересной, но конкретных деталей не помнит. Это слабый положительный сигнал; не использовать его для вывода причин или жанровых предпочтений."
     }
   ],
   "migration_audit": {
@@ -2552,7 +2560,8 @@
     "2026-09-08-highstreet5-gameplay-progression-technical-state",
     "2026-09-08-left4dead-low-exposure-memory",
     "2026-09-08-left-behind-story-character-impression",
-    "2026-09-08-arkham-city-density-realism-preference"
+    "2026-09-08-arkham-city-density-realism-preference",
+    "2026-09-08-the-suffering-low-detail-positive-memory"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
