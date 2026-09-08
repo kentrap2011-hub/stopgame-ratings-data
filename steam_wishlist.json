@@ -5,6 +5,13 @@
   "count": 90,
   "games": [
     {
+      "appid": "9480",
+      "title": "Saints Row 2",
+      "priority": 0,
+      "date_added": 1787255589,
+      "store_url": "https://store.steampowered.com/app/9480/"
+    },
+    {
       "appid": "10150",
       "title": "Prototype™",
       "priority": 0,
@@ -82,11 +89,32 @@
       "store_url": "https://store.steampowered.com/app/33320/"
     },
     {
+      "appid": "204450",
+      "title": "Call of Juarez: Gunslinger",
+      "priority": 0,
+      "date_added": 1787289031,
+      "store_url": "https://store.steampowered.com/app/204450/"
+    },
+    {
       "appid": "217980",
       "title": "Dishonored",
       "priority": 0,
       "date_added": 1785695810,
       "store_url": "https://store.steampowered.com/app/217980/"
+    },
+    {
+      "appid": "242700",
+      "title": "Injustice: Gods Among Us Ultimate Edition",
+      "priority": 0,
+      "date_added": 1787501293,
+      "store_url": "https://store.steampowered.com/app/242700/"
+    },
+    {
+      "appid": "249130",
+      "title": "LEGO® Marvel™ Super Heroes",
+      "priority": 0,
+      "date_added": 1787433187,
+      "store_url": "https://store.steampowered.com/app/249130/"
     },
     {
       "appid": "268910",
@@ -103,11 +131,25 @@
       "store_url": "https://store.steampowered.com/app/284050/"
     },
     {
+      "appid": "288470",
+      "title": "Fable Anniversary",
+      "priority": 0,
+      "date_added": 1787594787,
+      "store_url": "https://store.steampowered.com/app/288470/"
+    },
+    {
       "appid": "367520",
       "title": "Hollow Knight",
       "priority": 0,
       "date_added": 1783604625,
       "store_url": "https://store.steampowered.com/app/367520/"
+    },
+    {
+      "appid": "379430",
+      "title": "Kingdom Come: Deliverance",
+      "priority": 0,
+      "date_added": 1787255817,
+      "store_url": "https://store.steampowered.com/app/379430/"
     },
     {
       "appid": "387290",
@@ -138,6 +180,13 @@
       "store_url": "https://store.steampowered.com/app/523660/"
     },
     {
+      "appid": "578330",
+      "title": "LEGO® City Undercover",
+      "priority": 0,
+      "date_added": 1787433264,
+      "store_url": "https://store.steampowered.com/app/578330/"
+    },
+    {
       "appid": "668580",
       "title": "Atomic Heart",
       "priority": 0,
@@ -159,11 +208,11 @@
       "store_url": "https://store.steampowered.com/app/765900/"
     },
     {
-      "appid": "379430",
-      "title": "Kingdom Come: Deliverance",
+      "appid": "978300",
+      "title": "Saints Row®: The Third™ Remastered",
       "priority": 0,
-      "date_added": 1787255817,
-      "store_url": "https://store.steampowered.com/app/379430/"
+      "date_added": 1787255568,
+      "store_url": "https://store.steampowered.com/app/978300/"
     },
     {
       "appid": "1088850",
@@ -180,6 +229,20 @@
       "store_url": "https://store.steampowered.com/app/1089980/"
     },
     {
+      "appid": "1137300",
+      "title": "Sherlock Holmes Chapter One",
+      "priority": 0,
+      "date_added": 1788165612,
+      "store_url": "https://store.steampowered.com/app/1137300/"
+    },
+    {
+      "appid": "1139900",
+      "title": "Ghostrunner",
+      "priority": 0,
+      "date_added": 1787255914,
+      "store_url": "https://store.steampowered.com/app/1139900/"
+    },
+    {
       "appid": "1174180",
       "title": "Red Dead Redemption 2",
       "priority": 0,
@@ -194,11 +257,25 @@
       "store_url": "https://store.steampowered.com/app/1222140/"
     },
     {
+      "appid": "1225570",
+      "title": "Unravel Two",
+      "priority": 0,
+      "date_added": 1787428814,
+      "store_url": "https://store.steampowered.com/app/1225570/"
+    },
+    {
       "appid": "1233570",
       "title": "Mirror's Edge™ Catalyst",
       "priority": 0,
       "date_added": 1783580988,
       "store_url": "https://store.steampowered.com/app/1233570/"
+    },
+    {
+      "appid": "1244950",
+      "title": "Battletoads",
+      "priority": 0,
+      "date_added": 1787430548,
+      "store_url": "https://store.steampowered.com/app/1244950/"
     },
     {
       "appid": "1245620",
@@ -208,11 +285,39 @@
       "store_url": "https://store.steampowered.com/app/1245620/"
     },
     {
+      "appid": "1249040",
+      "title": "American Arcadia",
+      "priority": 0,
+      "date_added": 1788165758,
+      "store_url": "https://store.steampowered.com/app/1249040/"
+    },
+    {
+      "appid": "1361510",
+      "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+      "priority": 0,
+      "date_added": 1787430493,
+      "store_url": "https://store.steampowered.com/app/1361510/"
+    },
+    {
       "appid": "1370050",
       "title": "Trek to Yomi",
       "priority": 0,
       "date_added": 1785780128,
       "store_url": "https://store.steampowered.com/app/1370050/"
+    },
+    {
+      "appid": "1373510",
+      "title": "BloodRayne: Terminal Cut",
+      "priority": 0,
+      "date_added": 1787115270,
+      "store_url": "https://store.steampowered.com/app/1373510/"
+    },
+    {
+      "appid": "1373550",
+      "title": "BloodRayne 2: Terminal Cut",
+      "priority": 0,
+      "date_added": 1787115256,
+      "store_url": "https://store.steampowered.com/app/1373550/"
     },
     {
       "appid": "1406810",
@@ -234,6 +339,13 @@
       "priority": 0,
       "date_added": 1784574071,
       "store_url": "https://store.steampowered.com/app/1466060/"
+    },
+    {
+      "appid": "1545560",
+      "title": "Shadow Gambit: The Cursed Crew",
+      "priority": 0,
+      "date_added": 1788275869,
+      "store_url": "https://store.steampowered.com/app/1545560/"
     },
     {
       "appid": "1547000",
@@ -264,11 +376,11 @@
       "store_url": "https://store.steampowered.com/app/1627720/"
     },
     {
-      "appid": "2486820",
-      "title": "Sonic Racing: CrossWorlds",
+      "appid": "1659420",
+      "title": "UNCHARTED™: Наследие воров. Коллекция",
       "priority": 0,
-      "date_added": 1787342186,
-      "store_url": "https://store.steampowered.com/app/2486820/"
+      "date_added": 1787463742,
+      "store_url": "https://store.steampowered.com/app/1659420/"
     },
     {
       "appid": "1790600",
@@ -348,11 +460,11 @@
       "store_url": "https://store.steampowered.com/app/2215260/"
     },
     {
-      "appid": "1139900",
-      "title": "Ghostrunner",
+      "appid": "2358720",
+      "title": "Black Myth: Wukong",
       "priority": 0,
-      "date_added": 1787255914,
-      "store_url": "https://store.steampowered.com/app/1139900/"
+      "date_added": 1787504671,
+      "store_url": "https://store.steampowered.com/app/2358720/"
     },
     {
       "appid": "2395210",
@@ -374,6 +486,13 @@
       "priority": 0,
       "date_added": 1784311236,
       "store_url": "https://store.steampowered.com/app/2424420/"
+    },
+    {
+      "appid": "2486820",
+      "title": "Sonic Racing: CrossWorlds",
+      "priority": 0,
+      "date_added": 1787342186,
+      "store_url": "https://store.steampowered.com/app/2486820/"
     },
     {
       "appid": "2524850",
@@ -418,6 +537,13 @@
       "store_url": "https://store.steampowered.com/app/2651280/"
     },
     {
+      "appid": "2713000",
+      "title": "Resonance: A Plague Tale Legacy",
+      "priority": 0,
+      "date_added": 1788372574,
+      "store_url": "https://store.steampowered.com/app/2713000/"
+    },
+    {
       "appid": "2717880",
       "title": "The Rogue Prince of Persia",
       "priority": 0,
@@ -437,6 +563,20 @@
       "priority": 0,
       "date_added": 1786198859,
       "store_url": "https://store.steampowered.com/app/2909400/"
+    },
+    {
+      "appid": "2950340",
+      "title": "LEGO® Harry Potter™ Collection",
+      "priority": 0,
+      "date_added": 1787432880,
+      "store_url": "https://store.steampowered.com/app/2950340/"
+    },
+    {
+      "appid": "2988580",
+      "title": "Yakuza 0 Director's Cut",
+      "priority": 0,
+      "date_added": 1787256176,
+      "store_url": "https://store.steampowered.com/app/2988580/"
     },
     {
       "appid": "3132930",
@@ -460,11 +600,11 @@
       "store_url": "https://store.steampowered.com/app/3180070/"
     },
     {
-      "appid": "2988580",
-      "title": "Yakuza 0 Director's Cut",
+      "appid": "3287520",
+      "title": "NINJA GAIDEN 2 Black",
       "priority": 0,
-      "date_added": 1787256176,
-      "store_url": "https://store.steampowered.com/app/2988580/"
+      "date_added": 1787256085,
+      "store_url": "https://store.steampowered.com/app/3287520/"
     },
     {
       "appid": "3357650",
@@ -472,13 +612,6 @@
       "priority": 0,
       "date_added": 1783872013,
       "store_url": "https://store.steampowered.com/app/3357650/"
-    },
-    {
-      "appid": "204450",
-      "title": "Call of Juarez: Gunslinger",
-      "priority": 0,
-      "date_added": 1787289031,
-      "store_url": "https://store.steampowered.com/app/204450/"
     },
     {
       "appid": "3768760",
@@ -495,145 +628,12 @@
       "store_url": "https://store.steampowered.com/app/3787240/"
     },
     {
-      "appid": "3287520",
-      "title": "NINJA GAIDEN 2 Black",
-      "priority": 0,
-      "date_added": 1787256085,
-      "store_url": "https://store.steampowered.com/app/3287520/"
-    },
-    {
       "appid": "3914860",
       "title": "Moss: The Forgotten Relic ",
       "priority": 0,
       "date_added": 1784384717,
       "store_url": "https://store.steampowered.com/app/3914860/"
-    },
-    {
-      "appid": "1373550",
-      "title": "BloodRayne 2: Terminal Cut",
-      "priority": 0,
-      "date_added": 1787115256,
-      "store_url": "https://store.steampowered.com/app/1373550/"
-    },
-    {
-      "appid": "1373510",
-      "title": "BloodRayne: Terminal Cut",
-      "priority": 0,
-      "date_added": 1787115270,
-      "store_url": "https://store.steampowered.com/app/1373510/"
-    },
-    {
-      "appid": "978300",
-      "title": "Saints Row®: The Third™ Remastered",
-      "priority": 0,
-      "date_added": 1787255568,
-      "store_url": "https://store.steampowered.com/app/978300/"
-    },
-    {
-      "appid": "9480",
-      "title": "Saints Row 2",
-      "priority": 0,
-      "date_added": 1787255589,
-      "store_url": "https://store.steampowered.com/app/9480/"
-    },
-    {
-      "appid": "1225570",
-      "title": "Unravel Two",
-      "priority": 0,
-      "date_added": 1787428814,
-      "store_url": "https://store.steampowered.com/app/1225570/"
-    },
-    {
-      "appid": "1361510",
-      "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
-      "priority": 0,
-      "date_added": 1787430493,
-      "store_url": "https://store.steampowered.com/app/1361510/"
-    },
-    {
-      "appid": "1244950",
-      "title": "Battletoads",
-      "priority": 0,
-      "date_added": 1787430548,
-      "store_url": "https://store.steampowered.com/app/1244950/"
-    },
-    {
-      "appid": "2950340",
-      "title": "LEGO® Harry Potter™ Collection",
-      "priority": 0,
-      "date_added": 1787432880,
-      "store_url": "https://store.steampowered.com/app/2950340/"
-    },
-    {
-      "appid": "249130",
-      "title": "LEGO® Marvel™ Super Heroes",
-      "priority": 0,
-      "date_added": 1787433187,
-      "store_url": "https://store.steampowered.com/app/249130/"
-    },
-    {
-      "appid": "578330",
-      "title": "LEGO® City Undercover",
-      "priority": 0,
-      "date_added": 1787433264,
-      "store_url": "https://store.steampowered.com/app/578330/"
-    },
-    {
-      "appid": "1659420",
-      "title": "UNCHARTED™: Наследие воров. Коллекция",
-      "priority": 0,
-      "date_added": 1787463742,
-      "store_url": "https://store.steampowered.com/app/1659420/"
-    },
-    {
-      "appid": "242700",
-      "title": "Injustice: Gods Among Us Ultimate Edition",
-      "priority": 0,
-      "date_added": 1787501293,
-      "store_url": "https://store.steampowered.com/app/242700/"
-    },
-    {
-      "appid": "2358720",
-      "title": "Black Myth: Wukong",
-      "priority": 0,
-      "date_added": 1787504671,
-      "store_url": "https://store.steampowered.com/app/2358720/"
-    },
-    {
-      "appid": "288470",
-      "title": "Fable Anniversary",
-      "priority": 0,
-      "date_added": 1787594787,
-      "store_url": "https://store.steampowered.com/app/288470/"
-    },
-    {
-      "appid": "1137300",
-      "title": "Sherlock Holmes Chapter One",
-      "priority": 0,
-      "date_added": 1788165612,
-      "store_url": "https://store.steampowered.com/app/1137300/"
-    },
-    {
-      "appid": "1249040",
-      "title": "American Arcadia",
-      "priority": 0,
-      "date_added": 1788165758,
-      "store_url": "https://store.steampowered.com/app/1249040/"
-    },
-    {
-      "appid": "1545560",
-      "title": "Shadow Gambit: The Cursed Crew",
-      "priority": 0,
-      "date_added": 1788275869,
-      "store_url": "https://store.steampowered.com/app/1545560/"
-    },
-    {
-      "appid": "2713000",
-      "title": "Resonance: A Plague Tale Legacy",
-      "priority": 0,
-      "date_added": 1788372574,
-      "store_url": "https://store.steampowered.com/app/2713000/"
     }
   ],
-  "updated_at": "2026-09-02T18:15:57.440Z"
+  "updated_at": "2026-09-08T22:15:32.200Z"
 }
