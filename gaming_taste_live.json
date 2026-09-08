@@ -808,11 +808,16 @@
       "title": "Left 4 Dead",
       "rating": 3,
       "what_liked": [],
-      "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном разговоре не объяснена.",
-      "separate_remarks": [],
+      "what_disliked": [
+        "По нынешним воспоминаниям воспринимается просто как стрелялка с зомби без чего-то особенно притягательного."
+      ],
+      "why_this_rating": "3/5: пользователь играл мало и сейчас почти не помнит игру; сохранилось только нейтральное впечатление обычной стрелялки с зомби без яркого притягательного элемента.",
+      "separate_remarks": [
+        "Экспозиция низкая: пользователь играл мало.",
+        "Не использовать эту оценку как сильный анти-сигнал против кооператива, шутеров, зомби-тематики или игр без мета-прогрессии."
+      ],
       "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "evidence_type": "user_explanation"
     },
     {
       "title": "Mafia II",
@@ -2490,6 +2495,12 @@
       "type": "direct_user_explanation",
       "topic": "HighStreet 5 — сильный core gameplay при низкой итоговой оценке",
       "evidence": "Пользователь очень любит сам геймплей HighStreet 5. Низкая оценка связана не с core loop, а с тем, что игра почти не развивается после первой недели, находится в плохом техническом состоянии (лаги, вылеты, подвисания) и эстетически воспринимается как рассчитанная скорее на маленьких девочек. Главной проблемой пользователь назвал именно техническое состояние."
+    },
+    {
+      "date": "2026-09-08",
+      "type": "direct_user_explanation",
+      "topic": "Left 4 Dead — низкая экспозиция и слабое воспоминание",
+      "evidence": "Пользователь играл мало. По текущим воспоминаниям Left 4 Dead — просто стрелялка с зомби, ничего особенно притягательного не запомнилось. Сигнал низкой уверенности; не обобщать на кооператив, шутеры или зомби-тематику."
     }
   ],
   "migration_audit": {
@@ -2520,7 +2531,8 @@
     "2026-09-08-dawn-of-war-childhood-impression",
     "2026-09-08-sanitarium-atmosphere-puzzles-emotional-stories",
     "2026-09-08-the-exit-8-filler-complete",
-    "2026-09-08-highstreet5-gameplay-progression-technical-state"
+    "2026-09-08-highstreet5-gameplay-progression-technical-state",
+    "2026-09-08-left4dead-low-exposure-memory"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
