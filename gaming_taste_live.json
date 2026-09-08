@@ -1811,14 +1811,18 @@
     {
       "title": "Leisure Suit Larry: Magna Cum Laude",
       "rating": 3.5,
-      "what_liked": [],
+      "what_liked": [
+        "Сохранилось ощущение, что игра была весёлой.",
+        "Нравилось разнообразие за счёт большого количества мини-игр."
+      ],
       "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном каноническом профиле пока не объяснена.",
+      "why_this_rating": "3.5/5: в памяти остались весёлое общее впечатление и разнообразие благодаря множеству мини-игр; причины, почему оценка не выше, не сохранились.",
       "separate_remarks": [
-        "Добавлено при миграции из актуального ratings.json после снимка 2026-08-12."
+        "Память об игре слабая; не обобщать сверх прямо названных факторов.",
+        "Не придумывать отрицательные причины оценки 3.5/5."
       ],
       "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "evidence_type": "user_explanation"
     },
     {
       "title": "Петька 4: День независимости",
@@ -2631,6 +2635,12 @@
       "type": "direct_user_preference",
       "topic": "Прямое управление боем и победа за счёт навыка игрока",
       "evidence": "На примере Wars & Warriors: Joan of Arc пользователь прямо сформулировал устойчивое предпочтение: ему нравится, когда в бою он непосредственно управляет персонажем и может выигрывать за счёт собственного навыка, а не преимущественно за счёт числовых характеристик. В самой Joan of Arc нравились управление мечом и щитом и езда верхом, которая тогда ощущалась необычной."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Leisure Suit Larry: Magna Cum Laude — весёлое впечатление и разнообразие мини-игр",
+      "evidence": "Пользователь плохо помнит игру, но вспоминает её как весёлую и разнообразную благодаря большому количеству мини-игр. Причины, ограничившие оценку 3.5/5, неизвестны."
     }
   ],
   "migration_audit": {
@@ -2675,7 +2685,8 @@
     "2026-09-09-dark-sector-low-detail-positive-memory",
     "2026-09-09-dark-sector-combat-acrobatics-bugs-cheap-feel",
     "2026-09-09-correct-dark-sector-enter-the-matrix-attribution",
-    "2026-09-09-joan-of-arc-direct-skill-combat-horseback"
+    "2026-09-09-joan-of-arc-direct-skill-combat-horseback",
+    "2026-09-09-larry-magna-cum-laude-fun-minigame-variety"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
