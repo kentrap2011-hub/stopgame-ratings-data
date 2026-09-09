@@ -2836,6 +2836,12 @@
       "type": "direct_user_explanation",
       "topic": "Fallout 3 — ситуативная прокачка без заранее заданного билда",
       "evidence": "Пользователь не строил персонажа под заранее выбранный билд: прокачивал то, что в конкретный момент считал наиболее важным. Это подтверждает практичный, адаптивный подход к развитию персонажа, а не стремление заранее оптимизировать всю сборку."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation_low_confidence",
+      "topic": "Max Payne 3 — перестрелки, вероятно, нравились",
+      "evidence": "На вопрос о стрельбе и перестрелках в Max Payne 3 пользователь ответил «вроде да», но отдельно подчеркнул, что плохо помнит игру. Считать это только слабым положительным сигналом и не использовать как уверенное объяснение оценки."
     }
   ],
   "migration_audit": {
@@ -2902,7 +2908,8 @@
     "2026-09-09-nfs-underground2-cosmetic-customization-sometimes",
     "2026-09-09-performance-over-cosmetics-nfs-witcher",
     "2026-09-09-witcher-gear-holistic-utility",
-    "2026-09-09-fallout3-adaptive-progression"
+    "2026-09-09-fallout3-adaptive-progression",
+    "2026-09-09-max-payne3-shooting-weak-memory"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
