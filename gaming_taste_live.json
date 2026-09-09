@@ -2848,6 +2848,12 @@
       "type": "direct_user_explanation_low_confidence",
       "topic": "Spore — возможно, больше всего нравилась стадия космоса",
       "evidence": "На вопрос о любимой стадии Spore пользователь предположил стадию космоса, но сразу уточнил, что не помнит. Считать это только слабым, ненадёжным сигналом и не использовать как уверенное предпочтение конкретной стадии."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation_low_confidence",
+      "topic": "Comix Zone — возможно, малое количество жизней усиливало сложность",
+      "evidence": "Пользователь предположил, что в Comix Zone удовольствие от сложности могло снижать малое количество жизней, но сразу уточнил, что не помнит. Считать это только слабым предположением и не использовать как уверенную причину оценки."
     }
   ],
   "migration_audit": {
@@ -2916,7 +2922,8 @@
     "2026-09-09-witcher-gear-holistic-utility",
     "2026-09-09-fallout3-adaptive-progression",
     "2026-09-09-max-payne3-shooting-weak-memory",
-    "2026-09-09-spore-space-stage-weak-memory"
+    "2026-09-09-spore-space-stage-weak-memory",
+    "2026-09-09-comix-zone-lives-weak-memory"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
