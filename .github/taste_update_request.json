@@ -1,12 +1,14 @@
 {
-  "pending": true,
+  "pending": false,
   "request_id": "2026-09-09-bramble-over-pathless-clean-test-hit",
   "updated_at": "2026-09-09",
   "trigger_nonce": 85,
   "operations": [
     {
       "op": "append",
-      "path": ["evidence_log"],
+      "path": [
+        "evidence_log"
+      ],
       "value": {
         "date": "2026-09-09",
         "type": "direct_user_explanation",

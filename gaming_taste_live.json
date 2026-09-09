@@ -3052,6 +3052,12 @@
       "type": "direct_user_explanation",
       "topic": "Psychonauts 2 vs En Garde! — Psychonauts интереснее только по концепции и сюжету",
       "evidence": "В чистом сравнительном тесте обе игры не впечатлили пользователя. Psychonauts 2 всё же выглядел интереснее по концепции и сюжету, но сильного желания играть не возникло. Корректировка модели: отдельно оценивать относительного победителя пары и абсолютную силу интереса; победа в сравнении не означает реальную заинтересованность."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Bramble vs The Pathless — выбор Bramble и реальный интерес",
+      "evidence": "В чистом сравнительном тесте обе игры показались пользователю интересными, но он выбрал Bramble: The Mountain King. Bramble сильно понравилась визуально и вызвала надежду на опыт в духе A Plague Tale. The Pathless тоже интересна, но пользователь опасается, что она быстро надоест; дополнительно не понравилась более угловатая графика. Это подтверждает: цельная атмосферная визуальная подача и ожидание линейного приключения могут давать сильный интерес, тогда как потенциально повторяющийся цикл и менее выразительная графика заметно снижают желание играть."
     }
   ],
   "migration_audit": {
@@ -3154,7 +3160,8 @@
     "2026-09-09-sifu-known-high-interest-next-game",
     "2026-09-09-tunic-clean-test-preference",
     "2026-09-09-kena-clean-test-strong-preference",
-    "2026-09-09-psychonauts2-over-en-garde-low-interest"
+    "2026-09-09-psychonauts2-over-en-garde-low-interest",
+    "2026-09-09-bramble-over-pathless-clean-test-hit"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
