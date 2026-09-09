@@ -1,8 +1,8 @@
 {
-  "pending": false,
-  "request_id": "2026-09-09-blood-and-wine-universe-fatigue-after-100h",
+  "pending": true,
+  "request_id": "2026-09-09-hl2-episode-one-as-continuation",
   "updated_at": "2026-09-09",
-  "trigger_nonce": 36,
+  "trigger_nonce": 37,
   "operations": [
     {
       "op": "replace_matching",
@@ -10,21 +10,19 @@
         "stopgame_cards"
       ],
       "match": {
-        "title": "The Witcher 3: Wild Hunt - Blood and Wine"
+        "title": "Half-Life 2: Episode One"
       },
       "value": {
-        "title": "The Witcher 3: Wild Hunt - Blood and Wine",
-        "rating": 4,
+        "title": "Half-Life 2: Episode One",
+        "rating": 3.5,
         "what_liked": [
-          "Сюжет."
+          "Воспринимается как прямое продолжение любимой Half-Life 2, а не как отдельная самостоятельная игра."
         ],
         "what_disliked": [],
-        "why_this_rating": "4/5: из пройденной части дополнения главным подтверждённым плюсом был сюжет; дополнение не было пройдено полностью не из-за конкретного недостатка Blood and Wine, а из-за накопившейся усталости от вселенной после более чем 100 часов The Witcher 3 и прохождения Hearts of Stone.",
+        "why_this_rating": "3.5/5: оценку Episode One нужно читать в контексте отношения к Half-Life 2; пользователь воспринимает эпизод именно как продолжение основной игры, а не как отдельный игровой опыт.",
         "separate_remarks": [
-          "Blood and Wine не пройдено полностью.",
-          "Перед ним пользователь провёл более 100 часов в основной The Witcher 3, а затем прошёл Hearts of Stone.",
-          "Причина остановки — усталость от длительного непрерывного пребывания в одной вселенной, а не подтверждённое ухудшение сюжета или геймплея Blood and Wine.",
-          "Нельзя использовать выбор Hearts of Stone в прямом сравнении как доказательство более слабого сюжета Blood and Wine."
+          "Не использовать Episode One как независимый второй сигнал о вкусе без учёта сильной привязки к Half-Life 2.",
+          "Конкретные отдельные плюсы и минусы Episode One пользователь пока не называл."
         ],
         "discussion_confidence": "высокая",
         "evidence_type": "user_explanation"
@@ -37,9 +35,9 @@
       ],
       "value": {
         "date": "2026-09-09",
-        "type": "direct_user_preference",
-        "topic": "Усталость от длительного непрерывного погружения в одну игровую вселенную",
-        "evidence": "Blood and Wine пользователь не допрошёл после более чем 100 часов основной The Witcher 3 и затем Hearts of Stone: он прямо объяснил, что к тому моменту просто устал от вселенной. Это подтверждает риск накопительной усталости от очень долгого непрерывного пребывания в одном игровом мире и не должно трактоваться как отрицательная оценка качества Blood and Wine."
+        "type": "direct_user_explanation",
+        "topic": "Half-Life 2: Episode One — продолжение, а не отдельная игра",
+        "evidence": "Пользователь прямо сказал, что воспринимает Half-Life 2: Episode One как продолжение Half-Life 2. Поэтому оценку эпизода нужно интерпретировать в контексте основной игры, а не как полностью независимый опыт."
       }
     }
   ]
