@@ -2908,6 +2908,12 @@
       "type": "direct_user_explanation",
       "topic": "Half-Life 2 — индустриальные sci-fi локации нравятся при подходящей визуальной подаче",
       "evidence": "Пользователь подтвердил, что локации Цитадели и интерьеры Альянса в Half-Life 2 ему нравились, отдельно связав это с эстетикой Source. Это сужает негативный паттерн ещё сильнее: индустриальные sci-fi пространства сами по себе не являются минусом; решающую роль играет конкретная визуальная подача и ощущение пространства. DOOM 3, Dead Space и часть FF7 остаются негативными примерами, а Half-Life 2 и Portal — положительными контрпримерами."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Left 4 Dead — визуал нейтральный",
+      "evidence": "Пользователь оценил визуальную сторону Left 4 Dead как нормальную: ни плюс, ни минус. Не использовать принадлежность игры к Source как автоматический положительный эстетический сигнал; конкретная визуальная реализация важнее самого движка."
     }
   ],
   "migration_audit": {
@@ -2986,7 +2992,8 @@
     "2026-09-09-portal-source-aesthetic-and-location-counterexample",
     "2026-09-09-max-payne-darkness-positive-counterexample",
     "2026-09-09-dark-industrial-scifi-location-pattern",
-    "2026-09-09-half-life2-source-scifi-location-counterexample"
+    "2026-09-09-half-life2-source-scifi-location-counterexample",
+    "2026-09-09-left4dead-visual-neutral"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
