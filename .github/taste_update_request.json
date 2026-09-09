@@ -1,8 +1,8 @@
 {
-  "pending": false,
-  "request_id": "2026-09-09-ff7-remake-locations-broadly-disliked",
+  "pending": true,
+  "request_id": "2026-09-09-ff7-remake-style-liked-locations-disliked",
   "updated_at": "2026-09-09",
-  "trigger_nonce": 62,
+  "trigger_nonce": 63,
   "operations": [
     {
       "op": "append",
@@ -11,9 +11,9 @@
       ],
       "value": {
         "date": "2026-09-09",
-        "type": "direct_user_explanation",
-        "topic": "Final Fantasy VII Remake — локации в целом визуально не нравились",
-        "evidence": "Пользователь уточнил, что ему не нравились не только похожие на станции участки Final Fantasy VII Remake, а локации игры в целом. Поэтому FF7 не следует использовать как узкое доказательство нелюбви к тёмным sci-fi/индустриальным пространствам; это более широкий отрицательный сигнал к визуальной подаче и окружению конкретной игры."
+        "type": "direct_user_correction",
+        "topic": "Final Fantasy VII Remake — графика и стиль нравились, локации нет",
+        "evidence": "Пользователь исправил слишком широкую интерпретацию: графика и общий визуальный стиль Final Fantasy VII Remake ему нравились; негатив относился именно к локациям. Не считать FF7 примером нелюбимого арт-дирекшена или графики в целом."
       }
     }
   ]
