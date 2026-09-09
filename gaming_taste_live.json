@@ -2890,6 +2890,12 @@
       "type": "direct_user_explanation",
       "topic": "Portal — замкнутые sci-fi помещения не мешают; Source визуально нравится",
       "evidence": "Пользователь прямо уточнил, что к локациям Portal претензий нет и визуальная эстетика движка Source ему нравится. Это опровергает слишком широкую формулировку «не любит замкнутые sci-fi помещения»: негативный сигнал точнее относится к тёмным, мрачным и блуждательным космическим/научно-фантастическим пространствам, а не к sci-fi интерьерам вообще. Source-визуал является отдельным положительным эстетическим сигналом."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Max Payne — тёмные мрачные локации могут нравиться",
+      "evidence": "Пользователь прямо подтвердил, что мрачные ночные локации первого Max Payne нравились ему визуально. Это ещё один контрпример против общей формулировки «не любит тёмные локации»: негативный сигнал от DOOM 3 точнее связан с сочетанием тёмного sci-fi/космического окружения и блуждания, а не с темнотой или мрачностью как таковыми."
     }
   ],
   "migration_audit": {
@@ -2965,7 +2971,8 @@
     "2026-09-09-far-cry-difficulty-main-negative",
     "2026-09-09-starcraft2-campaign-details-not-remembered",
     "2026-09-09-doom3-performance-and-dark-sci-fi-corridors",
-    "2026-09-09-portal-source-aesthetic-and-location-counterexample"
+    "2026-09-09-portal-source-aesthetic-and-location-counterexample",
+    "2026-09-09-max-payne-darkness-positive-counterexample"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
