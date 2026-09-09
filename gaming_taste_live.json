@@ -2830,6 +2830,12 @@
       "type": "direct_user_preference",
       "topic": "The Witcher 3 — выбор экипировки по совокупной полезности",
       "evidence": "При выборе экипировки в The Witcher 3 пользователь смотрел не на один максимальный показатель, а на совокупность факторов. Это уточняет предыдущий сигнал: эффективность важнее внешности, но сама эффективность оценивается комплексно — по сочетанию характеристик и эффектов, а не по одной цифре."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Fallout 3 — ситуативная прокачка без заранее заданного билда",
+      "evidence": "Пользователь не строил персонажа под заранее выбранный билд: прокачивал то, что в конкретный момент считал наиболее важным. Это подтверждает практичный, адаптивный подход к развитию персонажа, а не стремление заранее оптимизировать всю сборку."
     }
   ],
   "migration_audit": {
@@ -2895,7 +2901,8 @@
     "2026-09-09-nfs-underground2-visual-customization",
     "2026-09-09-nfs-underground2-cosmetic-customization-sometimes",
     "2026-09-09-performance-over-cosmetics-nfs-witcher",
-    "2026-09-09-witcher-gear-holistic-utility"
+    "2026-09-09-witcher-gear-holistic-utility",
+    "2026-09-09-fallout3-adaptive-progression"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
