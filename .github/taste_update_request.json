@@ -1,34 +1,9 @@
 {
-  "pending": false,
-  "request_id": "2026-09-09-witcher-dlc-comparison-completion-status",
+  "pending": true,
+  "request_id": "2026-09-09-blood-and-wine-universe-fatigue-after-100h",
   "updated_at": "2026-09-09",
-  "trigger_nonce": 35,
+  "trigger_nonce": 36,
   "operations": [
-    {
-      "op": "replace_matching",
-      "path": [
-        "stopgame_cards"
-      ],
-      "match": {
-        "title": "The Witcher 3: Wild Hunt - Hearts of Stone"
-      },
-      "value": {
-        "title": "The Witcher 3: Wild Hunt - Hearts of Stone",
-        "rating": 4,
-        "what_liked": [
-          "Сюжет."
-        ],
-        "what_disliked": [],
-        "why_this_rating": "4/5: главная подтверждённая причина высокой оценки — понравившийся сюжет.",
-        "separate_remarks": [
-          "Дополнение пройдено полностью.",
-          "При сравнении с Blood and Wine пользователь выбрал Hearts of Stone только потому, что его прошёл полностью; это не доказательство, что сам сюжет Hearts of Stone нравится сильнее.",
-          "Не добавлять другие причины без прямого подтверждения пользователя."
-        ],
-        "discussion_confidence": "высокая",
-        "evidence_type": "user_explanation"
-      }
-    },
     {
       "op": "replace_matching",
       "path": [
@@ -44,13 +19,14 @@
           "Сюжет."
         ],
         "what_disliked": [],
-        "why_this_rating": "4/5: из пройденной части дополнения главным подтверждённым плюсом был сюжет; дополнение не было пройдено полностью.",
+        "why_this_rating": "4/5: из пройденной части дополнения главным подтверждённым плюсом был сюжет; дополнение не было пройдено полностью не из-за конкретного недостатка Blood and Wine, а из-за накопившейся усталости от вселенной после более чем 100 часов The Witcher 3 и прохождения Hearts of Stone.",
         "separate_remarks": [
           "Blood and Wine не пройдено полностью.",
-          "Нельзя использовать выбор Hearts of Stone в прямом сравнении как доказательство более слабого сюжета Blood and Wine: пользователь объяснил выбор только тем, что Hearts of Stone прошёл, а Blood and Wine — нет.",
-          "Не добавлять другие причины без прямого подтверждения пользователя."
+          "Перед ним пользователь провёл более 100 часов в основной The Witcher 3, а затем прошёл Hearts of Stone.",
+          "Причина остановки — усталость от длительного непрерывного пребывания в одной вселенной, а не подтверждённое ухудшение сюжета или геймплея Blood and Wine.",
+          "Нельзя использовать выбор Hearts of Stone в прямом сравнении как доказательство более слабого сюжета Blood and Wine."
         ],
-        "discussion_confidence": "средняя",
+        "discussion_confidence": "высокая",
         "evidence_type": "user_explanation"
       }
     },
@@ -61,9 +37,9 @@
       ],
       "value": {
         "date": "2026-09-09",
-        "type": "direct_user_comparison",
-        "topic": "Hearts of Stone vs Blood and Wine — сравнение ограничено статусом прохождения",
-        "evidence": "Пользователь выбрал Hearts of Stone при сравнении сюжетов только потому, что прошёл его полностью, тогда как Blood and Wine не прошёл. Поэтому нельзя выводить из этого предпочтение сюжета Hearts of Stone как такового; статус прохождения является смешивающим фактором."
+        "type": "direct_user_preference",
+        "topic": "Усталость от длительного непрерывного погружения в одну игровую вселенную",
+        "evidence": "Blood and Wine пользователь не допрошёл после более чем 100 часов основной The Witcher 3 и затем Hearts of Stone: он прямо объяснил, что к тому моменту просто устал от вселенной. Это подтверждает риск накопительной усталости от очень долгого непрерывного пребывания в одном игровом мире и не должно трактоваться как отрицательная оценка качества Blood and Wine."
       }
     }
   ]
