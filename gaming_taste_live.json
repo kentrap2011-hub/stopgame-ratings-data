@@ -81,12 +81,18 @@
     {
       "title": "Batman: Arkham Asylum",
       "rating": 4,
-      "what_liked": [],
+      "what_liked": [
+        "Геймплей.",
+        "Боёвка.",
+        "Персонажи."
+      ],
       "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном разговоре не объяснена.",
-      "separate_remarks": [],
-      "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "why_this_rating": "4/5: подтверждённые сильные стороны — общий геймплей, боевая система и персонажи.",
+      "separate_remarks": [
+        "Не добавлять более конкретные причины без прямого подтверждения пользователя."
+      ],
+      "discussion_confidence": "высокая",
+      "evidence_type": "user_explanation"
     },
     {
       "title": "Batman: Arkham City",
@@ -2736,6 +2742,12 @@
       "type": "direct_user_explanation",
       "topic": "Half-Life 2: Episode One — продолжение, а не отдельная игра",
       "evidence": "Пользователь прямо сказал, что воспринимает Half-Life 2: Episode One как продолжение Half-Life 2. Поэтому оценку эпизода нужно интерпретировать в контексте основной игры, а не как полностью независимый опыт."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Batman: Arkham Asylum — геймплей, боёвка и персонажи",
+      "evidence": "На вопрос о том, что особенно нравилось в Arkham Asylum, пользователь назвал геймплей, боёвку и персонажей. Дополнительные причины не выводятся."
     }
   ],
   "migration_audit": {
@@ -2791,7 +2803,8 @@
     "2026-09-09-blood-and-wine-story",
     "2026-09-09-witcher-dlc-comparison-completion-status",
     "2026-09-09-blood-and-wine-universe-fatigue-after-100h",
-    "2026-09-09-hl2-episode-one-as-continuation"
+    "2026-09-09-hl2-episode-one-as-continuation",
+    "2026-09-09-arkham-asylum-gameplay-combat-characters"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
