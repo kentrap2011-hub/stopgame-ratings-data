@@ -1,8 +1,8 @@
 {
-  "pending": false,
-  "request_id": "2026-09-09-comix-zone-lives-weak-memory",
+  "pending": true,
+  "request_id": "2026-09-09-heroes5-city-and-army-both-liked",
   "updated_at": "2026-09-09",
-  "trigger_nonce": 51,
+  "trigger_nonce": 52,
   "operations": [
     {
       "op": "append",
@@ -11,9 +11,9 @@
       ],
       "value": {
         "date": "2026-09-09",
-        "type": "direct_user_explanation_low_confidence",
-        "topic": "Comix Zone — возможно, малое количество жизней усиливало сложность",
-        "evidence": "Пользователь предположил, что в Comix Zone удовольствие от сложности могло снижать малое количество жизней, но сразу уточнил, что не помнит. Считать это только слабым предположением и не использовать как уверенную причину оценки."
+        "type": "direct_user_explanation",
+        "topic": "Heroes of Might and Magic V — нравились и развитие города, и армия на карте",
+        "evidence": "Пользователь подтвердил, что ему нравились обе части цикла Heroes V: развитие города и сбор/перемещение армии по карте. Что из этого нравилось больше, не помнит, поэтому не задавать им искусственный приоритет."
       }
     }
   ]
