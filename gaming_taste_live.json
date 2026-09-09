@@ -1031,12 +1031,12 @@
       "title": "Overlord 2",
       "rating": 3.5,
       "what_liked": [
-        "Осталось воспоминание, что было весело."
+        "Сохранилось общее положительное впечатление от игры."
       ],
       "what_disliked": [],
-      "why_this_rating": "3.5/5: причина оценки в деталях не сохранилась; есть только общее положительное ощущение.",
+      "why_this_rating": "3.5/5: осталось общее положительное впечатление, но конкретные причины, механики или эпизоды уже не помнятся.",
       "separate_remarks": [
-        "Плохо помнишь игру."
+        "Не восстанавливать причины по догадкам и не обобщать из этой оценки конкретные жанровые предпочтения."
       ],
       "discussion_confidence": "низкая",
       "evidence_type": "user_explanation"
@@ -2671,6 +2671,12 @@
       "type": "direct_user_comparison",
       "topic": "Medal of Honor vs Call of Duty — общее предпочтение без сохранённой причины",
       "evidence": "Пользователь не помнит конкретных причин любви к Medal of Honor, но устойчиво помнит её как хорошую игру. Когда впервые поиграл в Call of Duty, Medal of Honor казалась ему лучше. Причина сравнительного предпочтения не сохранилась, поэтому её нельзя реконструировать по догадкам."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Overlord 2 — общее положительное впечатление без деталей",
+      "evidence": "Пользователь не помнит конкретных причин, почему Overlord 2 нравилась; сохранилось только общее положительное впечатление."
     }
   ],
   "migration_audit": {
@@ -2719,7 +2725,8 @@
     "2026-09-09-larry-magna-cum-laude-fun-minigame-variety",
     "2026-09-09-felix-the-cat-modern-control-friction",
     "2026-09-09-petka4-humor-puzzles-secondary-feel",
-    "2026-09-09-medal-of-honor-better-than-cod-memory"
+    "2026-09-09-medal-of-honor-better-than-cod-memory",
+    "2026-09-09-overlord2-general-positive-memory"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
