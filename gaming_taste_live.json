@@ -2962,6 +2962,12 @@
       "type": "direct_user_explanation",
       "topic": "Darksiders II — простые головоломки нравились как смена активности",
       "evidence": "Пользователь подтвердил, что головоломки в подземельях Darksiders II ему нравились: они были несложными и разбавляли остальную часть игры. Это поддерживает позитив к умеренно простым головоломкам, когда они дают смену ритма и разнообразие, а не становятся отдельным тяжёлым барьером."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "A Plague Tale: Requiem — расширение возможностей Амисии было умеренным плюсом",
+      "evidence": "После напоминания о новых инструментах пользователь оценил расширение возможностей Амисии как точно не минус, но и не сильный плюс: «ок», «просто хорошо». Не считать само увеличение числа механик автоматически сильным положительным сигналом; важна степень, в которой они реально меняют ощущение от игры."
     }
   ],
   "migration_audit": {
@@ -3049,7 +3055,8 @@
     "2026-09-09-miles-morales-new-powers-and-weaker-story",
     "2026-09-09-mirrors-edge-escape-movement-memory",
     "2026-09-09-hogwarts-castle-over-open-world",
-    "2026-09-09-darksiders2-puzzles-liked-as-variety"
+    "2026-09-09-darksiders2-puzzles-liked-as-variety",
+    "2026-09-09-requiem-expanded-toolkit-mild-positive"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
