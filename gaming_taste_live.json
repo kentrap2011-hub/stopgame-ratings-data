@@ -1577,12 +1577,16 @@
     {
       "title": "The Witcher 3: Wild Hunt - Blood and Wine",
       "rating": 4,
-      "what_liked": [],
+      "what_liked": [
+        "Сюжет."
+      ],
       "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном разговоре не объяснена.",
-      "separate_remarks": [],
-      "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "why_this_rating": "4/5: главная подтверждённая причина высокой оценки — понравившийся сюжет.",
+      "separate_remarks": [
+        "Не добавлять другие причины без прямого подтверждения пользователя."
+      ],
+      "discussion_confidence": "высокая",
+      "evidence_type": "user_explanation"
     },
     {
       "title": "The Witcher 3: Wild Hunt - Hearts of Stone",
@@ -2698,6 +2702,12 @@
       "type": "direct_user_explanation",
       "topic": "Hearts of Stone — сюжет",
       "evidence": "На вопрос о том, что особенно понравилось в Hearts of Stone, пользователь ответил: сюжет. Это фиксируется как главная подтверждённая причина оценки 4/5 без дополнительных догадок."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Blood and Wine — сюжет",
+      "evidence": "На вопрос о том, что особенно понравилось в Blood and Wine, пользователь ответил: сюжет. Это фиксируется как главная подтверждённая причина оценки 4/5 без дополнительных догадок."
     }
   ],
   "migration_audit": {
@@ -2749,7 +2759,8 @@
     "2026-09-09-medal-of-honor-better-than-cod-memory",
     "2026-09-09-overlord2-general-positive-memory",
     "2026-09-09-cuphead-dlc-perceived-as-whole-game",
-    "2026-09-09-hearts-of-stone-story"
+    "2026-09-09-hearts-of-stone-story",
+    "2026-09-09-blood-and-wine-story"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
