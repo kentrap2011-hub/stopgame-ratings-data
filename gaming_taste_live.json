@@ -2872,6 +2872,12 @@
       "type": "direct_user_explanation",
       "topic": "Far Cry — сложность как главный минус",
       "evidence": "На вопрос, что больше всего не нравилось в первой Far Cry, пользователь прямо ответил: сложность. Считать это уверенным главным отрицательным фактором для этой конкретной игры; не обобщать как нелюбовь к сложным играм вообще."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "memory_limit",
+      "topic": "StarCraft II: Wings of Liberty — конкретика геймплея кампании не сохранилась",
+      "evidence": "Пользователь не помнит, какие именно элементы геймплея кампании нравились больше всего. Сохранять только уже подтверждённое общее положительное отношение к стратегии и не приписывать конкретные миссии или механики без новых прямых воспоминаний."
     }
   ],
   "migration_audit": {
@@ -2944,7 +2950,8 @@
     "2026-09-09-comix-zone-lives-weak-memory",
     "2026-09-09-heroes5-city-and-army-both-liked",
     "2026-09-09-heroes5-turn-based-battles-liked",
-    "2026-09-09-far-cry-difficulty-main-negative"
+    "2026-09-09-far-cry-difficulty-main-negative",
+    "2026-09-09-starcraft2-campaign-details-not-remembered"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
