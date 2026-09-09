@@ -1,8 +1,8 @@
 {
-  "pending": false,
-  "request_id": "2026-09-09-overlord2-general-positive-memory",
+  "pending": true,
+  "request_id": "2026-09-09-cuphead-dlc-perceived-as-whole-game",
   "updated_at": "2026-09-09",
-  "trigger_nonce": 31,
+  "trigger_nonce": 32,
   "operations": [
     {
       "op": "replace_matching",
@@ -10,20 +10,21 @@
         "stopgame_cards"
       ],
       "match": {
-        "title": "Overlord 2"
+        "title": "Cuphead: The Delicious Last Course"
       },
       "value": {
-        "title": "Overlord 2",
+        "title": "Cuphead: The Delicious Last Course",
         "rating": 3.5,
         "what_liked": [
-          "Сохранилось общее положительное впечатление от игры."
+          "Пользователь воспринимает базовую Cuphead и The Delicious Last Course как одну цельную игру, а не как два отдельных опыта."
         ],
         "what_disliked": [],
-        "why_this_rating": "3.5/5: осталось общее положительное впечатление, но конкретные причины, механики или эпизоды уже не помнятся.",
+        "why_this_rating": "3.5/5: эта оценка не должна интерпретироваться как отдельная оценка DLC относительно основной игры; пользователь воспринимает Cuphead и дополнение как единое целое.",
         "separate_remarks": [
-          "Не восстанавливать причины по догадкам и не обобщать из этой оценки конкретные жанровые предпочтения."
+          "Не использовать DLC как независимый второй сигнал о вкусе и не пытаться объяснять разницу между базовой игрой и дополнением — для пользователя такой разницы в восприятии нет.",
+          "Для причин общего отношения к Cuphead использовать объяснения карточки основной игры."
         ],
-        "discussion_confidence": "низкая",
+        "discussion_confidence": "высокая",
         "evidence_type": "user_explanation"
       }
     },
@@ -35,8 +36,8 @@
       "value": {
         "date": "2026-09-09",
         "type": "direct_user_explanation",
-        "topic": "Overlord 2 — общее положительное впечатление без деталей",
-        "evidence": "Пользователь не помнит конкретных причин, почему Overlord 2 нравилась; сохранилось только общее положительное впечатление."
+        "topic": "Cuphead + The Delicious Last Course — единый игровой опыт",
+        "evidence": "Пользователь прямо сказал, что воспринимает первую Cuphead и дополнение The Delicious Last Course как одно целое — одну игру. Поэтому рейтинг DLC нельзя использовать как отдельный независимый сигнал или как основание сравнивать основную игру и дополнение."
       }
     }
   ]
