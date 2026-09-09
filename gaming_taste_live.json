@@ -2842,6 +2842,12 @@
       "type": "direct_user_explanation_low_confidence",
       "topic": "Max Payne 3 — перестрелки, вероятно, нравились",
       "evidence": "На вопрос о стрельбе и перестрелках в Max Payne 3 пользователь ответил «вроде да», но отдельно подчеркнул, что плохо помнит игру. Считать это только слабым положительным сигналом и не использовать как уверенное объяснение оценки."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation_low_confidence",
+      "topic": "Spore — возможно, больше всего нравилась стадия космоса",
+      "evidence": "На вопрос о любимой стадии Spore пользователь предположил стадию космоса, но сразу уточнил, что не помнит. Считать это только слабым, ненадёжным сигналом и не использовать как уверенное предпочтение конкретной стадии."
     }
   ],
   "migration_audit": {
@@ -2909,7 +2915,8 @@
     "2026-09-09-performance-over-cosmetics-nfs-witcher",
     "2026-09-09-witcher-gear-holistic-utility",
     "2026-09-09-fallout3-adaptive-progression",
-    "2026-09-09-max-payne3-shooting-weak-memory"
+    "2026-09-09-max-payne3-shooting-weak-memory",
+    "2026-09-09-spore-space-stage-weak-memory"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
