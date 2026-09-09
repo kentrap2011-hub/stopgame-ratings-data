@@ -2824,6 +2824,12 @@
       "type": "cross_game_direct_user_preference",
       "topic": "Эффективность экипировки/техники важнее внешнего вида",
       "evidence": "В Underground 2 пользователь переходил на более мощную машину, даже если уже настроил внешний вид предыдущей. Тот же принцип прямо подтвердил на примере The Witcher: красивую экипировку готов заменить на предмет с лучшими характеристиками, даже если тот выглядит хуже. Внешний вид приятен и иногда мотивирует на косметическую настройку, но эффективность имеет более высокий приоритет."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_preference",
+      "topic": "The Witcher 3 — выбор экипировки по совокупной полезности",
+      "evidence": "При выборе экипировки в The Witcher 3 пользователь смотрел не на один максимальный показатель, а на совокупность факторов. Это уточняет предыдущий сигнал: эффективность важнее внешности, но сама эффективность оценивается комплексно — по сочетанию характеристик и эффектов, а не по одной цифре."
     }
   ],
   "migration_audit": {
@@ -2888,7 +2894,8 @@
     "2026-09-09-nfs-most-wanted-cops-nitro-shifting-drift",
     "2026-09-09-nfs-underground2-visual-customization",
     "2026-09-09-nfs-underground2-cosmetic-customization-sometimes",
-    "2026-09-09-performance-over-cosmetics-nfs-witcher"
+    "2026-09-09-performance-over-cosmetics-nfs-witcher",
+    "2026-09-09-witcher-gear-holistic-utility"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
