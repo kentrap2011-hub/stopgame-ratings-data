@@ -1581,11 +1581,13 @@
         "Сюжет."
       ],
       "what_disliked": [],
-      "why_this_rating": "4/5: главная подтверждённая причина высокой оценки — понравившийся сюжет.",
+      "why_this_rating": "4/5: из пройденной части дополнения главным подтверждённым плюсом был сюжет; дополнение не было пройдено полностью.",
       "separate_remarks": [
+        "Blood and Wine не пройдено полностью.",
+        "Нельзя использовать выбор Hearts of Stone в прямом сравнении как доказательство более слабого сюжета Blood and Wine: пользователь объяснил выбор только тем, что Hearts of Stone прошёл, а Blood and Wine — нет.",
         "Не добавлять другие причины без прямого подтверждения пользователя."
       ],
-      "discussion_confidence": "высокая",
+      "discussion_confidence": "средняя",
       "evidence_type": "user_explanation"
     },
     {
@@ -1597,6 +1599,8 @@
       "what_disliked": [],
       "why_this_rating": "4/5: главная подтверждённая причина высокой оценки — понравившийся сюжет.",
       "separate_remarks": [
+        "Дополнение пройдено полностью.",
+        "При сравнении с Blood and Wine пользователь выбрал Hearts of Stone только потому, что его прошёл полностью; это не доказательство, что сам сюжет Hearts of Stone нравится сильнее.",
         "Не добавлять другие причины без прямого подтверждения пользователя."
       ],
       "discussion_confidence": "высокая",
@@ -2708,6 +2712,12 @@
       "type": "direct_user_explanation",
       "topic": "Blood and Wine — сюжет",
       "evidence": "На вопрос о том, что особенно понравилось в Blood and Wine, пользователь ответил: сюжет. Это фиксируется как главная подтверждённая причина оценки 4/5 без дополнительных догадок."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_comparison",
+      "topic": "Hearts of Stone vs Blood and Wine — сравнение ограничено статусом прохождения",
+      "evidence": "Пользователь выбрал Hearts of Stone при сравнении сюжетов только потому, что прошёл его полностью, тогда как Blood and Wine не прошёл. Поэтому нельзя выводить из этого предпочтение сюжета Hearts of Stone как такового; статус прохождения является смешивающим фактором."
     }
   ],
   "migration_audit": {
@@ -2760,7 +2770,8 @@
     "2026-09-09-overlord2-general-positive-memory",
     "2026-09-09-cuphead-dlc-perceived-as-whole-game",
     "2026-09-09-hearts-of-stone-story",
-    "2026-09-09-blood-and-wine-story"
+    "2026-09-09-blood-and-wine-story",
+    "2026-09-09-witcher-dlc-comparison-completion-status"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
