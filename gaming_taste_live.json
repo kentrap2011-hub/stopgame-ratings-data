@@ -716,12 +716,17 @@
     {
       "title": "Half-Life 2: Episode One",
       "rating": 3.5,
-      "what_liked": [],
+      "what_liked": [
+        "Воспринимается как прямое продолжение любимой Half-Life 2, а не как отдельная самостоятельная игра."
+      ],
       "what_disliked": [],
-      "why_this_rating": "Причина оценки в доступном разговоре не объяснена.",
-      "separate_remarks": [],
-      "discussion_confidence": "низкая",
-      "evidence_type": "rating_only"
+      "why_this_rating": "3.5/5: оценку Episode One нужно читать в контексте отношения к Half-Life 2; пользователь воспринимает эпизод именно как продолжение основной игры, а не как отдельный игровой опыт.",
+      "separate_remarks": [
+        "Не использовать Episode One как независимый второй сигнал о вкусе без учёта сильной привязки к Half-Life 2.",
+        "Конкретные отдельные плюсы и минусы Episode One пользователь пока не называл."
+      ],
+      "discussion_confidence": "высокая",
+      "evidence_type": "user_explanation"
     },
     {
       "title": "Half-Life 2: Episode Two",
@@ -2725,6 +2730,12 @@
       "type": "direct_user_preference",
       "topic": "Усталость от длительного непрерывного погружения в одну игровую вселенную",
       "evidence": "Blood and Wine пользователь не допрошёл после более чем 100 часов основной The Witcher 3 и затем Hearts of Stone: он прямо объяснил, что к тому моменту просто устал от вселенной. Это подтверждает риск накопительной усталости от очень долгого непрерывного пребывания в одном игровом мире и не должно трактоваться как отрицательная оценка качества Blood and Wine."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Half-Life 2: Episode One — продолжение, а не отдельная игра",
+      "evidence": "Пользователь прямо сказал, что воспринимает Half-Life 2: Episode One как продолжение Half-Life 2. Поэтому оценку эпизода нужно интерпретировать в контексте основной игры, а не как полностью независимый опыт."
     }
   ],
   "migration_audit": {
@@ -2779,7 +2790,8 @@
     "2026-09-09-hearts-of-stone-story",
     "2026-09-09-blood-and-wine-story",
     "2026-09-09-witcher-dlc-comparison-completion-status",
-    "2026-09-09-blood-and-wine-universe-fatigue-after-100h"
+    "2026-09-09-blood-and-wine-universe-fatigue-after-100h",
+    "2026-09-09-hl2-episode-one-as-continuation"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
