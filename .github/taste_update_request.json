@@ -1,9 +1,34 @@
 {
-  "pending": false,
-  "request_id": "2026-09-09-blood-and-wine-story",
+  "pending": true,
+  "request_id": "2026-09-09-witcher-dlc-comparison-completion-status",
   "updated_at": "2026-09-09",
-  "trigger_nonce": 34,
+  "trigger_nonce": 35,
   "operations": [
+    {
+      "op": "replace_matching",
+      "path": [
+        "stopgame_cards"
+      ],
+      "match": {
+        "title": "The Witcher 3: Wild Hunt - Hearts of Stone"
+      },
+      "value": {
+        "title": "The Witcher 3: Wild Hunt - Hearts of Stone",
+        "rating": 4,
+        "what_liked": [
+          "Сюжет."
+        ],
+        "what_disliked": [],
+        "why_this_rating": "4/5: главная подтверждённая причина высокой оценки — понравившийся сюжет.",
+        "separate_remarks": [
+          "Дополнение пройдено полностью.",
+          "При сравнении с Blood and Wine пользователь выбрал Hearts of Stone только потому, что его прошёл полностью; это не доказательство, что сам сюжет Hearts of Stone нравится сильнее.",
+          "Не добавлять другие причины без прямого подтверждения пользователя."
+        ],
+        "discussion_confidence": "высокая",
+        "evidence_type": "user_explanation"
+      }
+    },
     {
       "op": "replace_matching",
       "path": [
@@ -19,11 +44,13 @@
           "Сюжет."
         ],
         "what_disliked": [],
-        "why_this_rating": "4/5: главная подтверждённая причина высокой оценки — понравившийся сюжет.",
+        "why_this_rating": "4/5: из пройденной части дополнения главным подтверждённым плюсом был сюжет; дополнение не было пройдено полностью.",
         "separate_remarks": [
+          "Blood and Wine не пройдено полностью.",
+          "Нельзя использовать выбор Hearts of Stone в прямом сравнении как доказательство более слабого сюжета Blood and Wine: пользователь объяснил выбор только тем, что Hearts of Stone прошёл, а Blood and Wine — нет.",
           "Не добавлять другие причины без прямого подтверждения пользователя."
         ],
-        "discussion_confidence": "высокая",
+        "discussion_confidence": "средняя",
         "evidence_type": "user_explanation"
       }
     },
@@ -34,9 +61,9 @@
       ],
       "value": {
         "date": "2026-09-09",
-        "type": "direct_user_explanation",
-        "topic": "Blood and Wine — сюжет",
-        "evidence": "На вопрос о том, что особенно понравилось в Blood and Wine, пользователь ответил: сюжет. Это фиксируется как главная подтверждённая причина оценки 4/5 без дополнительных догадок."
+        "type": "direct_user_comparison",
+        "topic": "Hearts of Stone vs Blood and Wine — сравнение ограничено статусом прохождения",
+        "evidence": "Пользователь выбрал Hearts of Stone при сравнении сюжетов только потому, что прошёл его полностью, тогда как Blood and Wine не прошёл. Поэтому нельзя выводить из этого предпочтение сюжета Hearts of Stone как такового; статус прохождения является смешивающим фактором."
       }
     }
   ]
