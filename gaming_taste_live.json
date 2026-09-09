@@ -2932,6 +2932,12 @@
       "type": "direct_user_explanation",
       "topic": "The Elder Scrolls IV: Oblivion — неясно, что делать в самом начале",
       "evidence": "Пользователь играл в Oblivion очень недолго. Главная причина раннего отваливания: в самом начале было непонятно, что делать. Не использовать эту оценку как свидетельство против открытого мира, RPG-систем или мира Oblivion в целом, поскольку экспозиция была слишком короткой."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Rayman Legends — раннее ощущение однообразия",
+      "evidence": "Пользователь играл в Rayman Legends недолго. Главный минус раннего впечатления: уровни казались похожими, а игровой цикл сводился к «беги и прыгай» без других заметных активностей. Считать это свидетельством чувствительности к однообразию и недостатку развития игрового цикла, но не делать вывод о всей игре целиком из-за короткой экспозиции."
     }
   ],
   "migration_audit": {
@@ -3014,7 +3020,8 @@
     "2026-09-09-left4dead-visual-neutral",
     "2026-09-09-ff7-remake-locations-broadly-disliked",
     "2026-09-09-ff7-remake-style-liked-locations-disliked",
-    "2026-09-09-oblivion-early-direction-confusion"
+    "2026-09-09-oblivion-early-direction-confusion",
+    "2026-09-09-rayman-legends-early-monotony"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
