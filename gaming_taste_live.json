@@ -2926,6 +2926,12 @@
       "type": "direct_user_correction",
       "topic": "Final Fantasy VII Remake — графика и стиль нравились, локации нет",
       "evidence": "Пользователь исправил слишком широкую интерпретацию: графика и общий визуальный стиль Final Fantasy VII Remake ему нравились; негатив относился именно к локациям. Не считать FF7 примером нелюбимого арт-дирекшена или графики в целом."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "The Elder Scrolls IV: Oblivion — неясно, что делать в самом начале",
+      "evidence": "Пользователь играл в Oblivion очень недолго. Главная причина раннего отваливания: в самом начале было непонятно, что делать. Не использовать эту оценку как свидетельство против открытого мира, RPG-систем или мира Oblivion в целом, поскольку экспозиция была слишком короткой."
     }
   ],
   "migration_audit": {
@@ -3007,7 +3013,8 @@
     "2026-09-09-half-life2-source-scifi-location-counterexample",
     "2026-09-09-left4dead-visual-neutral",
     "2026-09-09-ff7-remake-locations-broadly-disliked",
-    "2026-09-09-ff7-remake-style-liked-locations-disliked"
+    "2026-09-09-ff7-remake-style-liked-locations-disliked",
+    "2026-09-09-oblivion-early-direction-confusion"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
