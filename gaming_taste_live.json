@@ -2854,6 +2854,12 @@
       "type": "direct_user_explanation_low_confidence",
       "topic": "Comix Zone — возможно, малое количество жизней усиливало сложность",
       "evidence": "Пользователь предположил, что в Comix Zone удовольствие от сложности могло снижать малое количество жизней, но сразу уточнил, что не помнит. Считать это только слабым предположением и не использовать как уверенную причину оценки."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Heroes of Might and Magic V — нравились и развитие города, и армия на карте",
+      "evidence": "Пользователь подтвердил, что ему нравились обе части цикла Heroes V: развитие города и сбор/перемещение армии по карте. Что из этого нравилось больше, не помнит, поэтому не задавать им искусственный приоритет."
     }
   ],
   "migration_audit": {
@@ -2923,7 +2929,8 @@
     "2026-09-09-fallout3-adaptive-progression",
     "2026-09-09-max-payne3-shooting-weak-memory",
     "2026-09-09-spore-space-stage-weak-memory",
-    "2026-09-09-comix-zone-lives-weak-memory"
+    "2026-09-09-comix-zone-lives-weak-memory",
+    "2026-09-09-heroes5-city-and-army-both-liked"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
