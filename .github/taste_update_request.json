@@ -1,8 +1,8 @@
 {
-  "pending": false,
-  "request_id": "2026-09-09-hl2-episode-one-as-continuation",
+  "pending": true,
+  "request_id": "2026-09-09-arkham-asylum-gameplay-combat-characters",
   "updated_at": "2026-09-09",
-  "trigger_nonce": 37,
+  "trigger_nonce": 38,
   "operations": [
     {
       "op": "replace_matching",
@@ -10,19 +10,20 @@
         "stopgame_cards"
       ],
       "match": {
-        "title": "Half-Life 2: Episode One"
+        "title": "Batman: Arkham Asylum"
       },
       "value": {
-        "title": "Half-Life 2: Episode One",
-        "rating": 3.5,
+        "title": "Batman: Arkham Asylum",
+        "rating": 4,
         "what_liked": [
-          "Воспринимается как прямое продолжение любимой Half-Life 2, а не как отдельная самостоятельная игра."
+          "Геймплей.",
+          "Боёвка.",
+          "Персонажи."
         ],
         "what_disliked": [],
-        "why_this_rating": "3.5/5: оценку Episode One нужно читать в контексте отношения к Half-Life 2; пользователь воспринимает эпизод именно как продолжение основной игры, а не как отдельный игровой опыт.",
+        "why_this_rating": "4/5: подтверждённые сильные стороны — общий геймплей, боевая система и персонажи.",
         "separate_remarks": [
-          "Не использовать Episode One как независимый второй сигнал о вкусе без учёта сильной привязки к Half-Life 2.",
-          "Конкретные отдельные плюсы и минусы Episode One пользователь пока не называл."
+          "Не добавлять более конкретные причины без прямого подтверждения пользователя."
         ],
         "discussion_confidence": "высокая",
         "evidence_type": "user_explanation"
@@ -36,8 +37,8 @@
       "value": {
         "date": "2026-09-09",
         "type": "direct_user_explanation",
-        "topic": "Half-Life 2: Episode One — продолжение, а не отдельная игра",
-        "evidence": "Пользователь прямо сказал, что воспринимает Half-Life 2: Episode One как продолжение Half-Life 2. Поэтому оценку эпизода нужно интерпретировать в контексте основной игры, а не как полностью независимый опыт."
+        "topic": "Batman: Arkham Asylum — геймплей, боёвка и персонажи",
+        "evidence": "На вопрос о том, что особенно нравилось в Arkham Asylum, пользователь назвал геймплей, боёвку и персонажей. Дополнительные причины не выводятся."
       }
     }
   ]
