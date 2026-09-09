@@ -2860,6 +2860,12 @@
       "type": "direct_user_explanation",
       "topic": "Heroes of Might and Magic V — нравились и развитие города, и армия на карте",
       "evidence": "Пользователь подтвердил, что ему нравились обе части цикла Heroes V: развитие города и сбор/перемещение армии по карте. Что из этого нравилось больше, не помнит, поэтому не задавать им искусственный приоритет."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Heroes of Might and Magic V — нравились пошаговые бои",
+      "evidence": "Пользователь прямо подтвердил, что ему нравились пошаговые бои в Heroes V. В сочетании с предыдущими ответами это показывает положительное отношение ко всему основному игровому циклу: развитию города, управлению армией на карте и самим боям."
     }
   ],
   "migration_audit": {
@@ -2930,7 +2936,8 @@
     "2026-09-09-max-payne3-shooting-weak-memory",
     "2026-09-09-spore-space-stage-weak-memory",
     "2026-09-09-comix-zone-lives-weak-memory",
-    "2026-09-09-heroes5-city-and-army-both-liked"
+    "2026-09-09-heroes5-city-and-army-both-liked",
+    "2026-09-09-heroes5-turn-based-battles-liked"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
