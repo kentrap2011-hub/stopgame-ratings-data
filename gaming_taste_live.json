@@ -970,14 +970,16 @@
       "title": "Medal of Honor",
       "rating": 3.5,
       "what_liked": [
-        "В своё время очень нравилась."
+        "Сохранилось устойчивое общее впечатление, что это была хорошая игра.",
+        "Когда позже поиграл в Call of Duty, Medal of Honor по общему ощущению казалась лучше."
       ],
       "what_disliked": [],
-      "why_this_rating": "3.5/5: сильное положительное воспоминание, но конкретная причина сейчас не вспоминается.",
+      "why_this_rating": "3.5/5: сохранилось положительное общее впечатление и конкретное сравнительное предпочтение Medal of Honor перед Call of Duty того периода, но причины этого предпочтения уже не помнятся.",
       "separate_remarks": [
-        "Сам сказал, что плохо помнишь, почему именно она нравилась."
+        "Не придумывать причины сравнения с Call of Duty: пользователь помнит сам факт предпочтения, но не его основание.",
+        "Память о конкретных механиках и эпизодах слабая."
       ],
-      "discussion_confidence": "низкая",
+      "discussion_confidence": "средняя",
       "evidence_type": "user_explanation"
     },
     {
@@ -2663,6 +2665,12 @@
       "type": "direct_user_explanation",
       "topic": "Петька 4 — юмор, загадки и ощущение второплановой игры",
       "evidence": "Пользователю нравились шутки и разгадывание загадок в Петьке 4. Конкретные недостатки он не помнит; осталось общее ощущение, что игра была скорее второплановой."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_comparison",
+      "topic": "Medal of Honor vs Call of Duty — общее предпочтение без сохранённой причины",
+      "evidence": "Пользователь не помнит конкретных причин любви к Medal of Honor, но устойчиво помнит её как хорошую игру. Когда впервые поиграл в Call of Duty, Medal of Honor казалась ему лучше. Причина сравнительного предпочтения не сохранилась, поэтому её нельзя реконструировать по догадкам."
     }
   ],
   "migration_audit": {
@@ -2710,7 +2718,8 @@
     "2026-09-09-joan-of-arc-direct-skill-combat-horseback",
     "2026-09-09-larry-magna-cum-laude-fun-minigame-variety",
     "2026-09-09-felix-the-cat-modern-control-friction",
-    "2026-09-09-petka4-humor-puzzles-secondary-feel"
+    "2026-09-09-petka4-humor-puzzles-secondary-feel",
+    "2026-09-09-medal-of-honor-better-than-cod-memory"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
