@@ -2902,6 +2902,12 @@
       "type": "direct_user_explanation",
       "topic": "Тёмные индустриальные sci-fi/станционные локации — повторяющийся небольшой минус",
       "evidence": "Пользователь вспомнил, что Dead Space по тёмным корабельным коридорам напоминал ему DOOM 3, и что похожие станционные/индустриальные локации в Final Fantasy VII тоже не нравились. В сочетании с предыдущими контрпримерами Portal и Max Payne это уточняет паттерн: минус связан не с темнотой или замкнутостью вообще, а именно с тёмными индустриальными sci-fi/космическими пространствами и блужданием по ним. Считать умеренным повторяющимся негативным сигналом, а не абсолютным запретом."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Half-Life 2 — индустриальные sci-fi локации нравятся при подходящей визуальной подаче",
+      "evidence": "Пользователь подтвердил, что локации Цитадели и интерьеры Альянса в Half-Life 2 ему нравились, отдельно связав это с эстетикой Source. Это сужает негативный паттерн ещё сильнее: индустриальные sci-fi пространства сами по себе не являются минусом; решающую роль играет конкретная визуальная подача и ощущение пространства. DOOM 3, Dead Space и часть FF7 остаются негативными примерами, а Half-Life 2 и Portal — положительными контрпримерами."
     }
   ],
   "migration_audit": {
@@ -2979,7 +2985,8 @@
     "2026-09-09-doom3-performance-and-dark-sci-fi-corridors",
     "2026-09-09-portal-source-aesthetic-and-location-counterexample",
     "2026-09-09-max-payne-darkness-positive-counterexample",
-    "2026-09-09-dark-industrial-scifi-location-pattern"
+    "2026-09-09-dark-industrial-scifi-location-pattern",
+    "2026-09-09-half-life2-source-scifi-location-counterexample"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
