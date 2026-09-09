@@ -2950,6 +2950,12 @@
       "type": "direct_user_explanation",
       "topic": "Mirror's Edge — сильнее всего запомнились побеги и движение",
       "evidence": "Пользователь ярко помнит, как ему нравилось убегать и быстро перемещаться. Драки почти не помнит, поэтому не приписывать им ни положительный, ни отрицательный вес."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Hogwarts Legacy — Хогвартс интереснее открытого мира",
+      "evidence": "Пользователь прямо выбрал сам Хогвартс как более интересное для исследования пространство по сравнению с открытым миром за пределами замка. Это поддерживает предпочтение более плотных и насыщенных пространств над большим миром как таковым."
     }
   ],
   "migration_audit": {
@@ -3035,7 +3041,8 @@
     "2026-09-09-oblivion-early-direction-confusion",
     "2026-09-09-rayman-legends-early-monotony",
     "2026-09-09-miles-morales-new-powers-and-weaker-story",
-    "2026-09-09-mirrors-edge-escape-movement-memory"
+    "2026-09-09-mirrors-edge-escape-movement-memory",
+    "2026-09-09-hogwarts-castle-over-open-world"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
