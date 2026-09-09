@@ -2866,6 +2866,12 @@
       "type": "direct_user_explanation",
       "topic": "Heroes of Might and Magic V — нравились пошаговые бои",
       "evidence": "Пользователь прямо подтвердил, что ему нравились пошаговые бои в Heroes V. В сочетании с предыдущими ответами это показывает положительное отношение ко всему основному игровому циклу: развитию города, управлению армией на карте и самим боям."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Far Cry — сложность как главный минус",
+      "evidence": "На вопрос, что больше всего не нравилось в первой Far Cry, пользователь прямо ответил: сложность. Считать это уверенным главным отрицательным фактором для этой конкретной игры; не обобщать как нелюбовь к сложным играм вообще."
     }
   ],
   "migration_audit": {
@@ -2937,7 +2943,8 @@
     "2026-09-09-spore-space-stage-weak-memory",
     "2026-09-09-comix-zone-lives-weak-memory",
     "2026-09-09-heroes5-city-and-army-both-liked",
-    "2026-09-09-heroes5-turn-based-battles-liked"
+    "2026-09-09-heroes5-turn-based-battles-liked",
+    "2026-09-09-far-cry-difficulty-main-negative"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
