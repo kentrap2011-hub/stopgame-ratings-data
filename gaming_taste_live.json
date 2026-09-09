@@ -2956,6 +2956,12 @@
       "type": "direct_user_explanation",
       "topic": "Hogwarts Legacy — Хогвартс интереснее открытого мира",
       "evidence": "Пользователь прямо выбрал сам Хогвартс как более интересное для исследования пространство по сравнению с открытым миром за пределами замка. Это поддерживает предпочтение более плотных и насыщенных пространств над большим миром как таковым."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "direct_user_explanation",
+      "topic": "Darksiders II — простые головоломки нравились как смена активности",
+      "evidence": "Пользователь подтвердил, что головоломки в подземельях Darksiders II ему нравились: они были несложными и разбавляли остальную часть игры. Это поддерживает позитив к умеренно простым головоломкам, когда они дают смену ритма и разнообразие, а не становятся отдельным тяжёлым барьером."
     }
   ],
   "migration_audit": {
@@ -3042,7 +3048,8 @@
     "2026-09-09-rayman-legends-early-monotony",
     "2026-09-09-miles-morales-new-powers-and-weaker-story",
     "2026-09-09-mirrors-edge-escape-movement-memory",
-    "2026-09-09-hogwarts-castle-over-open-world"
+    "2026-09-09-hogwarts-castle-over-open-world",
+    "2026-09-09-darksiders2-puzzles-liked-as-variety"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
