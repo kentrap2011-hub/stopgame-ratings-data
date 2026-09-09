@@ -1,8 +1,8 @@
 {
-  "pending": false,
-  "request_id": "2026-09-09-arkham-city-character-switching-side-activities",
+  "pending": true,
+  "request_id": "2026-09-09-hl2-episode-two-as-continuation",
   "updated_at": "2026-09-09",
-  "trigger_nonce": 39,
+  "trigger_nonce": 40,
   "operations": [
     {
       "op": "replace_matching",
@@ -10,20 +10,19 @@
         "stopgame_cards"
       ],
       "match": {
-        "title": "Batman: Arkham City"
+        "title": "Half-Life 2: Episode Two"
       },
       "value": {
-        "title": "Batman: Arkham City",
-        "rating": 4,
+        "title": "Half-Life 2: Episode Two",
+        "rating": 3.5,
         "what_liked": [
-          "Возможность играть разными персонажами.",
-          "Различные дополнительные активности.",
-          "По общему сравнению с Arkham Asylum город ощущался более реалистичным и насыщенным."
+          "Воспринимается как прямое продолжение Half-Life 2, а не как отдельная самостоятельная игра."
         ],
         "what_disliked": [],
-        "why_this_rating": "4/5: нравились смена персонажей, разнообразные дополнительные активности и более насыщенное ощущение мира по сравнению с Arkham Asylum.",
+        "why_this_rating": "3.5/5: оценку Episode Two нужно читать в контексте отношения к Half-Life 2; пользователь воспринимает эпизод именно как продолжение основной игры, а не как отдельный игровой опыт.",
         "separate_remarks": [
-          "Не сводить предпочтение к самому факту открытого мира: пользователь отдельно ценит насыщенность и содержательные активности."
+          "Не использовать Episode Two как независимый второй сигнал о вкусе без учёта привязки к Half-Life 2.",
+          "Конкретные отдельные плюсы и минусы Episode Two пользователь пока не называл."
         ],
         "discussion_confidence": "высокая",
         "evidence_type": "user_explanation"
@@ -37,8 +36,8 @@
       "value": {
         "date": "2026-09-09",
         "type": "direct_user_explanation",
-        "topic": "Batman: Arkham City — смена персонажей и дополнительные активности",
-        "evidence": "Пользователь назвал возможность смены персонажа и различные дополнительные активности как важные плюсы Arkham City. Ранее также отмечал, что City по общему впечатлению реалистичнее и насыщеннее Asylum."
+        "topic": "Half-Life 2: Episode Two — продолжение, а не отдельная игра",
+        "evidence": "Пользователь прямо сказал, что воспринимает Half-Life 2: Episode Two как продолжение Half-Life 2. Поэтому оценку эпизода нужно интерпретировать в контексте основной игры, а не как полностью независимый опыт."
       }
     }
   ]
