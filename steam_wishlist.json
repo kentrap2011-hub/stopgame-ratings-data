@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 91,
+  "count": 92,
   "games": [
     {
       "appid": "9480",
@@ -640,7 +640,14 @@
       "priority": 0,
       "date_added": 1788974046,
       "store_url": "https://store.steampowered.com/app/1623940/"
+    },
+    {
+      "appid": "414340",
+      "title": "Hellblade: Senua's Sacrifice",
+      "priority": 0,
+      "date_added": 1789028424,
+      "store_url": "https://store.steampowered.com/app/414340/"
     }
   ],
-  "updated_at": "2026-09-09T17:15:34.958Z"
+  "updated_at": "2026-09-10T08:31:09.136Z"
 }
