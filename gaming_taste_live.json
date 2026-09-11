@@ -3082,6 +3082,12 @@
       "type": "direct_user_explanation",
       "topic": "Final Fantasy VII Remake / INTERmission — недостаточная прозрачность характеристик навыков",
       "evidence": "Пользователю не нравится, что у некоторых навыков не указаны чёткие характеристики. Из-за этого непонятно, какой навык мощнее другого и насколько велика разница. Это отдельный негативный сигнал по прозрачности систем прокачки и качеству информации для сравнения билдов."
+    },
+    {
+      "date": "2026-09-11",
+      "type": "direct_user_clarification",
+      "topic": "Final Fantasy VII Remake / INTERmission — вес недостаточной прозрачности навыков в общем впечатлении",
+      "evidence": "Пользователь уточнил, что отсутствие чётких характеристик у некоторых навыков нужно учитывать именно как часть впечатления от Final Fantasy VII Remake / INTERmission, но это небольшой минус и на общее впечатление от игры влияет слабо."
     }
   ],
   "migration_audit": {
@@ -3189,7 +3195,8 @@
     "2026-09-10-hellblade-over-solar-ash-clean-test-hit",
     "2026-09-10-atlas-fallen-over-forgotten-city-clean-test-miss",
     "2026-09-10-flintlock-over-south-of-midnight-clean-test-miss",
-    "2026-09-11-ff7-skill-stat-transparency"
+    "2026-09-11-ff7-skill-stat-transparency",
+    "2026-09-11-ff7-skill-stats-minor-game-impression"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
@@ -3344,6 +3351,15 @@
         "Final Fantasy VII Remake / INTERmission": "Не нравится, что у части навыков нет чётких характеристик: из описания нельзя понять, какой из них мощнее и насколько велика разница."
       },
       "inference_guardrail": "Не считать, что пользователь требует полного отображения всех внутренних формул. Ключевой запрос — достаточно прозрачных данных для практического сравнения вариантов и осознанного выбора."
+    },
+    "game_specific_impressions": {
+      "Final Fantasy VII Remake / INTERmission": {
+        "skill_stat_transparency": {
+          "sentiment": "minor_negative",
+          "impact_on_overall_impression": "низкий",
+          "note": "Небольшой минус: у некоторых навыков нет достаточно чётких характеристик, поэтому трудно понять, какой вариант мощнее и насколько. Замечание влияет на общее впечатление слабо и не должно иметь большого веса при итоговой оценке игры."
+        }
+      }
     }
   }
 }
