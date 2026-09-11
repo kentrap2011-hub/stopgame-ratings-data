@@ -3094,6 +3094,12 @@
       "type": "direct_user_preference",
       "topic": "Возможность ставить кат-сцены на паузу",
       "evidence": "Пользователь прямо отметил как крутой плюс возможность поставить кат-сцену на паузу. Это небольшой, но устойчивый сигнал по удобству интерфейса и управлению сюжетными сценами."
+    },
+    {
+      "date": "2026-09-11",
+      "type": "direct_user_explanation",
+      "topic": "Final Fantasy VII Remake / INTERmission — пауза в кат-сценах",
+      "evidence": "В текущем прохождении пользователь отдельно отметил как плюс возможность поставить кат-сцену на паузу. Учитывать это как небольшой положительный штрих к впечатлению от Final Fantasy VII Remake / INTERmission."
     }
   ],
   "migration_audit": {
@@ -3203,7 +3209,8 @@
     "2026-09-10-flintlock-over-south-of-midnight-clean-test-miss",
     "2026-09-11-ff7-skill-stat-transparency",
     "2026-09-11-ff7-skill-stats-minor-game-impression",
-    "2026-09-11-cutscene-pause-positive-ux"
+    "2026-09-11-cutscene-pause-positive-ux",
+    "2026-09-11-ff7-cutscene-pause-positive-impression"
   ],
   "contextual_preferences": {
     "approach_choice_and_stealth": {
@@ -3365,6 +3372,11 @@
           "sentiment": "minor_negative",
           "impact_on_overall_impression": "низкий",
           "note": "Небольшой минус: у некоторых навыков нет достаточно чётких характеристик, поэтому трудно понять, какой вариант мощнее и насколько. Замечание влияет на общее впечатление слабо и не должно иметь большого веса при итоговой оценке игры."
+        },
+        "cutscene_pause": {
+          "sentiment": "minor_positive",
+          "impact_on_overall_impression": "небольшой",
+          "note": "Плюс к удобству: кат-сцены можно поставить на паузу. Пользователь отдельно отметил эту возможность как крутую."
         }
       }
     },
