@@ -1,7 +1,12 @@
 {
   "user": "kentrap2011",
-  "count": 120,
+  "count": 121,
   "games": [
+    {
+      "title": "Final Fantasy VII Remake: Episode Intermission",
+      "url": "https://stopgame.ru/game/final_fantasy_vii_remake_episode_intermission",
+      "rating": 3.5
+    },
     {
       "title": "Postal 2",
       "url": "https://stopgame.ru/game/postal_2",
@@ -603,5 +608,5 @@
       "rating": 4
     }
   ],
-  "updated_at": "2026-08-24T04:00:18.774Z"
+  "updated_at": "2026-09-12T00:30:33.612Z"
 }
