@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 91,
+  "count": 92,
   "games": [
     {
       "appid": "9480",
@@ -234,6 +234,13 @@
       "priority": 0,
       "date_added": 1788165612,
       "store_url": "https://store.steampowered.com/app/1137300/"
+    },
+    {
+      "appid": "1895880",
+      "title": "Ratchet & Clank: Сквозь миры",
+      "priority": 0,
+      "date_added": 1789205486,
+      "store_url": "https://store.steampowered.com/app/1895880/"
     },
     {
       "appid": "1174180",
@@ -642,5 +649,5 @@
       "store_url": "https://store.steampowered.com/app/414340/"
     }
   ],
-  "updated_at": "2026-09-12T09:00:44.119Z"
+  "updated_at": "2026-09-12T09:45:23.117Z"
 }
