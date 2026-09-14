@@ -159,6 +159,13 @@
       "store_url": "https://store.steampowered.com/app/387290/"
     },
     {
+      "appid": "414340",
+      "title": "Hellblade: Senua's Sacrifice",
+      "priority": 0,
+      "date_added": 1789028424,
+      "store_url": "https://store.steampowered.com/app/414340/"
+    },
+    {
       "appid": "424840",
       "title": "Little Nightmares",
       "priority": 0,
@@ -234,13 +241,6 @@
       "priority": 0,
       "date_added": 1788165612,
       "store_url": "https://store.steampowered.com/app/1137300/"
-    },
-    {
-      "appid": "1895880",
-      "title": "Ratchet & Clank: Сквозь миры",
-      "priority": 0,
-      "date_added": 1789205486,
-      "store_url": "https://store.steampowered.com/app/1895880/"
     },
     {
       "appid": "1174180",
@@ -369,6 +369,13 @@
       "store_url": "https://store.steampowered.com/app/1593500/"
     },
     {
+      "appid": "1623940",
+      "title": "Bramble: The Mountain King",
+      "priority": 0,
+      "date_added": 1788974046,
+      "store_url": "https://store.steampowered.com/app/1623940/"
+    },
+    {
       "appid": "1627720",
       "title": "Lies of P",
       "priority": 0,
@@ -381,6 +388,13 @@
       "priority": 0,
       "date_added": 1787463742,
       "store_url": "https://store.steampowered.com/app/1659420/"
+    },
+    {
+      "appid": "1681430",
+      "title": "RoboCop: Rogue City",
+      "priority": 0,
+      "date_added": 1789241036,
+      "store_url": "https://store.steampowered.com/app/1681430/"
     },
     {
       "appid": "1790600",
@@ -409,6 +423,13 @@
       "priority": 0,
       "date_added": 1783545327,
       "store_url": "https://store.steampowered.com/app/1888930/"
+    },
+    {
+      "appid": "1895880",
+      "title": "Ratchet & Clank: Сквозь миры",
+      "priority": 0,
+      "date_added": 1789205486,
+      "store_url": "https://store.steampowered.com/app/1895880/"
     },
     {
       "appid": "1903340",
@@ -633,28 +654,7 @@
       "priority": 0,
       "date_added": 1784384717,
       "store_url": "https://store.steampowered.com/app/3914860/"
-    },
-    {
-      "appid": "1623940",
-      "title": "Bramble: The Mountain King",
-      "priority": 0,
-      "date_added": 1788974046,
-      "store_url": "https://store.steampowered.com/app/1623940/"
-    },
-    {
-      "appid": "414340",
-      "title": "Hellblade: Senua's Sacrifice",
-      "priority": 0,
-      "date_added": 1789028424,
-      "store_url": "https://store.steampowered.com/app/414340/"
-    },
-    {
-      "appid": "1681430",
-      "title": "RoboCop: Rogue City",
-      "priority": 0,
-      "date_added": 1789241036,
-      "store_url": "https://store.steampowered.com/app/1681430/"
     }
   ],
-  "updated_at": "2026-09-12T19:30:41.079Z"
+  "updated_at": "2026-09-14T16:30:46.043Z"
 }
