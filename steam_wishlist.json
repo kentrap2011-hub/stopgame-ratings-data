@@ -215,6 +215,13 @@
       "store_url": "https://store.steampowered.com/app/765900/"
     },
     {
+      "appid": "814380",
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "priority": 0,
+      "date_added": 1789830643,
+      "store_url": "https://store.steampowered.com/app/814380/"
+    },
+    {
       "appid": "978300",
       "title": "Saints Row®: The Third™ Remastered",
       "priority": 0,
@@ -600,6 +607,13 @@
       "store_url": "https://store.steampowered.com/app/2988580/"
     },
     {
+      "appid": "3031890",
+      "title": "Acts of Blood",
+      "priority": 0,
+      "date_added": 1789824418,
+      "store_url": "https://store.steampowered.com/app/3031890/"
+    },
+    {
       "appid": "3132930",
       "title": "Monument Valley 3",
       "priority": 0,
@@ -654,21 +668,7 @@
       "priority": 0,
       "date_added": 1784384717,
       "store_url": "https://store.steampowered.com/app/3914860/"
-    },
-    {
-      "appid": "3031890",
-      "title": "Acts of Blood",
-      "priority": 0,
-      "date_added": 1789824418,
-      "store_url": "https://store.steampowered.com/app/3031890/"
-    },
-    {
-      "appid": "814380",
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-      "priority": 0,
-      "date_added": 1789830643,
-      "store_url": "https://store.steampowered.com/app/814380/"
     }
   ],
-  "updated_at": "2026-09-19T15:15:38.734Z"
+  "updated_at": "2026-09-22T22:45:35.630Z"
 }
