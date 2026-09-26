@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 93,
+  "count": 92,
   "games": [
     {
       "appid": "9480",
@@ -334,13 +334,6 @@
       "store_url": "https://store.steampowered.com/app/1406810/"
     },
     {
-      "appid": "1426210",
-      "title": "It Takes Two",
-      "priority": 0,
-      "date_added": 1783604746,
-      "store_url": "https://store.steampowered.com/app/1426210/"
-    },
-    {
       "appid": "1466060",
       "title": "Tainted Grail: The Fall of Avalon",
       "priority": 0,
@@ -656,5 +649,5 @@
       "store_url": "https://store.steampowered.com/app/2406770/"
     }
   ],
-  "updated_at": "2026-09-25T18:30:41.773Z"
+  "updated_at": "2026-09-26T10:15:27.253Z"
 }
