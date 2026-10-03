@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 93,
+  "count": 94,
   "games": [
     {
       "appid": "9480",
@@ -269,6 +269,13 @@
       "priority": 0,
       "date_added": 1787428814,
       "store_url": "https://store.steampowered.com/app/1225570/"
+    },
+    {
+      "appid": "1025600",
+      "title": "Battle Realms: Zen Edition",
+      "priority": 0,
+      "date_added": 1791040869,
+      "store_url": "https://store.steampowered.com/app/1025600/"
     },
     {
       "appid": "1244950",
@@ -656,5 +663,5 @@
       "store_url": "https://store.steampowered.com/app/3914860/"
     }
   ],
-  "updated_at": "2026-10-03T05:31:05.041Z"
+  "updated_at": "2026-10-03T15:31:01.780Z"
 }
