@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 94,
+  "count": 95,
   "games": [
     {
       "appid": "9480",
@@ -661,7 +661,14 @@
       "priority": 0,
       "date_added": 1784384717,
       "store_url": "https://store.steampowered.com/app/3914860/"
+    },
+    {
+      "appid": "2638890",
+      "title": "Onimusha: Way of the Sword",
+      "priority": 0,
+      "date_added": 1791309374,
+      "store_url": "https://store.steampowered.com/app/2638890/"
     }
   ],
-  "updated_at": "2026-10-03T15:31:01.780Z"
+  "updated_at": "2026-10-06T18:01:40.623Z"
 }
