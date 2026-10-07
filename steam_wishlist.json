@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 96,
+  "count": 90,
   "games": [
     {
       "appid": "9480",
@@ -66,13 +66,6 @@
       "priority": 0,
       "date_added": 1783580975,
       "store_url": "https://store.steampowered.com/app/17410/"
-    },
-    {
-      "appid": "19680",
-      "title": "Alice: Madness Returns",
-      "priority": 0,
-      "date_added": 1786378271,
-      "store_url": "https://store.steampowered.com/app/19680/"
     },
     {
       "appid": "19980",
@@ -213,13 +206,6 @@
       "priority": 0,
       "date_added": 1786820822,
       "store_url": "https://store.steampowered.com/app/765900/"
-    },
-    {
-      "appid": "814380",
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-      "priority": 0,
-      "date_added": 1789830643,
-      "store_url": "https://store.steampowered.com/app/814380/"
     },
     {
       "appid": "978300",
@@ -369,20 +355,6 @@
       "store_url": "https://store.steampowered.com/app/1593500/"
     },
     {
-      "appid": "1623940",
-      "title": "Bramble: The Mountain King",
-      "priority": 0,
-      "date_added": 1788974046,
-      "store_url": "https://store.steampowered.com/app/1623940/"
-    },
-    {
-      "appid": "1627720",
-      "title": "Lies of P",
-      "priority": 0,
-      "date_added": 1786211445,
-      "store_url": "https://store.steampowered.com/app/1627720/"
-    },
-    {
       "appid": "1659420",
       "title": "UNCHARTED™: Наследие воров. Коллекция",
       "priority": 0,
@@ -458,13 +430,6 @@
       "priority": 0,
       "date_added": 1783604740,
       "store_url": "https://store.steampowered.com/app/2001120/"
-    },
-    {
-      "appid": "2215260",
-      "title": "Scott Pilgrim vs. The World™: The Game – Complete Edition",
-      "priority": 0,
-      "date_added": 1784239528,
-      "store_url": "https://store.steampowered.com/app/2215260/"
     },
     {
       "appid": "2358720",
@@ -668,14 +633,7 @@
       "priority": 0,
       "date_added": 1791309374,
       "store_url": "https://store.steampowered.com/app/2638890/"
-    },
-    {
-      "appid": "1057090",
-      "title": "Ori and the Will of the Wisps",
-      "priority": 0,
-      "date_added": 1791347480,
-      "store_url": "https://store.steampowered.com/app/1057090/"
     }
   ],
-  "updated_at": "2026-10-07T04:45:49.667Z"
+  "updated_at": "2026-10-07T20:31:18.870Z"
 }
