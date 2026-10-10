@@ -1,12 +1,14 @@
 {
-  "pending": true,
+  "pending": false,
   "request_id": "2026-10-11-idol-party-dance-challenges",
   "updated_at": "2026-10-11",
   "trigger_nonce": 109,
   "operations": [
     {
       "op": "append",
-      "path": ["evidence_log"],
+      "path": [
+        "evidence_log"
+      ],
       "value": {
         "date": "2026-10-11",
         "type": "direct_user_explanation",
