@@ -1,7 +1,12 @@
 {
   "user": "kentrap2011",
-  "count": 121,
+  "count": 122,
   "games": [
+    {
+      "title": "Idol Party",
+      "url": "https://stopgame.ru/game/idol_party",
+      "rating": 1.5
+    },
     {
       "title": "Final Fantasy VII Remake: Episode Intermission",
       "url": "https://stopgame.ru/game/final_fantasy_vii_remake_episode_intermission",
@@ -608,5 +613,5 @@
       "rating": 4
     }
   ],
-  "updated_at": "2026-09-12T18:00:56.470Z"
+  "updated_at": "2026-10-10T22:15:48.500Z"
 }
