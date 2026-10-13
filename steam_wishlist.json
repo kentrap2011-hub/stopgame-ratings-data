@@ -215,6 +215,13 @@
       "store_url": "https://store.steampowered.com/app/978300/"
     },
     {
+      "appid": "1025600",
+      "title": "Battle Realms: Zen Edition",
+      "priority": 0,
+      "date_added": 1791040869,
+      "store_url": "https://store.steampowered.com/app/1025600/"
+    },
+    {
       "appid": "1088850",
       "title": "Marvel's Guardians of the Galaxy",
       "priority": 0,
@@ -255,13 +262,6 @@
       "priority": 0,
       "date_added": 1787428814,
       "store_url": "https://store.steampowered.com/app/1225570/"
-    },
-    {
-      "appid": "1025600",
-      "title": "Battle Realms: Zen Edition",
-      "priority": 0,
-      "date_added": 1791040869,
-      "store_url": "https://store.steampowered.com/app/1025600/"
     },
     {
       "appid": "1244950",
@@ -502,6 +502,13 @@
       "store_url": "https://store.steampowered.com/app/2627260/"
     },
     {
+      "appid": "2638890",
+      "title": "Onimusha: Way of the Sword",
+      "priority": 0,
+      "date_added": 1791309374,
+      "store_url": "https://store.steampowered.com/app/2638890/"
+    },
+    {
       "appid": "2640950",
       "title": "Scott Pilgrim EX",
       "priority": 0,
@@ -626,14 +633,7 @@
       "priority": 0,
       "date_added": 1784384717,
       "store_url": "https://store.steampowered.com/app/3914860/"
-    },
-    {
-      "appid": "2638890",
-      "title": "Onimusha: Way of the Sword",
-      "priority": 0,
-      "date_added": 1791309374,
-      "store_url": "https://store.steampowered.com/app/2638890/"
     }
   ],
-  "updated_at": "2026-10-07T20:31:18.870Z"
+  "updated_at": "2026-10-13T22:15:50.988Z"
 }
