@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 90,
+  "count": 88,
   "games": [
     {
       "appid": "9480",
@@ -185,13 +185,6 @@
       "priority": 0,
       "date_added": 1787433264,
       "store_url": "https://store.steampowered.com/app/578330/"
-    },
-    {
-      "appid": "668580",
-      "title": "Atomic Heart",
-      "priority": 0,
-      "date_added": 1786114481,
-      "store_url": "https://store.steampowered.com/app/668580/"
     },
     {
       "appid": "753640",
@@ -626,14 +619,7 @@
       "priority": 0,
       "date_added": 1785442659,
       "store_url": "https://store.steampowered.com/app/3787240/"
-    },
-    {
-      "appid": "3914860",
-      "title": "Moss: The Forgotten Relic ",
-      "priority": 0,
-      "date_added": 1784384717,
-      "store_url": "https://store.steampowered.com/app/3914860/"
     }
   ],
-  "updated_at": "2026-10-13T22:15:50.988Z"
+  "updated_at": "2026-10-14T17:31:19.695Z"
 }
