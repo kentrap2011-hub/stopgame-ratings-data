@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer"><title>KentRAP — примерка фонов Steam</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#080d14;color:#dce5ed;font-family:Arial,Helvetica,sans-serif}
+.topbar{padding:13px 18px;background:#121b29;border-bottom:1px solid #344259;display:flex;align-items:center;flex-wrap:wrap;gap:12px}
+.topbar strong{font-size:17px}.sub{font-size:12px;color:#9eb3c7}
+.controls{padding:10px 16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:#172230}
+button,select,input{font:inherit;font-size:13px;border:1px solid #566980;border-radius:6px;background:#283b50;color:#eef4fa;padding:9px 11px}
+button{cursor:pointer}button.active{background:#802d37;border-color:#c74952}
+.controls label{font-size:12px;color:#b6c8da}.controls .push{flex:1}
+#status{padding:7px 16px;background:#0e1721;font-size:12px;color:#bad0dc}
+#viewport{width:100%;overflow:auto;scrollbar-color:#526779 #101921;touch-action:pan-x pan-y}
+#stagebox{position:relative}
+#stage{width:1920px;height:1080px;transform-origin:top left;position:relative;overflow:hidden;background:#08090b}
+.steamhead{height:60px;background:#171a21;color:#f8f8f8;position:relative;text-align:center}
+.steamhead img{height:27px;margin-top:16px}
+.hamburger{position:absolute;left:25px;top:16px;font-size:26px;color:#bfc6ce}
+#wall{height:1020px;position:absolute;left:0;top:60px;width:100%;background-color:#070a0d;background-repeat:no-repeat;background-position:center top;background-size:cover}
+#wall:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.10),transparent 25%,transparent 75%,rgba(0,0,0,.10));pointer-events:none}
+.profile{position:absolute;top:60px;left:calc(50% - 490px);width:980px;min-height:1040px;background:rgba(15,15,22,.70);padding:22px 12px 30px}
+.phead{display:grid;grid-template-columns:145px 1fr 248px;gap:28px;min-height:184px;padding:8px 13px 20px}
+.avatar{height:145px;width:145px;border:2px solid #777;object-fit:cover;background:#0b0708}
+.nick{font-size:25px;margin:5px 0}.realname{font-size:12px;color:#acb3bd}
+.level{font-size:20px;margin:3px 0 15px}.circle{display:inline-grid;place-items:center;border:2px solid #9ea4af;border-radius:50%;width:29px;height:29px;font-size:15px}
+.card{background:rgba(11,12,20,.83);border-radius:2px;padding:9px;margin-top:8px}.muted{color:#929aa6}.minor{font-size:12px}
+.edit{display:inline-block;padding:8px;margin-top:9px;background:#2d3a4a;font-size:13px}
+.two{display:grid;grid-template-columns:660px 1fr;gap:12px}
+.title{background:rgba(52,70,87,.88);padding:9px 10px;font-size:15px;display:flex;justify-content:space-between}
+.game{margin:15px 8px;background:rgba(7,8,12,.87);padding:9px 8px 11px;min-height:123px}
+.gamehead{display:flex;gap:10px;font-size:13px;align-items:flex-start}
+.gamehead img{width:184px;height:69px;object-fit:cover}
+.gamehead .gamename{flex:1;margin-top:9px}
+.playtime{margin-top:35px;text-align:right;font-size:11px;color:#a2a9b3}
+.ach{background:rgba(37,40,52,.88);margin-top:5px;padding:7px 9px;min-height:34px;font-size:12px}
+.progress{height:8px;background:#131720;border:1px solid #323849;border-radius:6px;margin-top:6px;width:56%}
+.fill{height:100%;width:39%;background:linear-gradient(#707a91,#4d526e)}
+.right{background:rgba(11,12,18,.66);padding:12px 10px}
+.offline{font-size:18px;color:#969da9}
+.section{margin-top:27px;font-size:15px}
+.icons{display:flex;gap:10px;margin-top:8px}
+.icons img{width:42px;height:42px}
+.friend{display:flex;gap:8px;align-items:center;margin:8px 0;font-size:12px;color:#afb4c0}
+.friend img{width:38px;height:38px;object-fit:cover}
+.comments{margin-top:26px}.fake-input{background:#151922;color:#7e858e;margin-top:9px;padding:13px}
+#showcase{display:none;margin:14px 0 19px}.art{height:230px;display:flex;align-items:center;justify-content:center;background:linear-gradient(115deg,#090909,#272225 50%,#090909);color:#e4e4e4}
+.art strong{font-size:36px;letter-spacing:8px;text-shadow:0 0 18px #8a101a}
+.bottomnote{padding:11px 16px 23px;color:#a9b4c0;font-size:12px;line-height:1.6}
+a{color:#c7deec}#shoplinks a{margin-right:14px}
+@media(max-width:720px){.topbar strong{font-size:15px}.controls{gap:6px}button,select{font-size:12px;padding:9px}.sub{width:100%}}
+</style>
+</head>
+<body>
+<div class="topbar"><strong>KentRAP · Примерка фонов Steam</strong><span class="sub">Экран 1920 × 1080. Реальные изображения из Steam; предварительный макет интерфейса.</span></div>
+<div class="controls">
+<label for="background">Фон:</label>
+<select id="background">
+<option value="ss">SS_Landscape ★</option>
+<option value="hole">Black Hole</option>
+<option value="vitriol">Vitriol</option>
+<option value="blackout">Blackout</option>
+<option value="rain">Rain</option>
+<option value="custom">Свой URL</option>
+</select>
+<button id="fit" class="active">Уместить</button><button id="forty">40%</button><button id="full">100%</button>
+<label><input id="withart" type="checkbox"> Пример витрины</label>
+<div class="push"></div><span id="zoomlabel" style="font-size:12px">Масштаб</span>
+</div>
+<div id="customline" class="controls" hidden><input style="width:min(800px,85vw)" id="customurl" placeholder="https://… адрес оригинального изображения Steam"><button id="applyurl">Применить</button></div>
+<div id="status">Загружается оригинальный фон SS_Landscape…</div>
+<div id="viewport"><div id="stagebox"><div id="stage">
+<div class="steamhead"><span class="hamburger">☰</span><img alt="STEAM" src="https://community.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png"></div>
+<div id="wall"></div>
+<div class="profile">
+<div class="phead"><img class="avatar" src="https://avatars.fastly.steamstatic.com/81c1bf438b2902ab7f8d6f5a52faf2b99d91c074_full.jpg" alt="Аватар KentRAP">
+<div><div class="nick">KentRAP ▾</div><div class="realname">Профиль Steam</div></div>
+<div><div class="level">Уровень <span class="circle">9</span></div><div class="card minor">Вы можете отобразить один из своих значков здесь. Выберите его на странице редактирования профиля.</div><span class="edit">Редактировать профиль</span></div></div>
+<div id="showcase"><div class="title">Витрина иллюстраций <span>⋯</span></div><div class="art"><strong>SIFU</strong></div><div class="minor muted" style="margin:8px">Место для будущего арта — пока не установлен в Steam</div></div>
+<div class="two">
+<div class="left"><div class="title"><span>Недавняя активность</span><span style="font-size:13px">15,5 ч. за последние 2 недели</span></div>
+<div class="game"><div class="gamehead"><img alt="Sifu" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138710/capsule_184x69.jpg"><span class="gamename">Sifu</span><span class="playtime">22 ч. всего<br>последний запуск 12 окт</span></div><div class="ach">Достижения <span style="float:right">24 из 61</span><div class="progress"><div class="fill"></div></div></div></div>
+<div class="game"><div class="gamehead"><img alt="Trine 4" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/690640/capsule_184x69.jpg"><span class="gamename">Trine 4: The Nightmare Prince</span><span class="playtime">2,1 ч. всего<br>последний запуск 12 окт</span></div><div class="ach">Достижения <span style="float:right">5 из 39</span><div class="progress"><div class="fill" style="width:13%"></div></div></div></div>
+<div class="game"><div class="gamehead"><img alt="Idol Party" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2334720/capsule_184x69.jpg"><span class="gamename">Idol Party</span><span class="playtime">11,9 ч. всего<br>последний запуск 11 окт</span></div><div class="ach">Обзор 1</div></div>
+<div class="comments"><div class="title">Комментарии</div><div class="fake-input">Оставить комментарий</div></div>
+</div>
+<div class="right"><div class="offline">Не в сети</div><div class="minor muted">В сети: 2 дн. назад</div>
+<div class="section">Значки 3</div><div class="icons"><img src="https://community.fastly.steamstatic.com/public/images/badges/01_community/community02_80.png"><img src="https://community.fastly.steamstatic.com/public/images/badges/13_gamecollector/10_80.png?v=4"><img src="https://community.fastly.steamstatic.com/public/images/badges/02_years/steamyears13_80.png"></div>
+<div class="section">Друзья 5</div>
+<div class="friend"><img src="https://avatars.fastly.steamstatic.com/4c96fba44939ee6e2745a4cd42d66880d2b8fe78_medium.jpg">Pin249</div>
+<div class="friend"><img src="https://avatars.fastly.steamstatic.com/dc84ec740f26fbdfe31d29a6fa06ba48862736c7_medium.jpg">Skyline</div>
+<div class="section muted">Игры 24</div><div class="section minor">Инвентарь</div><div class="section minor">Скриншоты</div><div class="section minor">Видео</div><div class="section minor">Работы в мастерской</div><div class="section minor">Обзоры 1</div><div class="section minor">Руководства</div><div class="section minor">Иллюстрации</div>
+</div>
+</div>
+</div>
+</div></div></div>
+<div class="bottomnote"><div id="shoplinks"></div>Изображения фона подгружаются с серверов Steam без перерисовки. Анимированные фоны представлены статичным кадром. Витрина и прозрачность панелей здесь — предварительная примерка, а не установленный профиль Steam.</div>
+<script>
+(function(){
+const B={
+ ss:{name:'SS_Landscape',url:'https://shared.akamai.steamstatic.com/community_assets/images/items/2351090/760ea4f91a440c95dbeff68dc4c845cdcbb06d31.jpg',shop:'https://store.steampowered.com/points/shop/c/backgrounds/cluster/1/reward/219776'},
+ hole:{name:'Black Hole',url:'https://shared.akamai.steamstatic.com/community_assets/images/items/1263950/da538bac62ee5e233cd82bb75b0d3c47ba0cdc03.jpg',shop:'https://store.steampowered.com/points/shop/c/backgrounds/reward/78810'},
+ vitriol:{name:'Vitriol',url:'https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1684350/52cddd3931367af68b15c141828104067de07692.jpg'},
+ blackout:{name:'Blackout',url:'https://shared.akamai.steamstatic.com/community_assets/images/items/384960/f54bc45c7eedbd9c1d524e514e76db7441c20a81.jpg',shop:'https://store.steampowered.com/points/shop/c/backgrounds/reward/113355'},
+ rain:{name:'Rain',url:'https://shared.akamai.steamstatic.com/community_assets/images/items/1098340/e7f0f200a7dc0b68f99b374357c88b5f7f10696e.jpg',shop:'https://store.steampowered.com/points/shop/c/backgrounds/reward/105852'}
+};
+const q=id=>document.getElementById(id),viewport=q('viewport'),stage=q('stage'),box=q('stagebox'),wall=q('wall');
+let zoom='fit',lastUrl='';
+function scaleTo(n,mode){zoom=mode;const v=n||Math.min(1,viewport.clientWidth/1920);stage.style.transform='scale('+v+')';box.style.width=(1920*v)+'px';box.style.height=(1080*v)+'px';viewport.style.height=Math.min(850,Math.max(180,1080*v))+'px';q('zoomlabel').textContent=Math.round(v*100)+'%';['fit','forty','full'].forEach(id=>q(id).classList.toggle('active',id===mode));viewport.scrollLeft=Math.max(0,(1920*v-viewport.clientWidth)/2);viewport.scrollTop=0;}
+function background(url,name,shop){lastUrl=url;wall.style.backgroundImage='url("'+url.replace(/"/g,'%22')+'")';q('status').textContent='Загружаем '+name+'…';const test=new Image();test.onload=()=>{if(lastUrl===url)q('status').textContent='Фон '+name+' загружен · экран 1920 × 1080';};test.onerror=()=>{if(lastUrl===url)q('status').textContent='Ошибка загрузки фона '+name+'. Проверь интернет.';};test.src=url;q('shoplinks').innerHTML=shop?'<a target="_blank" rel="noreferrer" href="'+shop+'">Открыть '+name+' в магазине очков Steam</a>':'';}
+function pick(){const sel=q('background').value;q('customline').hidden=sel!=='custom';if(sel!=='custom')background(B[sel].url,B[sel].name,B[sel].shop);}
+q('background').addEventListener('change',pick);
+q('applyurl').addEventListener('click',()=>{const url=q('customurl').value.trim();if(/^https:\/\//i.test(url))background(url,'по ссылке','');else q('status').textContent='Нужна ссылка на изображение, начинающаяся с https://';});
+q('fit').onclick=()=>scaleTo(null,'fit');q('forty').onclick=()=>scaleTo(.4,'forty');q('full').onclick=()=>scaleTo(1,'full');window.addEventListener('resize',()=>{if(zoom==='fit')scaleTo(null,'fit')});
+q('withart').addEventListener('change',e=>q('showcase').style.display=e.target.checked?'block':'none');
+scaleTo(null,'fit');pick();
+})();
+</script></body></html>
