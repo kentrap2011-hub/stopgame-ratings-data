@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KentRAP · подбор Sifu для вертикальной витрины B</title>
+<style>
+:root{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:#eaf0f7;color-scheme:dark;background:#0a1018}
+*{box-sizing:border-box}body{margin:0;background:#090f17}a{color:#a5c8e9}button,input{font:inherit}
+header{padding:16px clamp(13px,3.8vw,35px);background:#101b28;border-bottom:1px solid #324457;display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between}
+h1{font-size:clamp(17px,2vw,25px);font-weight:630;margin:4px 0 4px;letter-spacing:-.4px}p{margin:0}
+header p{color:#acc0d4;font-size:12px;line-height:1.6}
+.home{display:inline-block;border:1px solid #52677c;background:#23354a;border-radius:8px;padding:10px 14px;text-decoration:none;font-size:12px;color:#e7f2ff;white-space:nowrap}
+.intro{padding:13px clamp(13px,3.8vw,35px);color:#bfd1e3;background:#16202d;border-bottom:1px solid #344357;font-size:13px;line-height:1.6}
+.intro strong{color:#fff}
+.picker{padding:16px clamp(13px,3.8vw,35px);background:#0d1621}
+h2{font-size:14px;margin:10px 0 9px;letter-spacing:.03em;color:#c9d9e7}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:0 0 16px}
+.card{min-width:0;cursor:pointer;background:#142333;border:1px solid #32485f;color:#f0f3f8;text-align:left;padding:8px;border-radius:11px;transition:border-color .14s,background .14s;overflow:hidden}
+.card:hover,.card:focus-visible{border-color:#a8c2df;outline:none}
+.card.active{border-color:#d69a8c;background:#253747;box-shadow:0 0 0 1px rgba(220,140,119,.32)}
+.thumb{display:block;position:relative;width:100%;height:164px;border-radius:6px;overflow:hidden;background:#0d1218}
+.thumb img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 42%}
+.thumb em{position:absolute;right:6px;top:6px;background:rgba(0,0,0,.8);color:#fff;font-style:normal;font-size:10px;padding:4px 6px;border-radius:4px}
+.card strong{display:block;font-size:12px;margin:8px 0 4px;line-height:1.25}
+.card small{display:block;color:#a9bbcc;font-size:11px}
+.stage{padding:14px clamp(13px,3.8vw,35px) 36px;background:#0b121b}
+.stagebar{display:flex;gap:11px;align-items:center;flex-wrap:wrap;margin:0 0 14px;font-size:12px;color:#c9d8e9}
+.stagebar label{display:inline-flex;align-items:center;gap:7px;padding:8px 11px;border:1px solid #394a5d;border-radius:7px;background:#142333}
+.stagebar input[type="range"]{width:116px}
+#prev,#next{cursor:pointer;background:#28394c;border:1px solid #546a82;color:#eff5fc;border-radius:6px;padding:7px 12px}
+#current-title{flex:1;min-width:160px;font-size:13px;color:white;font-weight:650}
+.showcase-env{position:relative;overflow:hidden;isolation:isolate;background-image:url("https://shared.akamai.steamstatic.com/community_assets/images/items/2351090/760ea4f91a440c95dbeff68dc4c845cdcbb06d31.jpg");background-size:cover;background-position:center top;min-height:860px;border:1px solid #3a4146;border-radius:6px}
+.showcase-bg-video{position:absolute;inset:0;height:100%;width:100%;object-fit:cover;z-index:0;pointer-events:none}
+.showcase-env::after{content:"";inset:0;position:absolute;background:linear-gradient(to bottom,rgba(7,11,15,.22),rgba(7,11,15,.1) 30%,rgba(7,11,15,.16));z-index:0;pointer-events:none}
+.profile{z-index:1;position:relative;width:min(100%,980px);margin:64px auto 45px;padding:20px 22px 24px;background:rgba(15,19,24,.77);border:1px solid rgba(145,160,178,.21);box-shadow:0 30px 70px rgba(0,0,0,.5)}
+.profile-head{display:flex;align-items:center;gap:15px;padding:5px 0 20px;border-bottom:1px solid #333f4c}
+.avatar{width:92px;height:92px;border:2px solid #6f747b;object-fit:cover}
+.identity h3{font-weight:500;font-size:23px;color:#fff;margin:0 0 8px}
+.identity p{font-size:12px;line-height:1.55;color:#a7b7c8}
+.level{margin-left:auto;color:#c7ced6;font-size:12px;align-self:flex-start;white-space:nowrap}
+.profile-content{display:grid;grid-template-columns:minmax(0,652px) minmax(150px,1fr);gap:12px;padding-top:17px}
+.artwork-showcase{background:rgba(8,12,18,.8);padding:11px;border:1px solid rgba(150,166,188,.17)}
+.showcase-heading{background:linear-gradient(90deg,rgba(70,86,104,.5),rgba(25,31,42,.47));font-size:15px;padding:11px 13px;margin:-11px -11px 10px;color:#fff}
+.artwork-row{position:relative;--focus:50%;width:100%;aspect-ratio:630 / 755;background-color:#0c1016;background-image:var(--image);background-size:cover;background-position:var(--focus) 50%;overflow:hidden;filter:none}
+.artwork-row::after{content:"";position:absolute;left:calc(100% * 506 / 630);top:0;bottom:0;width:calc(100% * 18 / 630);background:#080d12;box-shadow:-1px 0 0 #607081,1px 0 0 #607081}
+.artwork-row.grade{filter:brightness(.93) saturate(.91) contrast(1.04)}
+.artwork-sub{display:flex;justify-content:space-between;font-size:11px;color:#a5b6c9;padding-top:8px;gap:12px;line-height:1.4}
+.rightside{background:rgba(9,13,18,.68);padding:17px 15px;color:#adbac7;font-size:13px}
+.rightside h3{margin:0 0 20px;font-size:13px;font-weight:500;color:#a0c0a0}.rightside .faded{border-top:1px solid #2f3b49;padding:13px 0}
+.fineprint{font-size:12px;line-height:1.5;color:#b7c9d9;margin:15px 0 0}
+.fineprint a{word-break:break-word}
+footer{padding:17px 25px;color:#98aabd;font-size:12px;line-height:1.7;background:#101924}
+@media(min-width:900px){.cards{grid-template-columns:repeat(9,minmax(0,1fr))}.thumb{height:140px}.card{padding:7px}.card strong{font-size:11px}.card small{font-size:10px}.picker h2{margin:10px 0 8px}}
+@media(max-width:720px){.profile{margin:22px auto 25px;padding:11px}.avatar{width:65px;height:65px}.identity h3{font-size:18px}.level{font-size:10px}.profile-content{grid-template-columns:minmax(0,1fr)}.rightside{display:none}.artwork-showcase{padding:7px}.showcase-heading{margin:-7px -7px 7px}.showcase-env{min-height:600px}.cards{gap:6px}.card{padding:5px}.card strong{font-size:10px}.card small{font-size:9px}.thumb{height:115px}header{padding-top:13px}}
+</style>
+</head><body>
+<header><div><h1>Подбор иллюстраций Sifu · формат B</h1><p>9 реальных исходников · 3 направления по 3 работы · SS_Landscape · вертикальная Steam-витрина</p></div><a class="home" href="./index.html">← Вернуться к основной примерке</a></header>
+<div class="intro">Нажимай на любую работу: ниже увидишь, <strong>как она смотрится в большой вертикальной витрине с узкой боковой полосой</strong>. Это настоящие изображения игры, не сгенерированные рисунки. Пока только примерка кадрирования; оригиналы не меняются и ничего не покупаем.</div>
+<section class="picker" aria-label="Реальные работы по Sifu">
+<div id="gallery"></div>
+</section>
+<section class="stage" aria-label="Реалистичная примерка вертикальной витрины">
+<div class="stagebar"><strong id="current-title">Загрузка…</strong><button id="prev" type="button" aria-label="Предыдущая работа">‹</button><button id="next" type="button" aria-label="Следующая работа">›</button><label>Центр кадра <input id="focus" type="range" min="0" max="100" value="50" aria-label="Положение обрезки"></label><label><input id="graded" type="checkbox"> Сдержанная коррекция</label></div>
+<div class="showcase-env">
+<video class="showcase-bg-video" muted autoplay loop playsinline preload="none" aria-hidden="true"><source src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/2351090/75435e9cbc718b2edeec23c1b008f81a2dca013e.webm" type="video/webm"></video>
+<div class="profile">
+<div class="profile-head"><img class="avatar" src="https://avatars.fastly.steamstatic.com/81c1bf438b2902ab7f8d6f5a52faf2b99d91c074_full.jpg" alt="Аватар KentRAP"><div class="identity"><h3>KentRAP</h3><p>Steam · примерка оформления<br>Фон: SS_Landscape</p></div><div class="level">ARTWORK SHOWCASE<br>КОНЦЕПТ B</div></div>
+<div class="profile-content"><section class="artwork-showcase"><div class="showcase-heading">Витрина иллюстраций</div><div id="artwork-row" class="artwork-row" role="img" aria-label="Адаптированная вертикальная композиция из оригинальной работы Sifu"></div><div class="artwork-sub"><span id="frame-note">Проверяем форму и глубину изображения</span><span>506 px + 100 px</span></div></section><aside class="rightside"><h3>Рамка оформления</h3><div class="faded">SS_Landscape</div><div class="faded">Аватар KentRAP</div><div class="faded">Игровая витрина Sifu</div><div class="faded">Статичный исходник</div></aside></div>
+</div></div>
+<p class="fineprint"><span id="source-description"></span><br><a id="source-link" href="#" target="_blank" rel="noopener noreferrer">Открыть первоисточник ↗</a> · Оригиналы для сравнения, права принадлежат авторам и правообладателям. Точная геометрия Steam при загрузке может немного отличаться.</p>
+</section>
+<footer>Источники: официальное оформление Sifu в Epic Games и медиаизображения издателя Kepler Interactive. Оригинал каждой работы указан под примеркой. Для публикации изменённых сторонних произведений проверим разрешение на использование.</footer>
+<script>
+const items=[{"id":"a1_keyart","title":"Официальный ключевой арт","group":"Постеры / герой","author":"Sloclap · Epic Games","description":"Герой крупным планом, сильный красный. Имеет полноценную вертикальную композицию.","origin":"https://store.epicgames.com/p/sifu","fallback":"https://cdn1.epicgames.com/offer/b7b42e2078524ab386a8b2a9856ef557/EGS_SIFUStandardEdition_Sloclap_S4_1200x1600-32aca69d756abfcc25f8581942a6162b_1200x1600-32aca69d756abfcc25f8581942a6162b","x":50},{"id":"a2_red_poster","title":"Красный силуэт","group":"Постеры / герой","author":"Оформление Sifu · Games.gg","description":"Графичный силуэт и контрастный красный. Проверяем, не спорит ли с аватаром.","origin":"https://games.gg/sifu/","fallback":"https://assets.games.gg/1752328236325_sifu_cover_1750262c2c.png","x":52},{"id":"a3_sifu_publisher","title":"Sifu · издательский кадр","group":"Постеры / герой","author":"Sloclap / Kepler Interactive","description":"Официальный материал с героем: кандидат для более спокойной компоновки.","origin":"https://www.kepler-interactive.com/games/sifu","fallback":"https://www.kepler-interactive.com/media/pages/games/sifu/e4e02912fb-1762859872/sifu1920.png","x":51},{"id":"b1_museum_red","title":"Музей · красный зал","group":"Кинематографичные сцены","author":"Sloclap / Kepler Interactive","description":"Красный в архитектуре, а не поверх изображения: может хорошо работать с SS_Landscape.","origin":"https://www.kepler-interactive.com/games/sifu","fallback":"https://www.kepler-interactive.com/media/pages/games/sifu/71d28981f6-1762859870/copie-de-museumred_1920x1080.png","x":50},{"id":"b2_kitchen","title":"Кухня · напряжённая сцена","group":"Кинематографичные сцены","author":"Sloclap / Kepler Interactive","description":"Сильный кадр, натуральное игровое освещение. Проверяем центральный фокус.","origin":"https://www.kepler-interactive.com/games/sifu","fallback":"https://www.kepler-interactive.com/media/pages/games/sifu/5c3a3b322c-1762859870/copie-de-kitchen_1920x1080.png","x":50},{"id":"b3_tower","title":"Башня · тёмный металл","group":"Кинематографичные сцены","author":"Sloclap / Kepler Interactive","description":"Проверка на холодный индустриальный кадр без яркой красной гаммы.","origin":"https://www.kepler-interactive.com/games/sifu","fallback":"https://www.kepler-interactive.com/media/pages/games/sifu/1a14d60d7e-1762859872/copie-de-thetower_1vsmultiple_1920x1080.png","x":50},{"id":"c1_club","title":"Клуб · динамика","group":"Другие атмосферы","author":"Sloclap / Kepler Interactive","description":"Сильное игровое настроение, но потенциально слишком яркое.","origin":"https://www.kepler-interactive.com/games/sifu","fallback":"https://www.kepler-interactive.com/media/pages/games/sifu/0ef2e072db-1762859872/copie-de-theclub_1vsmultiple_1920x1080.png","x":50},{"id":"c2_arena","title":"Арена · преследование","group":"Другие атмосферы","author":"Sloclap / Kepler Interactive","description":"Более практичная сцена для динамической темы.","origin":"https://www.kepler-interactive.com/games/sifu","fallback":"https://www.kepler-interactive.com/media/pages/games/sifu/43cffcb5e7-1762859871/copie-de-sifuscreenshot_arenamode_03_manhunt.jpg","x":50},{"id":"c3_sanctuary","title":"Арена · оборона","group":"Другие атмосферы","author":"Sloclap / Kepler Interactive","description":"Оценка глубины, атмосферы и читаемости в узкой вертикальной обрезке.","origin":"https://www.kepler-interactive.com/games/sifu","fallback":"https://www.kepler-interactive.com/media/pages/games/sifu/c12e9309a4-1762859871/copie-de-sifuscreenshot_arenamode_04_survive.jpg","x":50}];
+const groups=["Постеры / герой","Кинематографичные сцены","Другие атмосферы"];
+const gallery=document.getElementById('gallery');
+let current=0;
+for(const group of groups){
+ const heading=document.createElement('h2');
+ heading.textContent=group;
+ const grid=document.createElement('div');grid.className='cards';
+ items.forEach((v,i)=>{
+  if(v.group!==group)return;
+  const button=document.createElement('button');button.type='button';button.className='card';button.dataset.idx=String(i);
+  const thumb=document.createElement('span');thumb.className='thumb';
+  const img=document.createElement('img');img.loading=i<3?'eager':'lazy';
+  img.src='./assets/sifu-source-gallery/'+v.id+'.webp';img.alt=v.title;
+  img.onerror=()=>{if(img.src!==v.fallback)img.src=v.fallback;else thumb.style.background='#3f3134'};
+  const number=document.createElement('em');number.textContent=String(i+1).padStart(2,'0');
+  const title=document.createElement('strong');title.textContent=v.title;
+  const author=document.createElement('small');author.textContent=v.author;
+  thumb.append(img,number);button.append(thumb,title,author);
+  button.addEventListener('click',()=>choose(i,true));grid.append(button);
+ });
+ gallery.append(heading,grid);
+}
+function choose(index,scroll){
+ current=(index+items.length)%items.length;
+ const item=items[current];
+ document.querySelectorAll('.card').forEach(x=>x.classList.toggle('active',Number(x.dataset.idx)===current));
+ document.getElementById('current-title').textContent=(current+1)+'/9 · '+item.title;
+ const art=document.getElementById('artwork-row');
+ const url='./assets/sifu-source-gallery/'+item.id+'.webp';
+ const probe=new Image();
+ probe.onload=()=>{if(items[current]===item)art.style.setProperty('--image','url("'+url+'")')};
+ probe.onerror=()=>{if(items[current]===item)art.style.setProperty('--image','url("'+item.fallback.replaceAll('"','%22')+'")')};
+ probe.src=url;
+ document.getElementById('focus').value=item.x;
+ art.style.setProperty('--focus',item.x+'%');
+ art.classList.toggle('grade',document.getElementById('graded').checked);
+ document.getElementById('frame-note').textContent='Исходник №'+(current+1)+' · один арт разделён на 2 фрагмента';
+ document.getElementById('source-description').textContent=item.description+' Автор / источник: '+item.author+'.';
+ document.getElementById('source-link').href=item.origin;
+ if(scroll&&window.innerWidth<900)document.querySelector('.stage').scrollIntoView({behavior:'smooth',block:'start'});
+}
+document.getElementById('focus').addEventListener('input',e=>{document.getElementById('artwork-row').style.setProperty('--focus',e.target.value+'%')});
+document.getElementById('graded').addEventListener('change',e=>document.getElementById('artwork-row').classList.toggle('grade',e.target.checked));
+document.getElementById('prev').addEventListener('click',()=>choose(current-1,false));
+document.getElementById('next').addEventListener('click',()=>choose(current+1,false));
+const anchor=location.hash.slice(1);
+const chosen=items.findIndex(x=>x.id===anchor);
+choose(chosen>=0?chosen:0,false);
+</script></body></html>
