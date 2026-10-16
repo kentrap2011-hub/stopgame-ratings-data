@@ -1,0 +1,64 @@
+name: Cache Sifu artwork sources
+on:
+  push:
+    branches: [gh-pages]
+    paths:
+      - .github/workflows/cache-sifu-artwork.yml
+permissions:
+  contents: write
+jobs:
+  fetch-and-cache:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+      - name: Install image tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+      - name: Save verified publisher images for profile comparison
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p steam-profile-preview/assets/sifu-source-gallery
+          failures=0
+          while IFS='|' read -r name url; do
+            echo "::group::$name"
+            src="/tmp/sifu-source-$name"
+            out="steam-profile-preview/assets/sifu-source-gallery/$name.webp"
+            if curl --fail --location --silent --show-error --retry 2 --connect-timeout 12 --max-time 55 --user-agent 'Mozilla/5.0' "$url" -o "$src"; then
+              if ffmpeg -hide_banner -loglevel error -y -i "$src" -vf "scale='min(1400,iw)':-2:flags=lanczos" -frames:v 1 -c:v libwebp -quality 84 "$out" && [ -s "$out" ]; then
+                file "$out"
+                echo "Saved $name at $(wc -c < "$out") bytes"
+              else
+                echo "Image decode failed for $name"
+                rm -f "$out"
+                failures=$((failures+1))
+              fi
+            else
+              echo "Download failed for $name"
+              failures=$((failures+1))
+            fi
+            echo "::endgroup::"
+          done <<'ARTWORK_URLS'
+a1_keyart|https://cdn1.epicgames.com/offer/b7b42e2078524ab386a8b2a9856ef557/EGS_SIFUStandardEdition_Sloclap_S4_1200x1600-32aca69d756abfcc25f8581942a6162b_1200x1600-32aca69d756abfcc25f8581942a6162b
+a2_red_poster|https://assets.games.gg/1752328236325_sifu_cover_1750262c2c.png
+a3_sifu_publisher|https://www.kepler-interactive.com/media/pages/games/sifu/e4e02912fb-1762859872/sifu1920.png
+b1_museum_red|https://www.kepler-interactive.com/media/pages/games/sifu/71d28981f6-1762859870/copie-de-museumred_1920x1080.png
+b2_kitchen|https://www.kepler-interactive.com/media/pages/games/sifu/5c3a3b322c-1762859870/copie-de-kitchen_1920x1080.png
+b3_tower|https://www.kepler-interactive.com/media/pages/games/sifu/1a14d60d7e-1762859872/copie-de-thetower_1vsmultiple_1920x1080.png
+c1_club|https://www.kepler-interactive.com/media/pages/games/sifu/0ef2e072db-1762859872/copie-de-theclub_1vsmultiple_1920x1080.png
+c2_arena|https://www.kepler-interactive.com/media/pages/games/sifu/43cffcb5e7-1762859871/copie-de-sifuscreenshot_arenamode_03_manhunt.jpg
+c3_sanctuary|https://www.kepler-interactive.com/media/pages/games/sifu/c12e9309a4-1762859871/copie-de-sifuscreenshot_arenamode_04_survive.jpg
+ARTWORK_URLS
+          echo "Failed downloads: $failures / 9"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add steam-profile-preview/assets/sifu-source-gallery
+          if ! git diff --cached --quiet; then
+            git commit -m 'Cache verified publisher Sifu artwork for tall-showcase comparison'
+            git push origin HEAD:gh-pages
+          fi
+          echo "$(( 9 - failures )) successful artworks"
