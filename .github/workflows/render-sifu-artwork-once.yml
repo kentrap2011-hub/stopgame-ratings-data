@@ -19,7 +19,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg
-      - name: Assemble three ages from original Sifu Reveal Trailer
+      - name: Assemble four distinct ages from the Sifu Reveal Trailer
         shell: bash
         run: |
           set -euo pipefail
@@ -28,19 +28,21 @@ jobs:
           ffmpeg -hide_banner -loglevel error -nostdin -y -i "$SOURCE" -c copy -bsf:a aac_adtstoasc /tmp/sifu-reveal.mp4
           DURATION="$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 /tmp/sifu-reveal.mp4)"
           python3 -c 'import sys;d=float(sys.argv[1]);assert 67<d<75,f"Wrong trailer, duration={d}"' "$DURATION"
-          FILTER='[0:v]scale=630:354:flags=lanczos,eq=contrast=1.045:brightness=-0.008:saturation=0.965,fps=30,setsar=1,setpts=PTS-STARTPTS[y];[1:v]crop=1280:720:320:45,scale=630:354:flags=lanczos,eq=contrast=1.045:brightness=-0.008:saturation=0.965,fps=30,setsar=1,setpts=PTS-STARTPTS[m];[2:v]scale=630:354:flags=lanczos,eq=contrast=1.045:brightness=-0.008:saturation=0.965,fps=30,setsar=1,setpts=PTS-STARTPTS[o];[y][m][o]concat=n=3:v=1:a=0,format=yuv420p[out]'
-          ffmpeg -hide_banner -loglevel error -nostdin -y -ss 19.36 -t 1.63 -i /tmp/sifu-reveal.mp4 -ss 54.29 -t 0.91 -i /tmp/sifu-reveal.mp4 -ss 63.91 -t 0.86 -i /tmp/sifu-reveal.mp4 -filter_complex "$FILTER" -map '[out]' -an -c:v libx264 -crf 19 -preset medium -movflags +faststart steam-profile-preview/assets/sifu-three-ages-loop.mp4
-          ffmpeg -hide_banner -loglevel error -nostdin -y -i steam-profile-preview/assets/sifu-three-ages-loop.mp4 -an -c:v libvpx-vp9 -b:v 0 -crf 30 -deadline good -cpu-used 4 -row-mt 1 steam-profile-preview/assets/sifu-three-ages-loop.webm
-          ffmpeg -hide_banner -loglevel error -nostdin -y -i steam-profile-preview/assets/sifu-three-ages-loop.mp4 -frames:v 1 -q:v 2 steam-profile-preview/assets/sifu-three-ages-poster.jpg
-          ffmpeg -hide_banner -loglevel error -nostdin -y -i steam-profile-preview/assets/sifu-three-ages-loop.mp4 -vf 'fps=18,scale=630:354:flags=lanczos,palettegen=max_colors=144:stats_mode=diff' -frames:v 1 /tmp/sifu-three-palette.png
-          ffmpeg -hide_banner -loglevel error -nostdin -y -i steam-profile-preview/assets/sifu-three-ages-loop.mp4 -i /tmp/sifu-three-palette.png -lavfi 'fps=18,scale=630:354:flags=lanczos[x];[x][1:v]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle' -loop 0 steam-profile-preview/assets/sifu-three-ages-loop.gif
-          for format in mp4 webm gif; do test -s "steam-profile-preview/assets/sifu-three-ages-loop.${format}"; done
-          test -s steam-profile-preview/assets/sifu-three-ages-poster.jpg
-          RENDER_DURATION="$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 steam-profile-preview/assets/sifu-three-ages-loop.mp4)"
-          echo "Three ages animation duration: $RENDER_DURATION"
-          python3 -c 'import sys;d=float(sys.argv[1]);assert 3.0<d<4.0,f"Unexpected montage duration {d}"' "$RENDER_DURATION"
+          # Cut on motion, not while the young character stands still. Add the previously omitted bearded middle-age sequence.
+          # The source cuts away mid-move at age 70: reverse only the last 0.46 s of the final gesture to return the hand to guard.
+          FILTER='[0:v]scale=630:354:flags=lanczos,setsar=1,fps=30,setpts=PTS-STARTPTS,eq=contrast=1.025:brightness=-0.007:saturation=0.95,format=yuv420p[v0];[1:v]crop=1100:619:410:112,scale=630:354:flags=lanczos,setsar=1,fps=30,setpts=PTS-STARTPTS,eq=contrast=1.025:brightness=-0.007:saturation=0.95,format=yuv420p[v1];[2:v]crop=1100:619:410:112,scale=630:354:flags=lanczos,setsar=1,fps=30,setpts=PTS-STARTPTS,eq=contrast=1.025:brightness=-0.007:saturation=0.95,format=yuv420p[v2];[3:v]scale=630:354:flags=lanczos,setsar=1,fps=30,setpts=PTS-STARTPTS,eq=contrast=1.025:brightness=-0.007:saturation=0.95,format=yuv420p,split=2[ef][er];[er]trim=start=0.45:duration=0.46,reverse,setpts=PTS-STARTPTS[er2];[ef][er2]concat=n=2:v=1:a=0,tpad=stop_mode=clone:stop_duration=0.22,setpts=PTS-STARTPTS[e];[v0][v1][v2][e]concat=n=4:v=1:a=0,fps=30,format=yuv420p[out]'
+          ffmpeg -hide_banner -loglevel error -nostdin -y -ss 19.91 -t 0.91 -i /tmp/sifu-reveal.mp4 -ss 45.73 -t 0.71 -i /tmp/sifu-reveal.mp4 -ss 54.33 -t 0.86 -i /tmp/sifu-reveal.mp4 -ss 63.92 -t 0.92 -i /tmp/sifu-reveal.mp4 -filter_complex "$FILTER" -map '[out]' -an -c:v libx264 -crf 19 -preset medium -movflags +faststart steam-profile-preview/assets/sifu-four-ages-v2.mp4
+          ffmpeg -hide_banner -loglevel error -nostdin -y -i steam-profile-preview/assets/sifu-four-ages-v2.mp4 -an -c:v libvpx-vp9 -b:v 0 -crf 30 -deadline good -cpu-used 4 -row-mt 1 steam-profile-preview/assets/sifu-four-ages-v2.webm
+          ffmpeg -hide_banner -loglevel error -nostdin -y -i steam-profile-preview/assets/sifu-four-ages-v2.mp4 -frames:v 1 -q:v 3 steam-profile-preview/assets/sifu-four-ages-v2-poster.jpg
+          ffmpeg -hide_banner -loglevel error -nostdin -y -i steam-profile-preview/assets/sifu-four-ages-v2.mp4 -vf 'fps=18,scale=630:354:flags=lanczos,palettegen=max_colors=144:stats_mode=diff' -frames:v 1 /tmp/sifu-four-palette.png
+          ffmpeg -hide_banner -loglevel error -nostdin -y -i steam-profile-preview/assets/sifu-four-ages-v2.mp4 -i /tmp/sifu-four-palette.png -lavfi 'fps=18,scale=630:354:flags=lanczos[x];[x][1:v]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle' -loop 0 steam-profile-preview/assets/sifu-four-ages-v2.gif
+          for format in mp4 webm gif; do test -s "steam-profile-preview/assets/sifu-four-ages-v2.${format}"; done
+          test -s steam-profile-preview/assets/sifu-four-ages-v2-poster.jpg
+          RENDER_DURATION="$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 steam-profile-preview/assets/sifu-four-ages-v2.mp4)"
+          echo "Four-age animation duration: $RENDER_DURATION"
+          python3 -c 'import sys;d=float(sys.argv[1]);assert 3.6<d<4.4,f"Unexpected montage duration {d}"' "$RENDER_DURATION"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add steam-profile-preview/assets/sifu-three-ages-loop.mp4 steam-profile-preview/assets/sifu-three-ages-loop.webm steam-profile-preview/assets/sifu-three-ages-loop.gif steam-profile-preview/assets/sifu-three-ages-poster.jpg
-          git commit -m "Add three-age Sifu training montage for showcase"
+          git add steam-profile-preview/assets/sifu-four-ages-v2.mp4 steam-profile-preview/assets/sifu-four-ages-v2.webm steam-profile-preview/assets/sifu-four-ages-v2.gif steam-profile-preview/assets/sifu-four-ages-v2-poster.jpg
+          git commit -m "Add complete four-age Sifu motion montage with guarded ending"
           git push origin HEAD:gh-pages
