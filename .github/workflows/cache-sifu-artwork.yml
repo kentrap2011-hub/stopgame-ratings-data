@@ -29,7 +29,7 @@ jobs:
             src="/tmp/sifu-source-$name"
             out="steam-profile-preview/assets/sifu-source-gallery/$name.webp"
             if curl --fail --location --silent --show-error --retry 2 --connect-timeout 12 --max-time 55 --user-agent 'Mozilla/5.0' "$url" -o "$src"; then
-              if ffmpeg -hide_banner -loglevel error -y -i "$src" -vf "scale='min(1400,iw)':-2:flags=lanczos" -frames:v 1 -c:v libwebp -quality 84 "$out" && [ -s "$out" ]; then
+              if ffmpeg -hide_banner -loglevel error -nostdin -y -i "$src" -vf "scale='min(1400,iw)':-2:flags=lanczos" -frames:v 1 -c:v libwebp -quality 84 "$out" && [ -s "$out" ]; then
                 file "$out"
                 echo "Saved $name at $(wc -c < "$out") bytes"
               else
@@ -56,7 +56,8 @@ jobs:
           echo "Failed downloads: $failures / 9"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add steam-profile-preview/assets/sifu-source-gallery
+          rm -f steam-profile-preview/assets/sifu-source-gallery/_red_poster.webp steam-profile-preview/assets/sifu-source-gallery/3_sifu_publisher.webp steam-profile-preview/assets/sifu-source-gallery/_museum_red.webp steam-profile-preview/assets/sifu-source-gallery/_kitchen.webp steam-profile-preview/assets/sifu-source-gallery/_tower.webp
+          git add -A steam-profile-preview/assets/sifu-source-gallery
           if ! git diff --cached --quiet; then
             git commit -m 'Cache verified publisher Sifu artwork for tall-showcase comparison'
             git push origin HEAD:gh-pages
