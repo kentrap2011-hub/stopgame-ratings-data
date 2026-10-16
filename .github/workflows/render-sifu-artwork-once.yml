@@ -15,33 +15,32 @@ jobs:
         with:
           ref: gh-pages
           persist-credentials: true
-      - name: Install video encoding tools
+      - name: Install free FFmpeg tools
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg
-      - name: Render short loop from official Sifu Reveal Trailer
+      - name: Assemble three ages from original Sifu Reveal Trailer
         shell: bash
         run: |
           set -euo pipefail
           SOURCE='https://video.fastly.steamstatic.com/store_trailers/2138710/524145/a30b31ec75a620d35da820e9ef3101ffbf42aedd/1750837290/hls_264_master.m3u8'
           mkdir -p steam-profile-preview/assets
-          ffmpeg -hide_banner -loglevel warning -nostdin -y -i "$SOURCE" -c copy -bsf:a aac_adtstoasc /tmp/sifu-reveal.mp4
+          ffmpeg -hide_banner -loglevel error -nostdin -y -i "$SOURCE" -c copy -bsf:a aac_adtstoasc /tmp/sifu-reveal.mp4
           DURATION="$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 /tmp/sifu-reveal.mp4)"
-          echo "Source trailer duration: $DURATION seconds"
-          python3 -c 'import sys;d=float(sys.argv[1]);assert 67<d<75,f"Wrong trailer length {d}"' "$DURATION"
-          FILTER='[0:v]scale=630:354:flags=lanczos,eq=contrast=1.055:brightness=-0.009:saturation=0.91,fps=60,split=2[f][r];[r]reverse,trim=start_frame=1,setpts=PTS-STARTPTS[rr];[f][rr]concat=n=2:v=1:a=0,setpts=2.0*PTS-STARTPTS,fps=30,format=yuv420p[out]'
-          ffmpeg -hide_banner -loglevel warning -nostdin -y -ss 63.83 -t 0.925 -i /tmp/sifu-reveal.mp4 -filter_complex "$FILTER" -map '[out]' -an -c:v libvpx-vp9 -deadline good -cpu-used 4 -b:v 0 -crf 32 -row-mt 1 steam-profile-preview/assets/sifu-elder-master-loop.webm
-          ffmpeg -hide_banner -loglevel warning -nostdin -y -ss 0.90 -i steam-profile-preview/assets/sifu-elder-master-loop.webm -frames:v 1 -q:v 3 steam-profile-preview/assets/sifu-elder-master-poster.jpg
-          ffmpeg -hide_banner -loglevel warning -nostdin -y -i steam-profile-preview/assets/sifu-elder-master-loop.webm -an -c:v libx264 -crf 22 -preset medium -movflags +faststart -pix_fmt yuv420p steam-profile-preview/assets/sifu-elder-master-loop.mp4
-          ffmpeg -hide_banner -loglevel warning -nostdin -y -i steam-profile-preview/assets/sifu-elder-master-loop.webm -vf 'fps=20,scale=630:354:flags=lanczos,palettegen=stats_mode=diff:max_colors=128' /tmp/sifu-palette.png
-          ffmpeg -hide_banner -loglevel warning -nostdin -y -i steam-profile-preview/assets/sifu-elder-master-loop.webm -i /tmp/sifu-palette.png -lavfi 'fps=20,scale=630:354:flags=lanczos[x];[x][1:v]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle' -loop 0 steam-profile-preview/assets/sifu-elder-master-loop.gif
-          test -s steam-profile-preview/assets/sifu-elder-master-loop.mp4
-          test -s steam-profile-preview/assets/sifu-elder-master-loop.gif
-          test -s steam-profile-preview/assets/sifu-elder-master-loop.webm
-          test -s steam-profile-preview/assets/sifu-elder-master-poster.jpg
-          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 steam-profile-preview/assets/sifu-elder-master-loop.webm
+          python3 -c 'import sys;d=float(sys.argv[1]);assert 67<d<75,f"Wrong trailer, duration={d}"' "$DURATION"
+          FILTER='[0:v]scale=630:354:flags=lanczos,eq=contrast=1.045:brightness=-0.008:saturation=0.965,fps=30,setsar=1,setpts=PTS-STARTPTS[y];[1:v]crop=1280:720:320:45,scale=630:354:flags=lanczos,eq=contrast=1.045:brightness=-0.008:saturation=0.965,fps=30,setsar=1,setpts=PTS-STARTPTS[m];[2:v]scale=630:354:flags=lanczos,eq=contrast=1.045:brightness=-0.008:saturation=0.965,fps=30,setsar=1,setpts=PTS-STARTPTS[o];[y][m][o]concat=n=3:v=1:a=0,format=yuv420p[out]'
+          ffmpeg -hide_banner -loglevel error -nostdin -y -ss 19.36 -t 1.63 -i /tmp/sifu-reveal.mp4 -ss 54.29 -t 0.91 -i /tmp/sifu-reveal.mp4 -ss 63.91 -t 0.86 -i /tmp/sifu-reveal.mp4 -filter_complex "$FILTER" -map '[out]' -an -c:v libx264 -crf 19 -preset medium -movflags +faststart steam-profile-preview/assets/sifu-three-ages-loop.mp4
+          ffmpeg -hide_banner -loglevel error -nostdin -y -i steam-profile-preview/assets/sifu-three-ages-loop.mp4 -an -c:v libvpx-vp9 -b:v 0 -crf 30 -deadline good -cpu-used 4 -row-mt 1 steam-profile-preview/assets/sifu-three-ages-loop.webm
+          ffmpeg -hide_banner -loglevel error -nostdin -y -i steam-profile-preview/assets/sifu-three-ages-loop.mp4 -frames:v 1 -q:v 2 steam-profile-preview/assets/sifu-three-ages-poster.jpg
+          ffmpeg -hide_banner -loglevel error -nostdin -y -i steam-profile-preview/assets/sifu-three-ages-loop.mp4 -vf 'fps=18,scale=630:354:flags=lanczos,palettegen=max_colors=144:stats_mode=diff' -frames:v 1 /tmp/sifu-three-palette.png
+          ffmpeg -hide_banner -loglevel error -nostdin -y -i steam-profile-preview/assets/sifu-three-ages-loop.mp4 -i /tmp/sifu-three-palette.png -lavfi 'fps=18,scale=630:354:flags=lanczos[x];[x][1:v]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle' -loop 0 steam-profile-preview/assets/sifu-three-ages-loop.gif
+          for format in mp4 webm gif; do test -s "steam-profile-preview/assets/sifu-three-ages-loop.${format}"; done
+          test -s steam-profile-preview/assets/sifu-three-ages-poster.jpg
+          RENDER_DURATION="$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 steam-profile-preview/assets/sifu-three-ages-loop.mp4)"
+          echo "Three ages animation duration: $RENDER_DURATION"
+          python3 -c 'import sys;d=float(sys.argv[1]);assert 3.0<d<4.0,f"Unexpected montage duration {d}"' "$RENDER_DURATION"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add steam-profile-preview/assets/sifu-elder-master-loop.webm steam-profile-preview/assets/sifu-elder-master-poster.jpg steam-profile-preview/assets/sifu-elder-master-loop.mp4 steam-profile-preview/assets/sifu-elder-master-loop.gif
-          git commit -m "Add compact Sifu elder master animated artwork loop"
+          git add steam-profile-preview/assets/sifu-three-ages-loop.mp4 steam-profile-preview/assets/sifu-three-ages-loop.webm steam-profile-preview/assets/sifu-three-ages-loop.gif steam-profile-preview/assets/sifu-three-ages-poster.jpg
+          git commit -m "Add three-age Sifu training montage for showcase"
           git push origin HEAD:gh-pages
