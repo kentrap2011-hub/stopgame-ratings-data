@@ -108,7 +108,7 @@ const s8Status=document.getElementById('sifu8-motion-status');
 let s8Mode='rain',s8Raf=0,s8Generation=0,s8Image=null,s8Mask=null,s8Drops=[],s8Paint=null,s8Canvas=null;
 function s8Stop(){
  s8Generation++;if(s8Raf)cancelAnimationFrame(s8Raf);s8Raf=0;
- if(s8Canvas)s8Canvas.hidden=true;
+ if(s8Canvas){s8Canvas.hidden=true;s8Canvas.style.display='none'}
  if(ready){const still=frame.contentDocument.getElementById('kentrap-whole-picture');if(still)still.style.visibility='visible';}
 }
 function s8SetMode(mode){
@@ -136,7 +136,7 @@ function s8Start(image){
  s8Canvas.width=w;s8Canvas.height=h;
  s8Canvas.style.left=still.offsetLeft+'px';
  s8Canvas.style.top=still.offsetTop+'px';
- s8Canvas.hidden=false;
+ s8Canvas.hidden=false;s8Canvas.style.display='block';
  still.style.visibility='hidden';
  const ctx=s8Canvas.getContext('2d',{alpha:false});
  const fx=d.createElement('canvas');fx.width=w;fx.height=h;
