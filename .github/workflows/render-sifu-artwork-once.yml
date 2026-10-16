@@ -1,0 +1,38 @@
+name: Render Sifu artwork (one shot)
+on:
+  push:
+    branches: [gh-pages]
+    paths:
+      - .github/workflows/render-sifu-artwork-once.yml
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          persist-credentials: true
+      - name: Render short loop from official Sifu Reveal Trailer
+        shell: bash
+        run: |
+          set -euo pipefail
+          SOURCE='https://video.fastly.steamstatic.com/store_trailers/2138710/524145/a30b31ec75a620d35da820e9ef3101ffbf42aedd/1750837290/hls_264_master.m3u8'
+          mkdir -p steam-profile-preview/assets
+          ffmpeg -hide_banner -loglevel warning -nostdin -y -i "$SOURCE" -c copy -bsf:a aac_adtstoasc /tmp/sifu-reveal.mp4
+          DURATION="$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 /tmp/sifu-reveal.mp4)"
+          echo "Source trailer duration: $DURATION seconds"
+          python3 -c 'import sys;d=float(sys.argv[1]);assert 67<d<75,f"Wrong trailer length {d}"' "$DURATION"
+          FILTER='[0:v]scale=630:354:flags=lanczos,eq=contrast=1.055:brightness=-0.009:saturation=0.91,fps=60,split=2[f][r];[r]reverse,trim=start_frame=1,setpts=PTS-STARTPTS[rr];[f][rr]concat=n=2:v=1:a=0,setpts=2.0*PTS-STARTPTS,fps=30,format=yuv420p[out]'
+          ffmpeg -hide_banner -loglevel warning -nostdin -y -ss 63.83 -t 0.925 -i /tmp/sifu-reveal.mp4 -filter_complex "$FILTER" -map '[out]' -an -c:v libvpx-vp9 -deadline good -cpu-used 4 -b:v 0 -crf 32 -row-mt 1 steam-profile-preview/assets/sifu-elder-master-loop.webm
+          ffmpeg -hide_banner -loglevel warning -nostdin -y -ss 0.90 -i steam-profile-preview/assets/sifu-elder-master-loop.webm -frames:v 1 -q:v 3 steam-profile-preview/assets/sifu-elder-master-poster.jpg
+          test -s steam-profile-preview/assets/sifu-elder-master-loop.webm
+          test -s steam-profile-preview/assets/sifu-elder-master-poster.jpg
+          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 steam-profile-preview/assets/sifu-elder-master-loop.webm
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add steam-profile-preview/assets/sifu-elder-master-loop.webm steam-profile-preview/assets/sifu-elder-master-poster.jpg
+          git commit -m "Add compact Sifu elder master animated artwork loop"
+          git push origin HEAD:gh-pages
