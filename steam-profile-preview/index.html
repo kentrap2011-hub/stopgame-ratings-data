@@ -165,6 +165,11 @@ function bSelect(i){
  bIndex=i;bOld=false;bMsg.textContent='';
  bRow.querySelectorAll('button').forEach((btn,j)=>btn.classList.toggle('active',i===j));
  refreshFavourites();
+ const activeThumb=bRow.querySelector('.sifu-b-choice[data-index="'+i+'"]');
+ if(activeThumb&&!activeThumb.hidden){
+  const left=Math.max(0,activeThumb.offsetLeft-bRow.offsetLeft-10);
+  bRow.scrollTo({left,behavior:'smooth'});
+ }
  document.getElementById('sifu-b-note').textContent=bChoices[i].note+' · '+bChoices[i].author;
  document.getElementById('sifu-b-source').href=bChoices[i].source;
  document.getElementById('sifu-b-old').textContent='Посмотреть старое видео (резерв)';
