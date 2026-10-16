@@ -60,6 +60,8 @@ jobs:
           git add -A steam-profile-preview/assets/sifu-source-gallery
           if ! git diff --cached --quiet; then
             git commit -m 'Cache verified publisher Sifu artwork for tall-showcase comparison'
+            git fetch origin gh-pages
+            git rebase origin/gh-pages
             git push origin HEAD:gh-pages
           fi
           echo "$(( 9 - failures )) successful artworks"
