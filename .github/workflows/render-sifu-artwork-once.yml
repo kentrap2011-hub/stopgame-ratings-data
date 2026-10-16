@@ -32,11 +32,16 @@ jobs:
           FILTER='[0:v]scale=630:354:flags=lanczos,eq=contrast=1.055:brightness=-0.009:saturation=0.91,fps=60,split=2[f][r];[r]reverse,trim=start_frame=1,setpts=PTS-STARTPTS[rr];[f][rr]concat=n=2:v=1:a=0,setpts=2.0*PTS-STARTPTS,fps=30,format=yuv420p[out]'
           ffmpeg -hide_banner -loglevel warning -nostdin -y -ss 63.83 -t 0.925 -i /tmp/sifu-reveal.mp4 -filter_complex "$FILTER" -map '[out]' -an -c:v libvpx-vp9 -deadline good -cpu-used 4 -b:v 0 -crf 32 -row-mt 1 steam-profile-preview/assets/sifu-elder-master-loop.webm
           ffmpeg -hide_banner -loglevel warning -nostdin -y -ss 0.90 -i steam-profile-preview/assets/sifu-elder-master-loop.webm -frames:v 1 -q:v 3 steam-profile-preview/assets/sifu-elder-master-poster.jpg
+          ffmpeg -hide_banner -loglevel warning -nostdin -y -i steam-profile-preview/assets/sifu-elder-master-loop.webm -an -c:v libx264 -crf 22 -preset medium -movflags +faststart -pix_fmt yuv420p steam-profile-preview/assets/sifu-elder-master-loop.mp4
+          ffmpeg -hide_banner -loglevel warning -nostdin -y -i steam-profile-preview/assets/sifu-elder-master-loop.webm -vf 'fps=20,scale=630:354:flags=lanczos,palettegen=stats_mode=diff:max_colors=128' /tmp/sifu-palette.png
+          ffmpeg -hide_banner -loglevel warning -nostdin -y -i steam-profile-preview/assets/sifu-elder-master-loop.webm -i /tmp/sifu-palette.png -lavfi 'fps=20,scale=630:354:flags=lanczos[x];[x][1:v]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle' -loop 0 steam-profile-preview/assets/sifu-elder-master-loop.gif
+          test -s steam-profile-preview/assets/sifu-elder-master-loop.mp4
+          test -s steam-profile-preview/assets/sifu-elder-master-loop.gif
           test -s steam-profile-preview/assets/sifu-elder-master-loop.webm
           test -s steam-profile-preview/assets/sifu-elder-master-poster.jpg
           ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 steam-profile-preview/assets/sifu-elder-master-loop.webm
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add steam-profile-preview/assets/sifu-elder-master-loop.webm steam-profile-preview/assets/sifu-elder-master-poster.jpg
+          git add steam-profile-preview/assets/sifu-elder-master-loop.webm steam-profile-preview/assets/sifu-elder-master-poster.jpg steam-profile-preview/assets/sifu-elder-master-loop.mp4 steam-profile-preview/assets/sifu-elder-master-loop.gif
           git commit -m "Add compact Sifu elder master animated artwork loop"
           git push origin HEAD:gh-pages
