@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 88,
+  "count": 89,
   "games": [
     {
       "appid": "9480",
@@ -619,7 +619,14 @@
       "priority": 0,
       "date_added": 1785442659,
       "store_url": "https://store.steampowered.com/app/3787240/"
+    },
+    {
+      "appid": "473690",
+      "title": "Absolver",
+      "priority": 0,
+      "date_added": 1792509708,
+      "store_url": "https://store.steampowered.com/app/473690/"
     }
   ],
-  "updated_at": "2026-10-14T17:31:19.695Z"
+  "updated_at": "2026-10-20T15:30:29.311Z"
 }
