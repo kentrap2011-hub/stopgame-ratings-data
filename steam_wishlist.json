@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 89,
+  "count": 88,
   "games": [
     {
       "appid": "9480",
@@ -101,13 +101,6 @@
       "priority": 0,
       "date_added": 1787501293,
       "store_url": "https://store.steampowered.com/app/242700/"
-    },
-    {
-      "appid": "249130",
-      "title": "LEGO® Marvel™ Super Heroes",
-      "priority": 0,
-      "date_added": 1787433187,
-      "store_url": "https://store.steampowered.com/app/249130/"
     },
     {
       "appid": "268910",
@@ -628,5 +621,5 @@
       "store_url": "https://store.steampowered.com/app/473690/"
     }
   ],
-  "updated_at": "2026-10-20T15:30:29.311Z"
+  "updated_at": "2026-10-21T18:45:19.550Z"
 }
