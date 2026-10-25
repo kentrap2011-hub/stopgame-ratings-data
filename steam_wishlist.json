@@ -166,6 +166,13 @@
       "store_url": "https://store.steampowered.com/app/447040/"
     },
     {
+      "appid": "473690",
+      "title": "Absolver",
+      "priority": 0,
+      "date_added": 1792509708,
+      "store_url": "https://store.steampowered.com/app/473690/"
+    },
+    {
       "appid": "523660",
       "title": "HYPERCHARGE: Unboxed",
       "priority": 0,
@@ -612,14 +619,7 @@
       "priority": 0,
       "date_added": 1785442659,
       "store_url": "https://store.steampowered.com/app/3787240/"
-    },
-    {
-      "appid": "473690",
-      "title": "Absolver",
-      "priority": 0,
-      "date_added": 1792509708,
-      "store_url": "https://store.steampowered.com/app/473690/"
     }
   ],
-  "updated_at": "2026-10-21T18:45:19.550Z"
+  "updated_at": "2026-10-25T21:15:32.676Z"
 }
