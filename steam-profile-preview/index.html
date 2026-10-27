@@ -1,119 +1,155 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="referrer" content="no-referrer"><title>KentRAP — примерка фонов Steam</title>
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#fff7e8"><title>Учимся понимать время 🕒</title>
 <style>
-*{box-sizing:border-box}body{margin:0;background:#080d14;color:#dce5ed;font-family:Arial,Helvetica,sans-serif}
-.topbar{padding:13px 18px;background:#121b29;border-bottom:1px solid #344259;display:flex;align-items:center;flex-wrap:wrap;gap:12px}
-.topbar strong{font-size:17px}.sub{font-size:12px;color:#9eb3c7}
-.controls{padding:10px 16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:#172230}
-button,select,input{font:inherit;font-size:13px;border:1px solid #566980;border-radius:6px;background:#283b50;color:#eef4fa;padding:9px 11px}
-button{cursor:pointer}button.active{background:#802d37;border-color:#c74952}
-.controls label{font-size:12px;color:#b6c8da}.controls .push{flex:1}
-#status{padding:7px 16px;background:#0e1721;font-size:12px;color:#bad0dc}
-#viewport{width:100%;overflow:auto;scrollbar-color:#526779 #101921;touch-action:pan-x pan-y}
-#stagebox{position:relative}
-#stage{width:1920px;height:1080px;transform-origin:top left;position:relative;overflow:hidden;background:#08090b}
-.steamhead{height:60px;background:#171a21;color:#f8f8f8;position:relative;text-align:center}
-.steamhead img{height:27px;margin-top:16px}
-.hamburger{position:absolute;left:25px;top:16px;font-size:26px;color:#bfc6ce}
-#wall{height:1020px;position:absolute;left:0;top:60px;width:100%;background-color:#070a0d;background-repeat:no-repeat;background-position:center top;background-size:cover}
-#wall:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.10),transparent 25%,transparent 75%,rgba(0,0,0,.10));pointer-events:none}
-.profile{position:absolute;top:60px;left:calc(50% - 490px);width:980px;min-height:1040px;background:rgba(15,15,22,.70);padding:22px 12px 30px}
-.phead{display:grid;grid-template-columns:145px 1fr 248px;gap:28px;min-height:184px;padding:8px 13px 20px}
-.avatar{height:145px;width:145px;border:2px solid #777;object-fit:cover;background:#0b0708}
-.nick{font-size:25px;margin:5px 0}.realname{font-size:12px;color:#acb3bd}
-.level{font-size:20px;margin:3px 0 15px}.circle{display:inline-grid;place-items:center;border:2px solid #9ea4af;border-radius:50%;width:29px;height:29px;font-size:15px}
-.card{background:rgba(11,12,20,.83);border-radius:2px;padding:9px;margin-top:8px}.muted{color:#929aa6}.minor{font-size:12px}
-.edit{display:inline-block;padding:8px;margin-top:9px;background:#2d3a4a;font-size:13px}
-.two{display:grid;grid-template-columns:660px 1fr;gap:12px}
-.title{background:rgba(52,70,87,.88);padding:9px 10px;font-size:15px;display:flex;justify-content:space-between}
-.game{margin:15px 8px;background:rgba(7,8,12,.87);padding:9px 8px 11px;min-height:123px}
-.gamehead{display:flex;gap:10px;font-size:13px;align-items:flex-start}
-.gamehead img{width:184px;height:69px;object-fit:cover}
-.gamehead .gamename{flex:1;margin-top:9px}
-.playtime{margin-top:35px;text-align:right;font-size:11px;color:#a2a9b3}
-.ach{background:rgba(37,40,52,.88);margin-top:5px;padding:7px 9px;min-height:34px;font-size:12px}
-.progress{height:8px;background:#131720;border:1px solid #323849;border-radius:6px;margin-top:6px;width:56%}
-.fill{height:100%;width:39%;background:linear-gradient(#707a91,#4d526e)}
-.right{background:rgba(11,12,18,.66);padding:12px 10px}
-.offline{font-size:18px;color:#969da9}
-.section{margin-top:27px;font-size:15px}
-.icons{display:flex;gap:10px;margin-top:8px}
-.icons img{width:42px;height:42px}
-.friend{display:flex;gap:8px;align-items:center;margin:8px 0;font-size:12px;color:#afb4c0}
-.friend img{width:38px;height:38px;object-fit:cover}
-.comments{margin-top:26px}.fake-input{background:#151922;color:#7e858e;margin-top:9px;padding:13px}
-#showcase{display:none;margin:14px 0 19px}.art{height:230px;display:flex;align-items:center;justify-content:center;background:linear-gradient(115deg,#090909,#272225 50%,#090909);color:#e4e4e4}
-.art strong{font-size:36px;letter-spacing:8px;text-shadow:0 0 18px #8a101a}
-.bottomnote{padding:11px 16px 23px;color:#a9b4c0;font-size:12px;line-height:1.6}
-a{color:#c7deec}#shoplinks a{margin-right:14px}
-@media(max-width:720px){.topbar strong{font-size:15px}.controls{gap:6px}button,select{font-size:12px;padding:9px}.sub{width:100%}}
-</style>
-</head>
-<body>
-<div class="topbar"><strong>KentRAP · Примерка фонов Steam</strong><span class="sub">Экран 1920 × 1080. Реальные изображения из Steam; предварительный макет интерфейса.</span></div>
-<div class="controls">
-<label for="background">Фон:</label>
-<select id="background">
-<option value="ss">SS_Landscape ★</option>
-<option value="hole">Black Hole</option>
-<option value="vitriol">Vitriol</option>
-<option value="blackout">Blackout</option>
-<option value="rain">Rain</option>
-<option value="custom">Свой URL</option>
-</select>
-<button id="fit" class="active">Уместить</button><button id="forty">40%</button><button id="full">100%</button>
-<label><input id="withart" type="checkbox"> Пример витрины</label>
-<div class="push"></div><span id="zoomlabel" style="font-size:12px">Масштаб</span>
-</div>
-<div id="customline" class="controls" hidden><input style="width:min(800px,85vw)" id="customurl" placeholder="https://… адрес оригинального изображения Steam"><button id="applyurl">Применить</button></div>
-<div id="status">Загружается оригинальный фон SS_Landscape…</div>
-<div id="viewport"><div id="stagebox"><div id="stage">
-<div class="steamhead"><span class="hamburger">☰</span><img alt="STEAM" src="https://community.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png"></div>
-<div id="wall"></div>
-<div class="profile">
-<div class="phead"><img class="avatar" src="https://avatars.fastly.steamstatic.com/81c1bf438b2902ab7f8d6f5a52faf2b99d91c074_full.jpg" alt="Аватар KentRAP">
-<div><div class="nick">KentRAP ▾</div><div class="realname">Профиль Steam</div></div>
-<div><div class="level">Уровень <span class="circle">9</span></div><div class="card minor">Вы можете отобразить один из своих значков здесь. Выберите его на странице редактирования профиля.</div><span class="edit">Редактировать профиль</span></div></div>
-<div id="showcase"><div class="title">Витрина иллюстраций <span>⋯</span></div><div class="art"><strong>SIFU</strong></div><div class="minor muted" style="margin:8px">Место для будущего арта — пока не установлен в Steam</div></div>
-<div class="two">
-<div class="left"><div class="title"><span>Недавняя активность</span><span style="font-size:13px">15,5 ч. за последние 2 недели</span></div>
-<div class="game"><div class="gamehead"><img alt="Sifu" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138710/capsule_184x69.jpg"><span class="gamename">Sifu</span><span class="playtime">22 ч. всего<br>последний запуск 12 окт</span></div><div class="ach">Достижения <span style="float:right">24 из 61</span><div class="progress"><div class="fill"></div></div></div></div>
-<div class="game"><div class="gamehead"><img alt="Trine 4" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/690640/capsule_184x69.jpg"><span class="gamename">Trine 4: The Nightmare Prince</span><span class="playtime">2,1 ч. всего<br>последний запуск 12 окт</span></div><div class="ach">Достижения <span style="float:right">5 из 39</span><div class="progress"><div class="fill" style="width:13%"></div></div></div></div>
-<div class="game"><div class="gamehead"><img alt="Idol Party" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2334720/capsule_184x69.jpg"><span class="gamename">Idol Party</span><span class="playtime">11,9 ч. всего<br>последний запуск 11 окт</span></div><div class="ach">Обзор 1</div></div>
-<div class="comments"><div class="title">Комментарии</div><div class="fake-input">Оставить комментарий</div></div>
-</div>
-<div class="right"><div class="offline">Не в сети</div><div class="minor muted">В сети: 2 дн. назад</div>
-<div class="section">Значки 3</div><div class="icons"><img src="https://community.fastly.steamstatic.com/public/images/badges/01_community/community02_80.png"><img src="https://community.fastly.steamstatic.com/public/images/badges/13_gamecollector/10_80.png?v=4"><img src="https://community.fastly.steamstatic.com/public/images/badges/02_years/steamyears13_80.png"></div>
-<div class="section">Друзья 5</div>
-<div class="friend"><img src="https://avatars.fastly.steamstatic.com/4c96fba44939ee6e2745a4cd42d66880d2b8fe78_medium.jpg">Pin249</div>
-<div class="friend"><img src="https://avatars.fastly.steamstatic.com/dc84ec740f26fbdfe31d29a6fa06ba48862736c7_medium.jpg">Skyline</div>
-<div class="section muted">Игры 24</div><div class="section minor">Инвентарь</div><div class="section minor">Скриншоты</div><div class="section minor">Видео</div><div class="section minor">Работы в мастерской</div><div class="section minor">Обзоры 1</div><div class="section minor">Руководства</div><div class="section minor">Иллюстрации</div>
-</div>
-</div>
-</div>
-</div></div></div>
-<div class="bottomnote"><div id="shoplinks"></div>Изображения фона подгружаются с серверов Steam без перерисовки. Анимированные фоны представлены статичным кадром. Витрина и прозрачность панелей здесь — предварительная примерка, а не установленный профиль Steam.</div>
+:root{--ink:#26334f;--soft:#68758e;--paper:#fffaf0;--card:#fff;--blue:#2e82d9;--pink:#ed5b89;--yellow:#eba724;--mint:#35b89a;--border:#e9e0d0;--shadow:0 9px 23px rgba(67,55,30,.08)}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:radial-gradient(ellipse at 50% 0,#ffead1 0,#fff7e8 40%,#fffaf3 100%);color:var(--ink);font-family:system-ui,-apple-system,'Segoe UI',sans-serif;-webkit-tap-highlight-color:transparent}button{font:inherit;color:inherit;cursor:pointer;touch-action:manipulation}button:focus-visible{outline:4px solid #74c9ff;outline-offset:2px}main{max-width:890px;margin:0 auto;padding:12px 14px 46px;min-height:100vh}header{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:58px}.brand{display:flex;align-items:center;gap:8px;font-size:17px;font-weight:800}.brand-emoji{font-size:27px}.iconbtn{width:51px;height:51px;border:1px solid #e7decf;border-radius:17px;background:white;box-shadow:var(--shadow);font-size:25px;display:grid;place-items:center}.row{display:flex;gap:9px;align-items:center}.panel{background:rgba(255,255,255,.93);border:1px solid var(--border);border-radius:28px;padding:22px;box-shadow:var(--shadow)}.center{text-align:center}.hero{margin-top:10px;text-align:center}.hero h1{font-size:clamp(30px,7vw,46px);line-height:1.1;margin:14px 0 10px}.bigemoji{font-size:54px;line-height:1.2}.sub{color:var(--soft);font-size:16px;line-height:1.35}.startbtn{margin-top:22px;min-width:180px;border:0;border-radius:24px;background:#2eaa90;color:white;box-shadow:0 7px 0 #218873;font-size:23px;font-weight:900;padding:15px 25px;min-height:64px}.startbtn:active{transform:translateY(4px);box-shadow:0 3px 0 #218873}.subtle{margin-top:12px;font-size:13px;color:var(--soft)}.list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:22px}.lessonCard{display:flex;align-items:center;gap:12px;text-align:left;border:1px solid var(--border);border-radius:22px;background:#fff;padding:14px;min-height:90px;box-shadow:var(--shadow)}.lessonCard[disabled]{opacity:.53;filter:grayscale(.5)}.lessonCard.available{border-color:#9bdbc8;background:#f2fff9}.lessonIcon{display:grid;place-items:center;font-size:32px;width:51px;height:51px;background:#fff3dd;border-radius:17px;flex-shrink:0}.lessonTitle{font-size:16px;line-height:1.25;font-weight:900}.lessonInfo{font-size:13px;color:var(--soft);margin-top:4px}.progressLabel{font-weight:700;color:var(--soft);font-size:14px}.bar{display:flex;gap:5px;justify-content:center;margin:15px 0 18px}.pip{height:9px;min-width:24px;flex:1;max-width:51px;border-radius:20px;background:#e9e6e0}.pip.current{background:#efb957}.pip.done{background:#45bc9e}.lessonHead{display:flex;align-items:center;justify-content:space-between;margin:12px 0}.lessonHead h1{font-size:clamp(25px,5.5vw,34px);margin:0}.stage{display:flex;flex-direction:column;align-items:center;gap:10px}.spoken{font-size:20px;line-height:1.42;max-width:590px;text-align:center;font-weight:700;min-height:36px;margin:3px auto}.tinyLabel{color:var(--soft);font-size:13px;text-align:center}.clockDemo{margin:auto;display:flex;align-items:center;justify-content:center;gap:13px;flex-wrap:wrap;padding:7px 0}.clockDemo .clock{width:min(64vw,255px)}.clockDemo.two .clock{width:min(40vw,205px)}.clock{display:block;max-width:100%;height:auto;aspect-ratio:1}.choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:100%;margin:12px auto 0}.choice{border:2px solid #e6e1d8;border-radius:23px;background:white;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-width:0;min-height:160px;padding:10px 5px;box-shadow:0 6px 0 #f0e8dc;position:relative;overflow:hidden}.choice:active{transform:translateY(3px);box-shadow:0 3px 0 #f0e8dc}.choice .clock{width:100%;max-width:195px}.choice.correct{border:4px solid #31b889;background:#e7fff5;box-shadow:0 6px 0 #ace8d0}.choice.wrong{border:4px solid #ed7794;background:#fff0f4;box-shadow:0 6px 0 #ffc0ce}.choice:disabled{opacity:1;cursor:default}.choice.symbol{min-height:155px}.unitEmoji{font-size:58px}.unitName{font-weight:900;font-size:19px}.handdrawing{width:min(100%,110px);height:94px}.choice.digital{font-size:clamp(22px,5.3vw,38px);font-weight:950;letter-spacing:1px;min-height:106px}.questionBox{background:#fff3d9;border-radius:22px;padding:13px 12px;font-size:18px;font-weight:800;text-align:center;max-width:640px;width:100%;margin:6px auto;color:#5d4b31}.answerHint{display:flex;align-items:center;justify-content:center;gap:6px;font-size:16px;font-weight:900;min-height:35px;text-align:center;margin-top:9px}.smallControls{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:10px;flex-wrap:wrap}.secondary{background:#fff;border:1px solid #ded6c7;border-radius:19px;padding:12px 15px;font-size:18px;font-weight:800;min-height:52px}.demoExplore{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px auto;max-width:620px}.exploreBtn{border:2px solid #ede4d6;background:#fff;border-radius:19px;padding:12px 5px;font-size:15px;font-weight:850;min-height:122px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px}.exploreBtn .unitEmoji{font-size:42px}.exploreBtn.touched{border-color:#34bc9e;background:#e9fff4}.exploreNote{color:#7d7380;font-size:13px;text-align:center;min-height:20px}.minuter{margin:10px auto;border:1px solid #f2d9a3;background:#fff8e4;border-radius:18px;padding:13px;width:min(100%,380px);text-align:center}.timerFace{font-size:34px;font-weight:900;letter-spacing:2px;font-variant-numeric:tabular-nums;margin:3px}.timerTrack{height:12px;border-radius:99px;background:#eedfbe;overflow:hidden;margin:10px 0}.timerFill{height:100%;background:#39b89b;width:0}.stars{font-size:43px;letter-spacing:4px;line-height:1.8}.endMessage{font-size:23px;line-height:1.35;font-weight:900;margin:8px auto;max-width:600px}.footer{margin:25px 0;color:#8b8190;text-align:center;font-size:12px}.voiceBadge{display:inline-flex;align-items:center;gap:5px;font-size:13px;font-weight:700;color:#6d7990}.readableNote{font-size:14px;color:#6d7990;line-height:1.3;max-width:520px;margin:12px auto}.notice{font-size:13px;color:#987241;margin:11px auto;max-width:550px;text-align:center}.introTitle{font-size:20px;font-weight:900;text-align:center;margin:8px 0}.speakerBtn{border:0;background:#f0e9ff;border-radius:18px;min-width:65px;min-height:58px;font-size:29px;box-shadow:0 3px 0 #d6caf7}.speakerBtn:active{transform:translateY(2px)}
+@media(max-width:520px){main{padding:8px 10px 30px}.panel{padding:13px;border-radius:23px}.choice{min-height:130px;border-radius:17px;gap:3px;padding:5px 2px}.choices{gap:5px}.choice .clock{width:100%}.unitEmoji{font-size:47px}.unitName{font-size:15px}.handdrawing{height:75px}.lessonCard{padding:10px;min-height:78px;gap:7px}.lessonIcon{width:40px;height:45px;font-size:25px}.lessonTitle{font-size:14px}.lessonInfo{font-size:12px}.list{gap:9px}.spoken{font-size:18px}.questionBox{font-size:16px}.demoExplore{gap:6px}.exploreBtn{min-height:108px;font-size:13px}.exploreBtn .unitEmoji{font-size:36px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.voiceProblem{margin:9px auto;padding:13px;border:2px solid #e8bd81;border-radius:18px;background:#fff4dd;text-align:center;font-weight:700;line-height:1.5}
+.voiceProblem button{display:block;margin:8px auto 0}.voiceList{display:grid;gap:9px;text-align:left;margin:16px auto;max-width:550px}
+.voiceOption{display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:65px;padding:15px;border-radius:17px;border:2px solid #e3ddd2;background:#fff;font-weight:800;text-align:left}
+.voiceOption.selected{border-color:#34b593;background:#eefff8}.voiceMeta{font-size:12px;color:#52647a;flex-shrink:0}
+.voiceMissing{padding:18px;border-radius:18px;background:#fff4dd;text-align:left;line-height:1.55}
+</style></head><body><main id="app"></main>
 <script>
-(function(){
-const B={
- ss:{name:'SS_Landscape',url:'https://shared.akamai.steamstatic.com/community_assets/images/items/2351090/760ea4f91a440c95dbeff68dc4c845cdcbb06d31.jpg',shop:'https://store.steampowered.com/points/shop/c/backgrounds/cluster/1/reward/219776'},
- hole:{name:'Black Hole',url:'https://shared.akamai.steamstatic.com/community_assets/images/items/1263950/da538bac62ee5e233cd82bb75b0d3c47ba0cdc03.jpg',shop:'https://store.steampowered.com/points/shop/c/backgrounds/reward/78810'},
- vitriol:{name:'Vitriol',url:'https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1684350/52cddd3931367af68b15c141828104067de07692.jpg'},
- blackout:{name:'Blackout',url:'https://shared.akamai.steamstatic.com/community_assets/images/items/384960/f54bc45c7eedbd9c1d524e514e76db7441c20a81.jpg',shop:'https://store.steampowered.com/points/shop/c/backgrounds/reward/113355'},
- rain:{name:'Rain',url:'https://shared.akamai.steamstatic.com/community_assets/images/items/1098340/e7f0f200a7dc0b68f99b374357c88b5f7f10696e.jpg',shop:'https://store.steampowered.com/points/shop/c/backgrounds/reward/105852'}
-};
-const q=id=>document.getElementById(id),viewport=q('viewport'),stage=q('stage'),box=q('stagebox'),wall=q('wall');
-let zoom='fit',lastUrl='';
-function scaleTo(n,mode){zoom=mode;const v=n||Math.min(1,viewport.clientWidth/1920);stage.style.transform='scale('+v+')';box.style.width=(1920*v)+'px';box.style.height=(1080*v)+'px';viewport.style.height=Math.min(850,Math.max(180,1080*v))+'px';q('zoomlabel').textContent=Math.round(v*100)+'%';['fit','forty','full'].forEach(id=>q(id).classList.toggle('active',id===mode));viewport.scrollLeft=Math.max(0,(1920*v-viewport.clientWidth)/2);viewport.scrollTop=0;}
-function background(url,name,shop){lastUrl=url;wall.style.backgroundImage='url("'+url.replace(/"/g,'%22')+'")';q('status').textContent='Загружаем '+name+'…';const test=new Image();test.onload=()=>{if(lastUrl===url)q('status').textContent='Фон '+name+' загружен · экран 1920 × 1080';};test.onerror=()=>{if(lastUrl===url)q('status').textContent='Ошибка загрузки фона '+name+'. Проверь интернет.';};test.src=url;q('shoplinks').innerHTML=shop?'<a target="_blank" rel="noreferrer" href="'+shop+'">Открыть '+name+' в магазине очков Steam</a>':'';}
-function pick(){const sel=q('background').value;q('customline').hidden=sel!=='custom';if(sel!=='custom')background(B[sel].url,B[sel].name,B[sel].shop);}
-q('background').addEventListener('change',pick);
-q('applyurl').addEventListener('click',()=>{const url=q('customurl').value.trim();if(/^https:\/\//i.test(url))background(url,'по ссылке','');else q('status').textContent='Нужна ссылка на изображение, начинающаяся с https://';});
-q('fit').onclick=()=>scaleTo(null,'fit');q('forty').onclick=()=>scaleTo(.4,'forty');q('full').onclick=()=>scaleTo(1,'full');window.addEventListener('resize',()=>{if(zoom==='fit')scaleTo(null,'fit')});
-q('withart').addEventListener('change',e=>q('showcase').style.display=e.target.checked?'block':'none');
-scaleTo(null,'fit');pick();
-})();
+'use strict';
+const LESSONS=[{"title":"Секунда, минута, час","short":"⚡ ⏳ 🕒","emoji":"⚡","intro":"unit_intro","kind":"unit","demo":null,"questions":[{"id":"q0_0","kind":"unit","prompt":"q0_0_ask","explain":"q0_0_ans","options":["sec","min","hour"],"correct":0},{"id":"q0_1","kind":"unit","prompt":"q0_1_ask","explain":"q0_1_ans","options":["sec","min","hour"],"correct":2},{"id":"q0_2","kind":"unit","prompt":"q0_2_ask","explain":"q0_2_ans","options":["sec","min","hour"],"correct":1},{"id":"q0_3","kind":"unit","prompt":"q0_3_ask","explain":"q0_3_ans","options":["sec","min","hour"],"correct":0},{"id":"q0_4","kind":"unit","prompt":"q0_4_ask","explain":"q0_4_ans","options":["sec","min","hour"],"correct":1},{"id":"q0_5","kind":"unit","prompt":"q0_5_ask","explain":"q0_5_ans","options":["sec","min","hour"],"correct":2}]},{"title":"Три стрелки","short":"↗ ↖ ↕","emoji":"🎯","intro":"hand_intro","kind":"hand","demo":null,"questions":[{"id":"q1_0","kind":"hand","prompt":"q1_0_ask","explain":"q1_0_ans","options":["hour","minute","second"],"correct":0},{"id":"q1_1","kind":"hand","prompt":"q1_1_ask","explain":"q1_1_ans","options":["hour","minute","second"],"correct":1},{"id":"q1_2","kind":"hand","prompt":"q1_2_ask","explain":"q1_2_ans","options":["hour","minute","second"],"correct":2},{"id":"q1_3","kind":"hand","prompt":"q1_3_ask","explain":"q1_3_ans","options":["hour","minute","second"],"correct":1},{"id":"q1_4","kind":"hand","prompt":"q1_4_ask","explain":"q1_4_ans","options":["hour","minute","second"],"correct":0},{"id":"q1_5","kind":"hand","prompt":"q1_5_ask","explain":"q1_5_ans","options":["hour","minute","second"],"correct":2}]},{"title":"Ровно","short":"3:00","emoji":"🕒","intro":"whole_intro","kind":"clock","demo":[[3,0]],"questions":[{"id":"q2_0","kind":"clock","prompt":"q2_0_ask","explain":"q2_0_ans","options":[[4,0],[2,0],[7,0]],"correct":0,"target":[4,0]},{"id":"q2_1","kind":"clock","prompt":"q2_1_ask","explain":"q2_1_ans","options":[[1,0],[7,0],[9,0]],"correct":1,"target":[7,0]},{"id":"q2_2","kind":"clock","prompt":"q2_2_ask","explain":"q2_2_ans","options":[[2,0],[8,0],[5,0]],"correct":0,"target":[2,0]},{"id":"q2_3","kind":"clock","prompt":"q2_3_ask","explain":"q2_3_ans","options":[[10,0],[11,0],[4,0]],"correct":1,"target":[11,0]},{"id":"q2_4","kind":"clock","prompt":"q2_4_ask","explain":"q2_4_ans","options":[[6,0],[3,0],[9,0]],"correct":2,"target":[9,0]},{"id":"q2_5","kind":"clock","prompt":"q2_5_ask","explain":"q2_5_ans","options":[[12,0],[5,0],[1,0]],"correct":0,"target":[12,0]}]},{"title":"Полчаса","short":"4:30","emoji":"🌓","intro":"half_intro","kind":"clock","demo":[[4,30]],"questions":[{"id":"q3_0","kind":"clock","prompt":"q3_0_ask","explain":"q3_0_ans","options":[[4,0],[4,30],[5,30]],"correct":1,"target":[4,30]},{"id":"q3_1","kind":"clock","prompt":"q3_1_ask","explain":"q3_1_ans","options":[[7,30],[8,30],[7,0]],"correct":0,"target":[7,30]},{"id":"q3_2","kind":"clock","prompt":"q3_2_ask","explain":"q3_2_ans","options":[[3,30],[2,0],[2,30]],"correct":2,"target":[2,30]},{"id":"q3_3","kind":"clock","prompt":"q3_3_ask","explain":"q3_3_ans","options":[[11,0],[11,30],[12,30]],"correct":1,"target":[11,30]},{"id":"q3_4","kind":"clock","prompt":"q3_4_ask","explain":"q3_4_ans","options":[[9,30],[9,0],[10,30]],"correct":0,"target":[9,30]},{"id":"q3_5","kind":"clock","prompt":"q3_5_ask","explain":"q3_5_ans","options":[[12,0],[1,30],[12,30]],"correct":2,"target":[12,30]}]},{"title":"Четверть","short":"15 • 45","emoji":"🍕","intro":"quarter_intro","kind":"clock","demo":[[3,15],[3,45]],"questions":[{"id":"q4_0","kind":"clock","prompt":"q4_0_ask","explain":"q4_0_ans","options":[[3,45],[3,15],[3,0]],"correct":1,"target":[3,15]},{"id":"q4_1","kind":"clock","prompt":"q4_1_ask","explain":"q4_1_ans","options":[[7,45],[7,15],[8,45]],"correct":0,"target":[7,45]},{"id":"q4_2","kind":"clock","prompt":"q4_2_ask","explain":"q4_2_ans","options":[[2,15],[2,45],[3,15]],"correct":0,"target":[2,15]},{"id":"q4_3","kind":"clock","prompt":"q4_3_ask","explain":"q4_3_ans","options":[[10,15],[9,45],[10,45]],"correct":2,"target":[10,45]},{"id":"q4_4","kind":"clock","prompt":"q4_4_ask","explain":"q4_4_ans","options":[[5,45],[5,15],[6,15]],"correct":1,"target":[5,15]},{"id":"q4_5","kind":"clock","prompt":"q4_5_ask","explain":"q4_5_ans","options":[[12,45],[12,15],[12,30]],"correct":0,"target":[12,45]}]},{"title":"По пять минут","short":"5 • 10 • 20","emoji":"✋","intro":"five_intro","kind":"clock","demo":[[6,20]],"questions":[{"id":"q5_0","kind":"clock","prompt":"q5_0_ask","explain":"q5_0_ans","options":[[6,20],[6,40],[7,20]],"correct":0,"target":[6,20]},{"id":"q5_1","kind":"clock","prompt":"q5_1_ask","explain":"q5_1_ans","options":[[8,50],[8,10],[9,10]],"correct":1,"target":[8,10]},{"id":"q5_2","kind":"clock","prompt":"q5_2_ask","explain":"q5_2_ans","options":[[1,25],[1,35],[2,35]],"correct":1,"target":[1,35]},{"id":"q5_3","kind":"clock","prompt":"q5_3_ask","explain":"q5_3_ans","options":[[10,55],[10,5],[11,55]],"correct":0,"target":[10,55]},{"id":"q5_4","kind":"clock","prompt":"q5_4_ask","explain":"q5_4_ans","options":[[5,35],[6,25],[5,25]],"correct":2,"target":[5,25]},{"id":"q5_5","kind":"clock","prompt":"q5_5_ask","explain":"q5_5_ans","options":[[3,20],[3,40],[4,40]],"correct":1,"target":[3,40]}]},{"title":"По одной минуте","short":"7:17","emoji":"🔎","intro":"precise_intro","kind":"digital","demo":[[7,17]],"questions":[{"id":"q6_0","kind":"digital","prompt":"q6_0_ask","explain":"q6_0_ans","options":[[7,17],[7,12],[7,27]],"correct":0,"target":[7,17]},{"id":"q6_1","kind":"digital","prompt":"q6_1_ask","explain":"q6_1_ans","options":[[2,16],[2,6],[3,6]],"correct":1,"target":[2,6]},{"id":"q6_2","kind":"digital","prompt":"q6_2_ask","explain":"q6_2_ans","options":[[9,32],[8,23],[9,23]],"correct":2,"target":[9,23]},{"id":"q6_3","kind":"digital","prompt":"q6_3_ask","explain":"q6_3_ans","options":[[4,38],[4,48],[5,38]],"correct":0,"target":[4,38]},{"id":"q6_4","kind":"digital","prompt":"q6_4_ask","explain":"q6_4_ans","options":[[11,42],[11,52],[10,52]],"correct":1,"target":[11,52]},{"id":"q6_5","kind":"digital","prompt":"q6_5_ask","explain":"q6_5_ans","options":[[1,14],[1,41],[2,14]],"correct":0,"target":[1,14]}]},{"title":"Я умею!","short":"⭐","emoji":"🏆","intro":"mix_intro","kind":"mix","demo":[[9,15]],"questions":[{"id":"q7_0","kind":"clock","prompt":"q7_0_ask","explain":"q7_0_ans","options":[[9,0],[9,30],[3,0]],"correct":0,"target":[9,0]},{"id":"q7_1","kind":"clock","prompt":"q7_1_ask","explain":"q7_1_ans","options":[[6,0],[6,30],[7,30]],"correct":1,"target":[6,30]},{"id":"q7_2","kind":"clock","prompt":"q7_2_ask","explain":"q7_2_ans","options":[[3,15],[3,45],[4,15]],"correct":0,"target":[3,15]},{"id":"q7_3","kind":"clock","prompt":"q7_3_ask","explain":"q7_3_ans","options":[[8,15],[9,45],[8,45]],"correct":2,"target":[8,45]},{"id":"q7_4","kind":"clock","prompt":"q7_4_ask","explain":"q7_4_ans","options":[[2,40],[2,20],[3,20]],"correct":1,"target":[2,20]},{"id":"q7_5","kind":"clock","prompt":"q7_5_ask","explain":"q7_5_ans","options":[[11,5],[11,55],[10,5]],"correct":0,"target":[11,5]},{"id":"q7_6","kind":"digital","prompt":"q7_6_ask","explain":"q7_6_ans","options":[[5,37],[5,27],[6,37]],"correct":0,"target":[5,37]},{"id":"q7_7","kind":"clock","prompt":"q7_7_ask","explain":"q7_7_ans","options":[[12,10],[12,50],[11,50]],"correct":1,"target":[12,50]}]}];
+const VOICES={"welcome":"Привет! Это игра про время. Я всё расскажу голосом. Нажми на первую игру!","unit_intro":"Секунда, минута и час — это кусочки времени. Секунда очень короткая. В одной минуте шестьдесят секунд. В одном часе шестьдесят минут. Нажми на три картинки, чтобы послушать.","unit_sec":"Секунда! Скажи: тик. Вот примерно столько длится одна секунда.","unit_min":"Минута! В ней шестьдесят секунд. Хочешь почувствовать целую минуту? Нажми на круглый таймер.","unit_hour":"Час! В нём шестьдесят минут. За час можно долго гулять или посмотреть мультфильм.","timer_start":"Сейчас пройдёт настоящая минута. Смотри, как движется кружок.","timer_done":"Ура! Прошла одна настоящая минута. Это шестьдесят секунд!","hand_intro":"У часов есть стрелки. Короткая синяя показывает часы. Длинная розовая показывает минуты. Тонкая жёлтая показывает секунды. Нажми на каждую стрелку.","hand_hour":"Короткая синяя — часовая стрелка. Она показывает, который час.","hand_min":"Длинная розовая — минутная стрелка. Она показывает минуты.","hand_sec":"Тонкая жёлтая — секундная стрелка. Она движется быстрее всех.","whole_intro":"Смотри: длинная розовая стрелка стоит наверху, на двенадцати. Значит, сейчас ровно. Синяя короткая указывает на три. Получается три часа ровно.","half_intro":"Когда длинная стрелка смотрит вниз, на шесть, прошло тридцать минут. Это полчаса. Смотри: четыре часа тридцать минут. Короткая стрелка уже между четвёркой и пятёркой.","quarter_intro":"Когда длинная стрелка смотрит вправо, на три, прошло пятнадцать минут. Когда смотрит влево, на девять, прошло сорок пять минут. Это четверти часа.","five_intro":"Каждая большая цифра для длинной стрелки означает ещё пять минут. На единице — пять минут. На двойке — десять. На тройке — пятнадцать. На четвёрке — двадцать. Попробуем!","precise_intro":"На часах есть маленькие чёрточки. Каждая чёрточка — одна минута. После пятнадцати идут шестнадцать, семнадцать. Вот семь часов семнадцать минут. Теперь выбирай цифры под часами.","mix_intro":"Ты уже многое знаешь! Теперь время может быть разным. Смотри на обе стрелки и выбирай правильный ответ.","go_play":"Потренируемся! Слушай вопрос и нажимай на правильную картинку.","next":"Следующий вопрос!","correct":"Правильно! Отличная работа!","incorrect":"Не совсем. Посмотри на правильный ответ.","pass":"Получилось! Ты отлично справилась. Открылась следующая игра!","retry":"Ещё немного практики — и получится. Давай повторим игру!","completed":"Ура! Теперь ты настоящий исследователь времени. Можешь играть снова и тренироваться!","relisten":"Нажми на громкоговоритель, если хочешь послушать ещё раз.","q0_0_ask":"Что короче всего?","q0_0_ans":"Правильный ответ: секунда.","q0_1_ask":"Что длится дольше всего?","q0_1_ans":"Правильный ответ: час.","q0_2_ask":"Что длиннее секунды, но короче часа?","q0_2_ans":"Правильный ответ: минута.","q0_3_ask":"Что длится примерно столько же, сколько один тик?","q0_3_ans":"Правильный ответ: секунда.","q0_4_ask":"В чём шестьдесят секунд?","q0_4_ans":"Правильный ответ: минута.","q0_5_ask":"В чём шестьдесят минут?","q0_5_ans":"Правильный ответ: час.","q1_0_ask":"Какая стрелка показывает часы?","q1_0_ans":"Правильный ответ: короткая синяя, часовая стрелка.","q1_1_ask":"Какая стрелка показывает минуты?","q1_1_ans":"Правильный ответ: длинная розовая, минутная стрелка.","q1_2_ask":"Какая стрелка движется быстрее всех?","q1_2_ans":"Правильный ответ: тонкая жёлтая, секундная стрелка.","q1_3_ask":"Найди длинную розовую стрелку.","q1_3_ans":"Правильный ответ: длинная розовая, минутная стрелка.","q1_4_ask":"Найди короткую синюю стрелку.","q1_4_ans":"Правильный ответ: короткая синяя, часовая стрелка.","q1_5_ask":"Найди секундную стрелку.","q1_5_ans":"Правильный ответ: тонкая жёлтая, секундная стрелка.","q2_0_ask":"Найди: четыре часа ровно.","q2_0_ans":"Правильный ответ: четыре часа ровно.","q2_1_ask":"Найди: семь часов ровно.","q2_1_ans":"Правильный ответ: семь часов ровно.","q2_2_ask":"Найди: два часа ровно.","q2_2_ans":"Правильный ответ: два часа ровно.","q2_3_ask":"Найди: одиннадцать часов ровно.","q2_3_ans":"Правильный ответ: одиннадцать часов ровно.","q2_4_ask":"Найди: девять часов ровно.","q2_4_ans":"Правильный ответ: девять часов ровно.","q2_5_ask":"Найди: двенадцать часов ровно.","q2_5_ans":"Правильный ответ: двенадцать часов ровно.","q3_0_ask":"Найди: четыре часа тридцать минут.","q3_0_ans":"Правильный ответ: четыре часа тридцать минут.","q3_1_ask":"Найди: семь часов тридцать минут.","q3_1_ans":"Правильный ответ: семь часов тридцать минут.","q3_2_ask":"Найди: два часа тридцать минут.","q3_2_ans":"Правильный ответ: два часа тридцать минут.","q3_3_ask":"Найди: одиннадцать часов тридцать минут.","q3_3_ans":"Правильный ответ: одиннадцать часов тридцать минут.","q3_4_ask":"Найди: девять часов тридцать минут.","q3_4_ans":"Правильный ответ: девять часов тридцать минут.","q3_5_ask":"Найди: двенадцать часов тридцать минут.","q3_5_ans":"Правильный ответ: двенадцать часов тридцать минут.","q4_0_ask":"Найди: три часа пятнадцать минут.","q4_0_ans":"Правильный ответ: три часа пятнадцать минут.","q4_1_ask":"Найди: семь часов сорок пять минут.","q4_1_ans":"Правильный ответ: семь часов сорок пять минут.","q4_2_ask":"Найди: два часа пятнадцать минут.","q4_2_ans":"Правильный ответ: два часа пятнадцать минут.","q4_3_ask":"Найди: десять часов сорок пять минут.","q4_3_ans":"Правильный ответ: десять часов сорок пять минут.","q4_4_ask":"Найди: пять часов пятнадцать минут.","q4_4_ans":"Правильный ответ: пять часов пятнадцать минут.","q4_5_ask":"Найди: двенадцать часов сорок пять минут.","q4_5_ans":"Правильный ответ: двенадцать часов сорок пять минут.","q5_0_ask":"Найди: шесть часов двадцать минут.","q5_0_ans":"Правильный ответ: шесть часов двадцать минут.","q5_1_ask":"Найди: восемь часов десять минут.","q5_1_ans":"Правильный ответ: восемь часов десять минут.","q5_2_ask":"Найди: один час тридцать пять минут.","q5_2_ans":"Правильный ответ: один час тридцать пять минут.","q5_3_ask":"Найди: десять часов пятьдесят пять минут.","q5_3_ans":"Правильный ответ: десять часов пятьдесят пять минут.","q5_4_ask":"Найди: пять часов двадцать пять минут.","q5_4_ans":"Правильный ответ: пять часов двадцать пять минут.","q5_5_ask":"Найди: три часа сорок минут.","q5_5_ans":"Правильный ответ: три часа сорок минут.","q6_0_ask":"Найди: семь часов семнадцать минут.","q6_0_ans":"Правильный ответ: семь часов семнадцать минут.","q6_1_ask":"Найди: два часа шесть минут.","q6_1_ans":"Правильный ответ: два часа шесть минут.","q6_2_ask":"Найди: девять часов двадцать три минуты.","q6_2_ans":"Правильный ответ: девять часов двадцать три минуты.","q6_3_ask":"Найди: четыре часа тридцать восемь минут.","q6_3_ans":"Правильный ответ: четыре часа тридцать восемь минут.","q6_4_ask":"Найди: одиннадцать часов пятьдесят две минуты.","q6_4_ans":"Правильный ответ: одиннадцать часов пятьдесят две минуты.","q6_5_ask":"Найди: один час четырнадцать минут.","q6_5_ans":"Правильный ответ: один час четырнадцать минут.","q7_0_ask":"Найди: девять часов ровно.","q7_0_ans":"Правильный ответ: девять часов ровно.","q7_1_ask":"Найди: шесть часов тридцать минут.","q7_1_ans":"Правильный ответ: шесть часов тридцать минут.","q7_2_ask":"Найди: три часа пятнадцать минут.","q7_2_ans":"Правильный ответ: три часа пятнадцать минут.","q7_3_ask":"Найди: восемь часов сорок пять минут.","q7_3_ans":"Правильный ответ: восемь часов сорок пять минут.","q7_4_ask":"Найди: два часа двадцать минут.","q7_4_ans":"Правильный ответ: два часа двадцать минут.","q7_5_ask":"Найди: одиннадцать часов пять минут.","q7_5_ans":"Правильный ответ: одиннадцать часов пять минут.","q7_6_ask":"Найди: пять часов тридцать семь минут.","q7_6_ans":"Правильный ответ: пять часов тридцать семь минут.","q7_7_ask":"Найди: двенадцать часов пятьдесят минут.","q7_7_ans":"Правильный ответ: двенадцать часов пятьдесят минут.","watch_minute":"Смотри! Я ускорила время. За одну минуту жёлтая секундная стрелка делает полный круг. Розовая за это время двигается совсем чуть-чуть.","watch_hour":"Смотри! Я ускорила целый час. За один час розовая минутная стрелка делает полный круг. А короткая синяя переходит к следующей цифре."};
+const UNIT_INFO={sec:['⚡','1 с','unit_sec'],min:['⏳','1 мин','unit_min'],hour:['🕒','1 час','unit_hour']};
+const HAND_INFO={hour:['🔵','Часы','hand_hour'],minute:['🩷','Минуты','hand_min'],second:['🟡','Секунды','hand_sec']};
+const app=document.querySelector('#app');
+let unlocked=0;
+let finished=[];
+try{unlocked=Math.min(7,Math.max(0,Number(localStorage.getItem('timegame_unlocked'))||0));finished=JSON.parse(localStorage.getItem('timegame_finished')||'[]')}catch(e){}
+let page='home',level=0,question=0,score=0,lock=false,chosen=-1,explored=new Set();
+let timerInterval=null, moveInterval=null, timerSeconds=0, lastSpeech='welcome';
+let availableVoices=[], selectedVoiceURI='', pendingSpeech=null, voiceRetry=null, voiceIssue='';
+try{selectedVoiceURI=localStorage.getItem('timegame_voice')||''}catch(e){}
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+const hEsc=s=>String(s).replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));
+function stopSound(){pendingSpeech=null;try{speechSynthesis.cancel()}catch(e){}}
+function voiceScore(v){
+  const name=(v.name||'').toLowerCase();
+  let score=0;
+  if(/ru[_-]ru/i.test(v.lang))score+=12;
+  if(/google|microsoft|natural|neural|premium|enhanced|светлана|милена/i.test(name))score+=25;
+  if(!v.localService)score+=4;
+  if(/espeak|festival|robot/i.test(name))score-=80;
+  return score;
+}
+function reloadVoices(){
+  try{if(!('speechSynthesis' in window))return [];
+    availableVoices=speechSynthesis.getVoices().filter(v=>/^ru([_-]|$)/i.test(v.lang))
+      .sort((a,b)=>voiceScore(b)-voiceScore(a));
+  }catch(e){availableVoices=[]}
+  if(page==='voiceSettings')renderVoiceSettings();
+  if(pendingSpeech && availableVoices.length){
+    const id=pendingSpeech;pendingSpeech=null;
+    // A voice may arrive asynchronously after Android finishes loading voices.
+    talk(id);
+  }
+  return availableVoices;
+}
+function getChosenVoice(){
+  if(!availableVoices.length)reloadVoices();
+  return availableVoices.find(v=>v.voiceURI===selectedVoiceURI)
+    || availableVoices[0] || null;
+}
+function setVoiceProblem(message){
+  voiceIssue=message;
+  const area=document.getElementById('voiceProblem');
+  if(area){area.style.display=message?'block':'none';
+    area.innerHTML=message?'<div>'+hEsc(message)+'</div><button class="secondary" onclick="openVoiceSettings()">⚙ Настроить голос</button>':'';}
+}
+function talk(id){
+  lastSpeech=id;
+  try{speechSynthesis.cancel()}catch(e){}
+  const str=VOICES[id];if(!str)return;
+  if(!('speechSynthesis' in window)){setVoiceProblem('В этом браузере голос не поддерживается. Открой игру в Chrome.');return}
+  const voice=getChosenVoice();
+  if(!voice){
+    pendingSpeech=id;
+    setVoiceProblem('Русский голос пока не найден. Проверь настройки голоса.');
+    // Some Android browsers populate the voice list only after a short delay.
+    if(voiceRetry)clearTimeout(voiceRetry);
+    voiceRetry=setTimeout(reloadVoices,550);
+    return;
+  }
+  pendingSpeech=null;
+  setVoiceProblem('');
+  try{
+    const u=new SpeechSynthesisUtterance(str);
+    u.voice=voice;u.lang='ru-RU';u.rate=0.95;u.pitch=1;u.volume=1;
+    u.onerror=(event)=>{
+      if(event.error==='interrupted'||event.error==='canceled')return;
+      setVoiceProblem('Голос не запустился. Нажми ⚙ и попробуй другой голос.');
+    };
+    speechSynthesis.speak(u);
+  }catch(e){setVoiceProblem('Не удалось запустить голос. Открой настройки ⚙.')}
+}
+function replay(){talk(lastSpeech)}
+function commonHeader(){return `<header><button class="iconbtn" title="Домой" aria-label="Домой" onclick="toHome()">⌂</button><div class="brand"><span class="brand-emoji">🕰️</span> Игра со временем</div><div class="row"><button class="iconbtn" title="Выбор голоса" aria-label="Выбрать голос" onclick="openVoiceSettings()">⚙</button><button class="iconbtn" title="Повтори голос" aria-label="Повтори голос" onclick="replay()">🔊</button></div></header><div class="voiceProblem" id="voiceProblem" style="${voiceIssue?'':'display:none'}">${voiceIssue?hEsc(voiceIssue)+' <button class="secondary" onclick="openVoiceSettings()">⚙ Настроить голос</button>':''}</div>`}
+function voiceOptionMarkup(v,i){
+  const chosen=getChosenVoice();
+  return `<button class="voiceOption ${chosen && chosen.voiceURI===v.voiceURI?'selected':''}" onclick="selectVoice(${i})"><span>🔊 ${hEsc(v.name)}</span><span class="voiceMeta">${hEsc(v.lang)} ${chosen&&chosen.voiceURI===v.voiceURI?'✓':''}</span></button>`;
+}
+function renderVoiceSettings(){
+  const target=document.getElementById('voiceList');
+  if(!target)return;
+  target.innerHTML=availableVoices.length?availableVoices.map(voiceOptionMarkup).join('')
+    :`<div class="voiceMissing">Русский голос не найден.<div style="margin-top:9px">На Android установите или обновите <b>Speech Recognition & Synthesis от Google</b>, затем выберите Google в настройках преобразования текста в речь и русский язык.</div><div style="margin-top:9px">После этого откройте игру ещё раз.</div></div>`;
+}
+function openVoiceSettings(){
+  stopSound();
+  page='voiceSettings';voiceIssue='';
+  app.innerHTML=commonHeader()+`<section class="panel center"><div class="bigemoji">🎙️</div><h1>Проверка голоса</h1><p class="sub">Выберите самый понятный русский голос и нажмите на него, чтобы послушать.</p><div id="voiceList" class="voiceList"></div><button class="secondary" onclick="reloadVoices()">↻ Найти голоса</button><div class="smallControls"><button class="startbtn" onclick="toHome()">✓ Готово</button></div><div class="readableNote">Если все голоса звучат неразборчиво, замените голосовой движок в настройках Android. В игре больше нет прежней механической запасной озвучки.</div></section>`;
+  reloadVoices();
+}
+function selectVoice(i){
+  const voice=availableVoices[i];if(!voice)return;
+  selectedVoiceURI=voice.voiceURI;
+  try{localStorage.setItem('timegame_voice',selectedVoiceURI)}catch(e){}
+  renderVoiceSettings();
+  talk('unit_sec');
+}
+function save(){try{localStorage.setItem('timegame_unlocked',unlocked);localStorage.setItem('timegame_finished',JSON.stringify(finished))}catch(e){}}
+function scheduleSpeak(id){setTimeout(()=>{if(lastSpeech!==id)talk(id)},100)}
+function timeText(arr){return arr[0]+':'+String(arr[1]).padStart(2,'0')}
+function clockSvg(hr,min,sec=null,opts={}){
+  const unique=Math.floor(Math.random()*100000000).toString();
+  const cx=100, cy=100, hourAngle=(hr%12)*30+min*.5, minuteAngle=min*6, secAngle=(sec||0)*6;
+  const point=(a,r)=>{let rad=a*Math.PI/180;return [cx+r*Math.sin(rad),cy-r*Math.cos(rad)]};
+  const hand=(angle,length,color,width,tail=5)=>{const [x,y]=point(angle,length),[bx,by]=point(angle+180,tail);return `<line x1="${bx}" y1="${by}" x2="${x}" y2="${y}" stroke="${color}" stroke-width="${width}" stroke-linecap="round"/>`};
+  let ticks='';for(let i=0;i<60;i++){const [x1,y1]=point(i*6,i%5===0?84:87),[x2,y2]=point(i*6,93);ticks+=`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${i%5===0?'#687b95':'#c6ced6'}" stroke-width="${i%5===0?2.2:1}"/>`}
+  let nums='';for(let i=1;i<=12;i++){const [x,y]=point(i*30,70);nums+=`<text x="${x}" y="${y+5}" text-anchor="middle" fill="#304466" font-weight="850" font-size="17">${i}</text>`}
+  let more='';if(opts.minutesLabels){for(let i=1;i<=12;i++){const [x,y]=point(i*30,112);more+=`<text x="${x}" y="${y+4}" text-anchor="middle" fill="#dd4e82" font-size="10" font-weight="850">${i*5===60?0:i*5}</text>`}}
+  return `<svg class="clock" role="img" aria-label="Стрелочные часы" viewBox="-18 -18 236 236" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="99" fill="#fffdf8" stroke="#f0dcc4" stroke-width="4"/><circle cx="100" cy="100" r="94" fill="none" stroke="#e8eef5" stroke-width="1"/>${ticks}${nums}${more}${hand(hourAngle,46,'#2e82d9',9)}${hand(minuteAngle,76,'#ed5b89',5)}${sec===null?'':hand(secAngle,83,'#eba724',2)}<circle cx="100" cy="100" r="7" fill="#26334f"/><circle cx="100" cy="100" r="3" fill="white"/></svg>`
+}
+function handShape(which){const length=which==='hour'?42:which==='minute'?72:79;const w=which==='hour'?11:which==='minute'?6:2.5;const c=which==='hour'?'#2e82d9':which==='minute'?'#ed5b89':'#eba724';return `<svg class="handdrawing" viewBox="0 0 110 107" aria-hidden="true"><circle cx="55" cy="90" r="8" fill="#26334f"/><line x1="55" y1="90" x2="55" y2="${90-length}" stroke="${c}" stroke-width="${w}" stroke-linecap="round"/><circle cx="55" cy="90" r="3" fill="white"/></svg>`}
+function home(){page='home';stopMoving();if(timerInterval){clearInterval(timerInterval);timerInterval=null}let all=LESSONS.map((lesson,i)=>{const ok=i<=unlocked,won=finished.includes(i);return `<button ${ok?'':'disabled'} class="lessonCard ${i===unlocked?'available':''}" onclick="openLevel(${i})"><span class="lessonIcon">${lesson.emoji}</span><span><span class="lessonTitle">${hEsc(lesson.title)}</span><span class="lessonInfo">${won?'⭐ пройдено':ok?'▶ играть':'🔒 позже'}</span></span></button>`}).join('');app.innerHTML=commonHeader()+`<section class="panel hero"><div class="bigemoji">⏰</div><h1>Научимся<br>понимать время!</h1><p class="sub">Нажимай и слушай. Читать почти не нужно.</p><button class="startbtn" onclick="openLevel(${unlocked})">▶ Играть</button><div class="smallControls"><button class="secondary" onclick="openVoiceSettings()">🎙️ Проверить голос</button></div><div class="subtle">🔊 Включи звук на телефоне</div></section><div class="list">${all}</div><div class="footer">Прогресс сохраняется · Голос зависит от настроек телефона</div>`}
+function toHome(){stopSound();home()}
+function openLevel(i){if(i>unlocked)return;stopMoving();level=i;question=0;score=0;lock=false;chosen=-1;explored=new Set();intro()}
+function titleBlock(){return `<div class="lessonHead"><h1>${LESSONS[level].emoji} ${hEsc(LESSONS[level].title)}</h1><span class="voiceBadge">🔊 Слушай</span></div>`}
+function demoClocks(demo){if(!demo)return'';return `<div class="clockDemo ${demo.length>1?'two':''}">${demo.map(c=>`<div>${clockSvg(c[0],c[1],null,{minutesLabels:level===5})}<div class="tinyLabel">${timeText(c)}</div></div>`).join('')}</div>`}
+function unitExploreCard(id){const a=UNIT_INFO[id];return `<button class="exploreBtn ${explored.has(id)?'touched':''}" onclick="explore('${id}')"><span class="unitEmoji">${a[0]}</span><span>${a[1]}</span>${explored.has(id)?'✓':''}</button>`}
+function handExploreCard(id){const a=HAND_INFO[id];return `<button class="exploreBtn ${explored.has(id)?'touched':''}" onclick="explore('${id}')">${handShape(id)}<span>${a[1]}</span>${explored.has(id)?'✓':''}</button>`}
+function intro(){page='intro';let l=LESSONS[level];let content='';if(level===0){content=`<div class="demoExplore">${['sec','min','hour'].map(unitExploreCard).join('')}</div><div class="minuter"><div class="tinyLabel">⏳ Настоящая минута</div><div id="timerDisplay" class="timerFace">1:00</div><div class="timerTrack"><div id="timerFill" class="timerFill"></div></div><button class="secondary" id="timerButton" onclick="startMinute()">▶ 1 минута</button></div>`}else if(level===1){content=`<div class="clockDemo" id="movingClock">${clockSvg(2,50,15)}</div><div class="smallControls"><button class="secondary" onclick="animateClock('minute')">▶ 1 минута</button><button class="secondary" onclick="animateClock('hour')">▶ 1 час</button></div><div class="demoExplore">${['hour','minute','second'].map(handExploreCard).join('')}</div>`}else{content=demoClocks(l.demo)}let hint=l.kind==='hand'||l.kind==='unit'?'<div class="exploreNote">👆 Нажми на каждую картинку</div>':'';app.innerHTML=commonHeader()+titleBlock()+`<section class="panel stage"><div class="spoken" id="spokenIntro">👂 Слушай и смотри</div><button class="speakerBtn" aria-label="Послушать объяснение" onclick="talk('${l.intro}')">🔊</button>${content}${hint}<button class="startbtn" onclick="beginQuiz()">▶ Играть!</button></section>`;talk(l.intro)}
+function explore(id){explored.add(id);if(level===0){['sec','min','hour'].forEach(k=>{let btns=document.querySelectorAll('.exploreBtn');let i=['sec','min','hour'].indexOf(k);if(btns[i])btns[i].classList.toggle('touched',explored.has(k))});talk(UNIT_INFO[id][2])}else{['hour','minute','second'].forEach(k=>{let btns=document.querySelectorAll('.exploreBtn');let i=['hour','minute','second'].indexOf(k);if(btns[i])btns[i].classList.toggle('touched',explored.has(k))});talk(HAND_INFO[id][2])}}
+function stopMoving(){if(moveInterval){clearInterval(moveInterval);moveInterval=null}}
+function animateClock(type){stopMoving();const el=document.getElementById('movingClock');if(!el)return;const duration=type==='minute'?7500:11000;let start=performance.now();talk(type==='minute'?'watch_minute':'watch_hour');moveInterval=setInterval(()=>{const t=clamp((performance.now()-start)/duration,0,1);if(type==='minute'){const seconds=15+Math.floor(t*60);const min=50+Math.floor(seconds/60);el.innerHTML=clockSvg(2,min,seconds%60)}else{const seconds=2*3600+50*60+15+Math.floor(t*3600);const hour=Math.floor(seconds/3600),min=Math.floor(seconds%3600/60);el.innerHTML=clockSvg(hour,min,null)}if(t>=1)stopMoving()},90)}
+function startMinute(){if(timerInterval)return;timerSeconds=60;talk('timer_start');let last=Date.now();const label=document.getElementById('timerDisplay');const fill=document.getElementById('timerFill');document.getElementById('timerButton').disabled=true;timerInterval=setInterval(()=>{const now=Date.now();timerSeconds=clamp(timerSeconds-(now-last)/1000,0,60);last=now;if(label)label.textContent='0:'+String(Math.ceil(timerSeconds)).padStart(2,'0');if(fill)fill.style.width=(100*(60-timerSeconds)/60)+'%';if(timerSeconds<=0){clearInterval(timerInterval);timerInterval=null;document.getElementById('timerButton').disabled=false;document.getElementById('timerButton').textContent='↻ Ещё раз';talk('timer_done')}},140)}
+function beginQuiz(){stopMoving();if(timerInterval){clearInterval(timerInterval);timerInterval=null}page='quiz';question=0;score=0;showQuiz()}
+function choiceMarkup(option,index,q){let ins='',cls='';if(q.kind==='unit'){let inf=UNIT_INFO[option];ins=`<div class="unitEmoji">${inf[0]}</div><div class="unitName">${inf[1]}</div>`;cls='symbol'}else if(q.kind==='hand'){ins=`${handShape(option)}<span class="unitName">${HAND_INFO[option][1]}</span>`;cls='symbol'}else if(q.kind==='digital'){ins=timeText(option);cls='digital'}else{ins=clockSvg(option[0],option[1]);cls='clockChoice'}return `<button id="option${index}" class="choice ${cls}" onclick="answer(${index})" aria-label="Ответ ${index+1}">${ins}</button>`}
+function showQuiz(){page='quiz';lock=false;chosen=-1;const l=LESSONS[level],qs=l.questions,q=qs[question];let dots=qs.map((_,i)=>`<div class="pip ${i<question?'done':i===question?'current':''}"></div>`).join('');let sample=q.kind==='digital'?`<div class="clockDemo">${clockSvg(q.target[0],q.target[1])}</div>`:'';app.innerHTML=commonHeader()+titleBlock()+`<div class="progressLabel center">${question+1} / ${qs.length}</div><div class="bar">${dots}</div><section class="panel center"><div class="questionBox" id="questionText">${hEsc(VOICES[q.prompt])}</div><button class="speakerBtn" style="margin:10px auto 1px" onclick="talk('${q.prompt}')" aria-label="Повтори вопрос">🔊</button>${sample}<div class="choices">${q.options.map((o,i)=>choiceMarkup(o,i,q)).join('')}</div><div id="answerInfo" class="answerHint"></div><div class="smallControls" id="quizControls"></div></section>`;talk(q.prompt)}
+function answer(i){if(lock)return;lock=true;chosen=i;const q=LESSONS[level].questions[question],correct=i===q.correct;if(correct)score++;for(let j=0;j<q.options.length;j++){const btn=document.getElementById('option'+j);btn.disabled=true;if(j===q.correct)btn.classList.add('correct');else if(j===i)btn.classList.add('wrong')};document.getElementById('answerInfo').textContent=correct?'⭐ Правильно!':'👀 Вот правильный ответ';document.getElementById('quizControls').innerHTML=`<button class="startbtn" onclick="nextQuestion()">${question===LESSONS[level].questions.length-1?'🏁 Готово':'▶ Дальше'}</button>`;talk(correct?'correct':q.explain)}
+function nextQuestion(){question++;if(question>=LESSONS[level].questions.length)result();else showQuiz()}
+function result(){page='result';const total=LESSONS[level].questions.length,passed=score>=Math.ceil(total*.8);if(passed){if(!finished.includes(level))finished.push(level);unlocked=Math.max(unlocked,Math.min(7,level+1));save()}const id=passed?(level===7?'completed':'pass'):'retry';const stars=score===total?3:passed?2:1;app.innerHTML=commonHeader()+`<section class="panel hero"><div class="bigemoji">${passed?'🎉':'🌱'}</div><div class="stars">${'⭐'.repeat(stars)}</div><div class="endMessage">${passed?'Получилось!':'Давай ещё раз!'}</div><p class="sub">${score} из ${total}</p><button class="speakerBtn" onclick="talk('${id}')">🔊</button><div class="smallControls"><button class="secondary" onclick="openLevel(${level})">↻ Повторить</button><button class="startbtn" onclick="${passed&&level<7?'openLevel('+(level+1)+')':'toHome()'}">${passed&&level<7?'▶ Следующая игра':'⌂ На главную'}</button></div></section>`;talk(id)}
+window.toHome=toHome;window.openLevel=openLevel;window.explore=explore;window.startMinute=startMinute;window.animateClock=animateClock;window.beginQuiz=beginQuiz;window.answer=answer;window.nextQuestion=nextQuestion;window.talk=talk;window.replay=replay;window.openVoiceSettings=openVoiceSettings;window.selectVoice=selectVoice;window.reloadVoices=reloadVoices;
+home();
+if('speechSynthesis' in window){
+  speechSynthesis.addEventListener('voiceschanged',reloadVoices);
+  reloadVoices();
+  setTimeout(reloadVoices,400);
+  setTimeout(reloadVoices,1600);
+}
 </script></body></html>
