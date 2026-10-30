@@ -1,7 +1,12 @@
 {
   "user": "kentrap2011",
-  "count": 122,
+  "count": 123,
   "games": [
+    {
+      "title": "The Great Escape",
+      "url": "https://stopgame.ru/game/great_escape_the",
+      "rating": 3.5
+    },
     {
       "title": "Idol Party",
       "url": "https://stopgame.ru/game/idol_party",
@@ -613,5 +618,5 @@
       "rating": 4
     }
   ],
-  "updated_at": "2026-10-29T03:45:42.813Z"
+  "updated_at": "2026-10-30T10:30:41.763Z"
 }
