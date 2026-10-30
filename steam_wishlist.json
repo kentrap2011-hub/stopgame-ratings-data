@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 88,
+  "count": 89,
   "games": [
     {
       "appid": "9480",
@@ -619,7 +619,14 @@
       "priority": 0,
       "date_added": 1785442659,
       "store_url": "https://store.steampowered.com/app/3787240/"
+    },
+    {
+      "appid": "4115450",
+      "title": "Phantom Blade Zero",
+      "priority": 0,
+      "date_added": 1793366033,
+      "store_url": "https://store.steampowered.com/app/4115450/"
     }
   ],
-  "updated_at": "2026-10-25T21:15:32.676Z"
+  "updated_at": "2026-10-30T13:15:42.661Z"
 }
