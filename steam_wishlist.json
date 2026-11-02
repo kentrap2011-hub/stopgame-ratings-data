@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 90,
+  "count": 91,
   "games": [
     {
       "appid": "9480",
@@ -633,7 +633,14 @@
       "priority": 0,
       "date_added": 1793561349,
       "store_url": "https://store.steampowered.com/app/2138720/"
+    },
+    {
+      "appid": "1731290",
+      "title": "SPINE - This is Gun Fu",
+      "priority": 0,
+      "date_added": 1793623263,
+      "store_url": "https://store.steampowered.com/app/1731290/"
     }
   ],
-  "updated_at": "2026-11-01T19:30:14.845Z"
+  "updated_at": "2026-11-02T12:45:15.720Z"
 }
