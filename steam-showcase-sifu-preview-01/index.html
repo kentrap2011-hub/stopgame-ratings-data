@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#10141a">
+<title>Sifu — примерка витрины KentRAP</title>
+<link rel="stylesheet" href="./styles.css">
+<script defer src="./script.js"></script>
+</head>
+<body>
+<header class="toolbar">
+  <div class="toolbar-inner">
+    <div><span class="eyebrow">Steam / KentRAP</span><h1>Примерка Sifu</h1><p>Тест отображения оригинальных PNG в профиле</p></div>
+    <span class="test-label">ТЕСТ · НЕ STEAM-ФАЙЛ</span>
+  </div>
+  <div class="switcher" role="tablist" aria-label="Вариант изображения">
+    <button type="button" id="tab-a" class="active" role="tab" aria-selected="true" aria-controls="preview-image" data-pick="a"><b>A</b> <span>Коридор свернулся</span></button>
+    <button type="button" id="tab-b" role="tab" aria-selected="false" aria-controls="preview-image" data-pick="b"><b>B</b> <span>Тень не умеет воскресать</span></button>
+    <button type="button" id="tab-c" role="tab" aria-selected="false" aria-controls="preview-image" data-pick="c"><b>C</b> <span>Ниже линии удара</span></button>
+  </div>
+</header>
+<main class="environment" aria-label="Примерка на фоне SS_Landscape">
+  <div class="profile">
+    <div class="profile-top">
+      <div class="avatar" aria-hidden="true">K</div>
+      <div class="profile-identity"><strong>KentRAP</strong><span>▸ [ PRESS START ]</span></div>
+      <span class="profile-flag">SS_Landscape</span>
+    </div>
+    <div class="profile-grid">
+      <section class="showcase" aria-labelledby="showcase-heading">
+        <div class="showcase-header"><h2 id="showcase-heading">Витрина иллюстраций</h2><span>SIFU</span></div>
+        <div class="image-wrapper"><img id="preview-image" src="images/corridor-fold.png" width="1914" height="822" alt="Sifu — Коридор свернулся" draggable="false"></div>
+        <div class="showcase-footer"><span id="current-title">A — Коридор свернулся</span><a id="full-link" href="images/corridor-fold.png" target="_blank" rel="noopener">Открыть оригинал ↗</a></div>
+      </section>
+      <aside class="sidebar" aria-label="Сведения о макете"><div class="sidebar-title">Профиль</div><div class="sidebar-item">Сейчас играю</div><strong class="game">Sifu</strong><div class="sidebar-item">Фон профиля</div><strong>SS_Landscape</strong><div class="sidebar-item">Режим</div><strong>Тестовая примерка</strong></aside>
+    </div>
+  </div>
+</main>
+<footer><p>Изображения показаны целиком с сохранением пропорций и исходных файлов. Тест позволяет оценить масштаб и восприятие широкой композиции на фоне профиля, но не имитирует готовые слоты Steam Artwork Showcase.</p></footer>
+</body>
+</html>
