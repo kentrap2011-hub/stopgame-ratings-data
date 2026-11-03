@@ -19,7 +19,6 @@ function choose(key){
  const item=items[key];
  if(!item)return;
  image.src=item.file;
- image.width=item.width;image.height=item.height;
  image.alt='Sifu — '+item.name;
  link.href=item.file;
  title.textContent=item.title;

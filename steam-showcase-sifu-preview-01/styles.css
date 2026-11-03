@@ -46,8 +46,8 @@ h1{margin:4px 0 3px;font-size:22px;letter-spacing:-.025em;line-height:1.2}
 .showcase-heading{height:37px;margin-bottom:9px;background:rgba(64,81,94,.42);padding:0 12px;display:flex;justify-content:space-between;align-items:center}
 .showcase-heading h2{margin:0;font-size:14px;font-weight:500;color:#e5ebf0}
 .showcase-heading span{font-size:10px;letter-spacing:.12em;color:#adc0cb}
-.workshop-preview{position:relative;width:626px;max-width:100%;overflow:hidden;background:#0a1119;line-height:0}
-.workshop-preview img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain}
+.workshop-preview{position:relative;width:626px;min-width:626px;max-width:626px;overflow:hidden;background:#0a1119;line-height:0}
+.workshop-preview img{display:block;width:626px;min-width:626px;max-width:none;height:auto;object-fit:contain}
 .workshop-slots{position:absolute;inset:0;pointer-events:none;display:grid;grid-template-columns:repeat(5,122px);gap:4px}
 .workshop-tile{min-width:0;outline:1px solid rgba(131,149,164,.7);outline-offset:-1px;box-shadow:inset 0 0 0 1px rgba(12,19,26,.3)}
 .workshop-gap{position:absolute;top:0;bottom:0;width:4px;background:#0d151e;display:block}
