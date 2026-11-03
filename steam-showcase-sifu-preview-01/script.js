@@ -4,7 +4,9 @@ const items=Object.freeze({
  b:{title:'B — Тень не умеет воскресать',name:'Тень не умеет воскресать',file:'./images/aging-shadow.png',width:2172,height:724},
  c:{title:'C — Ниже линии удара',name:'Ниже линии удара',file:'./images/below-strike.png',width:2172,height:724},
  d:{title:'D — Графит · контраст',name:'Графит · контраст',file:'./images/sifu-d-graphite.webp',original:'./images/sifu-d-full.webp',width:626,height:850},
- e:{title:'E — Алый · контраст',name:'Алый · контраст',file:'./images/sifu-e-ashen.webp',original:'./images/sifu-e-full.webp',width:626,height:850}
+ e:{title:'E — Алый · контраст',name:'Алый · контраст',file:'./images/sifu-e-ashen.webp',original:'./images/sifu-e-full.webp',width:626,height:850},
+ f:{title:'F — Исходник 1 · Красный свет',name:'Исходник 1 · Красный свет',file:'./images/sifu-original-red-light.jpg',width:691,height:1536},
+ g:{title:'G — Исходник 2 · Графика',name:'Исходник 2 · Графика',file:'./images/sifu-original-graphic.jpg',width:691,height:1536}
 });
 const image=document.getElementById('preview-image');
 const title=document.getElementById('current-title');
