@@ -3,40 +3,82 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#10141a">
-<title>Sifu — примерка витрины KentRAP</title>
+<meta name="theme-color" content="#10151d">
+<title>Sifu — вертикальная витрина Steam · примерка KentRAP</title>
 <link rel="stylesheet" href="./styles.css">
 <script defer src="./script.js"></script>
 </head>
 <body>
-<header class="toolbar">
-  <div class="toolbar-inner">
-    <div><span class="eyebrow">Steam / KentRAP</span><h1>Примерка Sifu</h1><p>Тест отображения оригинальных PNG в профиле</p></div>
-    <span class="test-label">ТЕСТ · НЕ STEAM-ФАЙЛ</span>
+<header class="controls">
+  <div class="controls-inner">
+    <div class="heading">
+      <div class="eyebrow">KENTRAP / STEAM SHOWCASE</div>
+      <h1>Примерка Sifu</h1>
+      <p>Десктопные пропорции профиля и вертикальной витрины</p>
+    </div>
+    <div class="test-badge">ТЕСТ, НЕ ФАЙЛ ДЛЯ STEAM</div>
   </div>
-  <div class="switcher" role="tablist" aria-label="Вариант изображения">
-    <button type="button" id="tab-a" class="active" role="tab" aria-selected="true" aria-controls="preview-image" data-pick="a"><b>A</b> <span>Коридор свернулся</span></button>
-    <button type="button" id="tab-b" role="tab" aria-selected="false" aria-controls="preview-image" data-pick="b"><b>B</b> <span>Тень не умеет воскресать</span></button>
-    <button type="button" id="tab-c" role="tab" aria-selected="false" aria-controls="preview-image" data-pick="c"><b>C</b> <span>Ниже линии удара</span></button>
+  <div class="control-row">
+    <div class="tabs" role="tablist" aria-label="Выберите эскиз Sifu">
+      <button id="tab-a" class="active" type="button" role="tab" aria-selected="true" aria-controls="showcase-panel" data-pick="a"><b>A</b><span>Коридор свернулся</span></button>
+      <button id="tab-b" type="button" role="tab" aria-selected="false" aria-controls="showcase-panel" data-pick="b"><b>B</b><span>Тень не умеет воскресать</span></button>
+      <button id="tab-c" type="button" role="tab" aria-selected="false" aria-controls="showcase-panel" data-pick="c"><b>C</b><span>Ниже линии удара</span></button>
+    </div>
+    <button id="scale-mode" class="scale-mode" type="button" aria-pressed="false">Приблизить макет</button>
   </div>
 </header>
-<main class="environment" aria-label="Примерка на фоне SS_Landscape">
-  <div class="profile">
-    <div class="profile-top">
-      <img class="avatar" src="https://avatars.fastly.steamstatic.com/81c1bf438b2902ab7f8d6f5a52faf2b99d91c074_full.jpg" alt="Аватар KentRAP" decoding="async">
-      <div class="profile-identity"><strong>KentRAP</strong><span>▸ [ PRESS START ]</span></div>
-      <span class="profile-flag">SS_Landscape</span>
+
+<main>
+  <div class="guide"><span class="guide-dot" aria-hidden="true"></span><strong>Вся страница Steam, не отдельная картинка.</strong> На телефоне десктопная сцена уменьшена целиком. Кнопка «Приблизить макет» позволяет рассмотреть её в масштабе 1:1, прокручивая вбок.</div>
+  <section class="scene-viewport" id="scene-viewport" aria-label="Десктопная примерка страницы Steam">
+    <div class="scene-sizer" id="scene-sizer">
+      <div class="desktop-scene" id="desktop-scene">
+        <div class="steam-profile">
+          <div class="profile-heading">
+            <img class="avatar" src="https://avatars.fastly.steamstatic.com/81c1bf438b2902ab7f8d6f5a52faf2b99d91c074_full.jpg" alt="Аватар KentRAP">
+            <div class="profile-name"><strong>KentRAP</strong><span>▸ [ PRESS START ]</span><small>Игра в витрине — Sifu</small></div>
+            <div class="profile-status"><div class="status-ring"></div><span>Эскиз оформления<br>SS_Landscape</span></div>
+          </div>
+          <div class="profile-columns">
+            <div class="main-column">
+              <div class="description-panel"><span class="description-kicker">ПРОФИЛЬ</span><strong>◂ SIFU ▸</strong><span>Тест расположения иллюстраций на странице</span></div>
+              <section class="showcase" id="showcase-panel" role="tabpanel" aria-labelledby="tab-a">
+                <div class="showcase-heading"><h2>Витрина иллюстраций</h2><span>ARTWORK SHOWCASE</span></div>
+                <div class="showcase-slots">
+                  <div class="main-slot">
+                    <img id="preview-image" src="./images/corridor-fold.png" width="1914" height="822" alt="Sifu — Коридор свернулся" draggable="false">
+                  </div>
+                  <div class="slot-gutter" aria-hidden="true"></div>
+                  <div class="side-slot" aria-label="Пустой боковой слот для будущего оформления">
+                    <span class="side-slot-label">БОКОВОЙ<br>СЛОТ</span>
+                    <span class="side-slot-width">100 px</span>
+                  </div>
+                </div>
+                <div class="showcase-bottom"><span>506 px + 20 px + 100 px · вертикальная область</span><span>Оригинал без обрезки</span></div>
+              </section>
+              <div class="below-panel"><span>Витрина сообщества</span><small>Демонстрация расположения следующего блока профиля</small></div>
+            </div>
+            <aside class="side-column" aria-label="Правая колонка Steam-профиля">
+              <div class="online-heading">ОФОРМЛЕНИЕ ПРОФИЛЯ</div>
+              <div class="side-divider"></div>
+              <div class="side-label">Текущая игра</div><div class="side-value">Sifu</div>
+              <div class="side-label">Фон</div><div class="side-value">SS_Landscape</div>
+              <div class="side-divider"></div>
+              <div class="side-label">Разделы профиля</div>
+              <div class="profile-menu"><span>Иллюстрации</span><span>Скриншоты</span><span>Мастерская</span><span>Обзоры</span><span>Игры</span></div>
+              <div class="side-divider"></div>
+              <div class="side-footnote">Тестовый макет. Не является копией реальных данных аккаунта.</div>
+            </aside>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="profile-grid">
-      <section class="showcase" aria-labelledby="showcase-heading">
-        <div class="showcase-header"><h2 id="showcase-heading">Витрина иллюстраций</h2><span>SIFU</span></div>
-        <div class="image-wrapper"><img id="preview-image" src="images/corridor-fold.png" width="1914" height="822" alt="Sifu — Коридор свернулся" draggable="false"></div>
-        <div class="showcase-footer"><span id="current-title">A — Коридор свернулся</span><a id="full-link" href="images/corridor-fold.png" target="_blank" rel="noopener">Открыть оригинал ↗</a></div>
-      </section>
-      <aside class="sidebar" aria-label="Сведения о макете"><div class="sidebar-title">Профиль</div><div class="sidebar-item">Сейчас играю</div><strong class="game">Sifu</strong><div class="sidebar-item">Фон профиля</div><strong>SS_Landscape</strong><div class="sidebar-item">Режим</div><strong>Тестовая примерка</strong></aside>
-    </div>
+  </section>
+  <div class="bottom-bar">
+    <div><strong id="current-title">A — Коридор свернулся</strong><p id="format-note">Исходный горизонтальный PNG показан целиком в вертикальном слоте; пустое пространство намеренно.</p></div>
+    <a id="full-link" href="./images/corridor-fold.png" target="_blank" rel="noopener noreferrer">Открыть оригинал</a>
   </div>
 </main>
-<footer><p>Изображения показаны целиком с сохранением пропорций и исходных файлов. Тест позволяет оценить масштаб и восприятие широкой композиции на фоне профиля, но не имитирует готовые слоты Steam Artwork Showcase.</p></footer>
+<footer>Тестовая геометрия Steam-подобного десктопного профиля. Слоты показаны схематично: это не точный экспорт и не готовая вертикальная иллюстрация Steam. Исходные три PNG не изменялись, не обрезались и не дублировались. Фон SS_Landscape и аватар загружаются с Steam CDN.</footer>
 </body>
 </html>
