@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#10151d">
-<title>Sifu — вертикальная витрина Steam · примерка KentRAP</title>
+<title>Sifu — витрина мастерской Steam · примерка KentRAP</title>
 <link rel="stylesheet" href="./styles.css">
 <script defer src="./script.js"></script>
 </head>
@@ -14,7 +14,7 @@
     <div class="heading">
       <div class="eyebrow">KENTRAP / STEAM SHOWCASE</div>
       <h1>Примерка Sifu</h1>
-      <p>Десктопные пропорции профиля и вертикальной витрины</p>
+      <p>Десктопные пропорции профиля и пяти элементов мастерской</p>
     </div>
     <div class="test-badge">ТЕСТ, НЕ ФАЙЛ ДЛЯ STEAM</div>
   </div>
@@ -43,18 +43,15 @@
             <div class="main-column">
               <div class="description-panel"><span class="description-kicker">ПРОФИЛЬ</span><strong>◂ SIFU ▸</strong><span>Тест расположения иллюстраций на странице</span></div>
               <section class="showcase" id="showcase-panel" role="tabpanel" aria-labelledby="tab-a">
-                <div class="showcase-heading"><h2>Витрина иллюстраций</h2><span>ARTWORK SHOWCASE</span></div>
-                <div class="showcase-slots">
-                  <div class="main-slot">
-                    <img id="preview-image" src="./images/corridor-fold.png" width="1914" height="822" alt="Sifu — Коридор свернулся" draggable="false">
-                  </div>
-                  <div class="slot-gutter" aria-hidden="true"></div>
-                  <div class="side-slot" aria-label="Пустой боковой слот для будущего оформления">
-                    <span class="side-slot-label">БОКОВОЙ<br>СЛОТ</span>
-                    <span class="side-slot-width">100 px</span>
+                <div class="showcase-heading"><h2>Витрина мастерской</h2><span>MY WORKSHOP · 5 СЛОТОВ</span></div>
+                <div class="workshop-preview" aria-label="Примерка изображения в пяти соседних слотах мастерской">
+                  <img id="preview-image" src="./images/corridor-fold.png" width="1914" height="822" alt="Sifu — Коридор свернулся" draggable="false">
+                  <div class="workshop-slots" aria-hidden="true">
+                    <span class="workshop-tile"></span><span class="workshop-tile"></span><span class="workshop-tile"></span><span class="workshop-tile"></span><span class="workshop-tile"></span>
+                    <i class="workshop-gap" style="left:122px"></i><i class="workshop-gap" style="left:248px"></i><i class="workshop-gap" style="left:374px"></i><i class="workshop-gap" style="left:500px"></i>
                   </div>
                 </div>
-                <div class="showcase-bottom"><span>506 px + 20 px + 100 px · вертикальная область</span><span>Оригинал без обрезки</span></div>
+                <div class="showcase-bottom"><span>5 элементов × 122 px + промежутки 4 px</span><span id="render-size">Высота зависит от PNG</span></div>
               </section>
               <div class="below-panel"><span>Витрина сообщества</span><small>Демонстрация расположения следующего блока профиля</small></div>
             </div>
@@ -75,10 +72,10 @@
     </div>
   </section>
   <div class="bottom-bar">
-    <div><strong id="current-title">A — Коридор свернулся</strong><p id="format-note">Исходный горизонтальный PNG показан целиком в вертикальном слоте; пустое пространство намеренно.</p></div>
+    <div><strong id="current-title">A — Коридор свернулся</strong><p id="format-note">Исходный PNG показан в пяти сегментах. Высота ряда определяется его исходными пропорциями.</p></div>
     <a id="full-link" href="./images/corridor-fold.png" target="_blank" rel="noopener noreferrer">Открыть оригинал</a>
   </div>
 </main>
-<footer>Тестовая геометрия Steam-подобного десктопного профиля. Слоты показаны схематично: это не точный экспорт и не готовая вертикальная иллюстрация Steam. Исходные три PNG не изменялись, не обрезались и не дублировались. Фон SS_Landscape и аватар загружаются с Steam CDN.</footer>
+<footer>Тестовая геометрия десктопного профиля Steam и витрины «Моя мастерская» на пять элементов. Разделители лишь показывают будущие пять Workshop-слотов: оригинальный PNG не нарезан и не изменён. Это не готовые файлы для загрузки в Steam. Фон SS_Landscape и аватар загружаются с Steam CDN.</footer>
 </body>
 </html>

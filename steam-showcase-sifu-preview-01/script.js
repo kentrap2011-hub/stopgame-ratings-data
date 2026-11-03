@@ -6,6 +6,7 @@ const items=Object.freeze({
 });
 const image=document.getElementById('preview-image');
 const title=document.getElementById('current-title');
+const renderSize=document.getElementById('render-size');
 const link=document.getElementById('full-link');
 const panel=document.getElementById('showcase-panel');
 const tabs=[...document.querySelectorAll('[data-pick]')];
@@ -22,6 +23,7 @@ function choose(key){
  image.alt='Sifu — '+item.name;
  link.href=item.file;
  title.textContent=item.title;
+ renderSize.textContent='Высота ≈ '+Math.round(626*item.height/item.width)+' px (по пропорциям PNG)';
  panel.setAttribute('aria-labelledby','tab-'+key);
  for(const tab of tabs){
   const active=tab.dataset.pick===key;
@@ -56,5 +58,6 @@ function scaleScene(){
 zoomButton.addEventListener('click',()=>{fullSize=!fullSize;scaleScene();viewport.scrollLeft=fullSize?Math.max(0,(1200-viewport.clientWidth)/2):0;});
 window.addEventListener('resize',scaleScene,{passive:true});
 window.addEventListener('load',scaleScene,{once:true});
+image.addEventListener('load',scaleScene);
 choose(items[window.location.hash.slice(1)]?window.location.hash.slice(1):'a');
 scaleScene();
