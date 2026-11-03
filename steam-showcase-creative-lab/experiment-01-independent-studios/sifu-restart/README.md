@@ -26,3 +26,7 @@
 - Визуализаторы — после отбора.
 
 Отчёты авторов должны быть записаны в эту папку: `author-01.md`, `author-02.md`, `author-03.md`.
+
+## GitHub Pages: публикация исходных PNG
+
+Перед следующей публикацией изображения обязательно прочитай [GITHUB_PAGES_PNG_PUBLISH_RUNBOOK.md](./GITHUB_PAGES_PNG_PUBLISH_RUNBOOK.md) — доступ к PNG, безопасная запись в `gh-pages`, контроль SHA и фактические ограничения инструментов. Итог предыдущей публикации: [WEBSITE_PREVIEW_RESULT.md](./WEBSITE_PREVIEW_RESULT.md).
