@@ -2,7 +2,9 @@
 const items=Object.freeze({
  a:{title:'A — Коридор свернулся',name:'Коридор свернулся',file:'./images/corridor-fold.png',width:1914,height:822},
  b:{title:'B — Тень не умеет воскресать',name:'Тень не умеет воскресать',file:'./images/aging-shadow.png',width:2172,height:724},
- c:{title:'C — Ниже линии удара',name:'Ниже линии удара',file:'./images/below-strike.png',width:2172,height:724}
+ c:{title:'C — Ниже линии удара',name:'Ниже линии удара',file:'./images/below-strike.png',width:2172,height:724},
+ d:{title:'D — Сумерки · графит',name:'Сумерки · графит',file:'./images/sifu-d-graphite.webp',width:626,height:850},
+ e:{title:'E — Огонь · пепел',name:'Огонь · пепел',file:'./images/sifu-e-ashen.webp',width:626,height:850}
 });
 const image=document.getElementById('preview-image');
 const title=document.getElementById('current-title');
@@ -37,11 +39,11 @@ for(const tab of tabs){
  tab.addEventListener('keydown',event=>{
   if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;
   event.preventDefault();
-  const keys=['a','b','c'];
+  const keys=Object.keys(items);
   let next;
   if(event.key==='Home')next='a';
-  else if(event.key==='End')next='c';
-  else next=keys[(keys.indexOf(tab.dataset.pick)+(event.key==='ArrowRight'?1:2))%3];
+  else if(event.key==='End')next=keys[keys.length-1];
+  else next=keys[(keys.indexOf(tab.dataset.pick)+(event.key==='ArrowRight'?1:keys.length-1))%keys.length];
   choose(next);
   document.getElementById('tab-'+next).focus();
  });
