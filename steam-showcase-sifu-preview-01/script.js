@@ -3,8 +3,8 @@ const items=Object.freeze({
  a:{title:'A — Коридор свернулся',name:'Коридор свернулся',file:'./images/corridor-fold.png',width:1914,height:822},
  b:{title:'B — Тень не умеет воскресать',name:'Тень не умеет воскресать',file:'./images/aging-shadow.png',width:2172,height:724},
  c:{title:'C — Ниже линии удара',name:'Ниже линии удара',file:'./images/below-strike.png',width:2172,height:724},
- d:{title:'D — Сумерки · графит',name:'Сумерки · графит',file:'./images/sifu-d-graphite.webp',width:626,height:850},
- e:{title:'E — Огонь · пепел',name:'Огонь · пепел',file:'./images/sifu-e-ashen.webp',width:626,height:850}
+ d:{title:'D — Сумерки · графит',name:'Сумерки · графит',file:'./images/sifu-d-graphite.webp',original:'./images/sifu-d-full.webp',width:626,height:850},
+ e:{title:'E — Огонь · пепел',name:'Огонь · пепел',file:'./images/sifu-e-ashen.webp',original:'./images/sifu-e-full.webp',width:626,height:850}
 });
 const image=document.getElementById('preview-image');
 const title=document.getElementById('current-title');
@@ -22,7 +22,7 @@ function choose(key){
  if(!item)return;
  image.src=item.file;
  image.alt='Sifu — '+item.name;
- link.href=item.file;
+ link.href=item.original||item.file;
  title.textContent=item.title;
  renderSize.textContent='Высота ≈ '+Math.round(626*item.height/item.width)+' px (по пропорциям PNG)';
  panel.setAttribute('aria-labelledby','tab-'+key);
