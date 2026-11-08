@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 92,
+  "count": 93,
   "games": [
     {
       "appid": "9480",
@@ -647,7 +647,14 @@
       "priority": 0,
       "date_added": 1793736983,
       "store_url": "https://store.steampowered.com/app/1971870/"
+    },
+    {
+      "appid": "1809540",
+      "title": "Nine Sols",
+      "priority": 0,
+      "date_added": 1794155656,
+      "store_url": "https://store.steampowered.com/app/1809540/"
     }
   ],
-  "updated_at": "2026-11-03T20:30:14.805Z"
+  "updated_at": "2026-11-08T16:45:57.026Z"
 }
