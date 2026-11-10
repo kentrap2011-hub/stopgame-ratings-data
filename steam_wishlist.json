@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 94,
+  "count": 92,
   "games": [
     {
       "appid": "9480",
@@ -495,13 +495,6 @@
       "store_url": "https://store.steampowered.com/app/2627260/"
     },
     {
-      "appid": "2638890",
-      "title": "Onimusha: Way of the Sword",
-      "priority": 0,
-      "date_added": 1791309374,
-      "store_url": "https://store.steampowered.com/app/2638890/"
-    },
-    {
       "appid": "2640950",
       "title": "Scott Pilgrim EX",
       "priority": 0,
@@ -586,13 +579,6 @@
       "store_url": "https://store.steampowered.com/app/3287520/"
     },
     {
-      "appid": "3357650",
-      "title": "PRAGMATA",
-      "priority": 0,
-      "date_added": 1783872013,
-      "store_url": "https://store.steampowered.com/app/3357650/"
-    },
-    {
       "appid": "3669870",
       "title": "CONTROL Resonant",
       "priority": 0,
@@ -663,5 +649,5 @@
       "store_url": "https://store.steampowered.com/app/976310/"
     }
   ],
-  "updated_at": "2026-11-09T20:00:55.677Z"
+  "updated_at": "2026-11-10T03:45:55.438Z"
 }
