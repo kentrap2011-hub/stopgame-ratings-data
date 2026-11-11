@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 92,
+  "count": 93,
   "games": [
     {
       "appid": "9480",
@@ -647,7 +647,14 @@
       "priority": 0,
       "date_added": 1794253075,
       "store_url": "https://store.steampowered.com/app/976310/"
+    },
+    {
+      "appid": "460810",
+      "title": "Vanquish",
+      "priority": 0,
+      "date_added": 1794420271,
+      "store_url": "https://store.steampowered.com/app/460810/"
     }
   ],
-  "updated_at": "2026-11-10T03:45:55.438Z"
+  "updated_at": "2026-11-11T18:15:52.485Z"
 }
