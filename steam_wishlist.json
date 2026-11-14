@@ -75,13 +75,6 @@
       "store_url": "https://store.steampowered.com/app/19980/"
     },
     {
-      "appid": "33320",
-      "title": "Prince of Persia: The Forgotten Sands™",
-      "priority": 0,
-      "date_added": 1784450640,
-      "store_url": "https://store.steampowered.com/app/33320/"
-    },
-    {
       "appid": "204450",
       "title": "Call of Juarez: Gunslinger",
       "priority": 0,
@@ -596,7 +589,7 @@
       "appid": "3768760",
       "title": "007 First Light",
       "priority": 0,
-      "date_added": 1784450761,
+      "date_added": 1794660318,
       "store_url": "https://store.steampowered.com/app/3768760/"
     },
     {
@@ -654,7 +647,14 @@
       "priority": 0,
       "date_added": 1794420271,
       "store_url": "https://store.steampowered.com/app/460810/"
+    },
+    {
+      "appid": "489830",
+      "title": "The Elder Scrolls V: Skyrim Special Edition",
+      "priority": 0,
+      "date_added": 1794659721,
+      "store_url": "https://store.steampowered.com/app/489830/"
     }
   ],
-  "updated_at": "2026-11-11T18:15:52.485Z"
+  "updated_at": "2026-11-14T12:45:24.392Z"
 }
