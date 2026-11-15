@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 94,
+  "count": 96,
   "games": [
     {
       "appid": "9480",
@@ -661,7 +661,21 @@
       "priority": 0,
       "date_added": 1794659721,
       "store_url": "https://store.steampowered.com/app/489830/"
+    },
+    {
+      "appid": "2542120",
+      "title": null,
+      "priority": 0,
+      "date_added": 1794730252,
+      "store_url": "https://store.steampowered.com/app/2542120/"
+    },
+    {
+      "appid": "985890",
+      "title": null,
+      "priority": 0,
+      "date_added": 1794730416,
+      "store_url": "https://store.steampowered.com/app/985890/"
     }
   ],
-  "updated_at": "2026-11-15T06:30:18.874Z"
+  "updated_at": "2026-11-15T08:15:19.579Z"
 }
