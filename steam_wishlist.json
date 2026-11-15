@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 96,
+  "count": 95,
   "games": [
     {
       "appid": "9480",
@@ -460,13 +460,6 @@
       "store_url": "https://store.steampowered.com/app/2424420/"
     },
     {
-      "appid": "2486820",
-      "title": "Sonic Racing: CrossWorlds",
-      "priority": 0,
-      "date_added": 1787342186,
-      "store_url": "https://store.steampowered.com/app/2486820/"
-    },
-    {
       "appid": "2524850",
       "title": "Denshattack!",
       "priority": 0,
@@ -677,5 +670,5 @@
       "store_url": "https://store.steampowered.com/app/985890/"
     }
   ],
-  "updated_at": "2026-11-15T08:15:19.579Z"
+  "updated_at": "2026-11-15T11:15:19.226Z"
 }
