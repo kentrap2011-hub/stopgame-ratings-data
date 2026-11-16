@@ -76,7 +76,7 @@
     },
     {
       "appid": "782330",
-      "title": null,
+      "title": "DOOM Eternal",
       "priority": 0,
       "date_added": 1794723493,
       "store_url": "https://store.steampowered.com/app/782330/"
@@ -657,18 +657,18 @@
     },
     {
       "appid": "2542120",
-      "title": null,
+      "title": "NINJA GAIDEN: Ragebound",
       "priority": 0,
       "date_added": 1794730252,
       "store_url": "https://store.steampowered.com/app/2542120/"
     },
     {
       "appid": "985890",
-      "title": null,
+      "title": "Streets of Rage 4",
       "priority": 0,
       "date_added": 1794730416,
       "store_url": "https://store.steampowered.com/app/985890/"
     }
   ],
-  "updated_at": "2026-11-15T11:15:19.226Z"
+  "updated_at": "2026-11-16T08:45:20.027Z"
 }
