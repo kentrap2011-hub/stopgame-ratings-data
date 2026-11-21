@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 96,
+  "count": 95,
   "games": [
     {
       "appid": "9480",
@@ -530,13 +530,6 @@
       "store_url": "https://store.steampowered.com/app/2751000/"
     },
     {
-      "appid": "2909400",
-      "title": "FINAL FANTASY VII REBIRTH",
-      "priority": 0,
-      "date_added": 1786198859,
-      "store_url": "https://store.steampowered.com/app/2909400/"
-    },
-    {
       "appid": "2950340",
       "title": "LEGO® Harry Potter™ Collection",
       "priority": 0,
@@ -677,5 +670,5 @@
       "store_url": "https://store.steampowered.com/app/985890/"
     }
   ],
-  "updated_at": "2026-11-17T19:00:15.843Z"
+  "updated_at": "2026-11-21T16:45:35.400Z"
 }
