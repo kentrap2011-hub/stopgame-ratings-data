@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 98,
+  "count": 99,
   "games": [
     {
       "appid": "9480",
@@ -689,7 +689,14 @@
       "priority": 0,
       "date_added": 1795451106,
       "store_url": "https://store.steampowered.com/app/3280350/"
+    },
+    {
+      "appid": "412020",
+      "title": "Metro Exodus",
+      "priority": 0,
+      "date_added": 1795451567,
+      "store_url": "https://store.steampowered.com/app/412020/"
     }
   ],
-  "updated_at": "2026-11-23T16:30:58.136Z"
+  "updated_at": "2026-11-23T16:45:56.401Z"
 }
