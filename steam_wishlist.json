@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 100,
+  "count": 101,
   "games": [
     {
       "appid": "9480",
@@ -703,7 +703,14 @@
       "priority": 0,
       "date_added": 1795495053,
       "store_url": "https://store.steampowered.com/app/460790/"
+    },
+    {
+      "appid": "1384160",
+      "title": "GUILTY GEAR -STRIVE-",
+      "priority": 0,
+      "date_added": 1795544368,
+      "store_url": "https://store.steampowered.com/app/1384160/"
     }
   ],
-  "updated_at": "2026-11-24T04:45:55.895Z"
+  "updated_at": "2026-11-24T18:30:11.475Z"
 }
