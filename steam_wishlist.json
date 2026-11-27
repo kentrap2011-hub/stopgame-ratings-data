@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 100,
+  "count": 101,
   "games": [
     {
       "appid": "9480",
@@ -642,6 +642,13 @@
       "store_url": "https://store.steampowered.com/app/1809540/"
     },
     {
+      "appid": "329050",
+      "title": "Devil May Cry 4 Special Edition",
+      "priority": 0,
+      "date_added": 1795795200,
+      "store_url": "https://store.steampowered.com/app/329050/"
+    },
+    {
       "appid": "460810",
       "title": "Vanquish",
       "priority": 0,
@@ -705,5 +712,5 @@
       "store_url": "https://store.steampowered.com/app/1384160/"
     }
   ],
-  "updated_at": "2026-11-25T15:15:33.865Z"
+  "updated_at": "2026-11-27T16:00:49.675Z"
 }
