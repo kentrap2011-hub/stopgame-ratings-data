@@ -2,7 +2,7 @@
   "steamid64": "76561198086342255",
   "profile": "https://steamcommunity.com/id/KentRAP/",
   "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198086342255",
-  "count": 101,
+  "count": 100,
   "games": [
     {
       "appid": "9480",
@@ -45,13 +45,6 @@
       "priority": 0,
       "date_added": 1784450662,
       "store_url": "https://store.steampowered.com/app/13530/"
-    },
-    {
-      "appid": "13600",
-      "title": "Prince of Persia®: The Sands of Time",
-      "priority": 0,
-      "date_added": 1784450537,
-      "store_url": "https://store.steampowered.com/app/13600/"
     },
     {
       "appid": "15100",
@@ -712,5 +705,5 @@
       "store_url": "https://store.steampowered.com/app/1384160/"
     }
   ],
-  "updated_at": "2026-11-27T16:00:49.675Z"
+  "updated_at": "2026-11-27T16:15:49.815Z"
 }
